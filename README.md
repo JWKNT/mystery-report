@@ -2,7 +2,7 @@
 
 A dependency-free browser app for exploring the fresh 100-agent mystery-work consensus dataset.
 
-Live site: <https://jwknt.github.io/mystery-report/>
+Live site: <https://jehlp.net/mystery-report/>
 
 Open `index.html` directly, or serve `/Users/jw/Desktop/bin` with any static server and visit `/mystery-report/`. The repository includes its palette, typography, accessibility utilities, header, and saved light/dark theme, so the deployed site has no external runtime dependencies.
 
