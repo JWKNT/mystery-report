@@ -1,74 +1,370 @@
 [
   {
-    "agent_number": 21,
-    "canonical": "The Southern Reach Series",
-    "kept": "annihilation",
+    "agent_number": 6,
+    "canonical": "Hercule Poirot Series",
+    "kept": "poirot_christmas",
     "discarded": [
-      "the-southern-reach-series"
+      "hollow_christie"
     ]
   },
   {
-    "agent_number": 41,
-    "canonical": "Zero Escape",
-    "kept": "nine_hours_nine_persons_nine_doors",
+    "agent_number": 20,
+    "canonical": "Hercule Poirot Series",
+    "kept": "lord_edgware",
     "discarded": [
-      "virtues_last_reward"
+      "murder_mesopotamia"
+    ]
+  },
+  {
+    "agent_number": 20,
+    "canonical": "Ellery Queen Series",
+    "kept": "halfway_house",
+    "discarded": [
+      "ten_days_wonder"
+    ]
+  },
+  {
+    "agent_number": 20,
+    "canonical": "Sir Henry Merrivale Series",
+    "kept": "nine_wrong_answers",
+    "discarded": [
+      "reader_warned",
+      "peacock_feather"
+    ]
+  },
+  {
+    "agent_number": 20,
+    "canonical": "Dr. Gideon Fell Series",
+    "kept": "death_watch",
+    "discarded": [
+      "hags_nook"
+    ]
+  },
+  {
+    "agent_number": 24,
+    "canonical": "Miss Marple Series",
+    "kept": "murder_vicarage",
+    "discarded": [
+      "body_library",
+      "pocket_rye"
+    ]
+  },
+  {
+    "agent_number": 24,
+    "canonical": "Hercule Poirot Series",
+    "kept": "hercule_christmas",
+    "discarded": [
+      "mrs_mcgintys_dead",
+      "lord_edgware",
+      "cat_pigeons"
+    ]
+  },
+  {
+    "agent_number": 25,
+    "canonical": "Father Brown Stories",
+    "kept": "invisible_man_chesterton",
+    "discarded": [
+      "eye_of_apollo",
+      "blue_cross"
+    ]
+  },
+  {
+    "agent_number": 25,
+    "canonical": "Ellery Queen Series",
+    "kept": "ten_days_wonder",
+    "discarded": [
+      "finishing_stroke",
+      "lamp_of_god"
+    ]
+  },
+  {
+    "agent_number": 25,
+    "canonical": "Miss Marple Series",
+    "kept": "moving_finger",
+    "discarded": [
+      "body_in_library",
+      "mirror_crackd"
+    ]
+  },
+  {
+    "agent_number": 30,
+    "canonical": "Dr. Gideon Fell Series",
+    "kept": "death-watch",
+    "discarded": [
+      "hag-s-nook"
+    ]
+  },
+  {
+    "agent_number": 30,
+    "canonical": "Hercule Poirot Series",
+    "kept": "lord-edgware-dies",
+    "discarded": [
+      "murder-in-mesopotamia"
+    ]
+  },
+  {
+    "agent_number": 30,
+    "canonical": "Ellery Queen Series",
+    "kept": "halfway-house",
+    "discarded": [
+      "ten-days-wonder"
+    ]
+  },
+  {
+    "agent_number": 30,
+    "canonical": "Sir Henry Merrivale Series",
+    "kept": "nine-and-death-makes-ten",
+    "discarded": [
+      "the-peacock-feather-murders",
+      "the-reader-is-warned"
+    ]
+  },
+  {
+    "agent_number": 34,
+    "canonical": "Lew Archer Series",
+    "kept": "chill",
+    "discarded": [
+      "galton_case"
+    ]
+  },
+  {
+    "agent_number": 38,
+    "canonical": "Dr. Gideon Fell Series",
+    "kept": "hag-s-nook",
+    "discarded": [
+      "death-watch"
+    ]
+  },
+  {
+    "agent_number": 38,
+    "canonical": "Hercule Poirot Series",
+    "kept": "lord-edgware-dies",
+    "discarded": [
+      "murder-in-mesopotamia"
+    ]
+  },
+  {
+    "agent_number": 38,
+    "canonical": "Ellery Queen Series",
+    "kept": "halfway-house",
+    "discarded": [
+      "ten-days-wonder"
+    ]
+  },
+  {
+    "agent_number": 38,
+    "canonical": "Sir Henry Merrivale Series",
+    "kept": "the-reader-is-warned",
+    "discarded": [
+      "the-peacock-feather-murders",
+      "nine-and-death-makes-ten"
+    ]
+  },
+  {
+    "agent_number": 48,
+    "canonical": "Lew Archer Series",
+    "kept": "moving-target",
+    "discarded": [
+      "galton-case"
+    ]
+  },
+  {
+    "agent_number": 50,
+    "canonical": "Dr. Gideon Fell Series",
+    "kept": "hag-s-nook",
+    "discarded": [
+      "death-watch"
+    ]
+  },
+  {
+    "agent_number": 50,
+    "canonical": "Hercule Poirot Series",
+    "kept": "lord-edgware-dies",
+    "discarded": [
+      "murder-in-mesopotamia"
+    ]
+  },
+  {
+    "agent_number": 50,
+    "canonical": "Ellery Queen Series",
+    "kept": "halfway-house",
+    "discarded": [
+      "ten-days-wonder"
+    ]
+  },
+  {
+    "agent_number": 50,
+    "canonical": "Sir Henry Merrivale Series",
+    "kept": "the-reader-is-warned",
+    "discarded": [
+      "the-peacock-feather-murders",
+      "nine-and-death-makes-ten"
     ]
   },
   {
     "agent_number": 57,
-    "canonical": "The Southern Reach Series",
-    "kept": "annihilation",
+    "canonical": "Dublin Murder Squad",
+    "kept": "the_likeness",
     "discarded": [
-      "southern_reach"
+      "secret_place"
     ]
   },
   {
-    "agent_number": 58,
-    "canonical": "The Southern Reach Series",
-    "kept": "annihilation",
+    "agent_number": 57,
+    "canonical": "Inspector Montalbano",
+    "kept": "inspector_montalbano",
     "discarded": [
-      "southern_reach"
+      "shape_of_water_camilleri"
     ]
   },
   {
     "agent_number": 59,
-    "canonical": "The Southern Reach Series",
-    "kept": "annihilation",
+    "canonical": "Hercule Poirot Series",
+    "kept": "sad_cypress",
     "discarded": [
-      "southern_reach"
+      "lord_edgware"
     ]
   },
   {
     "agent_number": 60,
-    "canonical": "The Southern Reach Series",
-    "kept": "annihilation",
+    "canonical": "Dr. Gideon Fell Series",
+    "kept": "hag_s_nook",
     "discarded": [
-      "southern_reach"
+      "death_watch"
     ]
   },
   {
-    "agent_number": 79,
-    "canonical": "The Southern Reach Series",
-    "kept": "southern_reach",
+    "agent_number": 60,
+    "canonical": "Ellery Queen Series",
+    "kept": "halfway_house",
     "discarded": [
-      "annihilation"
+      "ten_days_wonder"
+    ]
+  },
+  {
+    "agent_number": 60,
+    "canonical": "Hercule Poirot Series",
+    "kept": "lord_edgware_dies",
+    "discarded": [
+      "murder_in_mesopotamia"
+    ]
+  },
+  {
+    "agent_number": 60,
+    "canonical": "Sir Henry Merrivale Series",
+    "kept": "the_reader_is_warned",
+    "discarded": [
+      "nine_and_death_makes_ten",
+      "the_peacock_feather_murders"
+    ]
+  },
+  {
+    "agent_number": 72,
+    "canonical": "Lew Archer Series",
+    "kept": "galton_case",
+    "discarded": [
+      "chill"
+    ]
+  },
+  {
+    "agent_number": 73,
+    "canonical": "Miss Marple Series",
+    "kept": "body_library",
+    "discarded": [
+      "moving_finger",
+      "mirror_cracked"
+    ]
+  },
+  {
+    "agent_number": 74,
+    "canonical": "Hercule Poirot Series",
+    "kept": "sad_cypress",
+    "discarded": [
+      "lord_edgware_dies",
+      "hercule_poirots_christmas",
+      "hollow_christie"
+    ]
+  },
+  {
+    "agent_number": 74,
+    "canonical": "Miss Marple Series",
+    "kept": "moving_finger",
+    "discarded": [
+      "sleeping_murder"
+    ]
+  },
+  {
+    "agent_number": 77,
+    "canonical": "Lew Archer Series",
+    "kept": "the_chill",
+    "discarded": [
+      "the_galton_case"
     ]
   },
   {
     "agent_number": 80,
-    "canonical": "The Southern Reach Series",
-    "kept": "southern_reach",
+    "canonical": "Perfect Blue",
+    "kept": "perfect-blue",
     "discarded": [
-      "annihilation"
+      "perfect_blue"
     ]
   },
   {
-    "agent_number": 95,
-    "canonical": "The Southern Reach Series",
-    "kept": "the_southern_reach",
+    "agent_number": 80,
+    "canonical": "Angel's Egg",
+    "kept": "angels-egg",
     "discarded": [
-      "annihilation"
+      "angel_s_egg"
+    ]
+  },
+  {
+    "agent_number": 80,
+    "canonical": "Lew Archer Series",
+    "kept": "the_chill",
+    "discarded": [
+      "the_galton_case"
+    ]
+  },
+  {
+    "agent_number": 81,
+    "canonical": "Nero Wolfe Series",
+    "kept": "some_buried_caesar",
+    "discarded": [
+      "doorbell_rang"
+    ]
+  },
+  {
+    "agent_number": 82,
+    "canonical": "Lew Archer Series",
+    "kept": "the_chill",
+    "discarded": [
+      "the_galton_case"
+    ]
+  },
+  {
+    "agent_number": 91,
+    "canonical": "The Hollow Man",
+    "kept": "the-hollow-man",
+    "discarded": [
+      "the-three-coffins"
+    ]
+  },
+  {
+    "agent_number": 94,
+    "canonical": "Hercule Poirot Series",
+    "kept": "murder_in_mesopotamia_1936_novel",
+    "discarded": [
+      "hercule_poirot_s_christmas_1938_novel",
+      "lord_edgware_dies_1933_novel",
+      "sad_cypress_1940_novel"
+    ]
+  },
+  {
+    "agent_number": 94,
+    "canonical": "Sir Henry Merrivale Series",
+    "kept": "the_reader_is_warned_1939_novel",
+    "discarded": [
+      "the_peacock_feather_murders_1937_novel"
     ]
   }
 ]

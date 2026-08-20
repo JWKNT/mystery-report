@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the compact static JavaScript payload for the v3 explorer."""
+"""Build the compact static JavaScript payload for the v4 explorer."""
 
 from __future__ import annotations
 
@@ -10,14 +10,29 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR.parent / "data"
+AUDIT_DIR = DATA_DIR / "audit"
 DEFAULT_OUTPUT = DATA_DIR / "consensus-data.js"
-AXES = ("influence", "ambition", "fairness", "originality")
-SELECTION_AXES = ("ambition", "fairness", "originality")
+AXES = ("influence", "ambition", "fairness", "traditionality", "originality")
+SELECTION_AXES = ("ambition", "fairness", "traditional_mystery", "originality")
+RANK_ADJUSTMENT_AXES = ("ambition", "fairness", "originality")
+SELECTION_TO_SCORE_AXIS = {
+    "ambition": "ambition",
+    "fairness": "fairness",
+    "traditional_mystery": "traditionality",
+    "originality": "originality",
+}
 LABELS = {
     "influence": ("Influence", "Influence"),
     "ambition": ("Ambition", "Ambition"),
     "fairness": ("Fairness", "Fairness"),
+    "traditionality": ("Traditionality", "Traditionality"),
     "originality": ("Originality", "Originality"),
+}
+SELECTION_LABELS = {
+    "ambition": "Ambition",
+    "fairness": "Fairness",
+    "traditional_mystery": "Traditional mystery",
+    "originality": "Originality",
 }
 
 
@@ -28,7 +43,7 @@ def rounded(value: float | None, digits: int = 6) -> float | None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--aggregate", type=Path, default=DATA_DIR / "aggregate.json")
-    parser.add_argument("--verification", type=Path, default=DATA_DIR / "audit" / "verification-summary.json")
+    parser.add_argument("--verification", type=Path, default=AUDIT_DIR / "verification-summary.json")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
 
@@ -88,7 +103,7 @@ def main() -> None:
 
     payload = {
         "meta": {
-            "version": 3,
+            "version": 4,
             "generated": "2026-08-20",
             "agents": aggregate["agent_count"],
             "works": len(works),
@@ -107,13 +122,23 @@ def main() -> None:
                 "label": LABELS[axis][0],
                 "short": LABELS[axis][1],
                 "weight": aggregate["method"]["weights"][axis],
-                "selectionAxis": axis in SELECTION_AXES,
+                "selectionAxis": axis in SELECTION_TO_SCORE_AXIS.values(),
+                "rankAdjusted": axis in RANK_ADJUSTMENT_AXES,
                 "globalMean": rounded(aggregate["method"]["global_axis_means"][axis]),
                 "globalRawMean": rounded(aggregate["method"]["global_raw_axis_means"][axis]),
             }
             for axis in AXES
         ],
         "selectionAxes": list(SELECTION_AXES),
+        "selectionLists": [
+            {
+                "key": selection_axis,
+                "label": SELECTION_LABELS[selection_axis],
+                "scoreAxis": SELECTION_TO_SCORE_AXIS[selection_axis],
+                "rankAdjusted": selection_axis in RANK_ADJUSTMENT_AXES,
+            }
+            for selection_axis in SELECTION_AXES
+        ],
         "strings": strings,
         "works": works,
         "selections": selections,

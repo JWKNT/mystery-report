@@ -53,17 +53,27 @@ def main() -> int:
         errors.append("agent IDs are not unique")
 
     method = aggregate["method"]
-    expected_weights = {"influence": 0.10, "ambition": 0.40, "fairness": 0.25, "originality": 0.25}
+    expected_weights = {
+        "influence": 0.10,
+        "ambition": 0.30,
+        "fairness": 0.25,
+        "traditionality": 0.20,
+        "originality": 0.15,
+    }
     if method["weights"] != expected_weights:
         errors.append("aggregate weights differ from the final specification")
     if method["selection_axes"] != list(SELECTION_AXES):
         errors.append("aggregate selection axes differ from the final specification")
-    if method["prior_strength"] != 5:
-        errors.append("aggregate prior strength is not five")
+    if method.get("rank_adjustment_axes") != ["ambition", "fairness", "originality"]:
+        errors.append("aggregate rank-adjustment axes differ from the final specification")
+    if method["prior_strength"] != 10:
+        errors.append("aggregate prior strength is not ten")
     if method.get("rank_adjustment_max") != 5.0 or method.get("unselected_censored_rank") != 101:
         errors.append("rank adjustment differs from the agreed ±5 / censored-rank-101 method")
-    if method.get("lower_bound_z") != 1.0:
-        errors.append("consensus ranking is not using the one-standard-error lower bound")
+    if method.get("lower_bound_z") != 1.645:
+        errors.append("consensus ranking is not using the agreed one-sided 95% lower bound")
+    if method.get("confidence_support_denominator") != "sqrt(actual agent support)":
+        errors.append("confidence penalty is not based on actual support")
 
     works = aggregate["works"]
     raw_selections = aggregate["raw_selections"]
@@ -77,14 +87,16 @@ def main() -> int:
 
     observation_scores: dict[tuple[int, int], dict[str, int]] = {}
     observation_ranks: dict[tuple[int, int], dict[str, int]] = defaultdict(dict)
-    for row in raw_selections:
+    for row in aggregate["observations"]:
         key = (row["agent_number"], row["cluster_index"])
-        observation_scores.setdefault(key, row["scores"])
-        observation_ranks[key][row["axis"]] = row["rank"]
+        if key in observation_scores:
+            errors.append("duplicate retained agent-work observation")
+        observation_scores[key] = row["scores"]
+        observation_ranks[key] = row["ranks"]
 
     def rank_adjusted(key: tuple[int, int], axis: str) -> float:
         score = observation_scores[key][axis]
-        if axis not in SELECTION_AXES:
+        if axis not in {"ambition", "fairness", "originality"}:
             return float(score)
         rank = observation_ranks[key].get(axis, 101)
         return max(0.0, min(100.0, score + 5 * (50.5 - rank) / 49.5))
@@ -127,12 +139,12 @@ def main() -> int:
             if not math.isclose(expected_rank_adjusted, work["rank_adjusted_scores"][axis], abs_tol=1e-9):
                 errors.append(f"rank-adjusted mean mismatch for {work['title']} / {axis}")
                 break
-            expected_axis = (support * expected_rank_adjusted + 5 * global_means[axis]) / (support + 5)
+            expected_axis = (support * expected_rank_adjusted + 10 * global_means[axis]) / (support + 10)
             if not math.isclose(expected_axis, work["adjusted_scores"][axis], abs_tol=1e-9):
                 errors.append(f"adjustment mismatch for {work['title']} / {axis}")
                 break
         expected_posterior = sum(expected_weights[axis] * work["adjusted_scores"][axis] for axis in SCORE_AXES)
-        expected_penalty = global_composite_sd / math.sqrt(support + 5)
+        expected_penalty = 1.645 * global_composite_sd / math.sqrt(support)
         expected_consensus = expected_posterior - expected_penalty
         if not math.isclose(expected_posterior, work["posterior_composite"], abs_tol=1e-9):
             errors.append(f"posterior composite mismatch for {work['title']}")
@@ -146,7 +158,7 @@ def main() -> int:
 
     selection_groups: dict[tuple[int, str], list[int]] = defaultdict(list)
     for row in raw_selections:
-        if row["axis"] not in SELECTION_AXES or row["axis"] == "influence":
+        if row["axis"] not in SELECTION_AXES:
             errors.append("invalid raw selection axis")
             break
         selection_groups[(row["agent_number"], row["axis"])].append(row["rank"])
@@ -154,16 +166,29 @@ def main() -> int:
             errors.append("invalid raw selection scores")
             break
     group_lengths = Counter(map(len, selection_groups.values()))
-    if len(selection_groups) != 300 or group_lengths != Counter({100: 291, 99: 9}):
+    collected_selections = aggregate.get("collected_raw_selection_count")
+    excluded_selections = aggregate.get("excluded_raw_selection_count")
+    if collected_selections != 40_000:
+        errors.append(f"expected exactly 40000 collected placements, found {collected_selections}")
+    if len(raw_selections) != collected_selections - excluded_selections:
+        errors.append("retained placement count does not reconcile with audited exclusions")
+    if len(selection_groups) != 400 or any(length < 0 or length > 100 for length in group_lengths):
         errors.append(f"unexpected selection group shape: {dict(group_lengths)}")
+    if sum(100 - len(ranks) for ranks in selection_groups.values()) != excluded_selections:
+        errors.append("missing retained placements do not match the audited exclusion count")
+    for key, ranks in selection_groups.items():
+        if len(ranks) != len(set(ranks)) or any(not 1 <= rank <= 100 for rank in ranks):
+            errors.append(f"selection ranks are invalid or duplicated for {key}")
+            break
 
-    if len(verification) != 192 or any(not row["status"].startswith("verified_") for row in verification):
+    if len(verification) != len(aggregate["singletons"]) or any(not row["status"].startswith("verified_") for row in verification):
         errors.append("retained singleton verification is incomplete")
-    if verification_summary["unverified_retained"] != 0 or verification_summary["excluded_records"] != 3:
+    configured_exclusions = json.loads((AUDIT / "exclusions.json").read_text())
+    if verification_summary["unverified_retained"] != 0 or verification_summary["excluded_records"] != len(configured_exclusions):
         errors.append("singleton verification summary is inconsistent")
 
     excluded_titles = {row["title"] for row in verification_summary["exclusions"]}
-    if excluded_titles != {"Professor Layton", "The Puzzle of the Dead Man", "The Vanishing of Roger Stacey"}:
+    if excluded_titles != {row["title"] for row in configured_exclusions}:
         errors.append("exclusion set differs from the reviewed exclusion set")
     retained_titles = {work["title"] for work in works}
     if excluded_titles & retained_titles:
@@ -181,8 +206,11 @@ def main() -> int:
             "retained_works": len(works),
             "unique_agent_work_observations": aggregate["unique_agent_work_observation_count"],
             "ranked_selections": len(raw_selections),
+            "collected_ranked_selections": collected_selections,
+            "excluded_ranked_selections": excluded_selections,
             "selection_group_lengths": dict(sorted(group_lengths.items())),
             "identity_merges": len(aggregate["merge_log"]),
+            "series_rollup_decisions": len(aggregate["series_rollup_log"]),
             "within_agent_merges": len(aggregate["within_agent_merges"]),
             "retained_singletons": len(verification),
             "unverified_singletons": verification_summary["unverified_retained"],
@@ -194,6 +222,8 @@ def main() -> int:
             "lower_bound_z": method.get("lower_bound_z"),
             "global_composite_sd": method.get("global_composite_sd"),
             "minimum_top_25_support": min(work["support"] for work in works[:25]),
+            "minimum_top_100_support": min(work["support"] for work in works[:100]),
+            "top_100_below_ten_support": sum(work["support"] < 10 for work in works[:100]),
         },
     }
     output = AUDIT / "final-integrity.json"

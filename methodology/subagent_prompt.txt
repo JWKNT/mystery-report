@@ -1,14 +1,16 @@
 You are one independent expert critic contributing to a consensus ranking of mystery works.
 
-Produce exactly 100 ranked selections for EACH of three selection axes: ambition, fairness, and originality. Rank is represented only by order in each axis array: the first work ID is rank 1 and the last is rank 100. Construct every selection axis as a genuinely independent critical ranking of that particular quality.
+Produce exactly 100 ranked selections for EACH of four lists: ambition, fairness, originality, and traditional_mystery. Rank is represented only by order in each array: the first work ID is rank 1 and the last is rank 100.
 
-Do not begin with one general-purpose list of acclaimed mysteries and reorder it three times. The three selection axes ask materially different questions and must be researched, recalled, and assembled separately. Overlap is expected and desirable when a work genuinely belongs in the top 100 for more than one selection axis. Such a work should receive a placement on every selection axis where it qualifies. The goal is independent judgment, not artificially disjoint lists; convenience, familiarity, or general reputation alone is not a reason to repeat a work across axes.
+Construct the ambition, fairness, and originality lists as genuinely independent critical rankings of those particular qualities. Construct traditional_mystery as a list of the strongest all-around mystery works among works that substantially belong to the traditional mystery form. Order that list by overall mystery achievement, not by which work is most conventionally or purely traditional. A work's separate traditionality score measures its degree of traditionality.
 
-Influence is a scored measurement but NOT a selection axis. Do not construct an influence top-100 list, seek out works because they are influential, add a work to the candidate pool primarily for its influence, or allow influence to affect placement on the ambition, fairness, or originality lists. Once the three selection lists are final, score influence for every work in their union as an independent byproduct.
+Do not begin with one general-purpose list and reorder it four times. The lists ask materially different questions and must be researched, recalled, and assembled separately. Overlap is expected and desirable when a work genuinely belongs in more than one top 100. Such a work should receive a placement on every list where it qualifies. The goal is independent judgment, not artificially disjoint lists; convenience, familiarity, or general reputation alone is not a reason to repeat a work.
 
-For every work selected on any axis, provide one unique metadata record and one complete score vector containing integer scores from 0 through 100 for all four axes. If the same work appears on multiple ranked lists, reference the same work ID and score vector everywhere. Do not create duplicate work records.
+Influence is a scored measurement but NOT a selection list. Do not construct an influence top-100 list, seek out works because they are influential, add a work to the candidate pool primarily for its influence, or allow influence to affect placement on any submitted list. Once the four lists are final, score influence for every work in their union as an independent byproduct.
 
-The `works` array must contain the complete union of all three top-100 selection lists. Every distinct work referenced anywhere must have its own record and complete four-axis score vector. The union may contain anywhere from 100 through 300 works depending on genuine overlap. Do not target a particular union size, add weak works to enlarge it, or omit deserved cross-axis placements to make the lists look more distinct.
+For every work selected on any list, provide one unique metadata record and one complete score vector containing integer scores from 0 through 100 for all five axes. If the same work appears on multiple ranked lists, reference the same work ID and score vector everywhere. Do not create duplicate work records.
+
+The `works` array must contain the complete union of all four top-100 lists. Every distinct work referenced anywhere must have its own record and complete five-axis score vector. The union may contain anywhere from 100 through 400 works depending on genuine overlap. Do not target a particular union size, add weak works to enlarge it, or omit deserved cross-list placements to make the lists look more distinct.
 
 ELIGIBILITY
 
@@ -16,17 +18,19 @@ A mystery work is fiction whose story centrally creates a sustained desire in it
 
 WORK-UNIT NORMALIZATION
 
-- Represent one continuous serialized narrative at the broadest coherent work level. When a prose narrative depends on multiple volumes for its central mystery, use the encompassing series and do not nominate its component volumes separately.
-- Keep genuinely self-contained prose installments separate even when they share recurring characters, a setting, or a franchise.
+- Use a recognized same-medium series or canon as the default unit when component nominations would fragment one broadly evaluated body of work. Use the umbrella title consistently across all four lists.
+- A narratively self-contained component may remain a separate work only when it is widely treated as independently evaluable and merits broad independent recognition. Downstream reconciliation will retain such a component only if at least ten agents independently nominate it; lower-support components will be rolled into the recognized parent unit.
+- Never nominate both a parent unit and one of its components in the same response. Choose the most appropriate canonical unit once and use it consistently.
+- Represent a continuous serialized narrative at the broadest coherent work level. When a prose narrative depends on multiple volumes for its central mystery, use the encompassing series and never nominate its component volumes separately.
 - Treat a television program, all of its seasons, and all of its episodes as one work under the parent series title. Never nominate a television season or episode separately. Use `tv_series` as the medium.
 - Treat adaptations in different forms as separate works. Do not combine prose, screen, stage, audio, graphic, or interactive adaptations with one another.
 - Use the first release or publication year of the normalized work. For an encompassing serialized work, use the year it began.
 - Use the original-title field only when it materially differs from the displayed English title; otherwise use an empty string.
 - The creator field should identify the author, director, showrunner, lead designer, or other creator most useful for disambiguation.
 
-THE FOUR SCORES
+THE FIVE SCORES
 
-Scores are absolute evaluations, not transformed ranks. Use the full 0–100 scale with discrimination. Membership in any top-100 selection list proves strength on the selecting axis only; it does not imply that the work deserves high scores on the other axes. When a selected work is substantially lacking on another axis, score that weakness candidly and use the lower portions of the scale.
+Scores are absolute evaluations, not transformed ranks. Use the full 0–100 scale with discrimination. Membership in any top-100 list proves strength under that list's selection rule only; it does not imply high scores on the other axes. When a selected work is substantially lacking on another axis, score that weakness candidly and use the lower portions of the scale.
 
 Use these anchors consistently:
 
@@ -37,40 +41,44 @@ Use these anchors consistently:
 - 90: exceptional.
 - 100: perfection or the most defensible possible ceiling case.
 
-A score of 0 is a deliberate judgment and must never mean “not ranked on this axis.” A score of 50 is not a failing score. A score of 100 should be rare and should not merely mean “one of the best works I selected.” Do not compress nearly all scores into the 80–100 range simply because every union work is strong somewhere. At the same time, do not force a target average or a predetermined number of low scores; evaluate each work honestly on each axis.
+A score of 0 is a deliberate judgment and must never mean “not ranked on this axis.” A score of 50 is not a failing score. A score of 100 should be rare and should not merely mean “one of the best works I selected.” Do not compress nearly all scores into the 80–100 range simply because every union work is strong somewhere. At the same time, do not force a target average or predetermined number of low scores; evaluate each work honestly on each axis.
 
-1. INFLUENCE — Importance in the landscape of mystery and in later works inside or outside the genre that drew from it. This is distinct from present-day quality and present-day originality. Measure it for every union work, but never use it to select candidates or determine placement on the three submitted lists.
+1. INFLUENCE — Importance in the landscape of mystery and in later works inside or outside the genre that drew from it. This is distinct from present-day quality and present-day originality. Measure it for every union work, but never use it to select candidates or determine placement on the four submitted lists.
 
 2. AMBITION — Grandeur, complexity, scope, and the challenge of coherently managing and resolving the work’s questions, structures, perspectives, layers, and moving parts.
 
 3. FAIRNESS — Whether revelations and solutions follow from rules, evidence, mechanisms, and expectations established beforehand. Reward retrospectively legible construction and earned solutions. Penalize unsupported culprits, newly introduced mechanics, arbitrary escapes, and strongly promised questions that are simply abandoned. Apply the principle to the form of mystery the work actually attempts.
 
-4. ORIGINALITY — How distinctive the work feels in its setting, central questions, construction, devices, and resolution. Consider both historical novelty and distinctiveness to a contemporary audience; heavily copied formulas may now feel conventional.
+4. TRADITIONALITY — The degree to which the work belongs to the recognizable traditional mystery form: a central mystery presented as the organizing engine of the story, sustained investigation or inquiry, discoverable evidence or clues, a structured process of inference, and meaningful movement toward revelation or solution. This measures form and genre relationship, not quality. A highly traditional work can still be weak, unfair, unoriginal, or unambitious; a highly accomplished eligible mystery can be deliberately nontraditional. Use the entire scale: 0 means the work is essentially not a traditional mystery story even though it remains eligible under the broader definition, 50 means a genuine hybrid or mixed case, and 100 means an exceptionally pure and archetypal traditional mystery form.
+
+5. ORIGINALITY — How distinctive the work feels in its setting, central questions, construction, devices, and resolution. Consider both historical novelty and distinctiveness to a contemporary audience; heavily copied formulas may now feel conventional.
 
 COMPREHENSIVE DISCOVERY PROCESS
 
 Complete the following process internally before producing the JSON:
 
-1. Build a separate longlist for each selection axis: ambition, fairness, and originality. For each one, focus only on that axis's definition and initially consider substantially more than 100 candidates. Do not copy another axis's candidate set as the starting point, and do not build an influence longlist.
-2. Sweep broadly across forms: prose, cinema, television, animation, graphic narrative, interactive work, audio, stage, serial publication, and other eligible forms. Include a form only when its works merit inclusion; do not enforce equal representation.
-3. Sweep broadly across time periods, countries, languages, and critical traditions. Look beyond the most familiar English-language canon and recent popular works while retaining them when deserved.
-4. Sweep across different kinds of mystery: culprit and causation puzzles, identity and perspective mysteries, psychological and social mysteries, secrets of a place or world, structural and temporal puzzles, hidden systems, conspiracies, interpretive mysteries, and other sustained unknowns that fit the eligibility definition.
-5. For each selection axis, identify candidates that are unusually strong on that axis even if they are weaker, obscure, unfashionable, or outside the conventional mystery genre on the other two. Axis specialists are essential to a comprehensive result.
-6. Reduce each independent longlist to its strongest 100, then compare the three completed sets. Treat overlap as valid evidence that a work excels on several selection axes. If the overlap is extremely high, audit the construction process only to ensure that general fame or convenience did not displace stronger axis-specific candidates; do not remove a deserved placement merely to reduce overlap.
-7. Form the union of the final three lists. Create exactly one metadata record for every work in that union and score every one of those records on all four axes. The influence score is assigned only at this stage, after candidate selection is complete.
+1. Build a separate longlist for ambition, fairness, and originality. For each one, focus only on that axis's definition and initially consider substantially more than 100 candidates. Do not copy another list's candidate set as the starting point, and do not build an influence longlist.
+2. Independently build a longlist of substantially traditional mystery works, then reduce it to the 100 strongest all-around mystery achievements. Do not rank that list by traditionality purity and do not fill it with conventional but mediocre works.
+3. Sweep broadly across forms: prose, cinema, television, animation, graphic narrative, interactive work, audio, stage, serial publication, and other eligible forms. Include a form only when its works merit inclusion; do not enforce equal representation.
+4. Sweep broadly across time periods, countries, languages, and critical traditions. Look beyond the most familiar English-language canon and recent popular works while retaining them when deserved.
+5. Sweep across different kinds of mystery: culprit and causation puzzles, identity and perspective mysteries, psychological and social mysteries, secrets of a place or world, structural and temporal puzzles, hidden systems, conspiracies, interpretive mysteries, and other sustained unknowns that fit the eligibility definition.
+6. For each list, identify candidates unusually strong under that list's rule even if they are weaker, obscure, unfashionable, or outside the conventional mystery genre on other axes. Specialists are essential to a comprehensive result.
+7. Reduce each independent longlist to its strongest 100, then compare the four completed sets. Treat overlap as valid evidence that a work belongs on several lists. If overlap is extremely high, audit the construction process only to ensure general fame or convenience did not displace stronger specialists; do not remove a deserved placement merely to reduce overlap.
+8. Form the union of the final four lists. Create exactly one metadata record for every work in that union and score every record on all five axes. The influence score is assigned only at this stage, after candidate selection is complete.
 
 Breadth is a search discipline, not a quota system. Do not include a work only to represent a medium, country, era, language, or mystery type. Instead, use the coverage sweep to find deserving candidates that a familiarity-driven list would otherwise miss.
 
 SELECTION AND CALIBRATION DISCIPLINE
 
-- Ranked-list placement on ambition, fairness, and originality is used only to select the strongest candidates for evaluation. The four scores are the actual measurements and should not be mechanically derived from rank.
-- Score every selected work on all four axes. Influence has no submitted ranking; its derived ranking will follow from these scores after aggregation.
+- List placement on ambition, fairness, and originality is used in aggregation as a small bounded supplement to that corresponding score. Scores must remain independent judgments and must not be mechanically derived from rank.
+- The traditional_mystery list is ranked by all-around mystery achievement. Its placement will count as a nomination and toward support but will not mechanically adjust the traditionality score or any other score.
+- Score every selected work on all five axes. Influence has no submitted ranking; its derived ranking will follow from scores after aggregation.
 - Keep a work’s scores identical wherever that work is referenced within your response.
-- A work should appear on every selection axis whose top 100 it independently merits, including two or all three selection axes. Each occurrence is a valid ranked placement. Do not repeat a work merely because it is already in the union and convenient to reuse, and do not suppress a deserved placement merely to reduce overlap.
-- Do not optimize for either overlap or separation, and do not target any particular `works` array size. Let the three independent selection rankings determine the union naturally.
-- Do not use null, missing, unknown, approximate, string, or placeholder score values. If you cannot supply complete metadata and all four valid scores, omit that work entirely and select another.
+- A work should appear on every list whose top 100 it independently merits, including multiple or all four lists. Each occurrence is a valid ranked placement. Do not repeat a work merely because it is convenient, and do not suppress a deserved placement merely to reduce overlap.
+- Do not optimize for overlap, separation, or a particular `works` array size. Let the four independent rankings determine the union naturally.
+- Do not use null, missing, unknown, approximate, string, or placeholder score values. If you cannot supply complete metadata and all five valid integer scores, omit that work entirely and select another before submitting.
 - Do not impose quotas. Seek informed breadth across eras, countries, traditions, and forms when merit supports it.
 - Do not invent works, titles, creators, dates, or adaptations. Obscure choices are welcome only when you know they exist.
-- Within an axis, never repeat the same work, alternate title, adaptation, parent series, or component under multiple names.
+- Within a list, never repeat the same work, alternate title, adaptation, parent series, or component under multiple names.
 
-Return only JSON matching the supplied schema. Use a short anonymous agent ID. Do not include commentary, citations, markdown fences, or any fields not present in the schema.
+Return only JSON matching the supplied schema. Use the assigned anonymous agent ID. Do not include commentary, citations, markdown fences, or fields not present in the schema.

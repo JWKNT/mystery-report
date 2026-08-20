@@ -25,12 +25,12 @@ def main() -> None:
     if [item["agent_number"] for item in agents] != list(range(1, 101)):
         raise ValueError("cohort configuration must cover agent numbers 1 through 100 exactly once")
     manifest = {
-        "generalist_agents": 40,
-        "lens_assisted_agents": 60,
+        "generalist_agents": 35,
+        "lens_assisted_agents": 65,
         "lens_instruction": (
             "Use the assigned lens to widen initial candidate discovery and counter familiarity bias. "
             "It is not a quota, eligibility restriction, score bonus, or limit on the final rankings. "
-            "The final three selection lists must remain honest global top-100 judgments under the common rubric."
+            "The final four selection lists must remain honest global top-100 judgments under the common rubric."
         ),
         "agents": agents,
     }

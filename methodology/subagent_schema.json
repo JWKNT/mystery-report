@@ -4,24 +4,21 @@
   "additionalProperties": false,
   "required": ["agent_id", "works", "axes"],
   "properties": {
-    "agent_id": {
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 80
-    },
+    "agent_id": {"type": "string", "minLength": 1, "maxLength": 80},
     "works": {
       "type": "array",
       "minItems": 100,
-      "maxItems": 300,
+      "maxItems": 400,
       "items": {"$ref": "#/definitions/work"}
     },
     "axes": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["ambition", "fairness", "originality"],
+      "required": ["ambition", "fairness", "traditional_mystery", "originality"],
       "properties": {
         "ambition": {"$ref": "#/definitions/ranking"},
         "fairness": {"$ref": "#/definitions/ranking"},
+        "traditional_mystery": {"$ref": "#/definitions/ranking"},
         "originality": {"$ref": "#/definitions/ranking"}
       }
     }
@@ -30,11 +27,12 @@
     "scores": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["influence", "ambition", "fairness", "originality"],
+      "required": ["influence", "ambition", "fairness", "traditionality", "originality"],
       "properties": {
         "influence": {"type": "integer", "minimum": 0, "maximum": 100},
         "ambition": {"type": "integer", "minimum": 0, "maximum": 100},
         "fairness": {"type": "integer", "minimum": 0, "maximum": 100},
+        "traditionality": {"type": "integer", "minimum": 0, "maximum": 100},
         "originality": {"type": "integer", "minimum": 0, "maximum": 100}
       }
     },
@@ -51,25 +49,10 @@
         "medium": {
           "type": "string",
           "enum": [
-            "novel",
-            "book_series",
-            "novella",
-            "short_story",
-            "film",
-            "tv_series",
-            "anime",
-            "cartoon",
-            "comic",
-            "manga",
-            "video_game",
-            "visual_novel",
-            "web_serial",
-            "radio_drama",
-            "audio_drama",
-            "stage_play",
-            "podcast",
-            "documentary",
-            "other"
+            "novel", "book_series", "novella", "short_story", "film", "tv_series",
+            "anime", "cartoon", "comic", "manga", "video_game", "visual_novel",
+            "web_serial", "radio_drama", "audio_drama", "stage_play", "podcast",
+            "documentary", "other"
           ]
         },
         "scores": {"$ref": "#/definitions/scores"}

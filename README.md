@@ -12,31 +12,32 @@ For local development, place this repository beside a checkout of [`site-theme`]
 - Search titles, original titles, creators, media, criteria, and agent numbers.
 - Filter by medium and criterion.
 - Inspect each work’s consensus score, posterior mean, uncertainty penalty, rank-adjusted and raw axis means, support, selection counts, and mean placement.
-- Jump from a work to its raw selections and all four scores supplied with each selection.
+- Jump from a work to its raw selections and all five scores supplied with each selection.
 - Export the current filtered and sorted view as CSV.
 - Paginate 25, 50, or 100 rows at a time.
-- Read a short definition of each of the four ranking categories.
+- Read a short definition of each of the five scored categories.
 
 ## Data model
 
-The app embeds 1,037 retained normalized works, 20,032 complete agent–work ratings, and 29,991 ranked selections from 100 valid agents. Every retained singleton was checked against a catalogue, publisher, official, or reference record; three unverifiable or invalid work units were excluded.
+The app embeds 1,142 retained normalized works, 21,958 complete agent–work ratings, and 39,998 retained ranked selections from 100 valid agents. The collection produced exactly 40,000 placements; two nominations attached to one unverifiable work were excluded. Every retained singleton was checked against a catalogue, publisher, official, or reference record.
 
-Identity reconciliation merges alternate titles, release-year variants, and medium-label disagreements within the same form. TV shows, seasons, and episodes are represented by the encompassing `tv_series`; continuous prose stories across volumes are represented by their encompassing `book_series`. Genuinely self-contained prose installments may remain separate, and adaptations in different media remain separate works.
+Identity reconciliation merges alternate titles, release-year variants, and medium-label disagreements within the same form. TV shows, seasons, and episodes are represented by the encompassing `tv_series`; continuous prose stories across volumes are represented by their encompassing `book_series`. A narratively self-contained component remains separate only when at least ten agents nominated it independently. Adaptations in different media remain separate works.
 
-Each agent selected and ranked 100 works independently for ambition, fairness, and originality. The natural union of those lists was then scored on all four axes from 0 to 100. Influence was never a discovery or selection axis; it was scored only as a byproduct after selection.
+Each agent selected and ranked 100 works independently for ambition, fairness, originality, and all-around achievement within the traditional mystery form. The natural union of those four lists was then scored on all five axes from 0 to 100. Influence was never a discovery or selection axis; it was scored only as a byproduct after selection. The traditional-mystery list contributes nominations and support, but its placement does not mechanically alter traditionality or any other score.
 
-For ambition, fairness, and originality, each agent’s raw score receives a bounded placement correction. Rank 1 adds five points, rank 50 is approximately neutral, rank 100 subtracts five, and absence from that particular list is conservatively treated as censored rank 101. Influence receives no rank correction.
+For ambition, fairness, and originality, each agent’s raw score receives a bounded placement correction. Rank 1 adds five points, rank 50 is approximately neutral, rank 100 subtracts five, and absence from that particular list is conservatively treated as censored rank 101. Influence and traditionality receive no rank correction.
 
-Rank-adjusted axis means are shrunk toward their corpus-wide means using five virtual ratings. The posterior weighted mean uses these weights:
+Rank-adjusted axis means are shrunk toward their corpus-wide means using ten virtual ratings. The posterior weighted mean uses these weights:
 
 - Influence: 10%
-- Ambition: 40%
+- Ambition: 30%
 - Fairness: 25%
-- Originality: 25%
+- Traditionality: 20%
+- Originality: 15%
 
-The displayed consensus score is a one-standard-error lower confidence score:
+The displayed consensus score is a one-sided 95% lower confidence score:
 
-`consensus score = posterior weighted mean − global observation SD ÷ √(support + 5)`
+`consensus score = posterior weighted mean − 1.645 × global observation SD ÷ √(actual support)`
 
 This gives lightly supported works an explicit uncertainty penalty without imposing a minimum-support cutoff or treating a work’s absence from another agent’s union as a zero.
 

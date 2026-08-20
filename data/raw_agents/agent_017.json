@@ -9,10 +9,11 @@
       "year": 2007,
       "medium": "visual_novel",
       "scores": {
-        "influence": 75,
+        "influence": 78,
         "ambition": 99,
-        "fairness": 92,
-        "originality": 98
+        "fairness": 94,
+        "traditionality": 74,
+        "originality": 99
       }
     },
     {
@@ -23,10 +24,11 @@
       "year": 1990,
       "medium": "tv_series",
       "scores": {
-        "influence": 96,
+        "influence": 97,
         "ambition": 98,
-        "fairness": 47,
-        "originality": 99
+        "fairness": 44,
+        "traditionality": 53,
+        "originality": 100
       }
     },
     {
@@ -37,10 +39,11 @@
       "year": 1988,
       "medium": "novel",
       "scores": {
-        "influence": 76,
+        "influence": 79,
         "ambition": 98,
-        "fairness": 73,
-        "originality": 96
+        "fairness": 70,
+        "traditionality": 28,
+        "originality": 97
       }
     },
     {
@@ -51,10 +54,11 @@
       "year": 1980,
       "medium": "novel",
       "scores": {
-        "influence": 93,
-        "ambition": 97,
-        "fairness": 90,
-        "originality": 90
+        "influence": 94,
+        "ambition": 98,
+        "fairness": 91,
+        "traditionality": 93,
+        "originality": 92
       }
     },
     {
@@ -65,10 +69,11 @@
       "year": 2000,
       "medium": "novel",
       "scores": {
-        "influence": 91,
+        "influence": 92,
         "ambition": 98,
-        "fairness": 56,
-        "originality": 99
+        "fairness": 52,
+        "traditionality": 15,
+        "originality": 100
       }
     },
     {
@@ -79,10 +84,11 @@
       "year": 2017,
       "medium": "tv_series",
       "scores": {
-        "influence": 87,
-        "ambition": 97,
-        "fairness": 86,
-        "originality": 89
+        "influence": 88,
+        "ambition": 98,
+        "fairness": 88,
+        "traditionality": 35,
+        "originality": 91
       }
     },
     {
@@ -96,7 +102,8 @@
         "influence": 92,
         "ambition": 98,
         "fairness": 38,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 8
       }
     },
     {
@@ -110,7 +117,8 @@
         "influence": 85,
         "ambition": 98,
         "fairness": 35,
-        "originality": 95
+        "originality": 95,
+        "traditionality": 12
       }
     },
     {
@@ -124,7 +132,8 @@
         "influence": 87,
         "ambition": 97,
         "fairness": 83,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 15
       }
     },
     {
@@ -138,7 +147,8 @@
         "influence": 98,
         "ambition": 96,
         "fairness": 84,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 42
       }
     },
     {
@@ -149,10 +159,11 @@
       "year": 2019,
       "medium": "video_game",
       "scores": {
-        "influence": 78,
-        "ambition": 96,
-        "fairness": 96,
-        "originality": 98
+        "influence": 80,
+        "ambition": 97,
+        "fairness": 99,
+        "traditionality": 41,
+        "originality": 99
       }
     },
     {
@@ -166,7 +177,8 @@
         "influence": 84,
         "ambition": 96,
         "fairness": 78,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 62
       }
     },
     {
@@ -177,10 +189,11 @@
       "year": 1962,
       "medium": "novel",
       "scores": {
-        "influence": 92,
-        "ambition": 96,
-        "fairness": 69,
-        "originality": 99
+        "influence": 94,
+        "ambition": 97,
+        "fairness": 67,
+        "traditionality": 20,
+        "originality": 100
       }
     },
     {
@@ -194,7 +207,8 @@
         "influence": 91,
         "ambition": 95,
         "fairness": 44,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 44
       }
     },
     {
@@ -205,10 +219,11 @@
       "year": 2009,
       "medium": "novel",
       "scores": {
-        "influence": 82,
-        "ambition": 95,
-        "fairness": 89,
-        "originality": 97
+        "influence": 84,
+        "ambition": 96,
+        "fairness": 91,
+        "traditionality": 83,
+        "originality": 98
       }
     },
     {
@@ -219,10 +234,11 @@
       "year": 2001,
       "medium": "film",
       "scores": {
-        "influence": 93,
+        "influence": 95,
         "ambition": 96,
-        "fairness": 50,
-        "originality": 99
+        "fairness": 46,
+        "traditionality": 14,
+        "originality": 100
       }
     },
     {
@@ -236,7 +252,8 @@
         "influence": 93,
         "ambition": 95,
         "fairness": 33,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 18
       }
     },
     {
@@ -250,7 +267,8 @@
         "influence": 85,
         "ambition": 96,
         "fairness": 77,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 38
       }
     },
     {
@@ -264,7 +282,8 @@
         "influence": 95,
         "ambition": 96,
         "fairness": 81,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 16
       }
     },
     {
@@ -278,7 +297,8 @@
         "influence": 91,
         "ambition": 95,
         "fairness": 83,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 55
       }
     },
     {
@@ -292,7 +312,8 @@
         "influence": 88,
         "ambition": 96,
         "fairness": 54,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 62
       }
     },
     {
@@ -306,7 +327,8 @@
         "influence": 97,
         "ambition": 97,
         "fairness": 34,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 22
       }
     },
     {
@@ -320,7 +342,8 @@
         "influence": 86,
         "ambition": 96,
         "fairness": 60,
-        "originality": 95
+        "originality": 95,
+        "traditionality": 12
       }
     },
     {
@@ -334,7 +357,8 @@
         "influence": 89,
         "ambition": 96,
         "fairness": 49,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 28
       }
     },
     {
@@ -348,7 +372,8 @@
         "influence": 88,
         "ambition": 95,
         "fairness": 78,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 38
       }
     },
     {
@@ -362,7 +387,8 @@
         "influence": 91,
         "ambition": 94,
         "fairness": 72,
-        "originality": 78
+        "originality": 78,
+        "traditionality": 82
       }
     },
     {
@@ -376,7 +402,8 @@
         "influence": 50,
         "ambition": 96,
         "fairness": 70,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 47
       }
     },
     {
@@ -390,7 +417,8 @@
         "influence": 77,
         "ambition": 95,
         "fairness": 58,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 12
       }
     },
     {
@@ -404,7 +432,8 @@
         "influence": 76,
         "ambition": 94,
         "fairness": 67,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 36
       }
     },
     {
@@ -418,7 +447,8 @@
         "influence": 45,
         "ambition": 94,
         "fairness": 61,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 26
       }
     },
     {
@@ -432,7 +462,8 @@
         "influence": 82,
         "ambition": 94,
         "fairness": 86,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 72
       }
     },
     {
@@ -446,7 +477,8 @@
         "influence": 80,
         "ambition": 92,
         "fairness": 79,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 66
       }
     },
     {
@@ -460,7 +492,8 @@
         "influence": 58,
         "ambition": 95,
         "fairness": 84,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 72
       }
     },
     {
@@ -474,7 +507,8 @@
         "influence": 76,
         "ambition": 95,
         "fairness": 74,
-        "originality": 80
+        "originality": 80,
+        "traditionality": 70
       }
     },
     {
@@ -488,7 +522,8 @@
         "influence": 43,
         "ambition": 94,
         "fairness": 85,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 86
       }
     },
     {
@@ -502,7 +537,8 @@
         "influence": 96,
         "ambition": 96,
         "fairness": 73,
-        "originality": 87
+        "originality": 87,
+        "traditionality": 12
       }
     },
     {
@@ -516,7 +552,8 @@
         "influence": 75,
         "ambition": 94,
         "fairness": 88,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 88
       }
     },
     {
@@ -527,10 +564,11 @@
       "year": 2016,
       "medium": "novel",
       "scores": {
-        "influence": 77,
-        "ambition": 93,
-        "fairness": 91,
-        "originality": 88
+        "influence": 79,
+        "ambition": 94,
+        "fairness": 92,
+        "traditionality": 96,
+        "originality": 89
       }
     },
     {
@@ -541,10 +579,11 @@
       "year": 1935,
       "medium": "novel",
       "scores": {
-        "influence": 88,
-        "ambition": 93,
-        "fairness": 97,
-        "originality": 95
+        "influence": 90,
+        "ambition": 94,
+        "fairness": 99,
+        "traditionality": 100,
+        "originality": 96
       }
     },
     {
@@ -555,10 +594,11 @@
       "year": 1987,
       "medium": "novel",
       "scores": {
-        "influence": 87,
-        "ambition": 92,
-        "fairness": 96,
-        "originality": 85
+        "influence": 89,
+        "ambition": 93,
+        "fairness": 97,
+        "traditionality": 99,
+        "originality": 87
       }
     },
     {
@@ -569,10 +609,11 @@
       "year": 1981,
       "medium": "novel",
       "scores": {
-        "influence": 84,
-        "ambition": 93,
-        "fairness": 96,
-        "originality": 90
+        "influence": 86,
+        "ambition": 94,
+        "fairness": 97,
+        "traditionality": 99,
+        "originality": 92
       }
     },
     {
@@ -584,9 +625,10 @@
       "medium": "novel",
       "scores": {
         "influence": 100,
-        "ambition": 93,
-        "fairness": 93,
-        "originality": 88
+        "ambition": 94,
+        "fairness": 94,
+        "traditionality": 97,
+        "originality": 89
       }
     },
     {
@@ -597,9 +639,10 @@
       "year": 1926,
       "medium": "novel",
       "scores": {
-        "influence": 99,
-        "ambition": 91,
-        "fairness": 97,
+        "influence": 100,
+        "ambition": 92,
+        "fairness": 99,
+        "traditionality": 100,
         "originality": 99
       }
     },
@@ -614,7 +657,8 @@
         "influence": 100,
         "ambition": 95,
         "fairness": 74,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 30
       }
     },
     {
@@ -628,7 +672,8 @@
         "influence": 93,
         "ambition": 94,
         "fairness": 83,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 74
       }
     },
     {
@@ -640,9 +685,10 @@
       "medium": "novel",
       "scores": {
         "influence": 100,
-        "ambition": 92,
-        "fairness": 94,
-        "originality": 96
+        "ambition": 93,
+        "fairness": 95,
+        "traditionality": 96,
+        "originality": 97
       }
     },
     {
@@ -656,7 +702,8 @@
         "influence": 98,
         "ambition": 92,
         "fairness": 87,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 83
       }
     },
     {
@@ -670,7 +717,8 @@
         "influence": 100,
         "ambition": 95,
         "fairness": 86,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 42
       }
     },
     {
@@ -684,7 +732,8 @@
         "influence": 70,
         "ambition": 96,
         "fairness": 86,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 20
       }
     },
     {
@@ -695,10 +744,11 @@
       "year": 2018,
       "medium": "video_game",
       "scores": {
-        "influence": 81,
-        "ambition": 95,
-        "fairness": 99,
-        "originality": 98
+        "influence": 83,
+        "ambition": 96,
+        "fairness": 100,
+        "traditionality": 88,
+        "originality": 99
       }
     },
     {
@@ -712,7 +762,8 @@
         "influence": 79,
         "ambition": 95,
         "fairness": 88,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 68
       }
     },
     {
@@ -726,7 +777,8 @@
         "influence": 62,
         "ambition": 94,
         "fairness": 96,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 98
       }
     },
     {
@@ -740,7 +792,8 @@
         "influence": 70,
         "ambition": 93,
         "fairness": 85,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 72
       }
     },
     {
@@ -751,10 +804,11 @@
       "year": 2022,
       "medium": "video_game",
       "scores": {
-        "influence": 55,
-        "ambition": 93,
-        "fairness": 98,
-        "originality": 94
+        "influence": 58,
+        "ambition": 94,
+        "fairness": 99,
+        "traditionality": 97,
+        "originality": 95
       }
     },
     {
@@ -768,7 +822,8 @@
         "influence": 38,
         "ambition": 94,
         "fairness": 91,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 58
       }
     },
     {
@@ -782,7 +837,8 @@
         "influence": 82,
         "ambition": 91,
         "fairness": 94,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 78
       }
     },
     {
@@ -796,7 +852,8 @@
         "influence": 55,
         "ambition": 93,
         "fairness": 74,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 42
       }
     },
     {
@@ -810,7 +867,8 @@
         "influence": 58,
         "ambition": 91,
         "fairness": 93,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 84
       }
     },
     {
@@ -824,7 +882,8 @@
         "influence": 90,
         "ambition": 94,
         "fairness": 92,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 32
       }
     },
     {
@@ -838,7 +897,8 @@
         "influence": 99,
         "ambition": 92,
         "fairness": 78,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 35
       }
     },
     {
@@ -852,7 +912,8 @@
         "influence": 60,
         "ambition": 93,
         "fairness": 86,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 25
       }
     },
     {
@@ -866,7 +927,8 @@
         "influence": 42,
         "ambition": 91,
         "fairness": 94,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 83
       }
     },
     {
@@ -880,7 +942,8 @@
         "influence": 41,
         "ambition": 92,
         "fairness": 91,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 89
       }
     },
     {
@@ -894,7 +957,8 @@
         "influence": 88,
         "ambition": 94,
         "fairness": 45,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 8
       }
     },
     {
@@ -905,10 +969,11 @@
       "year": 2021,
       "medium": "anime",
       "scores": {
-        "influence": 55,
-        "ambition": 91,
-        "fairness": 97,
-        "originality": 92
+        "influence": 58,
+        "ambition": 92,
+        "fairness": 98,
+        "traditionality": 79,
+        "originality": 93
       }
     },
     {
@@ -922,7 +987,8 @@
         "influence": 70,
         "ambition": 94,
         "fairness": 84,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 32
       }
     },
     {
@@ -936,7 +1002,8 @@
         "influence": 92,
         "ambition": 90,
         "fairness": 77,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 42
       }
     },
     {
@@ -950,7 +1017,8 @@
         "influence": 80,
         "ambition": 93,
         "fairness": 55,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 28
       }
     },
     {
@@ -964,7 +1032,8 @@
         "influence": 83,
         "ambition": 93,
         "fairness": 85,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 78
       }
     },
     {
@@ -978,7 +1047,8 @@
         "influence": 97,
         "ambition": 90,
         "fairness": 70,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 33
       }
     },
     {
@@ -992,7 +1062,8 @@
         "influence": 96,
         "ambition": 92,
         "fairness": 85,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 64
       }
     },
     {
@@ -1006,7 +1077,8 @@
         "influence": 97,
         "ambition": 93,
         "fairness": 58,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 18
       }
     },
     {
@@ -1020,7 +1092,8 @@
         "influence": 95,
         "ambition": 92,
         "fairness": 65,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 18
       }
     },
     {
@@ -1034,7 +1107,8 @@
         "influence": 86,
         "ambition": 92,
         "fairness": 54,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 12
       }
     },
     {
@@ -1048,7 +1122,8 @@
         "influence": 93,
         "ambition": 92,
         "fairness": 84,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 16
       }
     },
     {
@@ -1062,7 +1137,8 @@
         "influence": 94,
         "ambition": 93,
         "fairness": 84,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 62
       }
     },
     {
@@ -1073,10 +1149,11 @@
       "year": 2000,
       "medium": "film",
       "scores": {
-        "influence": 98,
-        "ambition": 91,
-        "fairness": 93,
-        "originality": 98
+        "influence": 99,
+        "ambition": 92,
+        "fairness": 94,
+        "traditionality": 57,
+        "originality": 99
       }
     },
     {
@@ -1090,7 +1167,8 @@
         "influence": 95,
         "ambition": 94,
         "fairness": 62,
-        "originality": 77
+        "originality": 77,
+        "traditionality": 84
       }
     },
     {
@@ -1104,7 +1182,8 @@
         "influence": 86,
         "ambition": 91,
         "fairness": 48,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 25
       }
     },
     {
@@ -1118,7 +1197,8 @@
         "influence": 87,
         "ambition": 90,
         "fairness": 57,
-        "originality": 87
+        "originality": 87,
+        "traditionality": 64
       }
     },
     {
@@ -1132,7 +1212,8 @@
         "influence": 94,
         "ambition": 91,
         "fairness": 67,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 85
       }
     },
     {
@@ -1146,7 +1227,8 @@
         "influence": 75,
         "ambition": 91,
         "fairness": 78,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 75
       }
     },
     {
@@ -1160,7 +1242,8 @@
         "influence": 96,
         "ambition": 90,
         "fairness": 20,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 10
       }
     },
     {
@@ -1174,7 +1257,8 @@
         "influence": 96,
         "ambition": 90,
         "fairness": 35,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 48
       }
     },
     {
@@ -1185,9 +1269,10 @@
       "year": 1961,
       "medium": "film",
       "scores": {
-        "influence": 95,
-        "ambition": 92,
-        "fairness": 24,
+        "influence": 96,
+        "ambition": 93,
+        "fairness": 20,
+        "traditionality": 1,
         "originality": 100
       }
     },
@@ -1202,7 +1287,8 @@
         "influence": 91,
         "ambition": 91,
         "fairness": 32,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 28
       }
     },
     {
@@ -1216,7 +1302,8 @@
         "influence": 94,
         "ambition": 90,
         "fairness": 72,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 72
       }
     },
     {
@@ -1230,7 +1317,8 @@
         "influence": 100,
         "ambition": 91,
         "fairness": 86,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 88
       }
     },
     {
@@ -1244,7 +1332,8 @@
         "influence": 100,
         "ambition": 91,
         "fairness": 74,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 56
       }
     },
     {
@@ -1256,8 +1345,9 @@
       "medium": "film",
       "scores": {
         "influence": 100,
-        "ambition": 89,
-        "fairness": 61,
+        "ambition": 90,
+        "fairness": 63,
+        "traditionality": 47,
         "originality": 100
       }
     },
@@ -1272,7 +1362,8 @@
         "influence": 97,
         "ambition": 91,
         "fairness": 91,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 87
       }
     },
     {
@@ -1286,7 +1377,8 @@
         "influence": 93,
         "ambition": 91,
         "fairness": 59,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 45
       }
     },
     {
@@ -1300,7 +1392,8 @@
         "influence": 80,
         "ambition": 93,
         "fairness": 55,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 48
       }
     },
     {
@@ -1314,7 +1407,8 @@
         "influence": 83,
         "ambition": 90,
         "fairness": 91,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 89
       }
     },
     {
@@ -1328,7 +1422,23 @@
         "influence": 87,
         "ambition": 92,
         "fairness": 76,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 35
+      }
+    },
+    {
+      "work_id": "picnic_hanging_rock",
+      "title": "Picnic at Hanging Rock",
+      "original_title": "",
+      "creator": "Joan Lindsay",
+      "year": 1967,
+      "medium": "novel",
+      "scores": {
+        "influence": 90,
+        "ambition": 91,
+        "fairness": 25,
+        "originality": 89,
+        "traditionality": 5
       }
     },
     {
@@ -1342,7 +1452,8 @@
         "influence": 78,
         "ambition": 92,
         "fairness": 71,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 80
       }
     },
     {
@@ -1356,7 +1467,8 @@
         "influence": 96,
         "ambition": 90,
         "fairness": 83,
-        "originality": 65
+        "originality": 65,
+        "traditionality": 88
       }
     },
     {
@@ -1370,7 +1482,8 @@
         "influence": 78,
         "ambition": 94,
         "fairness": 77,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 38
       }
     },
     {
@@ -1384,7 +1497,8 @@
         "influence": 83,
         "ambition": 93,
         "fairness": 91,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 28
       }
     },
     {
@@ -1398,7 +1512,8 @@
         "influence": 80,
         "ambition": 83,
         "fairness": 98,
-        "originality": 78
+        "originality": 78,
+        "traditionality": 99
       }
     },
     {
@@ -1412,7 +1527,8 @@
         "influence": 81,
         "ambition": 78,
         "fairness": 98,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 99
       }
     },
     {
@@ -1426,7 +1542,8 @@
         "influence": 57,
         "ambition": 74,
         "fairness": 98,
-        "originality": 76
+        "originality": 76,
+        "traditionality": 99
       }
     },
     {
@@ -1440,7 +1557,8 @@
         "influence": 52,
         "ambition": 78,
         "fairness": 96,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 97
       }
     },
     {
@@ -1454,7 +1572,8 @@
         "influence": 48,
         "ambition": 73,
         "fairness": 97,
-        "originality": 74
+        "originality": 74,
+        "traditionality": 96
       }
     },
     {
@@ -1468,7 +1587,8 @@
         "influence": 45,
         "ambition": 75,
         "fairness": 97,
-        "originality": 80
+        "originality": 80,
+        "traditionality": 96
       }
     },
     {
@@ -1482,7 +1602,8 @@
         "influence": 42,
         "ambition": 70,
         "fairness": 95,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 94
       }
     },
     {
@@ -1496,7 +1617,8 @@
         "influence": 64,
         "ambition": 75,
         "fairness": 96,
-        "originality": 77
+        "originality": 77,
+        "traditionality": 98
       }
     },
     {
@@ -1510,7 +1632,8 @@
         "influence": 50,
         "ambition": 79,
         "fairness": 97,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 98
       }
     },
     {
@@ -1524,7 +1647,8 @@
         "influence": 100,
         "ambition": 82,
         "fairness": 96,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 98
       }
     },
     {
@@ -1538,7 +1662,8 @@
         "influence": 96,
         "ambition": 78,
         "fairness": 96,
-        "originality": 74
+        "originality": 74,
+        "traditionality": 98
       }
     },
     {
@@ -1552,7 +1677,8 @@
         "influence": 95,
         "ambition": 80,
         "fairness": 94,
-        "originality": 80
+        "originality": 80,
+        "traditionality": 97
       }
     },
     {
@@ -1566,7 +1692,8 @@
         "influence": 88,
         "ambition": 80,
         "fairness": 98,
-        "originality": 77
+        "originality": 77,
+        "traditionality": 98
       }
     },
     {
@@ -1580,7 +1707,8 @@
         "influence": 85,
         "ambition": 76,
         "fairness": 96,
-        "originality": 76
+        "originality": 76,
+        "traditionality": 97
       }
     },
     {
@@ -1594,7 +1722,8 @@
         "influence": 81,
         "ambition": 72,
         "fairness": 95,
-        "originality": 68
+        "originality": 68,
+        "traditionality": 97
       }
     },
     {
@@ -1608,7 +1737,8 @@
         "influence": 84,
         "ambition": 76,
         "fairness": 96,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 98
       }
     },
     {
@@ -1622,7 +1752,8 @@
         "influence": 68,
         "ambition": 70,
         "fairness": 95,
-        "originality": 65
+        "originality": 65,
+        "traditionality": 96
       }
     },
     {
@@ -1636,7 +1767,8 @@
         "influence": 88,
         "ambition": 80,
         "fairness": 94,
-        "originality": 78
+        "originality": 78,
+        "traditionality": 96
       }
     },
     {
@@ -1650,7 +1782,8 @@
         "influence": 84,
         "ambition": 84,
         "fairness": 96,
-        "originality": 77
+        "originality": 77,
+        "traditionality": 98
       }
     },
     {
@@ -1664,7 +1797,8 @@
         "influence": 88,
         "ambition": 82,
         "fairness": 94,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 96
       }
     },
     {
@@ -1678,7 +1812,8 @@
         "influence": 80,
         "ambition": 72,
         "fairness": 93,
-        "originality": 70
+        "originality": 70,
+        "traditionality": 95
       }
     },
     {
@@ -1692,7 +1827,8 @@
         "influence": 82,
         "ambition": 80,
         "fairness": 97,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 98
       }
     },
     {
@@ -1706,7 +1842,8 @@
         "influence": 83,
         "ambition": 83,
         "fairness": 94,
-        "originality": 78
+        "originality": 78,
+        "traditionality": 96
       }
     },
     {
@@ -1720,7 +1857,8 @@
         "influence": 38,
         "ambition": 78,
         "fairness": 95,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 96
       }
     },
     {
@@ -1734,7 +1872,8 @@
         "influence": 56,
         "ambition": 85,
         "fairness": 97,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 98
       }
     },
     {
@@ -1748,7 +1887,23 @@
         "influence": 87,
         "ambition": 82,
         "fairness": 98,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 94
+      }
+    },
+    {
+      "work_id": "malice",
+      "title": "Malice",
+      "original_title": "Akui",
+      "creator": "Keigo Higashino",
+      "year": 1996,
+      "medium": "novel",
+      "scores": {
+        "influence": 71,
+        "ambition": 80,
+        "fairness": 97,
+        "originality": 81,
+        "traditionality": 94
       }
     },
     {
@@ -1762,7 +1917,8 @@
         "influence": 42,
         "ambition": 72,
         "fairness": 95,
-        "originality": 68
+        "originality": 68,
+        "traditionality": 93
       }
     },
     {
@@ -1776,7 +1932,8 @@
         "influence": 40,
         "ambition": 80,
         "fairness": 95,
-        "originality": 70
+        "originality": 70,
+        "traditionality": 94
       }
     },
     {
@@ -1790,7 +1947,8 @@
         "influence": 42,
         "ambition": 78,
         "fairness": 96,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 95
       }
     },
     {
@@ -1804,7 +1962,8 @@
         "influence": 32,
         "ambition": 74,
         "fairness": 94,
-        "originality": 79
+        "originality": 79,
+        "traditionality": 93
       }
     },
     {
@@ -1818,7 +1977,8 @@
         "influence": 35,
         "ambition": 79,
         "fairness": 94,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 90
       }
     },
     {
@@ -1832,7 +1992,8 @@
         "influence": 94,
         "ambition": 78,
         "fairness": 96,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 96
       }
     },
     {
@@ -1846,7 +2007,8 @@
         "influence": 76,
         "ambition": 76,
         "fairness": 92,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 94
       }
     },
     {
@@ -1860,7 +2022,23 @@
         "influence": 82,
         "ambition": 80,
         "fairness": 97,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 97
+      }
+    },
+    {
+      "work_id": "clue_film",
+      "title": "Clue",
+      "original_title": "",
+      "creator": "Jonathan Lynn",
+      "year": 1985,
+      "medium": "film",
+      "scores": {
+        "influence": 91,
+        "ambition": 70,
+        "fairness": 91,
+        "originality": 85,
+        "traditionality": 94
       }
     },
     {
@@ -1874,7 +2052,8 @@
         "influence": 86,
         "ambition": 84,
         "fairness": 93,
-        "originality": 78
+        "originality": 78,
+        "traditionality": 95
       }
     },
     {
@@ -1888,7 +2067,8 @@
         "influence": 91,
         "ambition": 76,
         "fairness": 96,
-        "originality": 87
+        "originality": 87,
+        "traditionality": 97
       }
     },
     {
@@ -1902,7 +2082,8 @@
         "influence": 96,
         "ambition": 74,
         "fairness": 97,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 98
       }
     },
     {
@@ -1916,7 +2097,8 @@
         "influence": 92,
         "ambition": 76,
         "fairness": 95,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 92
       }
     },
     {
@@ -1930,7 +2112,8 @@
         "influence": 55,
         "ambition": 74,
         "fairness": 93,
-        "originality": 74
+        "originality": 74,
+        "traditionality": 91
       }
     },
     {
@@ -1944,7 +2127,8 @@
         "influence": 55,
         "ambition": 70,
         "fairness": 92,
-        "originality": 67
+        "originality": 67,
+        "traditionality": 88
       }
     },
     {
@@ -1958,7 +2142,8 @@
         "influence": 78,
         "ambition": 72,
         "fairness": 95,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 86
       }
     },
     {
@@ -1972,7 +2157,8 @@
         "influence": 81,
         "ambition": 76,
         "fairness": 94,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 89
       }
     },
     {
@@ -1986,7 +2172,8 @@
         "influence": 46,
         "ambition": 72,
         "fairness": 92,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 88
       }
     },
     {
@@ -2000,7 +2187,8 @@
         "influence": 88,
         "ambition": 80,
         "fairness": 97,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 89
       }
     },
     {
@@ -2014,7 +2202,8 @@
         "influence": 82,
         "ambition": 78,
         "fairness": 94,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 86
       }
     },
     {
@@ -2028,7 +2217,8 @@
         "influence": 30,
         "ambition": 82,
         "fairness": 98,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 96
       }
     },
     {
@@ -2042,7 +2232,8 @@
         "influence": 95,
         "ambition": 78,
         "fairness": 95,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 98
       }
     },
     {
@@ -2056,7 +2247,8 @@
         "influence": 81,
         "ambition": 84,
         "fairness": 97,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 88
       }
     },
     {
@@ -2070,7 +2262,8 @@
         "influence": 90,
         "ambition": 82,
         "fairness": 92,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 94
       }
     },
     {
@@ -2084,7 +2277,8 @@
         "influence": 12,
         "ambition": 90,
         "fairness": 99,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 92
       }
     },
     {
@@ -2098,7 +2292,8 @@
         "influence": 22,
         "ambition": 84,
         "fairness": 98,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 96
       }
     },
     {
@@ -2112,7 +2307,8 @@
         "influence": 25,
         "ambition": 88,
         "fairness": 95,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 68
       }
     },
     {
@@ -2126,7 +2322,8 @@
         "influence": 78,
         "ambition": 90,
         "fairness": 95,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 25
       }
     },
     {
@@ -2140,7 +2337,8 @@
         "influence": 46,
         "ambition": 87,
         "fairness": 97,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 30
       }
     },
     {
@@ -2154,7 +2352,8 @@
         "influence": 25,
         "ambition": 72,
         "fairness": 96,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 91
       }
     },
     {
@@ -2168,7 +2367,8 @@
         "influence": 18,
         "ambition": 72,
         "fairness": 96,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 93
       }
     },
     {
@@ -2182,7 +2382,8 @@
         "influence": 15,
         "ambition": 65,
         "fairness": 97,
-        "originality": 70
+        "originality": 70,
+        "traditionality": 94
       }
     },
     {
@@ -2196,7 +2397,8 @@
         "influence": 82,
         "ambition": 78,
         "fairness": 96,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 95
       }
     },
     {
@@ -2210,7 +2412,8 @@
         "influence": 100,
         "ambition": 72,
         "fairness": 95,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 98
       }
     },
     {
@@ -2224,7 +2427,8 @@
         "influence": 80,
         "ambition": 72,
         "fairness": 93,
-        "originality": 76
+        "originality": 76,
+        "traditionality": 94
       }
     },
     {
@@ -2238,7 +2442,8 @@
         "influence": 80,
         "ambition": 78,
         "fairness": 93,
-        "originality": 74
+        "originality": 74,
+        "traditionality": 84
       }
     },
     {
@@ -2252,7 +2457,8 @@
         "influence": 84,
         "ambition": 88,
         "fairness": 94,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 66
       }
     },
     {
@@ -2266,7 +2472,8 @@
         "influence": 90,
         "ambition": 68,
         "fairness": 96,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 96
       }
     },
     {
@@ -2277,9 +2484,10 @@
       "year": 1941,
       "medium": "short_story",
       "scores": {
-        "influence": 98,
-        "ambition": 90,
-        "fairness": 91,
+        "influence": 99,
+        "ambition": 91,
+        "fairness": 90,
+        "traditionality": 50,
         "originality": 100
       }
     },
@@ -2294,7 +2502,8 @@
         "influence": 100,
         "ambition": 65,
         "fairness": 85,
-        "originality": 100
+        "originality": 100,
+        "traditionality": 99
       }
     },
     {
@@ -2308,7 +2517,8 @@
         "influence": 100,
         "ambition": 58,
         "fairness": 94,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 98
       }
     },
     {
@@ -2322,7 +2532,8 @@
         "influence": 97,
         "ambition": 60,
         "fairness": 95,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 99
       }
     },
     {
@@ -2336,7 +2547,8 @@
         "influence": 70,
         "ambition": 62,
         "fairness": 96,
-        "originality": 76
+        "originality": 76,
+        "traditionality": 98
       }
     },
     {
@@ -2350,7 +2562,8 @@
         "influence": 87,
         "ambition": 74,
         "fairness": 97,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 97
       }
     },
     {
@@ -2364,7 +2577,8 @@
         "influence": 81,
         "ambition": 70,
         "fairness": 93,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 88
       }
     },
     {
@@ -2378,7 +2592,8 @@
         "influence": 68,
         "ambition": 76,
         "fairness": 94,
-        "originality": 81
+        "originality": 81,
+        "traditionality": 80
       }
     },
     {
@@ -2392,7 +2607,8 @@
         "influence": 88,
         "ambition": 78,
         "fairness": 72,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 40
       }
     },
     {
@@ -2406,7 +2622,8 @@
         "influence": 91,
         "ambition": 75,
         "fairness": 83,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 34
       }
     },
     {
@@ -2420,7 +2637,8 @@
         "influence": 90,
         "ambition": 88,
         "fairness": 52,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 42
       }
     },
     {
@@ -2431,10 +2649,11 @@
       "year": 1978,
       "medium": "novel",
       "scores": {
-        "influence": 88,
-        "ambition": 96,
-        "fairness": 66,
-        "originality": 99
+        "influence": 90,
+        "ambition": 97,
+        "fairness": 64,
+        "traditionality": 16,
+        "originality": 100
       }
     },
     {
@@ -2448,7 +2667,8 @@
         "influence": 100,
         "ambition": 70,
         "fairness": 66,
-        "originality": 100
+        "originality": 100,
+        "traditionality": 40
       }
     },
     {
@@ -2462,7 +2682,8 @@
         "influence": 100,
         "ambition": 75,
         "fairness": 77,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 78
       }
     },
     {
@@ -2476,7 +2697,8 @@
         "influence": 100,
         "ambition": 82,
         "fairness": 72,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 52
       }
     },
     {
@@ -2490,7 +2712,8 @@
         "influence": 90,
         "ambition": 75,
         "fairness": 47,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 32
       }
     },
     {
@@ -2504,7 +2727,8 @@
         "influence": 85,
         "ambition": 70,
         "fairness": 40,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 25
       }
     },
     {
@@ -2518,7 +2742,8 @@
         "influence": 86,
         "ambition": 72,
         "fairness": 35,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 10
       }
     },
     {
@@ -2532,7 +2757,8 @@
         "influence": 99,
         "ambition": 87,
         "fairness": 43,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 12
       }
     },
     {
@@ -2546,7 +2772,8 @@
         "influence": 97,
         "ambition": 75,
         "fairness": 55,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 18
       }
     },
     {
@@ -2560,7 +2787,8 @@
         "influence": 99,
         "ambition": 77,
         "fairness": 62,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 38
       }
     },
     {
@@ -2574,7 +2802,8 @@
         "influence": 92,
         "ambition": 70,
         "fairness": 65,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 28
       }
     },
     {
@@ -2588,7 +2817,8 @@
         "influence": 91,
         "ambition": 80,
         "fairness": 38,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 12
       }
     },
     {
@@ -2602,7 +2832,8 @@
         "influence": 92,
         "ambition": 86,
         "fairness": 79,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 34
       }
     },
     {
@@ -2616,7 +2847,8 @@
         "influence": 97,
         "ambition": 77,
         "fairness": 81,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 20
       }
     },
     {
@@ -2630,7 +2862,8 @@
         "influence": 79,
         "ambition": 82,
         "fairness": 35,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 8
       }
     },
     {
@@ -2644,7 +2877,8 @@
         "influence": 91,
         "ambition": 75,
         "fairness": 41,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 10
       }
     },
     {
@@ -2658,7 +2892,8 @@
         "influence": 83,
         "ambition": 78,
         "fairness": 82,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 24
       }
     },
     {
@@ -2672,7 +2907,8 @@
         "influence": 68,
         "ambition": 72,
         "fairness": 39,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 18
       }
     },
     {
@@ -2686,7 +2922,8 @@
         "influence": 98,
         "ambition": 78,
         "fairness": 85,
-        "originality": 95
+        "originality": 95,
+        "traditionality": 55
       }
     },
     {
@@ -2700,7 +2937,8 @@
         "influence": 76,
         "ambition": 84,
         "fairness": 42,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 10
       }
     },
     {
@@ -2714,7 +2952,8 @@
         "influence": 91,
         "ambition": 89,
         "fairness": 72,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 36
       }
     },
     {
@@ -2728,7 +2967,8 @@
         "influence": 93,
         "ambition": 72,
         "fairness": 63,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 10
       }
     },
     {
@@ -2742,7 +2982,8 @@
         "influence": 58,
         "ambition": 68,
         "fairness": 40,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 12
       }
     },
     {
@@ -2756,7 +2997,8 @@
         "influence": 85,
         "ambition": 85,
         "fairness": 38,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 8
       }
     },
     {
@@ -2770,7 +3012,8 @@
         "influence": 83,
         "ambition": 78,
         "fairness": 85,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 28
       }
     },
     {
@@ -2784,7 +3027,8 @@
         "influence": 85,
         "ambition": 85,
         "fairness": 82,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 22
       }
     },
     {
@@ -2798,7 +3042,8 @@
         "influence": 48,
         "ambition": 82,
         "fairness": 86,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 35
       }
     },
     {
@@ -2812,7 +3057,8 @@
         "influence": 74,
         "ambition": 70,
         "fairness": 86,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 12
       }
     },
     {
@@ -2826,7 +3072,8 @@
         "influence": 58,
         "ambition": 65,
         "fairness": 84,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 58
       }
     },
     {
@@ -2840,7 +3087,8 @@
         "influence": 48,
         "ambition": 62,
         "fairness": 78,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 24
       }
     },
     {
@@ -2854,7 +3102,8 @@
         "influence": 85,
         "ambition": 78,
         "fairness": 45,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 8
       }
     },
     {
@@ -2868,7 +3117,8 @@
         "influence": 97,
         "ambition": 88,
         "fairness": 71,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 18
       }
     },
     {
@@ -2882,7 +3132,8 @@
         "influence": 90,
         "ambition": 85,
         "fairness": 28,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 5
       }
     },
     {
@@ -2896,7 +3147,8 @@
         "influence": 52,
         "ambition": 80,
         "fairness": 82,
-        "originality": 94
+        "originality": 94,
+        "traditionality": 75
       }
     },
     {
@@ -2910,7 +3162,8 @@
         "influence": 60,
         "ambition": 82,
         "fairness": 47,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 38
       }
     },
     {
@@ -2924,7 +3177,8 @@
         "influence": 28,
         "ambition": 75,
         "fairness": 91,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 70
       }
     },
     {
@@ -2938,7 +3192,8 @@
         "influence": 66,
         "ambition": 76,
         "fairness": 70,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 35
       }
     },
     {
@@ -2952,7 +3207,8 @@
         "influence": 91,
         "ambition": 80,
         "fairness": 52,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 12
       }
     }
   ],
@@ -2960,165 +3216,166 @@
     "ambition": [
       "umineko",
       "twin_peaks",
+      "name_of_rose",
       "house_of_leaves",
       "foucaults_pendulum",
       "dark_tv",
       "book_new_sun",
-      "name_of_rose",
-      "outer_wilds",
-      "2666",
       "gravitys_rainbow",
+      "2666",
       "watchmen",
+      "outer_wilds",
+      "pale_fire",
       "disco_elysium",
+      "mulholland_drive",
       "20th_century_boys",
       "attack_on_titan",
       "from_hell",
-      "pale_fire",
-      "mulholland_drive",
       "lost_tv",
-      "13_sentinels",
       "leftovers_tv",
+      "monster",
+      "mr_robot",
       "westworld_tv",
+      "s_ship_of_theseus",
       "three_body_series",
       "life_users_manual",
       "city_and_city",
-      "monster",
-      "mr_robot",
-      "prisoner_tv",
-      "s_ship_of_theseus",
-      "dictionary_khazars",
       "crying_lot_49",
-      "sacred_games",
-      "luminaries",
+      "prisoner_tv",
+      "dictionary_khazars",
       "brothers_karamazov",
       "hamlet",
-      "death_notice",
-      "from_new_world",
-      "magnus_archives",
-      "true_detective",
-      "my_name_is_red",
+      "13_sentinels",
       "obra_dinn",
       "zero_escape",
-      "lorelei_laser",
-      "great_ace_attorney",
-      "hollow_man",
-      "magpie_murders",
+      "true_detective",
+      "luminaries",
+      "sacred_games",
+      "my_name_is_red",
+      "third_policeman",
+      "magnus_archives",
+      "arcadia",
       "seven_deaths",
-      "pluto",
+      "magpie_murders",
+      "hollow_man",
+      "tokyo_zodiac",
+      "great_ace_attorney",
+      "golden_idol",
+      "riven",
+      "from_new_world",
+      "raw_shark",
+      "death_notice",
+      "bleak_house",
+      "lorelei_laser",
+      "serial_experiments_lain",
+      "zodiac_film",
+      "and_then_none",
+      "last_express",
+      "immortality",
+      "talos_principle",
       "paranoia_agent",
+      "pluto",
       "solaris_novel",
       "prestige_film",
       "wailing",
-      "zodiac_film",
-      "riven",
-      "myst",
-      "talos_principle",
-      "paradise_killer",
-      "immortality",
-      "last_express",
-      "golden_idol",
-      "arcadia",
-      "bleak_house",
-      "moonstone",
-      "woman_in_white",
       "shadow_wind",
       "decagon_house",
-      "tokyo_zodiac",
-      "and_then_none",
-      "roger_ackroyd",
+      "moonstone",
+      "woman_in_white",
+      "myst",
+      "paradise_killer",
+      "death_note",
       "roadside_picnic",
       "annihilation_novel",
       "arrival",
+      "last_year_marienbad",
       "incendies",
       "smillas_sense",
-      "memento",
+      "roger_ackroyd",
       "her_story",
       "pentiment",
       "forgotten_city",
       "odd_taxi",
-      "death_note",
+      "memento",
       "burning_film",
       "memories_murder",
       "decision_leave",
       "cache",
       "chinatown",
+      "vertigo",
       "high_and_low",
       "oldboy",
+      "picnic_hanging_rock",
       "perfect_blue",
       "ghost_shell_film",
       "cure_film",
+      "lavventura",
+      "blow_up",
+      "conversation_film",
       "secret_in_their_eyes",
-      "severance",
-      "primer",
-      "new_york_trilogy",
-      "sekimeiya",
-      "blue_prince",
-      "higurashi",
-      "sandman",
-      "witness_game",
-      "kentucky_route_zero",
       "girl_dragon_tattoo"
     ],
     "fairness": [
       "obra_dinn",
-      "sekimeiya",
-      "roger_ackroyd",
+      "hollow_man",
       "golden_idol",
       "poison_chocolates",
       "five_little_pigs",
-      "devotion_suspect_x",
       "greek_coffin",
+      "devotion_suspect_x",
+      "roger_ackroyd",
+      "sekimeiya",
       "judas_window",
-      "rise_golden_idol",
       "odd_taxi",
-      "hollow_man",
       "decagon_house",
-      "tragedy_y",
       "murder_crooked_house",
-      "rim_crystal",
-      "she_died_lady",
       "honjin_murders",
       "last_sheila",
-      "ghost_trick",
-      "roottrees",
+      "great_ace_attorney",
       "westing_game",
+      "malice",
+      "rise_golden_idol",
+      "tragedy_y",
+      "she_died_lady",
+      "rim_crystal",
+      "ghost_trick",
       "drishyam",
       "chants_sennaar",
-      "scene_investigators",
       "witness_prosecution",
-      "great_ace_attorney",
       "orient_express",
       "nine_tailors",
       "appeal",
       "crooked_hinge",
+      "tokyo_zodiac",
       "death_nile",
       "murder_announced",
       "jonathan_creek",
-      "tokyo_zodiac",
-      "chinese_orange",
-      "problem_cell_13",
       "knives_out",
+      "problem_cell_13",
       "painscreek",
       "death_compass",
       "sleuth",
       "crooked_house",
       "unheard",
       "outer_wilds",
-      "ace_attorney",
-      "speckled_band",
       "moonflower_murders",
       "evil_under_sun",
       "newcomer",
-      "mill_house",
       "guilty_2018",
-      "death_top_hat",
       "anatomy_murder",
+      "forgotten_city",
+      "columbo",
+      "roottrees",
+      "scene_investigators",
+      "chinese_orange",
+      "ace_attorney",
+      "speckled_band",
+      "mill_house",
+      "death_top_hat",
       "after_funeral",
       "tunic",
       "blue_prince",
-      "columbo",
       "moonstone",
-      "forgotten_city",
       "twyford_code",
       "inugami_curse",
       "purloined_letter",
@@ -3152,62 +3409,172 @@
       "paradise_killer",
       "arcadia",
       "garden_forking_paths",
+      "clue_film",
       "lorelei_laser",
+      "deca_tapes",
       "name_of_rose",
-      "last_express",
+      "city_and_city",
+      "seven_deaths",
+      "woman_in_white"
+    ],
+    "traditional_mystery": [
+      "roger_ackroyd",
+      "name_of_rose",
+      "moonstone",
+      "and_then_none",
+      "hollow_man",
+      "obra_dinn",
+      "magpie_murders",
+      "decagon_house",
+      "city_and_city",
+      "tokyo_zodiac",
+      "orient_express",
+      "murder_crooked_house",
+      "five_little_pigs",
+      "woman_in_white",
+      "great_ace_attorney",
+      "devotion_suspect_x",
+      "high_and_low",
+      "secret_in_their_eyes",
+      "honjin_murders",
+      "nine_tailors",
+      "gaudy_night",
+      "golden_idol",
+      "last_sheila",
+      "witness_prosecution",
+      "my_name_is_red",
+      "pentiment",
+      "chinatown",
+      "poison_chocolates",
+      "greek_coffin",
+      "judas_window",
+      "knives_out",
+      "gosford_park",
+      "death_nile",
+      "malice",
+      "inugami_curse",
+      "tragedy_y",
+      "crooked_hinge",
+      "appeal",
+      "jonathan_creek",
+      "odd_taxi",
+      "westing_game",
+      "forgotten_city",
+      "ghost_trick",
+      "true_detective",
+      "seven_deaths",
       "zero_escape",
       "death_note",
-      "from_new_world",
-      "coherence",
-      "arrival"
+      "monster",
+      "pluto",
+      "luminaries",
+      "death_notice",
+      "danganronpa",
+      "shadow_wind",
+      "smillas_sense",
+      "girl_dragon_tattoo",
+      "zodiac_film",
+      "memories_murder",
+      "decision_leave",
+      "searching",
+      "drishyam",
+      "kahaani",
+      "anatomy_murder",
+      "invisible_guest",
+      "tell_no_one",
+      "guilty_2018",
+      "body_2012",
+      "poker_face",
+      "ace_attorney",
+      "roottrees",
+      "rise_golden_idol",
+      "painscreek",
+      "erased",
+      "problem_cell_13",
+      "speckled_band",
+      "purloined_letter",
+      "rue_morgue",
+      "death_compass",
+      "judge_hangman",
+      "confessions_minato",
+      "newcomer",
+      "moonflower_murders",
+      "everyone_family",
+      "twyford_code",
+      "glass_onion",
+      "clue_film",
+      "sleuth",
+      "evil_under_sun",
+      "murder_announced",
+      "after_funeral",
+      "curtain",
+      "crooked_house",
+      "strong_poison",
+      "rim_crystal",
+      "she_died_lady",
+      "death_top_hat",
+      "chinese_orange",
+      "abc_murders",
+      "bleak_house",
+      "last_express",
+      "paradise_killer"
     ],
     "originality": [
-      "last_year_marienbad",
       "garden_forking_paths",
+      "last_year_marienbad",
       "rashomon",
+      "house_of_leaves",
+      "pale_fire",
+      "twin_peaks",
+      "dictionary_khazars",
+      "mulholland_drive",
       "caligari",
       "rue_morgue",
-      "house_of_leaves",
-      "twin_peaks",
-      "pale_fire",
-      "mulholland_drive",
-      "death_compass",
-      "dictionary_khazars",
       "prisoner_tv",
+      "death_compass",
       "roger_ackroyd",
       "third_policeman",
-      "erasers",
       "invention_morel",
       "life_users_manual",
       "myst",
       "serial_experiments_lain",
-      "citizen_kane",
       "vertigo",
       "lavventura",
-      "three_women",
-      "stalker",
-      "videodrome",
-      "lost_highway",
-      "primer",
-      "upstream_color",
-      "stanley_parable",
-      "kentucky_route_zero",
-      "gorogoa",
-      "device_6",
-      "welcome_night_vale",
-      "hamlet",
       "crying_lot_49",
       "new_york_trilogy",
       "umineko",
       "outer_wilds",
       "obra_dinn",
       "riven",
+      "erasers",
+      "citizen_kane",
       "m_film",
       "blow_up",
-      "dont_look_now",
-      "blue_velvet",
       "perfect_blue",
       "memento",
+      "blue_velvet",
+      "lost_highway",
+      "primer",
+      "stanley_parable",
+      "kentucky_route_zero",
+      "gorogoa",
+      "device_6",
+      "welcome_night_vale",
+      "city_and_city",
+      "foucaults_pendulum",
+      "book_new_sun",
+      "gravitys_rainbow",
+      "raw_shark",
+      "s_ship_of_theseus",
+      "disco_elysium",
+      "black_hole",
+      "roadside_picnic",
+      "three_women",
+      "stalker",
+      "videodrome",
+      "upstream_color",
+      "hamlet",
+      "dont_look_now",
       "under_skin",
       "im_thinking_ending",
       "paranoia_agent",
@@ -3220,14 +3587,8 @@
       "witness_game",
       "her_story",
       "immortality",
-      "black_hole",
       "pillowman",
-      "roadside_picnic",
       "solaris_novel",
-      "gravitys_rainbow",
-      "raw_shark",
-      "s_ship_of_theseus",
-      "disco_elysium",
       "passenger_film",
       "cache",
       "oldboy",
@@ -3238,9 +3599,6 @@
       "year_walk",
       "magnus_archives",
       "archive_81",
-      "city_and_city",
-      "foucaults_pendulum",
-      "book_new_sun",
       "conversation_film",
       "jacobs_ladder",
       "coherence",
@@ -3258,10 +3616,10 @@
       "2666",
       "get_out",
       "leftovers_tv",
+      "hollow_man",
       "golden_idol",
       "lovecraft_investigations",
-      "odd_taxi",
-      "dark_tv"
+      "odd_taxi"
     ]
   }
 }

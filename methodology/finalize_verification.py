@@ -10,8 +10,7 @@ from pathlib import Path
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR.parent / "data"
-AUDIT_DIR = DATA_DIR / "audit"
+AUDIT_DIR = BASE_DIR.parent / "data" / "audit"
 
 MANUAL_SOURCES = {
     "The Picture from the Past": "https://en.wikipedia.org/wiki/Paul_Halter",
@@ -71,6 +70,22 @@ MANUAL_SOURCES = {
 }
 
 
+def manual_sources() -> dict[str, str]:
+    sources = dict(MANUAL_SOURCES)
+    for name in ("manual_sources_a.json", "manual_sources_b.json", "manual_sources_c.json"):
+        path = BASE_DIR / name
+        if not path.exists():
+            continue
+        records = json.loads(path.read_text())
+        if not isinstance(records, dict) or not all(
+            isinstance(title, str) and isinstance(url, str) and url.startswith(("https://", "http://"))
+            for title, url in records.items()
+        ):
+            raise RuntimeError(f"Invalid targeted verification file: {path}")
+        sources.update(records)
+    return sources
+
+
 def normalized(value: str) -> str:
     value = unicodedata.normalize("NFKD", value)
     value = "".join(character for character in value if not unicodedata.combining(character))
@@ -84,9 +99,11 @@ def key(work: dict[str, object]) -> tuple[str, str, int, str]:
 def main() -> None:
     works = json.loads((AUDIT_DIR / "singletons.json").read_text())
     automatic = json.loads((AUDIT_DIR / "singleton-verification.json").read_text())
+    automatic_records_by_key = {key(record["work"]): record for record in automatic}
     automatic_by_key = {
         key(record["work"]): record for record in automatic if record.get("status") == "verified"
     }
+    targeted_sources = manual_sources()
     results = []
     automatic_count = 0
     manual_count = 0
@@ -97,7 +114,8 @@ def main() -> None:
             results.append({"work": work, "status": "verified_automatic", "evidence": record["evidence"]})
             automatic_count += 1
             continue
-        source = MANUAL_SOURCES.get(work["title"])
+        composite_key = f'{work["title"]} — {work["creator"]} — {work["year"]} — {work["medium"]}'
+        source = targeted_sources.get(composite_key) or targeted_sources.get(work["title"])
         if not source:
             missing.append(f'{work["title"]} — {work["creator"]} ({work["year"]}, {work["medium"]})')
             continue
@@ -110,6 +128,13 @@ def main() -> None:
         manual_count += 1
     if missing:
         raise RuntimeError("Unverified retained singletons:\n" + "\n".join(missing))
+    current_automatic = [
+        automatic_records_by_key.get(key(work), {"work": work, "status": "unverified"})
+        for work in works
+    ]
+    (AUDIT_DIR / "singleton-verification.json").write_text(
+        json.dumps(current_automatic, ensure_ascii=False, indent=2) + "\n"
+    )
     (AUDIT_DIR / "singleton-verification-final.json").write_text(
         json.dumps(results, ensure_ascii=False, indent=2) + "\n"
     )

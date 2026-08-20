@@ -9,8 +9,8 @@ from pathlib import Path
 from typing import Any
 
 
-SCORE_AXES = ("influence", "ambition", "fairness", "originality")
-SELECTION_AXES = ("ambition", "fairness", "originality")
+SCORE_AXES = ("influence", "ambition", "fairness", "traditionality", "originality")
+SELECTION_AXES = ("ambition", "fairness", "traditional_mystery", "originality")
 ALLOWED_MEDIA = {
     "novel", "book_series", "novella", "short_story", "film", "tv_series",
     "anime", "cartoon", "comic", "manga", "video_game", "visual_novel",
@@ -40,10 +40,13 @@ def validate_file(path: Path) -> list[str]:
         return ["top-level keys must be exactly agent_id, works, and axes"]
     if not isinstance(payload["agent_id"], str) or not payload["agent_id"].strip():
         errors.append("agent_id is missing")
+    match = re.fullmatch(r"agent_(\d{3})", path.stem)
+    if match and payload.get("agent_id") != f"scorer-{match.group(1)}":
+        errors.append(f"agent_id must be scorer-{match.group(1)}")
 
     works = payload.get("works")
-    if not isinstance(works, list) or not 100 <= len(works) <= 300:
-        errors.append("works must contain between 100 and 300 records")
+    if not isinstance(works, list) or not 100 <= len(works) <= 400:
+        errors.append("works must contain between 100 and 400 records")
         works = works if isinstance(works, list) else []
 
     by_id: dict[str, dict[str, Any]] = {}
@@ -74,7 +77,7 @@ def validate_file(path: Path) -> list[str]:
             errors.append(f"{label}: invalid medium")
         scores = work.get("scores")
         if not isinstance(scores, dict) or set(scores) != set(SCORE_AXES):
-            errors.append(f"{label}: scores must contain exactly the four axes")
+            errors.append(f"{label}: scores must contain exactly the five axes")
         else:
             for axis in SCORE_AXES:
                 if type(scores[axis]) is not int or not 0 <= scores[axis] <= 100:
@@ -87,7 +90,7 @@ def validate_file(path: Path) -> list[str]:
 
     axes = payload.get("axes")
     if not isinstance(axes, dict) or set(axes) != set(SELECTION_AXES):
-        errors.append("axes must contain exactly ambition, fairness, and originality")
+        errors.append("axes must contain exactly ambition, fairness, traditional_mystery, and originality")
         return errors
 
     referenced: set[str] = set()

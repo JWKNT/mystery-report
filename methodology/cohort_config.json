@@ -1,8 +1,13 @@
 {
   "generalist": {
-    "agent_numbers": [1, 40],
+    "agent_numbers": [1, 35],
     "label": "Generalist",
     "lens": ""
+  },
+  "traditional_genre": {
+    "agent_numbers": [36, 40],
+    "label": "Traditional mystery traditions",
+    "lens": "Search especially carefully across traditional mystery forms, eras, schools, and international traditions while judging all four lists globally."
   },
   "early_foundational": {
     "agent_numbers": [41, 45],

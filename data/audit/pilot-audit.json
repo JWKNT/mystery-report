@@ -1,0 +1,299 @@
+{
+  "agents": [
+    {
+      "file": "agent_001.json",
+      "agent_id": "scorer-001",
+      "valid": true,
+      "work_records": 214,
+      "union_size": 214,
+      "union_matches_works": true,
+      "identical_axis_pairs": [],
+      "pairwise_overlap": {
+        "ambition__fairness": {
+          "intersection": 27,
+          "jaccard": 0.156
+        },
+        "ambition__traditional_mystery": {
+          "intersection": 37,
+          "jaccard": 0.227
+        },
+        "ambition__originality": {
+          "intersection": 54,
+          "jaccard": 0.37
+        },
+        "fairness__traditional_mystery": {
+          "intersection": 82,
+          "jaccard": 0.695
+        },
+        "fairness__originality": {
+          "intersection": 20,
+          "jaccard": 0.111
+        },
+        "traditional_mystery__originality": {
+          "intersection": 11,
+          "jaccard": 0.058
+        }
+      },
+      "unique_to_axis": {
+        "ambition": 18,
+        "fairness": 7,
+        "traditional_mystery": 0,
+        "originality": 40
+      },
+      "score_distributions": {
+        "influence": {
+          "min": 12,
+          "mean": 78.74,
+          "median": 85.0,
+          "max": 100,
+          "distinct": 57
+        },
+        "ambition": {
+          "min": 58,
+          "mean": 84.88,
+          "median": 88.0,
+          "max": 99,
+          "distinct": 33
+        },
+        "fairness": {
+          "min": 20,
+          "mean": 78.84,
+          "median": 86.0,
+          "max": 99,
+          "distinct": 63
+        },
+        "traditionality": {
+          "min": 2,
+          "mean": 61.11,
+          "median": 70.0,
+          "max": 99,
+          "distinct": 60
+        },
+        "originality": {
+          "min": 65,
+          "mean": 88.98,
+          "median": 89.5,
+          "max": 100,
+          "distinct": 30
+        }
+      },
+      "medium_counts": {
+        "anime": 6,
+        "audio_drama": 1,
+        "book_series": 4,
+        "comic": 4,
+        "film": 55,
+        "manga": 6,
+        "novel": 72,
+        "podcast": 4,
+        "short_story": 6,
+        "stage_play": 4,
+        "tv_series": 12,
+        "video_game": 33,
+        "visual_novel": 7
+      },
+      "era_counts": {
+        "1950_1979": 33,
+        "1980_2009": 69,
+        "2010_present": 75,
+        "pre_1950": 37
+      }
+    },
+    {
+      "file": "agent_036.json",
+      "agent_id": "scorer-036",
+      "valid": true,
+      "work_records": 210,
+      "union_size": 210,
+      "union_matches_works": true,
+      "identical_axis_pairs": [],
+      "pairwise_overlap": {
+        "ambition__fairness": {
+          "intersection": 29,
+          "jaccard": 0.17
+        },
+        "ambition__traditional_mystery": {
+          "intersection": 27,
+          "jaccard": 0.156
+        },
+        "ambition__originality": {
+          "intersection": 68,
+          "jaccard": 0.515
+        },
+        "fairness__traditional_mystery": {
+          "intersection": 77,
+          "jaccard": 0.626
+        },
+        "fairness__originality": {
+          "intersection": 25,
+          "jaccard": 0.143
+        },
+        "traditional_mystery__originality": {
+          "intersection": 19,
+          "jaccard": 0.105
+        }
+      },
+      "unique_to_axis": {
+        "ambition": 16,
+        "fairness": 10,
+        "traditional_mystery": 17,
+        "originality": 22
+      },
+      "score_distributions": {
+        "influence": {
+          "min": 15,
+          "mean": 79.41,
+          "median": 84.0,
+          "max": 100,
+          "distinct": 44
+        },
+        "ambition": {
+          "min": 66,
+          "mean": 81.04,
+          "median": 84.0,
+          "max": 97,
+          "distinct": 28
+        },
+        "fairness": {
+          "min": 6,
+          "mean": 71.41,
+          "median": 78.5,
+          "max": 98,
+          "distinct": 65
+        },
+        "traditionality": {
+          "min": 5,
+          "mean": 62.46,
+          "median": 72.0,
+          "max": 100,
+          "distinct": 51
+        },
+        "originality": {
+          "min": 68,
+          "mean": 85.23,
+          "median": 89.0,
+          "max": 98,
+          "distinct": 25
+        }
+      },
+      "medium_counts": {
+        "anime": 6,
+        "book_series": 19,
+        "film": 47,
+        "manga": 4,
+        "novel": 87,
+        "short_story": 3,
+        "stage_play": 1,
+        "tv_series": 14,
+        "video_game": 27,
+        "visual_novel": 2
+      },
+      "era_counts": {
+        "1950_1979": 33,
+        "1980_2009": 67,
+        "2010_present": 61,
+        "pre_1950": 49
+      }
+    },
+    {
+      "file": "agent_096.json",
+      "agent_id": "scorer-096",
+      "valid": true,
+      "work_records": 201,
+      "union_size": 201,
+      "union_matches_works": true,
+      "identical_axis_pairs": [],
+      "pairwise_overlap": {
+        "ambition__fairness": {
+          "intersection": 27,
+          "jaccard": 0.156
+        },
+        "ambition__traditional_mystery": {
+          "intersection": 26,
+          "jaccard": 0.149
+        },
+        "ambition__originality": {
+          "intersection": 81,
+          "jaccard": 0.681
+        },
+        "fairness__traditional_mystery": {
+          "intersection": 80,
+          "jaccard": 0.667
+        },
+        "fairness__originality": {
+          "intersection": 25,
+          "jaccard": 0.143
+        },
+        "traditional_mystery__originality": {
+          "intersection": 20,
+          "jaccard": 0.111
+        }
+      },
+      "unique_to_axis": {
+        "ambition": 9,
+        "fairness": 12,
+        "traditional_mystery": 14,
+        "originality": 14
+      },
+      "score_distributions": {
+        "influence": {
+          "min": 61,
+          "mean": 86.72,
+          "median": 88,
+          "max": 100,
+          "distinct": 37
+        },
+        "ambition": {
+          "min": 78,
+          "mean": 90.2,
+          "median": 90,
+          "max": 99,
+          "distinct": 19
+        },
+        "fairness": {
+          "min": 24,
+          "mean": 82.29,
+          "median": 91,
+          "max": 100,
+          "distinct": 58
+        },
+        "traditionality": {
+          "min": 4,
+          "mean": 64.57,
+          "median": 71,
+          "max": 100,
+          "distinct": 75
+        },
+        "originality": {
+          "min": 82,
+          "mean": 94.3,
+          "median": 95,
+          "max": 100,
+          "distinct": 19
+        }
+      },
+      "medium_counts": {
+        "anime": 3,
+        "audio_drama": 1,
+        "book_series": 7,
+        "comic": 6,
+        "film": 36,
+        "manga": 6,
+        "novel": 91,
+        "novella": 1,
+        "podcast": 3,
+        "stage_play": 5,
+        "tv_series": 25,
+        "video_game": 14,
+        "visual_novel": 3
+      },
+      "era_counts": {
+        "1950_1979": 31,
+        "1980_2009": 74,
+        "2010_present": 58,
+        "pre_1950": 38
+      }
+    }
+  ],
+  "pilot_passes_structural_checks": true
+}

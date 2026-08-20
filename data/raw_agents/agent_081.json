@@ -2,185 +2,48 @@
   "agent_id": "scorer-081",
   "works": [
     {
-      "work_id": "hamlet",
-      "title": "Hamlet",
-      "original_title": "",
-      "creator": "William Shakespeare",
-      "year": 1601,
-      "medium": "stage_play",
-      "scores": {
-        "influence": 96,
-        "ambition": 93,
-        "fairness": 78,
-        "originality": 94
-      }
-    },
-    {
-      "work_id": "murders_rue_morgue",
-      "title": "The Murders in the Rue Morgue",
-      "original_title": "",
-      "creator": "Edgar Allan Poe",
-      "year": 1841,
-      "medium": "short_story",
-      "scores": {
-        "influence": 99,
-        "ambition": 74,
-        "fairness": 86,
-        "originality": 97
-      }
-    },
-    {
-      "work_id": "purloined_letter",
-      "title": "The Purloined Letter",
-      "original_title": "",
-      "creator": "Edgar Allan Poe",
-      "year": 1844,
-      "medium": "short_story",
-      "scores": {
-        "influence": 94,
-        "ambition": 67,
-        "fairness": 92,
-        "originality": 94
-      }
-    },
-    {
-      "work_id": "moonstone",
-      "title": "The Moonstone",
-      "original_title": "",
-      "creator": "Wilkie Collins",
-      "year": 1868,
-      "medium": "novel",
-      "scores": {
-        "influence": 98,
-        "ambition": 93,
-        "fairness": 95,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "yellow_room",
-      "title": "The Mystery of the Yellow Room",
-      "original_title": "Le Mystère de la chambre jaune",
-      "creator": "Gaston Leroux",
-      "year": 1907,
-      "medium": "novel",
+      "work_id": "umineko",
+      "title": "Umineko When They Cry",
+      "original_title": "Umineko no Naku Koro ni",
+      "creator": "07th Expansion / Ryukishi07",
+      "year": 2007,
+      "medium": "visual_novel",
       "scores": {
         "influence": 91,
-        "ambition": 80,
-        "fairness": 96,
-        "originality": 92
-      }
-    },
-    {
-      "work_id": "trents_last_case",
-      "title": "Trent's Last Case",
-      "original_title": "",
-      "creator": "E. C. Bentley",
-      "year": 1913,
-      "medium": "novel",
-      "scores": {
-        "influence": 89,
-        "ambition": 83,
-        "fairness": 91,
-        "originality": 89
-      }
-    },
-    {
-      "work_id": "mysterious_affair_styles",
-      "title": "The Mysterious Affair at Styles",
-      "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1920,
-      "medium": "novel",
-      "scores": {
-        "influence": 93,
-        "ambition": 71,
+        "ambition": 100,
         "fairness": 92,
-        "originality": 83
+        "traditionality": 71,
+        "originality": 100
       }
     },
     {
-      "work_id": "murder_roger_ackroyd",
-      "title": "The Murder of Roger Ackroyd",
+      "work_id": "twin_peaks",
+      "title": "Twin Peaks",
       "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1926,
-      "medium": "novel",
+      "creator": "David Lynch / Mark Frost",
+      "year": 1990,
+      "medium": "tv_series",
       "scores": {
-        "influence": 98,
-        "ambition": 87,
-        "fairness": 96,
-        "originality": 98
+        "influence": 100,
+        "ambition": 99,
+        "fairness": 64,
+        "traditionality": 51,
+        "originality": 100
       }
     },
     {
-      "work_id": "murder_vicarage",
-      "title": "The Murder at the Vicarage",
+      "work_id": "house_of_leaves",
+      "title": "House of Leaves",
       "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1930,
+      "creator": "Mark Z. Danielewski",
+      "year": 2000,
       "medium": "novel",
       "scores": {
-        "influence": 89,
-        "ambition": 71,
-        "fairness": 91,
-        "originality": 80
-      }
-    },
-    {
-      "work_id": "malice_aforethought",
-      "title": "Malice Aforethought",
-      "original_title": "",
-      "creator": "Francis Iles",
-      "year": 1931,
-      "medium": "novel",
-      "scores": {
-        "influence": 91,
-        "ambition": 85,
-        "fairness": 89,
-        "originality": 95
-      }
-    },
-    {
-      "work_id": "and_then_there_were_none",
-      "title": "And Then There Were None",
-      "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1939,
-      "medium": "novel",
-      "scores": {
-        "influence": 98,
-        "ambition": 89,
-        "fairness": 93,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "poisoned_chocolates",
-      "title": "The Poisoned Chocolates Case",
-      "original_title": "",
-      "creator": "Anthony Berkeley",
-      "year": 1929,
-      "medium": "novel",
-      "scores": {
-        "influence": 87,
-        "ambition": 80,
-        "fairness": 97,
-        "originality": 89
-      }
-    },
-    {
-      "work_id": "nine_tailors",
-      "title": "The Nine Tailors",
-      "original_title": "",
-      "creator": "Dorothy L. Sayers",
-      "year": 1934,
-      "medium": "novel",
-      "scores": {
-        "influence": 86,
-        "ambition": 91,
-        "fairness": 95,
-        "originality": 86
+        "influence": 97,
+        "ambition": 99,
+        "fairness": 70,
+        "traditionality": 20,
+        "originality": 100
       }
     },
     {
@@ -191,206 +54,101 @@
       "year": 1980,
       "medium": "novel",
       "scores": {
-        "influence": 94,
-        "ambition": 97,
+        "influence": 99,
+        "ambition": 98,
         "fairness": 91,
+        "traditionality": 90,
         "originality": 96
       }
     },
     {
-      "work_id": "daughter_of_time",
-      "title": "The Daughter of Time",
-      "original_title": "",
-      "creator": "Josephine Tey",
-      "year": 1951,
+      "work_id": "foucaults_pendulum",
+      "title": "Foucault's Pendulum",
+      "original_title": "Il pendolo di Foucault",
+      "creator": "Umberto Eco",
+      "year": 1988,
       "medium": "novel",
       "scores": {
-        "influence": 91,
-        "ambition": 80,
-        "fairness": 94,
-        "originality": 94
+        "influence": 94,
+        "ambition": 98,
+        "fairness": 67,
+        "traditionality": 29,
+        "originality": 96
       }
     },
     {
-      "work_id": "devotion_suspect_x",
-      "title": "The Devotion of Suspect X",
-      "original_title": "Yōgisha X no Kenshin",
-      "creator": "Keigo Higashino",
-      "year": 2005,
+      "work_id": "dark",
+      "title": "Dark",
+      "original_title": "",
+      "creator": "Baran bo Odar / Jantje Friese",
+      "year": 2017,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 96,
+        "ambition": 98,
+        "fairness": 83,
+        "traditionality": 46,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "pale_fire",
+      "title": "Pale Fire",
+      "original_title": "",
+      "creator": "Vladimir Nabokov",
+      "year": 1962,
       "medium": "novel",
       "scores": {
-        "influence": 90,
-        "ambition": 89,
-        "fairness": 97,
+        "influence": 100,
+        "ambition": 98,
+        "fairness": 62,
+        "traditionality": 8,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "2666",
+      "title": "2666",
+      "original_title": "",
+      "creator": "Roberto Bolaño",
+      "year": 2004,
+      "medium": "novel",
+      "scores": {
+        "influence": 89,
+        "ambition": 97,
+        "fairness": 46,
+        "traditionality": 18,
         "originality": 91
       }
     },
     {
-      "work_id": "citizen_kane",
-      "title": "Citizen Kane",
+      "work_id": "outer_wilds",
+      "title": "Outer Wilds",
       "original_title": "",
-      "creator": "Orson Welles",
-      "year": 1941,
-      "medium": "film",
-      "scores": {
-        "influence": 98,
-        "ambition": 95,
-        "fairness": 79,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "rashomon",
-      "title": "Rashomon",
-      "original_title": "Rashōmon",
-      "creator": "Akira Kurosawa",
-      "year": 1950,
-      "medium": "film",
-      "scores": {
-        "influence": 99,
-        "ambition": 94,
-        "fairness": 68,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "rear_window",
-      "title": "Rear Window",
-      "original_title": "",
-      "creator": "Alfred Hitchcock",
-      "year": 1954,
-      "medium": "film",
-      "scores": {
-        "influence": 98,
-        "ambition": 82,
-        "fairness": 92,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "diabolique",
-      "title": "Diabolique",
-      "original_title": "Les Diaboliques",
-      "creator": "Henri-Georges Clouzot",
-      "year": 1955,
-      "medium": "film",
-      "scores": {
-        "influence": 95,
-        "ambition": 83,
-        "fairness": 91,
-        "originality": 93
-      }
-    },
-    {
-      "work_id": "vertigo",
-      "title": "Vertigo",
-      "original_title": "",
-      "creator": "Alfred Hitchcock",
-      "year": 1958,
-      "medium": "film",
-      "scores": {
-        "influence": 99,
-        "ambition": 95,
-        "fairness": 60,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "psycho",
-      "title": "Psycho",
-      "original_title": "",
-      "creator": "Alfred Hitchcock",
-      "year": 1960,
-      "medium": "film",
-      "scores": {
-        "influence": 99,
-        "ambition": 87,
-        "fairness": 51,
-        "originality": 97
-      }
-    },
-    {
-      "work_id": "l_avventura",
-      "title": "L'Avventura",
-      "original_title": "",
-      "creator": "Michelangelo Antonioni",
-      "year": 1960,
-      "medium": "film",
-      "scores": {
-        "influence": 95,
-        "ambition": 94,
-        "fairness": 32,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "blow_up",
-      "title": "Blow-Up",
-      "original_title": "",
-      "creator": "Michelangelo Antonioni",
-      "year": 1966,
-      "medium": "film",
-      "scores": {
-        "influence": 96,
-        "ambition": 91,
-        "fairness": 38,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "conversation",
-      "title": "The Conversation",
-      "original_title": "",
-      "creator": "Francis Ford Coppola",
-      "year": 1974,
-      "medium": "film",
-      "scores": {
-        "influence": 93,
-        "ambition": 92,
-        "fairness": 80,
-        "originality": 95
-      }
-    },
-    {
-      "work_id": "chinatown",
-      "title": "Chinatown",
-      "original_title": "",
-      "creator": "Roman Polanski",
-      "year": 1974,
-      "medium": "film",
-      "scores": {
-        "influence": 98,
-        "ambition": 93,
-        "fairness": 88,
-        "originality": 93
-      }
-    },
-    {
-      "work_id": "blue_velvet",
-      "title": "Blue Velvet",
-      "original_title": "",
-      "creator": "David Lynch",
-      "year": 1986,
-      "medium": "film",
+      "creator": "Mobius Digital / Alex Beachum",
+      "year": 2019,
+      "medium": "video_game",
       "scores": {
         "influence": 97,
-        "ambition": 93,
-        "fairness": 62,
-        "originality": 98
+        "ambition": 98,
+        "fairness": 96,
+        "traditionality": 56,
+        "originality": 99
       }
     },
     {
-      "work_id": "memento",
-      "title": "Memento",
+      "work_id": "book_new_sun",
+      "title": "The Book of the New Sun",
       "original_title": "",
-      "creator": "Christopher Nolan",
-      "year": 2000,
-      "medium": "film",
+      "creator": "Gene Wolfe",
+      "year": 1980,
+      "medium": "book_series",
       "scores": {
-        "influence": 98,
-        "ambition": 96,
-        "fairness": 94,
-        "originality": 98
+        "influence": 91,
+        "ambition": 97,
+        "fairness": 73,
+        "traditionality": 12,
+        "originality": 97
       }
     },
     {
@@ -401,359 +159,70 @@
       "year": 2001,
       "medium": "film",
       "scores": {
-        "influence": 97,
+        "influence": 100,
         "ambition": 98,
-        "fairness": 52,
+        "fairness": 55,
+        "traditionality": 9,
         "originality": 99
       }
     },
     {
-      "work_id": "oldboy",
-      "title": "Oldboy",
-      "original_title": "Oldeuboi",
-      "creator": "Park Chan-wook",
-      "year": 2003,
-      "medium": "film",
-      "scores": {
-        "influence": 95,
-        "ambition": 90,
-        "fairness": 77,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "zodiac",
-      "title": "Zodiac",
-      "original_title": "",
-      "creator": "David Fincher",
-      "year": 2007,
-      "medium": "film",
-      "scores": {
-        "influence": 96,
-        "ambition": 96,
-        "fairness": 75,
-        "originality": 90
-      }
-    },
-    {
-      "work_id": "memories_of_murder",
-      "title": "Memories of Murder",
-      "original_title": "Salinui chueok",
-      "creator": "Bong Joon Ho",
-      "year": 2003,
-      "medium": "film",
-      "scores": {
-        "influence": 95,
-        "ambition": 93,
-        "fairness": 62,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "columbo",
-      "title": "Columbo",
-      "original_title": "",
-      "creator": "Richard Levinson and William Link",
-      "year": 1968,
-      "medium": "tv_series",
-      "scores": {
-        "influence": 98,
-        "ambition": 81,
-        "fairness": 96,
-        "originality": 89
-      }
-    },
-    {
-      "work_id": "twin_peaks",
-      "title": "Twin Peaks",
-      "original_title": "",
-      "creator": "David Lynch and Mark Frost",
-      "year": 1990,
-      "medium": "tv_series",
-      "scores": {
-        "influence": 99,
-        "ambition": 99,
-        "fairness": 40,
-        "originality": 100
-      }
-    },
-    {
-      "work_id": "x_files",
-      "title": "The X-Files",
-      "original_title": "",
-      "creator": "Chris Carter",
-      "year": 1993,
-      "medium": "tv_series",
-      "scores": {
-        "influence": 98,
-        "ambition": 95,
-        "fairness": 49,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "death_note",
-      "title": "Death Note",
-      "original_title": "",
-      "creator": "Tsugumi Ohba and Takeshi Obata",
-      "year": 2003,
-      "medium": "manga",
-      "scores": {
-        "influence": 98,
-        "ambition": 92,
-        "fairness": 88,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "monster_manga",
-      "title": "Monster",
-      "original_title": "",
-      "creator": "Naoki Urasawa",
-      "year": 1994,
-      "medium": "manga",
-      "scores": {
-        "influence": 94,
-        "ambition": 96,
-        "fairness": 87,
-        "originality": 91
-      }
-    },
-    {
-      "work_id": "lost",
+      "work_id": "lost_tv",
       "title": "Lost",
       "original_title": "",
-      "creator": "Damon Lindelof and Carlton Cuse",
+      "creator": "Damon Lindelof / J. J. Abrams / Carlton Cuse",
       "year": 2004,
       "medium": "tv_series",
       "scores": {
         "influence": 99,
-        "ambition": 98,
-        "fairness": 45,
+        "ambition": 97,
+        "fairness": 55,
+        "traditionality": 34,
         "originality": 95
       }
     },
     {
-      "work_id": "true_detective",
-      "title": "True Detective",
-      "original_title": "",
-      "creator": "Nic Pizzolatto",
-      "year": 2014,
-      "medium": "tv_series",
+      "work_id": "13_sentinels",
+      "title": "13 Sentinels: Aegis Rim",
+      "original_title": "十三機兵防衛圏",
+      "creator": "Vanillaware / George Kamitani",
+      "year": 2019,
+      "medium": "video_game",
       "scores": {
-        "influence": 96,
-        "ambition": 93,
-        "fairness": 78,
-        "originality": 89
-      }
-    },
-    {
-      "work_id": "dark",
-      "title": "Dark",
-      "original_title": "",
-      "creator": "Baran bo Odar and Jantje Friese",
-      "year": 2017,
-      "medium": "tv_series",
-      "scores": {
-        "influence": 96,
-        "ambition": 99,
-        "fairness": 92,
-        "originality": 97
-      }
-    },
-    {
-      "work_id": "severance",
-      "title": "Severance",
-      "original_title": "",
-      "creator": "Dan Erickson",
-      "year": 2022,
-      "medium": "tv_series",
-      "scores": {
-        "influence": 94,
-        "ambition": 96,
-        "fairness": 89,
-        "originality": 97
-      }
-    },
-    {
-      "work_id": "serial_podcast",
-      "title": "Serial",
-      "original_title": "",
-      "creator": "Sarah Koenig",
-      "year": 2014,
-      "medium": "podcast",
-      "scores": {
-        "influence": 98,
-        "ambition": 88,
-        "fairness": 64,
+        "influence": 72,
+        "ambition": 95,
+        "fairness": 86,
+        "traditionality": 48,
         "originality": 94
       }
     },
     {
-      "work_id": "colossal_cave",
-      "title": "Colossal Cave Adventure",
-      "original_title": "Adventure",
-      "creator": "Will Crowther and Don Woods",
-      "year": 1976,
-      "medium": "video_game",
-      "scores": {
-        "influence": 100,
-        "ambition": 70,
-        "fairness": 75,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "zork",
-      "title": "Zork",
+      "work_id": "gnomon",
+      "title": "Gnomon",
       "original_title": "",
-      "creator": "Tim Anderson, Marc Blank, Bruce Daniels, and Dave Lebling",
-      "year": 1977,
-      "medium": "video_game",
+      "creator": "Nick Harkaway",
+      "year": 2017,
+      "medium": "novel",
       "scores": {
-        "influence": 98,
-        "ambition": 83,
-        "fairness": 66,
-        "originality": 97
+        "influence": 70,
+        "ambition": 96,
+        "fairness": 68,
+        "traditionality": 25,
+        "originality": 94
       }
     },
     {
-      "work_id": "myst",
-      "title": "Myst",
+      "work_id": "s_ship_theseus",
+      "title": "S.",
       "original_title": "",
-      "creator": "Rand Miller and Robyn Miller",
-      "year": 1993,
-      "medium": "video_game",
+      "creator": "J. J. Abrams / Doug Dorst",
+      "year": 2013,
+      "medium": "novel",
       "scores": {
-        "influence": 99,
-        "ambition": 89,
-        "fairness": 74,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "riven",
-      "title": "Riven",
-      "original_title": "",
-      "creator": "Rand Miller and Robyn Miller",
-      "year": 1997,
-      "medium": "video_game",
-      "scores": {
-        "influence": 95,
-        "ambition": 98,
-        "fairness": 89,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "last_express",
-      "title": "The Last Express",
-      "original_title": "",
-      "creator": "Jordan Mechner",
-      "year": 1997,
-      "medium": "video_game",
-      "scores": {
-        "influence": 92,
-        "ambition": 94,
-        "fairness": 86,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "grim_fandango",
-      "title": "Grim Fandango",
-      "original_title": "",
-      "creator": "Tim Schafer",
-      "year": 1998,
-      "medium": "video_game",
-      "scores": {
-        "influence": 95,
-        "ambition": 90,
-        "fairness": 75,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "ace_attorney",
-      "title": "Phoenix Wright: Ace Attorney",
-      "original_title": "Gyakuten Saiban",
-      "creator": "Shu Takumi",
-      "year": 2001,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 98,
-        "ambition": 86,
-        "fairness": 94,
-        "originality": 95
-      }
-    },
-    {
-      "work_id": "higurashi",
-      "title": "Higurashi When They Cry",
-      "original_title": "Higurashi no Naku Koro ni",
-      "creator": "Ryukishi07",
-      "year": 2002,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 90,
-        "ambition": 97,
-        "fairness": 86,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "umineko",
-      "title": "Umineko When They Cry",
-      "original_title": "Umineko no Naku Koro ni",
-      "creator": "Ryukishi07",
-      "year": 2007,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 94,
-        "ambition": 99,
-        "fairness": 93,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "zero_escape",
-      "title": "Zero Escape",
-      "original_title": "Kyokugen Dasshutsu",
-      "creator": "Kotaro Uchikoshi",
-      "year": 2009,
-      "medium": "video_game",
-      "scores": {
-        "influence": 94,
-        "ambition": 97,
-        "fairness": 89,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "danganronpa",
-      "title": "Danganronpa: Trigger Happy Havoc",
-      "original_title": "Danganronpa: Kibō no Gakuen to Zetsubō no Kōkōsei",
-      "creator": "Kazutaka Kodaka",
-      "year": 2010,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 95,
-        "ambition": 91,
-        "fairness": 88,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "her_story",
-      "title": "Her Story",
-      "original_title": "",
-      "creator": "Sam Barlow",
-      "year": 2015,
-      "medium": "video_game",
-      "scores": {
-        "influence": 96,
-        "ambition": 88,
-        "fairness": 91,
+        "influence": 79,
+        "ambition": 96,
+        "fairness": 72,
+        "traditionality": 24,
         "originality": 98
       }
     },
@@ -766,107 +235,55 @@
       "medium": "video_game",
       "scores": {
         "influence": 95,
-        "ambition": 96,
+        "ambition": 97,
         "fairness": 100,
+        "traditionality": 93,
         "originality": 100
-      }
-    },
-    {
-      "work_id": "disco_elysium",
-      "title": "Disco Elysium",
-      "original_title": "",
-      "creator": "Robert Kurvitz",
-      "year": 2019,
-      "medium": "video_game",
-      "scores": {
-        "influence": 97,
-        "ambition": 98,
-        "fairness": 84,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "outer_wilds",
-      "title": "Outer Wilds",
-      "original_title": "",
-      "creator": "Alex Beachum",
-      "year": 2019,
-      "medium": "video_game",
-      "scores": {
-        "influence": 96,
-        "ambition": 99,
-        "fairness": 98,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "great_ace_attorney",
-      "title": "The Great Ace Attorney Chronicles",
-      "original_title": "Dai Gyakuten Saiban",
-      "creator": "Shu Takumi",
-      "year": 2015,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 91,
-        "ambition": 98,
-        "fairness": 97,
-        "originality": 95
       }
     },
     {
       "work_id": "immortality_game",
       "title": "Immortality",
       "original_title": "",
-      "creator": "Sam Barlow",
+      "creator": "Half Mermaid / Sam Barlow",
       "year": 2022,
       "medium": "video_game",
       "scores": {
-        "influence": 90,
-        "ambition": 97,
-        "fairness": 80,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "case_golden_idol",
-      "title": "The Case of the Golden Idol",
-      "original_title": "",
-      "creator": "Color Gray Games",
-      "year": 2022,
-      "medium": "video_game",
-      "scores": {
-        "influence": 92,
-        "ambition": 92,
-        "fairness": 99,
+        "influence": 84,
+        "ambition": 96,
+        "fairness": 88,
+        "traditionality": 48,
         "originality": 98
       }
     },
     {
-      "work_id": "pentiment",
-      "title": "Pentiment",
+      "work_id": "disco_elysium",
+      "title": "Disco Elysium",
       "original_title": "",
-      "creator": "Josh Sawyer",
-      "year": 2022,
+      "creator": "ZA/UM",
+      "year": 2019,
       "medium": "video_game",
       "scores": {
-        "influence": 91,
+        "influence": 94,
         "ambition": 95,
-        "fairness": 96,
-        "originality": 97
+        "fairness": 72,
+        "traditionality": 62,
+        "originality": 96
       }
     },
     {
-      "work_id": "foucaults_pendulum",
-      "title": "Foucault's Pendulum",
-      "original_title": "Il pendolo di Foucault",
-      "creator": "Umberto Eco",
-      "year": 1988,
-      "medium": "novel",
+      "work_id": "last_year_marienbad",
+      "title": "Last Year at Marienbad",
+      "original_title": "L'Année dernière à Marienbad",
+      "creator": "Alain Resnais / Alain Robbe-Grillet",
+      "year": 1961,
+      "medium": "film",
       "scores": {
-        "influence": 91,
-        "ambition": 97,
-        "fairness": 64,
-        "originality": 96
+        "influence": 99,
+        "ambition": 96,
+        "fairness": 32,
+        "traditionality": 7,
+        "originality": 100
       }
     },
     {
@@ -877,37 +294,10 @@
       "year": 1966,
       "medium": "novel",
       "scores": {
-        "influence": 95,
-        "ambition": 93,
-        "fairness": 38,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "house_of_leaves",
-      "title": "House of Leaves",
-      "original_title": "",
-      "creator": "Mark Z. Danielewski",
-      "year": 2000,
-      "medium": "novel",
-      "scores": {
-        "influence": 95,
-        "ambition": 97,
-        "fairness": 55,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "s_novel",
-      "title": "S.",
-      "original_title": "",
-      "creator": "Doug Dorst and J. J. Abrams",
-      "year": 2013,
-      "medium": "novel",
-      "scores": {
-        "influence": 84,
-        "ambition": 96,
-        "fairness": 74,
+        "influence": 97,
+        "ambition": 95,
+        "fairness": 39,
+        "traditionality": 22,
         "originality": 97
       }
     },
@@ -919,233 +309,40 @@
       "year": 2009,
       "medium": "novel",
       "scores": {
-        "influence": 89,
-        "ambition": 92,
-        "fairness": 91,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "luminaries",
-      "title": "The Luminaries",
-      "original_title": "",
-      "creator": "Eleanor Catton",
-      "year": 2013,
-      "medium": "novel",
-      "scores": {
-        "influence": 82,
-        "ambition": 96,
-        "fairness": 90,
-        "originality": 90
-      }
-    },
-    {
-      "work_id": "seven_deaths_evelyn",
-      "title": "The Seven Deaths of Evelyn Hardcastle",
-      "original_title": "",
-      "creator": "Stuart Turton",
-      "year": 2018,
-      "medium": "novel",
-      "scores": {
-        "influence": 86,
-        "ambition": 94,
-        "fairness": 93,
-        "originality": 95
-      }
-    },
-    {
-      "work_id": "raw_shark_texts",
-      "title": "The Raw Shark Texts",
-      "original_title": "",
-      "creator": "Steven Hall",
-      "year": 2007,
-      "medium": "novel",
-      "scores": {
-        "influence": 81,
-        "ambition": 90,
-        "fairness": 61,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "piranesi",
-      "title": "Piranesi",
-      "original_title": "",
-      "creator": "Susanna Clarke",
-      "year": 2020,
-      "medium": "novel",
-      "scores": {
         "influence": 88,
-        "ambition": 92,
-        "fairness": 88,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "my_name_is_red",
-      "title": "My Name Is Red",
-      "original_title": "Benim Adım Kırmızı",
-      "creator": "Orhan Pamuk",
-      "year": 1998,
-      "medium": "novel",
-      "scores": {
-        "influence": 86,
-        "ambition": 95,
-        "fairness": 78,
-        "originality": 93
-      }
-    },
-    {
-      "work_id": "pale_fire",
-      "title": "Pale Fire",
-      "original_title": "",
-      "creator": "Vladimir Nabokov",
-      "year": 1962,
-      "medium": "novel",
-      "scores": {
-        "influence": 97,
-        "ambition": 95,
-        "fairness": 50,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "gnomon",
-      "title": "Gnomon",
-      "original_title": "",
-      "creator": "Nick Harkaway",
-      "year": 2017,
-      "medium": "novel",
-      "scores": {
-        "influence": 78,
-        "ambition": 98,
-        "fairness": 63,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "cains_jawbone",
-      "title": "Cain's Jawbone",
-      "original_title": "",
-      "creator": "Edward Powys Mathers",
-      "year": 1934,
-      "medium": "novel",
-      "scores": {
-        "influence": 85,
-        "ambition": 92,
-        "fairness": 91,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "house_fata_morgana",
-      "title": "The House in Fata Morgana",
-      "original_title": "Fata Morgana no Yakata",
-      "creator": "Novectacle",
-      "year": 2012,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 84,
-        "ambition": 96,
-        "fairness": 89,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "ever17",
-      "title": "Ever17: The Out of Infinity",
-      "original_title": "",
-      "creator": "Kotaro Uchikoshi",
-      "year": 2002,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 82,
-        "ambition": 94,
-        "fairness": 88,
-        "originality": 95
-      }
-    },
-    {
-      "work_id": "sekimeiya",
-      "title": "The Sekimeiya: Spun Glass",
-      "original_title": "",
-      "creator": "Trinitite Team",
-      "year": 2021,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 30,
-        "ambition": 98,
-        "fairness": 99,
-        "originality": 97
-      }
-    },
-    {
-      "work_id": "raging_loop",
-      "title": "Raging Loop",
-      "original_title": "Rei-Jin-G-Lu-P",
-      "creator": "amphibian",
-      "year": 2015,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 73,
         "ambition": 93,
-        "fairness": 90,
+        "fairness": 82,
+        "traditionality": 68,
         "originality": 94
       }
     },
     {
-      "work_id": "silver_case",
-      "title": "The Silver Case",
-      "original_title": "Silver Jiken",
-      "creator": "Goichi Suda",
-      "year": 1999,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 85,
-        "ambition": 93,
-        "fairness": 69,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "last_year_marienbad",
-      "title": "Last Year at Marienbad",
-      "original_title": "L'Année dernière à Marienbad",
-      "creator": "Alain Resnais",
-      "year": 1961,
+      "work_id": "zodiac_film",
+      "title": "Zodiac",
+      "original_title": "",
+      "creator": "David Fincher",
+      "year": 2007,
       "medium": "film",
       "scores": {
-        "influence": 95,
-        "ambition": 94,
-        "fairness": 20,
-        "originality": 100
-      }
-    },
-    {
-      "work_id": "solaris",
-      "title": "Solaris",
-      "original_title": "Solyaris",
-      "creator": "Andrei Tarkovsky",
-      "year": 1972,
-      "medium": "film",
-      "scores": {
-        "influence": 94,
+        "influence": 98,
         "ambition": 96,
-        "fairness": 53,
-        "originality": 97
+        "fairness": 68,
+        "traditionality": 84,
+        "originality": 92
       }
     },
     {
-      "work_id": "stalker",
-      "title": "Stalker",
-      "original_title": "Stalker",
-      "creator": "Andrei Tarkovsky",
-      "year": 1979,
+      "work_id": "memento",
+      "title": "Memento",
+      "original_title": "",
+      "creator": "Christopher Nolan",
+      "year": 2000,
       "medium": "film",
       "scores": {
-        "influence": 95,
-        "ambition": 98,
-        "fairness": 48,
+        "influence": 100,
+        "ambition": 95,
+        "fairness": 92,
+        "traditionality": 74,
         "originality": 98
       }
     },
@@ -1157,10 +354,11 @@
       "year": 2004,
       "medium": "film",
       "scores": {
-        "influence": 93,
+        "influence": 95,
         "ambition": 94,
-        "fairness": 87,
-        "originality": 97
+        "fairness": 77,
+        "traditionality": 14,
+        "originality": 96
       }
     },
     {
@@ -1171,136 +369,56 @@
       "year": 2018,
       "medium": "film",
       "scores": {
-        "influence": 90,
-        "ambition": 94,
+        "influence": 82,
+        "ambition": 92,
         "fairness": 58,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "decision_to_leave",
-      "title": "Decision to Leave",
-      "original_title": "Heeojil gyeolsim",
-      "creator": "Park Chan-wook",
-      "year": 2022,
-      "medium": "film",
-      "scores": {
-        "influence": 84,
-        "ambition": 93,
-        "fairness": 83,
-        "originality": 92
-      }
-    },
-    {
-      "work_id": "handmaiden",
-      "title": "The Handmaiden",
-      "original_title": "Agassi",
-      "creator": "Park Chan-wook",
-      "year": 2016,
-      "medium": "film",
-      "scores": {
-        "influence": 91,
-        "ambition": 96,
-        "fairness": 89,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "incendies",
-      "title": "Incendies",
-      "original_title": "",
-      "creator": "Denis Villeneuve",
-      "year": 2010,
-      "medium": "film",
-      "scores": {
-        "influence": 86,
-        "ambition": 95,
-        "fairness": 89,
+        "traditionality": 30,
         "originality": 93
       }
     },
     {
-      "work_id": "arrival",
-      "title": "Arrival",
-      "original_title": "",
-      "creator": "Denis Villeneuve",
-      "year": 2016,
+      "work_id": "cure",
+      "title": "Cure",
+      "original_title": "Kyua",
+      "creator": "Kiyoshi Kurosawa",
+      "year": 1997,
       "medium": "film",
       "scores": {
         "influence": 94,
-        "ambition": 96,
-        "fairness": 95,
+        "ambition": 92,
+        "fairness": 78,
+        "traditionality": 70,
         "originality": 95
       }
     },
     {
-      "work_id": "coherence",
-      "title": "Coherence",
-      "original_title": "",
-      "creator": "James Ward Byrkit",
-      "year": 2013,
-      "medium": "film",
-      "scores": {
-        "influence": 86,
-        "ambition": 91,
-        "fairness": 92,
-        "originality": 94
-      }
-    },
-    {
-      "work_id": "under_silver_lake",
-      "title": "Under the Silver Lake",
-      "original_title": "",
-      "creator": "David Robert Mitchell",
-      "year": 2018,
-      "medium": "film",
-      "scores": {
-        "influence": 79,
-        "ambition": 91,
-        "fairness": 41,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "prestige",
-      "title": "The Prestige",
-      "original_title": "",
-      "creator": "Christopher Nolan",
-      "year": 2006,
+      "work_id": "memories_murder",
+      "title": "Memories of Murder",
+      "original_title": "Salinui chueok",
+      "creator": "Bong Joon-ho",
+      "year": 2003,
       "medium": "film",
       "scores": {
         "influence": 96,
-        "ambition": 96,
-        "fairness": 95,
-        "originality": 94
+        "ambition": 93,
+        "fairness": 73,
+        "traditionality": 87,
+        "originality": 92
       }
     },
     {
-      "work_id": "cache",
-      "title": "Caché",
+      "work_id": "severance",
+      "title": "Severance",
       "original_title": "",
-      "creator": "Michael Haneke",
-      "year": 2005,
-      "medium": "film",
-      "scores": {
-        "influence": 89,
-        "ambition": 94,
-        "fairness": 30,
-        "originality": 97
-      }
-    },
-    {
-      "work_id": "perfect_blue",
-      "title": "Perfect Blue",
-      "original_title": "Pāfekuto Burū",
-      "creator": "Satoshi Kon",
-      "year": 1997,
-      "medium": "anime",
+      "creator": "Dan Erickson",
+      "year": 2022,
+      "medium": "tv_series",
       "scores": {
         "influence": 94,
-        "ambition": 93,
-        "fairness": 90,
-        "originality": 98
+        "ambition": 96,
+        "fairness": 80,
+        "traditionality": 35,
+        "originality": 95
       }
     },
     {
@@ -1312,219 +430,190 @@
       "medium": "tv_series",
       "scores": {
         "influence": 96,
-        "ambition": 98,
-        "fairness": 84,
-        "originality": 94
-      }
-    },
-    {
-      "work_id": "westworld",
-      "title": "Westworld",
-      "original_title": "",
-      "creator": "Jonathan Nolan and Lisa Joy",
-      "year": 2016,
-      "medium": "tv_series",
-      "scores": {
-        "influence": 98,
-        "ambition": 98,
-        "fairness": 64,
-        "originality": 94
-      }
-    },
-    {
-      "work_id": "yellowjackets",
-      "title": "Yellowjackets",
-      "original_title": "",
-      "creator": "Ashley Lyle and Bart Nickerson",
-      "year": 2021,
-      "medium": "tv_series",
-      "scores": {
-        "influence": 87,
         "ambition": 96,
-        "fairness": 61,
-        "originality": 90
-      }
-    },
-    {
-      "work_id": "the_oa",
-      "title": "The OA",
-      "original_title": "",
-      "creator": "Brit Marling and Zal Batmanglij",
-      "year": 2016,
-      "medium": "tv_series",
-      "scores": {
-        "influence": 89,
-        "ambition": 97,
-        "fairness": 28,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "utopia_tv",
-      "title": "Utopia",
-      "original_title": "",
-      "creator": "Dennis Kelly",
-      "year": 2013,
-      "medium": "tv_series",
-      "scores": {
-        "influence": 89,
-        "ambition": 95,
-        "fairness": 62,
-        "originality": 95
+        "fairness": 79,
+        "traditionality": 50,
+        "originality": 92
       }
     },
     {
       "work_id": "leftovers",
       "title": "The Leftovers",
       "original_title": "",
-      "creator": "Damon Lindelof and Tom Perrotta",
+      "creator": "Damon Lindelof / Tom Perrotta",
       "year": 2014,
       "medium": "tv_series",
       "scores": {
-        "influence": 93,
-        "ambition": 98,
-        "fairness": 57,
+        "influence": 91,
+        "ambition": 95,
+        "fairness": 47,
+        "traditionality": 10,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "westworld",
+      "title": "Westworld",
+      "original_title": "",
+      "creator": "Jonathan Nolan / Lisa Joy",
+      "year": 2016,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 98,
+        "ambition": 96,
+        "fairness": 69,
+        "traditionality": 40,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "prisoner",
+      "title": "The Prisoner",
+      "original_title": "",
+      "creator": "Patrick McGoohan",
+      "year": 1967,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 99,
+        "ambition": 95,
+        "fairness": 37,
+        "traditionality": 32,
         "originality": 97
       }
     },
     {
-      "work_id": "attack_on_titan",
+      "work_id": "monster_anime",
+      "title": "Monster",
+      "original_title": "",
+      "creator": "Madhouse / Masayuki Kojima",
+      "year": 2004,
+      "medium": "anime",
+      "scores": {
+        "influence": 94,
+        "ambition": 94,
+        "fairness": 82,
+        "traditionality": 86,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "attack_titan",
       "title": "Attack on Titan",
       "original_title": "Shingeki no Kyojin",
       "creator": "Hajime Isayama",
       "year": 2009,
       "medium": "manga",
       "scores": {
-        "influence": 98,
-        "ambition": 99,
-        "fairness": 87,
-        "originality": 96
+        "influence": 94,
+        "ambition": 94,
+        "fairness": 77,
+        "traditionality": 44,
+        "originality": 89
       }
     },
     {
       "work_id": "steins_gate",
       "title": "Steins;Gate",
       "original_title": "",
-      "creator": "Chiyomaru Shikura",
+      "creator": "5pb. / Chiyomaru Shikura",
       "year": 2009,
       "medium": "visual_novel",
       "scores": {
         "influence": 95,
-        "ambition": 98,
-        "fairness": 90,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "odd_taxi",
-      "title": "Odd Taxi",
-      "original_title": "",
-      "creator": "Kazuya Konomoto",
-      "year": 2021,
-      "medium": "anime",
-      "scores": {
-        "influence": 91,
-        "ambition": 94,
-        "fairness": 98,
+        "ambition": 93,
+        "fairness": 86,
+        "traditionality": 43,
         "originality": 95
       }
     },
     {
-      "work_id": "heavenly_delusion",
-      "title": "Heavenly Delusion",
-      "original_title": "Tengoku Daimakyō",
-      "creator": "Masakazu Ishiguro",
-      "year": 2018,
-      "medium": "manga",
+      "work_id": "zero_escape",
+      "title": "Zero Escape series",
+      "original_title": "Kyokugen Dasshutsu",
+      "creator": "Spike Chunsoft / Kotaro Uchikoshi",
+      "year": 2009,
+      "medium": "visual_novel",
       "scores": {
-        "influence": 84,
-        "ambition": 96,
-        "fairness": 79,
+        "influence": 92,
+        "ambition": 95,
+        "fairness": 90,
+        "traditionality": 79,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "higurashi",
+      "title": "Higurashi When They Cry",
+      "original_title": "Higurashi no Naku Koro ni",
+      "creator": "07th Expansion / Ryukishi07",
+      "year": 2002,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 91,
+        "ambition": 94,
+        "fairness": 88,
+        "traditionality": 75,
         "originality": 94
       }
     },
     {
-      "work_id": "pluto",
-      "title": "Pluto",
-      "original_title": "",
-      "creator": "Naoki Urasawa",
-      "year": 2003,
-      "medium": "manga",
-      "scores": {
-        "influence": 90,
-        "ambition": 95,
-        "fairness": 90,
-        "originality": 92
-      }
-    },
-    {
-      "work_id": "danganronpa_2",
-      "title": "Danganronpa 2: Goodbye Despair",
-      "original_title": "Super Danganronpa 2: Sayonara Zetsubō Gakuen",
-      "creator": "Kazutaka Kodaka",
+      "work_id": "house_fata_morgana",
+      "title": "The House in Fata Morgana",
+      "original_title": "Fata Morgana no Yakata",
+      "creator": "NOVECT / Keika Hanada",
       "year": 2012,
       "medium": "visual_novel",
       "scores": {
-        "influence": 90,
+        "influence": 80,
         "ambition": 94,
-        "fairness": 92,
+        "fairness": 88,
+        "traditionality": 57,
         "originality": 95
       }
     },
     {
-      "work_id": "danganronpa_v3",
-      "title": "Danganronpa V3: Killing Harmony",
-      "original_title": "New Danganronpa V3: Minna no Koroshiai Shingakki",
-      "creator": "Kazutaka Kodaka",
-      "year": 2017,
+      "work_id": "428_shibuya",
+      "title": "428: Shibuya Scramble",
+      "original_title": "428: Fūsa Sareta Shibuya de",
+      "creator": "Chunsoft / Jiro Ishii",
+      "year": 2008,
       "medium": "visual_novel",
       "scores": {
-        "influence": 88,
-        "ambition": 97,
-        "fairness": 91,
-        "originality": 98
+        "influence": 67,
+        "ambition": 90,
+        "fairness": 81,
+        "traditionality": 62,
+        "originality": 90
       }
     },
     {
-      "work_id": "ai_somnium",
-      "title": "AI: The Somnium Files",
+      "work_id": "riven",
+      "title": "Riven",
       "original_title": "",
-      "creator": "Kotaro Uchikoshi",
-      "year": 2019,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 87,
-        "ambition": 94,
-        "fairness": 95,
-        "originality": 95
-      }
-    },
-    {
-      "work_id": "13_sentinels",
-      "title": "13 Sentinels: Aegis Rim",
-      "original_title": "Jūsan Kihei Bōeiken",
-      "creator": "George Kamitani",
-      "year": 2019,
-      "medium": "video_game",
-      "scores": {
-        "influence": 91,
-        "ambition": 99,
-        "fairness": 96,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "ghost_trick",
-      "title": "Ghost Trick: Phantom Detective",
-      "original_title": "",
-      "creator": "Shu Takumi",
-      "year": 2010,
+      "creator": "Cyan / Rand Miller",
+      "year": 1997,
       "medium": "video_game",
       "scores": {
         "influence": 92,
-        "ambition": 94,
-        "fairness": 98,
-        "originality": 98
+        "ambition": 93,
+        "fairness": 91,
+        "traditionality": 43,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "heavens_vault",
+      "title": "Heaven's Vault",
+      "original_title": "",
+      "creator": "inkle / Jon Ingold",
+      "year": 2019,
+      "medium": "video_game",
+      "scores": {
+        "influence": 69,
+        "ambition": 92,
+        "fairness": 87,
+        "traditionality": 41,
+        "originality": 94
       }
     },
     {
@@ -1535,24 +624,11 @@
       "year": 2024,
       "medium": "video_game",
       "scores": {
-        "influence": 81,
-        "ambition": 96,
-        "fairness": 97,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "witness_game",
-      "title": "The Witness",
-      "original_title": "",
-      "creator": "Jonathan Blow",
-      "year": 2016,
-      "medium": "video_game",
-      "scores": {
-        "influence": 95,
-        "ambition": 95,
-        "fairness": 94,
-        "originality": 100
+        "influence": 62,
+        "ambition": 93,
+        "fairness": 93,
+        "traditionality": 57,
+        "originality": 98
       }
     },
     {
@@ -1563,94 +639,41 @@
       "year": 2023,
       "medium": "video_game",
       "scores": {
-        "influence": 79,
-        "ambition": 91,
-        "fairness": 96,
-        "originality": 97
+        "influence": 62,
+        "ambition": 89,
+        "fairness": 94,
+        "traditionality": 48,
+        "originality": 95
       }
     },
     {
-      "work_id": "tunic",
-      "title": "Tunic",
+      "work_id": "her_story",
+      "title": "Her Story",
       "original_title": "",
-      "creator": "Andrew Shouldice",
-      "year": 2022,
-      "medium": "video_game",
-      "scores": {
-        "influence": 90,
-        "ambition": 95,
-        "fairness": 96,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "forgotten_city",
-      "title": "The Forgotten City",
-      "original_title": "",
-      "creator": "Nick Pearce",
-      "year": 2021,
-      "medium": "video_game",
-      "scores": {
-        "influence": 80,
-        "ambition": 93,
-        "fairness": 95,
-        "originality": 92
-      }
-    },
-    {
-      "work_id": "alan_wake_2",
-      "title": "Alan Wake 2",
-      "original_title": "",
-      "creator": "Sam Lake",
-      "year": 2023,
-      "medium": "video_game",
-      "scores": {
-        "influence": 93,
-        "ambition": 98,
-        "fairness": 82,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "kentucky_route_zero",
-      "title": "Kentucky Route Zero",
-      "original_title": "",
-      "creator": "Cardboard Computer",
-      "year": 2013,
-      "medium": "video_game",
-      "scores": {
-        "influence": 91,
-        "ambition": 98,
-        "fairness": 44,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "pathologic_2",
-      "title": "Pathologic 2",
-      "original_title": "",
-      "creator": "Ice-Pick Lodge",
-      "year": 2019,
-      "medium": "video_game",
-      "scores": {
-        "influence": 86,
-        "ambition": 98,
-        "fairness": 50,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "soma",
-      "title": "Soma",
-      "original_title": "SOMA",
-      "creator": "Frictional Games",
+      "creator": "Sam Barlow",
       "year": 2015,
       "medium": "video_game",
       "scores": {
-        "influence": 92,
-        "ambition": 97,
-        "fairness": 86,
-        "originality": 97
+        "influence": 94,
+        "ambition": 92,
+        "fairness": 91,
+        "traditionality": 78,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "telling_lies",
+      "title": "Telling Lies",
+      "original_title": "",
+      "creator": "Sam Barlow",
+      "year": 2019,
+      "medium": "video_game",
+      "scores": {
+        "influence": 70,
+        "ambition": 92,
+        "fairness": 82,
+        "traditionality": 42,
+        "originality": 92
       }
     },
     {
@@ -1661,262 +684,866 @@
       "year": 2020,
       "medium": "video_game",
       "scores": {
-        "influence": 77,
-        "ambition": 93,
+        "influence": 72,
+        "ambition": 91,
         "fairness": 88,
-        "originality": 97
+        "traditionality": 91,
+        "originality": 94
       }
     },
     {
-      "work_id": "crooked_house",
-      "title": "Crooked House",
+      "work_id": "forgotten_city",
+      "title": "The Forgotten City",
       "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1949,
-      "medium": "novel",
+      "creator": "Modern Storyteller / Nick Pearce",
+      "year": 2021,
+      "medium": "video_game",
       "scores": {
-        "influence": 84,
-        "ambition": 72,
-        "fairness": 96,
-        "originality": 72
+        "influence": 65,
+        "ambition": 89,
+        "fairness": 90,
+        "traditionality": 83,
+        "originality": 90
       }
     },
     {
-      "work_id": "five_little_pigs",
-      "title": "Five Little Pigs",
+      "work_id": "pentiment",
+      "title": "Pentiment",
       "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1942,
-      "medium": "novel",
-      "scores": {
-        "influence": 85,
-        "ambition": 81,
-        "fairness": 97,
-        "originality": 78
-      }
-    },
-    {
-      "work_id": "abc_murders",
-      "title": "The A.B.C. Murders",
-      "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1936,
-      "medium": "novel",
+      "creator": "Obsidian Entertainment / Josh Sawyer",
+      "year": 2022,
+      "medium": "video_game",
       "scores": {
         "influence": 87,
-        "ambition": 76,
-        "fairness": 94,
-        "originality": 70
-      }
-    },
-    {
-      "work_id": "orient_express",
-      "title": "Murder on the Orient Express",
-      "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1934,
-      "medium": "novel",
-      "scores": {
-        "influence": 95,
-        "ambition": 87,
-        "fairness": 94,
+        "ambition": 91,
+        "fairness": 90,
+        "traditionality": 87,
         "originality": 93
       }
     },
     {
-      "work_id": "death_on_nile",
-      "title": "Death on the Nile",
-      "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1937,
-      "medium": "novel",
+      "work_id": "ace_attorney",
+      "title": "Ace Attorney series",
+      "original_title": "Gyakuten Saiban",
+      "creator": "Capcom / Shu Takumi",
+      "year": 2001,
+      "medium": "video_game",
       "scores": {
-        "influence": 92,
-        "ambition": 82,
-        "fairness": 95,
-        "originality": 80
+        "influence": 93,
+        "ambition": 89,
+        "fairness": 94,
+        "traditionality": 96,
+        "originality": 92
       }
     },
     {
-      "work_id": "evil_under_sun",
-      "title": "Evil Under the Sun",
+      "work_id": "danganronpa",
+      "title": "Danganronpa series",
       "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1941,
+      "creator": "Spike Chunsoft / Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 88,
+        "ambition": 88,
+        "fairness": 87,
+        "traditionality": 94,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "ai_somnium",
+      "title": "AI: The Somnium Files series",
+      "original_title": "",
+      "creator": "Spike Chunsoft / Kotaro Uchikoshi",
+      "year": 2019,
+      "medium": "video_game",
+      "scores": {
+        "influence": 69,
+        "ambition": 87,
+        "fairness": 83,
+        "traditionality": 81,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "science_adventure",
+      "title": "Science Adventure series",
+      "original_title": "",
+      "creator": "MAGES. / Chiyomaru Shikura",
+      "year": 2008,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 91,
+        "ambition": 91,
+        "fairness": 84,
+        "traditionality": 55,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "silver_case",
+      "title": "The Silver Case",
+      "original_title": "Silver Jiken",
+      "creator": "Grasshopper Manufacture / Goichi Suda",
+      "year": 1999,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 71,
+        "ambition": 90,
+        "fairness": 84,
+        "traditionality": 73,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "root_double",
+      "title": "Root Double: Before Crime * After Days",
+      "original_title": "",
+      "creator": "Regista / Takumi Nakazawa",
+      "year": 2012,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 57,
+        "ambition": 89,
+        "fairness": 87,
+        "traditionality": 63,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "ever17",
+      "title": "Ever17: The Out of Infinity",
+      "original_title": "",
+      "creator": "KID / Kotaro Uchikoshi",
+      "year": 2002,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 75,
+        "ambition": 89,
+        "fairness": 85,
+        "traditionality": 60,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "sekimeiya",
+      "title": "The Sekimeiya: Spun Glass",
+      "original_title": "",
+      "creator": "Trinitite Team",
+      "year": 2021,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 45,
+        "ambition": 91,
+        "fairness": 91,
+        "traditionality": 62,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "raging_loop",
+      "title": "Raging Loop",
+      "original_title": "Rei-Jin-G-Lu-P",
+      "creator": "KEMCO / amphibian",
+      "year": 2015,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 61,
+        "ambition": 88,
+        "fairness": 86,
+        "traditionality": 83,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "piranesi",
+      "title": "Piranesi",
+      "original_title": "",
+      "creator": "Susanna Clarke",
+      "year": 2020,
+      "medium": "novel",
+      "scores": {
+        "influence": 84,
+        "ambition": 92,
+        "fairness": 86,
+        "traditionality": 30,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "annihilation",
+      "title": "Annihilation",
+      "original_title": "",
+      "creator": "Jeff VanderMeer",
+      "year": 2014,
+      "medium": "novel",
+      "scores": {
+        "influence": 85,
+        "ambition": 91,
+        "fairness": 57,
+        "traditionality": 18,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "new_york_trilogy",
+      "title": "The New York Trilogy",
+      "original_title": "",
+      "creator": "Paul Auster",
+      "year": 1985,
+      "medium": "book_series",
+      "scores": {
+        "influence": 97,
+        "ambition": 94,
+        "fairness": 51,
+        "traditionality": 31,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "dictionary_khazars",
+      "title": "Dictionary of the Khazars",
+      "original_title": "Hazarski rečnik",
+      "creator": "Milorad Pavić",
+      "year": 1984,
+      "medium": "novel",
+      "scores": {
+        "influence": 89,
+        "ambition": 95,
+        "fairness": 57,
+        "traditionality": 10,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "magus",
+      "title": "The Magus",
+      "original_title": "",
+      "creator": "John Fowles",
+      "year": 1965,
+      "medium": "novel",
+      "scores": {
+        "influence": 89,
+        "ambition": 93,
+        "fairness": 49,
+        "traditionality": 20,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "third_policeman",
+      "title": "The Third Policeman",
+      "original_title": "",
+      "creator": "Flann O'Brien",
+      "year": 1967,
+      "medium": "novel",
+      "scores": {
+        "influence": 94,
+        "ambition": 94,
+        "fairness": 71,
+        "traditionality": 10,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "raw_shark_texts",
+      "title": "The Raw Shark Texts",
+      "original_title": "",
+      "creator": "Steven Hall",
+      "year": 2007,
       "medium": "novel",
       "scores": {
         "influence": 76,
-        "ambition": 68,
-        "fairness": 96,
-        "originality": 62
+        "ambition": 92,
+        "fairness": 64,
+        "traditionality": 17,
+        "originality": 96
       }
     },
     {
-      "work_id": "peril_end_house",
-      "title": "Peril at End House",
+      "work_id": "seven_deaths_evelyn",
+      "title": "The Seven Deaths of Evelyn Hardcastle",
       "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1932,
+      "creator": "Stuart Turton",
+      "year": 2018,
       "medium": "novel",
       "scores": {
-        "influence": 72,
-        "ambition": 65,
-        "fairness": 95,
-        "originality": 60
+        "influence": 79,
+        "ambition": 90,
+        "fairness": 89,
+        "traditionality": 92,
+        "originality": 91
       }
     },
     {
-      "work_id": "cards_on_table",
-      "title": "Cards on the Table",
+      "work_id": "night_film",
+      "title": "Night Film",
       "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1936,
+      "creator": "Marisha Pessl",
+      "year": 2013,
       "medium": "novel",
       "scores": {
-        "influence": 78,
-        "ambition": 76,
-        "fairness": 97,
-        "originality": 68
+        "influence": 65,
+        "ambition": 88,
+        "fairness": 64,
+        "traditionality": 54,
+        "originality": 87
       }
     },
     {
-      "work_id": "after_funeral",
-      "title": "After the Funeral",
+      "work_id": "quincunx",
+      "title": "The Quincunx",
       "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1953,
+      "creator": "Charles Palliser",
+      "year": 1989,
+      "medium": "novel",
+      "scores": {
+        "influence": 73,
+        "ambition": 91,
+        "fairness": 69,
+        "traditionality": 56,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "luminaries",
+      "title": "The Luminaries",
+      "original_title": "",
+      "creator": "Eleanor Catton",
+      "year": 2013,
+      "medium": "novel",
+      "scores": {
+        "influence": 79,
+        "ambition": 91,
+        "fairness": 77,
+        "traditionality": 70,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "fingersmith",
+      "title": "Fingersmith",
+      "original_title": "",
+      "creator": "Sarah Waters",
+      "year": 2002,
+      "medium": "novel",
+      "scores": {
+        "influence": 87,
+        "ambition": 91,
+        "fairness": 83,
+        "traditionality": 51,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "little_stranger",
+      "title": "The Little Stranger",
+      "original_title": "",
+      "creator": "Sarah Waters",
+      "year": 2009,
+      "medium": "novel",
+      "scores": {
+        "influence": 66,
+        "ambition": 87,
+        "fairness": 58,
+        "traditionality": 39,
+        "originality": 85
+      }
+    },
+    {
+      "work_id": "possession",
+      "title": "Possession",
+      "original_title": "",
+      "creator": "A. S. Byatt",
+      "year": 1990,
+      "medium": "novel",
+      "scores": {
+        "influence": 90,
+        "ambition": 90,
+        "fairness": 79,
+        "traditionality": 47,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "shadow_wind",
+      "title": "The Shadow of the Wind",
+      "original_title": "La sombra del viento",
+      "creator": "Carlos Ruiz Zafón",
+      "year": 2001,
+      "medium": "novel",
+      "scores": {
+        "influence": 88,
+        "ambition": 87,
+        "fairness": 72,
+        "traditionality": 57,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "club_dumas",
+      "title": "The Club Dumas",
+      "original_title": "El club Dumas",
+      "creator": "Arturo Pérez-Reverte",
+      "year": 1993,
       "medium": "novel",
       "scores": {
         "influence": 70,
-        "ambition": 66,
+        "ambition": 85,
+        "fairness": 71,
+        "traditionality": 66,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "historian",
+      "title": "The Historian",
+      "original_title": "",
+      "creator": "Elizabeth Kostova",
+      "year": 2005,
+      "medium": "novel",
+      "scores": {
+        "influence": 73,
+        "ambition": 86,
+        "fairness": 68,
+        "traditionality": 58,
+        "originality": 84
+      }
+    },
+    {
+      "work_id": "yiddish_policemen",
+      "title": "The Yiddish Policemen's Union",
+      "original_title": "",
+      "creator": "Michael Chabon",
+      "year": 2007,
+      "medium": "novel",
+      "scores": {
+        "influence": 84,
+        "ambition": 89,
+        "fairness": 76,
+        "traditionality": 81,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "prestige_novel",
+      "title": "The Prestige",
+      "original_title": "",
+      "creator": "Christopher Priest",
+      "year": 1995,
+      "medium": "novel",
+      "scores": {
+        "influence": 87,
+        "ambition": 90,
+        "fairness": 76,
+        "traditionality": 49,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "manual_detection",
+      "title": "The Manual of Detection",
+      "original_title": "",
+      "creator": "Jedediah Berry",
+      "year": 2009,
+      "medium": "novel",
+      "scores": {
+        "influence": 61,
+        "ambition": 87,
+        "fairness": 78,
+        "traditionality": 65,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "last_house_needless",
+      "title": "The Last House on Needless Street",
+      "original_title": "",
+      "creator": "Catriona Ward",
+      "year": 2021,
+      "medium": "novel",
+      "scores": {
+        "influence": 61,
+        "ambition": 85,
+        "fairness": 74,
+        "traditionality": 47,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "devotion_suspect_x",
+      "title": "The Devotion of Suspect X",
+      "original_title": "Yōgisha X no Kenshin",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel",
+      "scores": {
+        "influence": 91,
+        "ambition": 91,
+        "fairness": 93,
+        "traditionality": 92,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "journey_midnight_sun",
+      "title": "Journey Under the Midnight Sun",
+      "original_title": "Byakuyakō",
+      "creator": "Keigo Higashino",
+      "year": 1999,
+      "medium": "novel",
+      "scores": {
+        "influence": 86,
+        "ambition": 88,
+        "fairness": 72,
+        "traditionality": 71,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "six_four",
+      "title": "Six Four",
+      "original_title": "64",
+      "creator": "Hideo Yokoyama",
+      "year": 2012,
+      "medium": "novel",
+      "scores": {
+        "influence": 80,
+        "ambition": 89,
+        "fairness": 87,
+        "traditionality": 90,
+        "originality": 82
+      }
+    },
+    {
+      "work_id": "tokyo_zodiac",
+      "title": "The Tokyo Zodiac Murders",
+      "original_title": "Senseijutsu Satsujin Jiken",
+      "creator": "Soji Shimada",
+      "year": 1981,
+      "medium": "novel",
+      "scores": {
+        "influence": 92,
+        "ambition": 89,
+        "fairness": 96,
+        "traditionality": 99,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "decagon_house",
+      "title": "The Decagon House Murders",
+      "original_title": "Jukkakukan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "novel",
+      "scores": {
+        "influence": 93,
+        "ambition": 87,
         "fairness": 95,
-        "originality": 64
+        "traditionality": 99,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "aosawa_murders",
+      "title": "The Aosawa Murders",
+      "original_title": "Eugenia",
+      "creator": "Riku Onda",
+      "year": 2005,
+      "medium": "novel",
+      "scores": {
+        "influence": 67,
+        "ambition": 85,
+        "fairness": 69,
+        "traditionality": 76,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "dublin_murder_squad",
+      "title": "Dublin Murder Squad series",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "book_series",
+      "scores": {
+        "influence": 88,
+        "ambition": 91,
+        "fairness": 73,
+        "traditionality": 91,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "three_body_trilogy",
+      "title": "Remembrance of Earth's Past trilogy",
+      "original_title": "Diqiu Wangshi",
+      "creator": "Liu Cixin",
+      "year": 2006,
+      "medium": "book_series",
+      "scores": {
+        "influence": 100,
+        "ambition": 92,
+        "fairness": 68,
+        "traditionality": 17,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "solaris",
+      "title": "Solaris",
+      "original_title": "Solyaris",
+      "creator": "Stanisław Lem",
+      "year": 1961,
+      "medium": "novel",
+      "scores": {
+        "influence": 100,
+        "ambition": 91,
+        "fairness": 49,
+        "traditionality": 13,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "picnic_hanging_rock",
+      "title": "Picnic at Hanging Rock",
+      "original_title": "",
+      "creator": "Joan Lindsay",
+      "year": 1967,
+      "medium": "novel",
+      "scores": {
+        "influence": 94,
+        "ambition": 90,
+        "fairness": 30,
+        "traditionality": 28,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "invention_morel",
+      "title": "The Invention of Morel",
+      "original_title": "La invención de Morel",
+      "creator": "Adolfo Bioy Casares",
+      "year": 1940,
+      "medium": "novel",
+      "scores": {
+        "influence": 95,
+        "ambition": 88,
+        "fairness": 82,
+        "traditionality": 15,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "ubik",
+      "title": "Ubik",
+      "original_title": "",
+      "creator": "Philip K. Dick",
+      "year": 1969,
+      "medium": "novel",
+      "scores": {
+        "influence": 100,
+        "ambition": 89,
+        "fairness": 54,
+        "traditionality": 12,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "shutter_island",
+      "title": "Shutter Island",
+      "original_title": "",
+      "creator": "Dennis Lehane",
+      "year": 2003,
+      "medium": "novel",
+      "scores": {
+        "influence": 89,
+        "ambition": 89,
+        "fairness": 83,
+        "traditionality": 82,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "wailing",
+      "title": "The Wailing",
+      "original_title": "Gokseong",
+      "creator": "Na Hong-jin",
+      "year": 2016,
+      "medium": "film",
+      "scores": {
+        "influence": 91,
+        "ambition": 91,
+        "fairness": 70,
+        "traditionality": 55,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "handmaiden",
+      "title": "The Handmaiden",
+      "original_title": "Agassi",
+      "creator": "Park Chan-wook",
+      "year": 2016,
+      "medium": "film",
+      "scores": {
+        "influence": 93,
+        "ambition": 91,
+        "fairness": 74,
+        "traditionality": 42,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "oldboy",
+      "title": "Oldboy",
+      "original_title": "Oldeuboi",
+      "creator": "Park Chan-wook",
+      "year": 2003,
+      "medium": "film",
+      "scores": {
+        "influence": 96,
+        "ambition": 90,
+        "fairness": 72,
+        "traditionality": 35,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "and_then_none",
+      "title": "And Then There Were None",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1939,
+      "medium": "novel",
+      "scores": {
+        "influence": 99,
+        "ambition": 91,
+        "fairness": 97,
+        "traditionality": 97,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "roger_ackroyd",
+      "title": "The Murder of Roger Ackroyd",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1926,
+      "medium": "novel",
+      "scores": {
+        "influence": 100,
+        "ambition": 90,
+        "fairness": 98,
+        "traditionality": 99,
+        "originality": 98
       }
     },
     {
       "work_id": "hollow_man",
       "title": "The Hollow Man",
-      "original_title": "The Three Coffins",
+      "original_title": "",
       "creator": "John Dickson Carr",
       "year": 1935,
       "medium": "novel",
       "scores": {
-        "influence": 92,
-        "ambition": 90,
+        "influence": 95,
+        "ambition": 93,
         "fairness": 99,
-        "originality": 90
+        "traditionality": 100,
+        "originality": 97
       }
     },
     {
-      "work_id": "judas_window",
-      "title": "The Judas Window",
+      "work_id": "golden_idol_series",
+      "title": "Golden Idol series",
       "original_title": "",
-      "creator": "Carter Dickson",
-      "year": 1938,
-      "medium": "novel",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game",
       "scores": {
-        "influence": 75,
-        "ambition": 76,
-        "fairness": 99,
-        "originality": 82
-      }
-    },
-    {
-      "work_id": "till_death_do_us_part",
-      "title": "Till Death Do Us Part",
-      "original_title": "",
-      "creator": "John Dickson Carr",
-      "year": 1944,
-      "medium": "novel",
-      "scores": {
-        "influence": 61,
-        "ambition": 70,
+        "influence": 72,
+        "ambition": 91,
         "fairness": 98,
-        "originality": 74
+        "traditionality": 98,
+        "originality": 97
       }
     },
     {
-      "work_id": "he_who_whispers",
-      "title": "He Who Whispers",
+      "work_id": "moonstone",
+      "title": "The Moonstone",
       "original_title": "",
-      "creator": "John Dickson Carr",
-      "year": 1946,
+      "creator": "Wilkie Collins",
+      "year": 1868,
       "medium": "novel",
       "scores": {
-        "influence": 70,
-        "ambition": 77,
-        "fairness": 98,
+        "influence": 100,
+        "ambition": 91,
+        "fairness": 87,
+        "traditionality": 96,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "sherlock_holmes",
+      "title": "Sherlock Holmes canon",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series",
+      "scores": {
+        "influence": 100,
+        "ambition": 92,
+        "fairness": 90,
+        "traditionality": 100,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "greek_coffin",
+      "title": "The Greek Coffin Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel",
+      "scores": {
+        "influence": 78,
+        "ambition": 83,
+        "fairness": 96,
+        "traditionality": 99,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "poisoned_chocolates",
+      "title": "The Poisoned Chocolates Case",
+      "original_title": "",
+      "creator": "Anthony Berkeley",
+      "year": 1929,
+      "medium": "novel",
+      "scores": {
+        "influence": 89,
+        "ambition": 83,
+        "fairness": 96,
+        "traditionality": 99,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "footsteps_lock",
+      "title": "The Footsteps at the Lock",
+      "original_title": "",
+      "creator": "Ronald Knox",
+      "year": 1928,
+      "medium": "novel",
+      "scores": {
+        "influence": 54,
+        "ambition": 73,
+        "fairness": 94,
+        "traditionality": 98,
         "originality": 80
-      }
-    },
-    {
-      "work_id": "she_died_a_lady",
-      "title": "She Died a Lady",
-      "original_title": "",
-      "creator": "Carter Dickson",
-      "year": 1943,
-      "medium": "novel",
-      "scores": {
-        "influence": 56,
-        "ambition": 71,
-        "fairness": 98,
-        "originality": 83
-      }
-    },
-    {
-      "work_id": "calamity_town",
-      "title": "Calamity Town",
-      "original_title": "",
-      "creator": "Ellery Queen",
-      "year": 1942,
-      "medium": "novel",
-      "scores": {
-        "influence": 67,
-        "ambition": 80,
-        "fairness": 97,
-        "originality": 72
-      }
-    },
-    {
-      "work_id": "cat_many_tails",
-      "title": "Cat of Many Tails",
-      "original_title": "",
-      "creator": "Ellery Queen",
-      "year": 1949,
-      "medium": "novel",
-      "scores": {
-        "influence": 70,
-        "ambition": 87,
-        "fairness": 97,
-        "originality": 77
-      }
-    },
-    {
-      "work_id": "tragedy_x",
-      "title": "The Tragedy of X",
-      "original_title": "",
-      "creator": "Barnaby Ross",
-      "year": 1932,
-      "medium": "novel",
-      "scores": {
-        "influence": 74,
-        "ambition": 75,
-        "fairness": 98,
-        "originality": 81
-      }
-    },
-    {
-      "work_id": "tragedy_y",
-      "title": "The Tragedy of Y",
-      "original_title": "",
-      "creator": "Barnaby Ross",
-      "year": 1932,
-      "medium": "novel",
-      "scores": {
-        "influence": 71,
-        "ambition": 76,
-        "fairness": 97,
-        "originality": 83
       }
     },
     {
@@ -1928,37 +1555,280 @@
       "medium": "novel",
       "scores": {
         "influence": 83,
-        "ambition": 81,
-        "fairness": 99,
-        "originality": 85
+        "ambition": 86,
+        "fairness": 95,
+        "traditionality": 98,
+        "originality": 89
       }
     },
     {
-      "work_id": "death_of_jezebel",
+      "work_id": "death_jezebel",
       "title": "Death of Jezebel",
       "original_title": "",
       "creator": "Christianna Brand",
       "year": 1948,
       "medium": "novel",
       "scores": {
-        "influence": 62,
-        "ambition": 82,
-        "fairness": 99,
-        "originality": 91
+        "influence": 64,
+        "ambition": 78,
+        "fairness": 94,
+        "traditionality": 98,
+        "originality": 89
       }
     },
     {
-      "work_id": "tour_de_force",
-      "title": "Tour de Force",
+      "work_id": "judas_window",
+      "title": "The Judas Window",
       "original_title": "",
-      "creator": "Christianna Brand",
-      "year": 1955,
+      "creator": "Carter Dickson",
+      "year": 1938,
       "medium": "novel",
       "scores": {
-        "influence": 48,
-        "ambition": 70,
-        "fairness": 97,
+        "influence": 71,
+        "ambition": 82,
+        "fairness": 94,
+        "traditionality": 99,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "crooked_hinge",
+      "title": "The Crooked Hinge",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1938,
+      "medium": "novel",
+      "scores": {
+        "influence": 68,
+        "ambition": 78,
+        "fairness": 93,
+        "traditionality": 98,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "constant_suicides",
+      "title": "The Case of the Constant Suicides",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1941,
+      "medium": "novel",
+      "scores": {
+        "influence": 65,
+        "ambition": 75,
+        "fairness": 92,
+        "traditionality": 97,
+        "originality": 85
+      }
+    },
+    {
+      "work_id": "five_little_pigs",
+      "title": "Five Little Pigs",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1942,
+      "medium": "novel",
+      "scores": {
+        "influence": 91,
+        "ambition": 86,
+        "fairness": 95,
+        "traditionality": 98,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "cards_on_table",
+      "title": "Cards on the Table",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1936,
+      "medium": "novel",
+      "scores": {
+        "influence": 77,
+        "ambition": 74,
+        "fairness": 91,
+        "traditionality": 99,
+        "originality": 76
+      }
+    },
+    {
+      "work_id": "peril_end_house",
+      "title": "Peril at End House",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1932,
+      "medium": "novel",
+      "scores": {
+        "influence": 82,
+        "ambition": 74,
+        "fairness": 90,
+        "traditionality": 98,
         "originality": 78
+      }
+    },
+    {
+      "work_id": "crooked_house",
+      "title": "Crooked House",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1949,
+      "medium": "novel",
+      "scores": {
+        "influence": 83,
+        "ambition": 78,
+        "fairness": 91,
+        "traditionality": 97,
+        "originality": 83
+      }
+    },
+    {
+      "work_id": "death_on_nile",
+      "title": "Death on the Nile",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1937,
+      "medium": "novel",
+      "scores": {
+        "influence": 96,
+        "ambition": 83,
+        "fairness": 94,
+        "traditionality": 98,
+        "originality": 84
+      }
+    },
+    {
+      "work_id": "orient_express",
+      "title": "Murder on the Orient Express",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1934,
+      "medium": "novel",
+      "scores": {
+        "influence": 100,
+        "ambition": 85,
+        "fairness": 91,
+        "traditionality": 99,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "abc_murders",
+      "title": "The A.B.C. Murders",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1936,
+      "medium": "novel",
+      "scores": {
+        "influence": 91,
+        "ambition": 81,
+        "fairness": 90,
+        "traditionality": 97,
+        "originality": 79
+      }
+    },
+    {
+      "work_id": "evil_under_sun",
+      "title": "Evil Under the Sun",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1941,
+      "medium": "novel",
+      "scores": {
+        "influence": 76,
+        "ambition": 72,
+        "fairness": 89,
+        "traditionality": 98,
+        "originality": 75
+      }
+    },
+    {
+      "work_id": "nine_tailors",
+      "title": "The Nine Tailors",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1934,
+      "medium": "novel",
+      "scores": {
+        "influence": 93,
+        "ambition": 88,
+        "fairness": 91,
+        "traditionality": 97,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "have_his_carcass",
+      "title": "Have His Carcase",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1932,
+      "medium": "novel",
+      "scores": {
+        "influence": 80,
+        "ambition": 82,
+        "fairness": 92,
+        "traditionality": 98,
+        "originality": 83
+      }
+    },
+    {
+      "work_id": "moving_toyshop",
+      "title": "The Moving Toyshop",
+      "original_title": "",
+      "creator": "Edmund Crispin",
+      "year": 1946,
+      "medium": "novel",
+      "scores": {
+        "influence": 80,
+        "ambition": 79,
+        "fairness": 89,
+        "traditionality": 94,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "beast_must_die",
+      "title": "The Beast Must Die",
+      "original_title": "",
+      "creator": "Nicholas Blake",
+      "year": 1938,
+      "medium": "novel",
+      "scores": {
+        "influence": 75,
+        "ambition": 79,
+        "fairness": 88,
+        "traditionality": 95,
+        "originality": 78
+      }
+    },
+    {
+      "work_id": "daughter_time",
+      "title": "The Daughter of Time",
+      "original_title": "",
+      "creator": "Josephine Tey",
+      "year": 1951,
+      "medium": "novel",
+      "scores": {
+        "influence": 96,
+        "ambition": 85,
+        "fairness": 90,
+        "traditionality": 88,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "brat_farrar",
+      "title": "Brat Farrar",
+      "original_title": "",
+      "creator": "Josephine Tey",
+      "year": 1949,
+      "medium": "novel",
+      "scores": {
+        "influence": 77,
+        "ambition": 77,
+        "fairness": 89,
+        "traditionality": 91,
+        "originality": 80
       }
     },
     {
@@ -1969,80 +1839,101 @@
       "year": 1948,
       "medium": "novel",
       "scores": {
-        "influence": 74,
+        "influence": 80,
         "ambition": 78,
-        "fairness": 96,
-        "originality": 83
+        "fairness": 88,
+        "traditionality": 90,
+        "originality": 84
       }
     },
     {
-      "work_id": "magpie_murders",
-      "title": "Magpie Murders",
+      "work_id": "english_murder",
+      "title": "An English Murder",
+      "original_title": "",
+      "creator": "Cyril Hare",
+      "year": 1951,
+      "medium": "novel",
+      "scores": {
+        "influence": 58,
+        "ambition": 80,
+        "fairness": 90,
+        "traditionality": 98,
+        "originality": 81
+      }
+    },
+    {
+      "work_id": "hamlet_revenge",
+      "title": "Hamlet, Revenge!",
+      "original_title": "",
+      "creator": "Michael Innes",
+      "year": 1937,
+      "medium": "novel",
+      "scores": {
+        "influence": 63,
+        "ambition": 84,
+        "fairness": 90,
+        "traditionality": 96,
+        "originality": 85
+      }
+    },
+    {
+      "work_id": "overture_death",
+      "title": "Overture to Death",
+      "original_title": "",
+      "creator": "Ngaio Marsh",
+      "year": 1939,
+      "medium": "novel",
+      "scores": {
+        "influence": 61,
+        "ambition": 77,
+        "fairness": 88,
+        "traditionality": 97,
+        "originality": 78
+      }
+    },
+    {
+      "work_id": "some_buried_caesar",
+      "title": "Some Buried Caesar",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1939,
+      "medium": "novel",
+      "scores": {
+        "influence": 77,
+        "ambition": 76,
+        "fairness": 88,
+        "traditionality": 96,
+        "originality": 79
+      }
+    },
+    {
+      "work_id": "susan_ryeland_series",
+      "title": "Susan Ryeland series",
       "original_title": "",
       "creator": "Anthony Horowitz",
       "year": 2016,
-      "medium": "novel",
+      "medium": "book_series",
       "scores": {
         "influence": 85,
-        "ambition": 95,
-        "fairness": 96,
-        "originality": 88
+        "ambition": 88,
+        "fairness": 91,
+        "traditionality": 99,
+        "originality": 89
       }
     },
     {
-      "work_id": "moonflower_murders",
-      "title": "Moonflower Murders",
+      "work_id": "hawthorne_series",
+      "title": "Hawthorne and Horowitz series",
       "original_title": "",
       "creator": "Anthony Horowitz",
-      "year": 2020,
-      "medium": "novel",
+      "year": 2017,
+      "medium": "book_series",
       "scores": {
-        "influence": 62,
-        "ambition": 84,
-        "fairness": 95,
-        "originality": 74
-      }
-    },
-    {
-      "work_id": "decagon_house",
-      "title": "The Decagon House Murders",
-      "original_title": "Jukkakukan no Satsujin",
-      "creator": "Yukito Ayatsuji",
-      "year": 1987,
-      "medium": "novel",
-      "scores": {
-        "influence": 88,
-        "ambition": 87,
-        "fairness": 98,
-        "originality": 87
-      }
-    },
-    {
-      "work_id": "tokyo_zodiac",
-      "title": "The Tokyo Zodiac Murders",
-      "original_title": "Senseijutsu Satsujin Jiken",
-      "creator": "Soji Shimada",
-      "year": 1981,
-      "medium": "novel",
-      "scores": {
-        "influence": 82,
-        "ambition": 88,
-        "fairness": 99,
-        "originality": 90
-      }
-    },
-    {
-      "work_id": "murder_crooked_house",
-      "title": "Murder in the Crooked House",
-      "original_title": "Naname Yashiki no Hanzai",
-      "creator": "Soji Shimada",
-      "year": 1982,
-      "medium": "novel",
-      "scores": {
-        "influence": 52,
-        "ambition": 83,
-        "fairness": 99,
-        "originality": 90
+        "influence": 78,
+        "ambition": 86,
+        "fairness": 89,
+        "traditionality": 98,
+        "originality": 84
       }
     },
     {
@@ -2053,10 +1944,101 @@
       "year": 1946,
       "medium": "novel",
       "scores": {
-        "influence": 82,
+        "influence": 88,
         "ambition": 84,
-        "fairness": 98,
+        "fairness": 93,
+        "traditionality": 99,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "murder_crooked_house_jp",
+      "title": "Murder in the Crooked House",
+      "original_title": "Naname Yashiki no Hanzai",
+      "creator": "Soji Shimada",
+      "year": 1982,
+      "medium": "novel",
+      "scores": {
+        "influence": 66,
+        "ambition": 84,
+        "fairness": 92,
+        "traditionality": 99,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "moai_island_puzzle",
+      "title": "The Moai Island Puzzle",
+      "original_title": "Koto Puzzle",
+      "creator": "Alice Arisugawa",
+      "year": 1989,
+      "medium": "novel",
+      "scores": {
+        "influence": 58,
+        "ambition": 79,
+        "fairness": 92,
+        "traditionality": 99,
         "originality": 86
+      }
+    },
+    {
+      "work_id": "mill_house_murders",
+      "title": "The Mill House Murders",
+      "original_title": "Suishakan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel",
+      "scores": {
+        "influence": 58,
+        "ambition": 80,
+        "fairness": 90,
+        "traditionality": 98,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "death_among_undead",
+      "title": "Death Among the Undead",
+      "original_title": "Shijinso no Satsujin",
+      "creator": "Masahiro Imamura",
+      "year": 2017,
+      "medium": "novel",
+      "scores": {
+        "influence": 54,
+        "ambition": 78,
+        "fairness": 87,
+        "traditionality": 96,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "salvation_saint",
+      "title": "Salvation of a Saint",
+      "original_title": "Seijo no Kyūsai",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel",
+      "scores": {
+        "influence": 77,
+        "ambition": 83,
+        "fairness": 90,
+        "traditionality": 93,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "malice_higashino",
+      "title": "Malice",
+      "original_title": "Akui",
+      "creator": "Keigo Higashino",
+      "year": 1996,
+      "medium": "novel",
+      "scores": {
+        "influence": 81,
+        "ambition": 82,
+        "fairness": 91,
+        "traditionality": 94,
+        "originality": 87
       }
     },
     {
@@ -2068,154 +2050,255 @@
       "medium": "novel",
       "scores": {
         "influence": 84,
-        "ambition": 92,
-        "fairness": 96,
+        "ambition": 84,
+        "fairness": 89,
+        "traditionality": 98,
         "originality": 87
       }
     },
     {
-      "work_id": "death_among_undead",
-      "title": "Death Among the Undead",
-      "original_title": "Shijin-sō no Satsujin",
-      "creator": "Masahiro Imamura",
-      "year": 2017,
+      "work_id": "village_eight_graves",
+      "title": "The Village of Eight Graves",
+      "original_title": "Yatsuhakamura",
+      "creator": "Seishi Yokomizo",
+      "year": 1949,
       "medium": "novel",
       "scores": {
-        "influence": 58,
-        "ambition": 93,
-        "fairness": 97,
-        "originality": 88
-      }
-    },
-    {
-      "work_id": "malice_higashino",
-      "title": "Malice",
-      "original_title": "Akui",
-      "creator": "Keigo Higashino",
-      "year": 1996,
-      "medium": "novel",
-      "scores": {
-        "influence": 82,
-        "ambition": 88,
-        "fairness": 98,
-        "originality": 84
-      }
-    },
-    {
-      "work_id": "newcomer",
-      "title": "Newcomer",
-      "original_title": "Shinzanmono",
-      "creator": "Keigo Higashino",
-      "year": 2009,
-      "medium": "novel",
-      "scores": {
-        "influence": 66,
-        "ambition": 78,
-        "fairness": 96,
-        "originality": 71
-      }
-    },
-    {
-      "work_id": "salvation_saint",
-      "title": "Salvation of a Saint",
-      "original_title": "Seijo no Kyūsai",
-      "creator": "Keigo Higashino",
-      "year": 2008,
-      "medium": "novel",
-      "scores": {
-        "influence": 61,
+        "influence": 75,
         "ambition": 83,
-        "fairness": 97,
-        "originality": 78
+        "fairness": 88,
+        "traditionality": 97,
+        "originality": 87
       }
     },
     {
-      "work_id": "eight_detectives",
-      "title": "Eight Detectives",
+      "work_id": "roottrees_dead",
+      "title": "The Roottrees are Dead",
       "original_title": "",
-      "creator": "Alex Pavesi",
-      "year": 2020,
-      "medium": "novel",
+      "creator": "Evil Trout / Jeremy Johnston",
+      "year": 2023,
+      "medium": "video_game",
       "scores": {
-        "influence": 68,
-        "ambition": 88,
-        "fairness": 96,
+        "influence": 51,
+        "ambition": 86,
+        "fairness": 94,
+        "traditionality": 98,
         "originality": 90
       }
     },
     {
-      "work_id": "everyone_family_killed",
-      "title": "Everyone in My Family Has Killed Someone",
+      "work_id": "unheard_game",
+      "title": "Unheard",
       "original_title": "",
-      "creator": "Benjamin Stevenson",
-      "year": 2022,
-      "medium": "novel",
+      "creator": "NEXT Studios",
+      "year": 2019,
+      "medium": "video_game",
       "scores": {
-        "influence": 61,
-        "ambition": 74,
-        "fairness": 95,
-        "originality": 77
+        "influence": 60,
+        "ambition": 82,
+        "fairness": 92,
+        "traditionality": 94,
+        "originality": 91
       }
     },
     {
-      "work_id": "appeal",
-      "title": "The Appeal",
+      "work_id": "painscreek_killings",
+      "title": "The Painscreek Killings",
       "original_title": "",
-      "creator": "Janice Hallett",
-      "year": 2021,
-      "medium": "novel",
+      "creator": "EQ Studios",
+      "year": 2017,
+      "medium": "video_game",
       "scores": {
-        "influence": 76,
-        "ambition": 84,
-        "fairness": 97,
-        "originality": 90
-      }
-    },
-    {
-      "work_id": "westing_game",
-      "title": "The Westing Game",
-      "original_title": "",
-      "creator": "Ellen Raskin",
-      "year": 1978,
-      "medium": "novel",
-      "scores": {
-        "influence": 91,
+        "influence": 54,
         "ambition": 85,
-        "fairness": 96,
-        "originality": 93
+        "fairness": 91,
+        "traditionality": 96,
+        "originality": 87
       }
     },
     {
-      "work_id": "witness_prosecution",
-      "title": "Witness for the Prosecution",
+      "work_id": "last_express",
+      "title": "The Last Express",
       "original_title": "",
-      "creator": "Agatha Christie",
-      "year": 1953,
-      "medium": "stage_play",
+      "creator": "Smoking Car Productions / Jordan Mechner",
+      "year": 1997,
+      "medium": "video_game",
       "scores": {
-        "influence": 96,
-        "ambition": 88,
-        "fairness": 96,
-        "originality": 93
-      }
-    },
-    {
-      "work_id": "sleuth",
-      "title": "Sleuth",
-      "original_title": "",
-      "creator": "Anthony Shaffer",
-      "year": 1970,
-      "medium": "stage_play",
-      "scores": {
-        "influence": 93,
-        "ambition": 93,
-        "fairness": 95,
+        "influence": 85,
+        "ambition": 90,
+        "fairness": 88,
+        "traditionality": 84,
         "originality": 95
       }
     },
     {
-      "work_id": "knives_out",
-      "title": "Knives Out",
+      "work_id": "sherlock_crimes",
+      "title": "Sherlock Holmes: Crimes & Punishments",
+      "original_title": "",
+      "creator": "Frogwares",
+      "year": 2014,
+      "medium": "video_game",
+      "scores": {
+        "influence": 68,
+        "ambition": 79,
+        "fairness": 90,
+        "traditionality": 99,
+        "originality": 85
+      }
+    },
+    {
+      "work_id": "professor_layton",
+      "title": "Professor Layton series",
+      "original_title": "",
+      "creator": "Level-5 / Akihiro Hino",
+      "year": 2007,
+      "medium": "video_game",
+      "scores": {
+        "influence": 87,
+        "ambition": 85,
+        "fairness": 87,
+        "traditionality": 92,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "ghost_trick",
+      "title": "Ghost Trick: Phantom Detective",
+      "original_title": "Ghost Trick",
+      "creator": "Capcom / Shu Takumi",
+      "year": 2010,
+      "medium": "video_game",
+      "scores": {
+        "influence": 83,
+        "ambition": 88,
+        "fairness": 91,
+        "traditionality": 86,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "paranormasight",
+      "title": "Paranormasight: The Seven Mysteries of Honjo",
+      "original_title": "Paranormasight: Honjo Nanafushigi",
+      "creator": "Square Enix / Takanari Ishiyama",
+      "year": 2023,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 64,
+        "ambition": 87,
+        "fairness": 89,
+        "traditionality": 89,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "detective_grimoire",
+      "title": "Tangle Tower",
+      "original_title": "",
+      "creator": "SFB Games",
+      "year": 2019,
+      "medium": "video_game",
+      "scores": {
+        "influence": 48,
+        "ambition": 78,
+        "fairness": 85,
+        "traditionality": 96,
+        "originality": 85
+      }
+    },
+    {
+      "work_id": "blackwell_series",
+      "title": "Blackwell series",
+      "original_title": "",
+      "creator": "Wadjet Eye Games / Dave Gilbert",
+      "year": 2006,
+      "medium": "video_game",
+      "scores": {
+        "influence": 61,
+        "ambition": 82,
+        "fairness": 85,
+        "traditionality": 89,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "overboard_game",
+      "title": "Overboard!",
+      "original_title": "",
+      "creator": "inkle / Jon Ingold",
+      "year": 2021,
+      "medium": "video_game",
+      "scores": {
+        "influence": 59,
+        "ambition": 78,
+        "fairness": 88,
+        "traditionality": 93,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "witness_prosecution_film",
+      "title": "Witness for the Prosecution",
+      "original_title": "",
+      "creator": "Billy Wilder",
+      "year": 1957,
+      "medium": "film",
+      "scores": {
+        "influence": 99,
+        "ambition": 89,
+        "fairness": 94,
+        "traditionality": 96,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "diabolique",
+      "title": "Diabolique",
+      "original_title": "Les Diaboliques",
+      "creator": "Henri-Georges Clouzot",
+      "year": 1955,
+      "medium": "film",
+      "scores": {
+        "influence": 97,
+        "ambition": 84,
+        "fairness": 90,
+        "traditionality": 89,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "clue_film",
+      "title": "Clue",
+      "original_title": "",
+      "creator": "Jonathan Lynn",
+      "year": 1985,
+      "medium": "film",
+      "scores": {
+        "influence": 91,
+        "ambition": 76,
+        "fairness": 87,
+        "traditionality": 96,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "last_of_sheila",
+      "title": "The Last of Sheila",
+      "original_title": "",
+      "creator": "Herbert Ross / Stephen Sondheim / Anthony Perkins",
+      "year": 1973,
+      "medium": "film",
+      "scores": {
+        "influence": 84,
+        "ambition": 85,
+        "fairness": 92,
+        "traditionality": 98,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "knives_out_series",
+      "title": "Knives Out film series",
       "original_title": "",
       "creator": "Rian Johnson",
       "year": 2019,
@@ -2223,50 +2306,39 @@
       "scores": {
         "influence": 96,
         "ambition": 90,
-        "fairness": 98,
+        "fairness": 89,
+        "traditionality": 97,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "sleuth_film",
+      "title": "Sleuth",
+      "original_title": "",
+      "creator": "Joseph L. Mankiewicz",
+      "year": 1972,
+      "medium": "film",
+      "scores": {
+        "influence": 94,
+        "ambition": 86,
+        "fairness": 88,
+        "traditionality": 93,
         "originality": 92
       }
     },
     {
-      "work_id": "glass_onion",
-      "title": "Glass Onion",
-      "original_title": "",
-      "creator": "Rian Johnson",
-      "year": 2022,
-      "medium": "film",
-      "scores": {
-        "influence": 88,
-        "ambition": 88,
-        "fairness": 95,
-        "originality": 91
-      }
-    },
-    {
-      "work_id": "last_of_sheila",
-      "title": "The Last of Sheila",
-      "original_title": "",
-      "creator": "Herbert Ross",
-      "year": 1973,
-      "medium": "film",
-      "scores": {
-        "influence": 83,
-        "ambition": 88,
-        "fairness": 98,
-        "originality": 94
-      }
-    },
-    {
-      "work_id": "deathtrap",
+      "work_id": "deathtrap_film",
       "title": "Deathtrap",
       "original_title": "",
-      "creator": "Ira Levin",
-      "year": 1978,
-      "medium": "stage_play",
+      "creator": "Sidney Lumet",
+      "year": 1982,
+      "medium": "film",
       "scores": {
-        "influence": 90,
-        "ambition": 90,
-        "fairness": 97,
-        "originality": 95
+        "influence": 80,
+        "ambition": 81,
+        "fairness": 86,
+        "traditionality": 93,
+        "originality": 86
       }
     },
     {
@@ -2277,627 +2349,1322 @@
       "year": 2001,
       "medium": "film",
       "scores": {
-        "influence": 92,
-        "ambition": 94,
-        "fairness": 94,
-        "originality": 91
-      }
-    },
-    {
-      "work_id": "scream",
-      "title": "Scream",
-      "original_title": "",
-      "creator": "Wes Craven",
-      "year": 1996,
-      "medium": "film",
-      "scores": {
-        "influence": 97,
-        "ambition": 84,
-        "fairness": 93,
-        "originality": 95
-      }
-    },
-    {
-      "work_id": "deep_red",
-      "title": "Deep Red",
-      "original_title": "Profondo rosso",
-      "creator": "Dario Argento",
-      "year": 1975,
-      "medium": "film",
-      "scores": {
-        "influence": 95,
-        "ambition": 87,
-        "fairness": 94,
-        "originality": 96
-      }
-    },
-    {
-      "work_id": "bird_crystal_plumage",
-      "title": "The Bird with the Crystal Plumage",
-      "original_title": "L'uccello dalle piume di cristallo",
-      "creator": "Dario Argento",
-      "year": 1970,
-      "medium": "film",
-      "scores": {
-        "influence": 94,
-        "ambition": 83,
-        "fairness": 93,
-        "originality": 95
-      }
-    },
-    {
-      "work_id": "jonathan_creek",
-      "title": "Jonathan Creek",
-      "original_title": "",
-      "creator": "David Renwick",
-      "year": 1997,
-      "medium": "tv_series",
-      "scores": {
-        "influence": 93,
+        "influence": 91,
         "ambition": 89,
-        "fairness": 98,
-        "originality": 94
+        "fairness": 85,
+        "traditionality": 93,
+        "originality": 88
       }
     },
     {
-      "work_id": "veronica_mars",
-      "title": "Veronica Mars",
+      "work_id": "kid_detective",
+      "title": "The Kid Detective",
       "original_title": "",
-      "creator": "Rob Thomas",
-      "year": 2004,
-      "medium": "tv_series",
+      "creator": "Evan Morgan",
+      "year": 2020,
+      "medium": "film",
       "scores": {
-        "influence": 93,
-        "ambition": 91,
-        "fairness": 94,
+        "influence": 55,
+        "ambition": 78,
+        "fairness": 85,
+        "traditionality": 92,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "searching_film",
+      "title": "Searching",
+      "original_title": "",
+      "creator": "Aneesh Chaganty",
+      "year": 2018,
+      "medium": "film",
+      "scores": {
+        "influence": 83,
+        "ambition": 82,
+        "fairness": 88,
+        "traditionality": 91,
         "originality": 89
       }
     },
     {
-      "work_id": "mare_easttown",
-      "title": "Mare of Easttown",
-      "original_title": "",
-      "creator": "Brad Ingelsby",
-      "year": 2021,
-      "medium": "tv_series",
+      "work_id": "invisible_guest",
+      "title": "The Invisible Guest",
+      "original_title": "Contratiempo",
+      "creator": "Oriol Paulo",
+      "year": 2016,
+      "medium": "film",
       "scores": {
-        "influence": 87,
+        "influence": 70,
+        "ambition": 82,
+        "fairness": 87,
+        "traditionality": 91,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "tell_no_one",
+      "title": "Tell No One",
+      "original_title": "Ne le dis à personne",
+      "creator": "Guillaume Canet",
+      "year": 2006,
+      "medium": "film",
+      "scores": {
+        "influence": 70,
+        "ambition": 82,
+        "fairness": 84,
+        "traditionality": 84,
+        "originality": 81
+      }
+    },
+    {
+      "work_id": "prestige_film",
+      "title": "The Prestige",
+      "original_title": "",
+      "creator": "Christopher Nolan",
+      "year": 2006,
+      "medium": "film",
+      "scores": {
+        "influence": 98,
+        "ambition": 94,
+        "fairness": 88,
+        "traditionality": 74,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "usual_suspects",
+      "title": "The Usual Suspects",
+      "original_title": "",
+      "creator": "Bryan Singer / Christopher McQuarrie",
+      "year": 1995,
+      "medium": "film",
+      "scores": {
+        "influence": 99,
         "ambition": 88,
-        "fairness": 95,
+        "fairness": 84,
+        "traditionality": 78,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "identity_film",
+      "title": "Identity",
+      "original_title": "",
+      "creator": "James Mangold",
+      "year": 2003,
+      "medium": "film",
+      "scores": {
+        "influence": 76,
+        "ambition": 82,
+        "fairness": 83,
+        "traditionality": 89,
         "originality": 85
       }
     },
     {
-      "work_id": "poker_face",
-      "title": "Poker Face",
-      "original_title": "",
-      "creator": "Rian Johnson",
+      "work_id": "anatomy_fall",
+      "title": "Anatomy of a Fall",
+      "original_title": "Anatomie d'une chute",
+      "creator": "Justine Triet",
       "year": 2023,
-      "medium": "tv_series",
+      "medium": "film",
       "scores": {
-        "influence": 91,
-        "ambition": 86,
-        "fairness": 96,
+        "influence": 76,
+        "ambition": 84,
+        "fairness": 85,
+        "traditionality": 80,
+        "originality": 84
+      }
+    },
+    {
+      "work_id": "odd_taxi",
+      "title": "Odd Taxi",
+      "original_title": "",
+      "creator": "P.I.C.S. / Kazuya Konomoto",
+      "year": 2021,
+      "medium": "anime",
+      "scores": {
+        "influence": 83,
+        "ambition": 89,
+        "fairness": 90,
+        "traditionality": 83,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "maltese_falcon",
+      "title": "The Maltese Falcon",
+      "original_title": "",
+      "creator": "Dashiell Hammett",
+      "year": 1930,
+      "medium": "novel",
+      "scores": {
+        "influence": 100,
+        "ambition": 85,
+        "fairness": 71,
+        "traditionality": 91,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "big_sleep",
+      "title": "The Big Sleep",
+      "original_title": "",
+      "creator": "Raymond Chandler",
+      "year": 1939,
+      "medium": "novel",
+      "scores": {
+        "influence": 98,
+        "ambition": 84,
+        "fairness": 61,
+        "traditionality": 91,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "farewell_my_lovely",
+      "title": "Farewell, My Lovely",
+      "original_title": "",
+      "creator": "Raymond Chandler",
+      "year": 1940,
+      "medium": "novel",
+      "scores": {
+        "influence": 93,
+        "ambition": 84,
+        "fairness": 66,
+        "traditionality": 91,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "long_goodbye",
+      "title": "The Long Goodbye",
+      "original_title": "",
+      "creator": "Raymond Chandler",
+      "year": 1953,
+      "medium": "novel",
+      "scores": {
+        "influence": 97,
+        "ambition": 88,
+        "fairness": 65,
+        "traditionality": 88,
         "originality": 90
       }
     },
     {
-      "work_id": "deadline_game",
-      "title": "Deadline",
+      "work_id": "glass_key",
+      "title": "The Glass Key",
       "original_title": "",
-      "creator": "Marc Blank",
-      "year": 1982,
-      "medium": "video_game",
+      "creator": "Dashiell Hammett",
+      "year": 1931,
+      "medium": "novel",
       "scores": {
-        "influence": 92,
-        "ambition": 82,
-        "fairness": 96,
-        "originality": 94
+        "influence": 90,
+        "ambition": 83,
+        "fairness": 70,
+        "traditionality": 88,
+        "originality": 86
       }
     },
     {
-      "work_id": "ace_attorney_trials",
-      "title": "Phoenix Wright: Ace Attorney – Trials and Tribulations",
-      "original_title": "Gyakuten Saiban 3",
-      "creator": "Shu Takumi",
-      "year": 2004,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 88,
-        "ambition": 92,
-        "fairness": 98,
-        "originality": 94
-      }
-    },
-    {
-      "work_id": "rise_golden_idol",
-      "title": "The Rise of the Golden Idol",
+      "work_id": "rear_window",
+      "title": "Rear Window",
       "original_title": "",
-      "creator": "Color Gray Games",
-      "year": 2024,
-      "medium": "video_game",
+      "creator": "Alfred Hitchcock",
+      "year": 1954,
+      "medium": "film",
       "scores": {
-        "influence": 82,
-        "ambition": 94,
-        "fairness": 99,
+        "influence": 100,
+        "ambition": 87,
+        "fairness": 93,
+        "traditionality": 93,
         "originality": 96
       }
     },
     {
-      "work_id": "roottrees_dead",
-      "title": "The Roottrees Are Dead",
+      "work_id": "vertigo",
+      "title": "Vertigo",
       "original_title": "",
-      "creator": "Robin Ward",
-      "year": 2025,
-      "medium": "video_game",
+      "creator": "Alfred Hitchcock",
+      "year": 1958,
+      "medium": "film",
       "scores": {
-        "influence": 57,
-        "ambition": 93,
-        "fairness": 100,
-        "originality": 98
+        "influence": 100,
+        "ambition": 94,
+        "fairness": 79,
+        "traditionality": 72,
+        "originality": 97
       }
     },
     {
-      "work_id": "welcome_night_vale",
-      "title": "Welcome to Night Vale",
+      "work_id": "chinatown",
+      "title": "Chinatown",
       "original_title": "",
-      "creator": "Joseph Fink and Jeffrey Cranor",
-      "year": 2012,
-      "medium": "podcast",
+      "creator": "Roman Polanski / Robert Towne",
+      "year": 1974,
+      "medium": "film",
       "scores": {
-        "influence": 90,
-        "ambition": 91,
-        "fairness": 63,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "anchorhead",
-      "title": "Anchorhead",
-      "original_title": "",
-      "creator": "Michael Gentry",
-      "year": 1998,
-      "medium": "video_game",
-      "scores": {
-        "influence": 88,
-        "ambition": 92,
-        "fairness": 94,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "spider_and_web",
-      "title": "Spider and Web",
-      "original_title": "",
-      "creator": "Andrew Plotkin",
-      "year": 1998,
-      "medium": "video_game",
-      "scores": {
-        "influence": 83,
-        "ambition": 88,
-        "fairness": 98,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "gostak",
-      "title": "The Gostak",
-      "original_title": "",
-      "creator": "Carl Muckenhoupt",
-      "year": 2001,
-      "medium": "video_game",
-      "scores": {
-        "influence": 65,
-        "ambition": 85,
-        "fairness": 84,
-        "originality": 100
-      }
-    },
-    {
-      "work_id": "mind_forever_voyaging",
-      "title": "A Mind Forever Voyaging",
-      "original_title": "",
-      "creator": "Steve Meretzky",
-      "year": 1985,
-      "medium": "video_game",
-      "scores": {
-        "influence": 94,
-        "ambition": 91,
-        "fairness": 77,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "remember11",
-      "title": "Remember11: The Age of Infinity",
-      "original_title": "",
-      "creator": "Takumi Nakazawa",
-      "year": 2004,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 79,
-        "ambition": 96,
-        "fairness": 82,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "gnosia",
-      "title": "Gnosia",
-      "original_title": "",
-      "creator": "Petit Depotto",
-      "year": 2019,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 77,
-        "ambition": 91,
-        "fairness": 93,
-        "originality": 98
-      }
-    },
-    {
-      "work_id": "slay_princess",
-      "title": "Slay the Princess",
-      "original_title": "",
-      "creator": "Black Tabby Games",
-      "year": 2023,
-      "medium": "visual_novel",
-      "scores": {
-        "influence": 90,
-        "ambition": 96,
-        "fairness": 90,
-        "originality": 99
-      }
-    },
-    {
-      "work_id": "telling_lies",
-      "title": "Telling Lies",
-      "original_title": "",
-      "creator": "Sam Barlow",
-      "year": 2019,
-      "medium": "video_game",
-      "scores": {
-        "influence": 82,
+        "influence": 99,
         "ambition": 91,
         "fairness": 80,
-        "originality": 96
+        "traditionality": 89,
+        "originality": 91
       }
     },
     {
-      "work_id": "stanley_parable",
-      "title": "The Stanley Parable",
+      "work_id": "doorbell_rang",
+      "title": "The Doorbell Rang",
       "original_title": "",
-      "creator": "Davey Wreden and William Pugh",
+      "creator": "Rex Stout",
+      "year": 1965,
+      "medium": "novel",
+      "scores": {
+        "influence": 83,
+        "ambition": 75,
+        "fairness": 82,
+        "traditionality": 94,
+        "originality": 75
+      }
+    },
+    {
+      "work_id": "erast_fandorin",
+      "title": "Erast Fandorin series",
+      "original_title": "Priklyucheniya Erasta Fandorina",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "book_series",
+      "scores": {
+        "influence": 84,
+        "ambition": 87,
+        "fairness": 82,
+        "traditionality": 95,
+        "originality": 83
+      }
+    },
+    {
+      "work_id": "device_6",
+      "title": "Device 6",
+      "original_title": "",
+      "creator": "Simogo",
       "year": 2013,
       "medium": "video_game",
       "scores": {
-        "influence": 96,
-        "ambition": 92,
-        "fairness": 70,
-        "originality": 99
+        "influence": 72,
+        "ambition": 81,
+        "fairness": 84,
+        "traditionality": 36,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "gorogoa",
+      "title": "Gorogoa",
+      "original_title": "",
+      "creator": "Jason Roberts",
+      "year": 2017,
+      "medium": "video_game",
+      "scores": {
+        "influence": 80,
+        "ambition": 80,
+        "fairness": 92,
+        "traditionality": 11,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "witness_game",
+      "title": "The Witness",
+      "original_title": "",
+      "creator": "Thekla / Jonathan Blow",
+      "year": 2016,
+      "medium": "video_game",
+      "scores": {
+        "influence": 93,
+        "ambition": 86,
+        "fairness": 96,
+        "traditionality": 17,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "tunic",
+      "title": "Tunic",
+      "original_title": "",
+      "creator": "Andrew Shouldice",
+      "year": 2022,
+      "medium": "video_game",
+      "scores": {
+        "influence": 88,
+        "ambition": 87,
+        "fairness": 89,
+        "traditionality": 30,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "fez",
+      "title": "Fez",
+      "original_title": "",
+      "creator": "Polytron / Phil Fish",
+      "year": 2012,
+      "medium": "video_game",
+      "scores": {
+        "influence": 82,
+        "ambition": 84,
+        "fairness": 87,
+        "traditionality": 24,
+        "originality": 94
       }
     },
     {
       "work_id": "inscryption",
       "title": "Inscryption",
       "original_title": "",
-      "creator": "Daniel Mullins",
+      "creator": "Daniel Mullins Games",
       "year": 2021,
       "medium": "video_game",
       "scores": {
-        "influence": 94,
-        "ambition": 95,
-        "fairness": 82,
+        "influence": 90,
+        "ambition": 86,
+        "fairness": 75,
+        "traditionality": 30,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "stanley_parable",
+      "title": "The Stanley Parable",
+      "original_title": "",
+      "creator": "Galactic Cafe / Davey Wreden",
+      "year": 2013,
+      "medium": "video_game",
+      "scores": {
+        "influence": 97,
+        "ambition": 85,
+        "fairness": 76,
+        "traditionality": 7,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "whos_lila",
+      "title": "Who's Lila?",
+      "original_title": "",
+      "creator": "Garage Heathen",
+      "year": 2022,
+      "medium": "video_game",
+      "scores": {
+        "influence": 47,
+        "ambition": 82,
+        "fairness": 76,
+        "traditionality": 24,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "oneshot",
+      "title": "OneShot",
+      "original_title": "",
+      "creator": "Future Cat / Eliza Velasquez / Nightmargin",
+      "year": 2016,
+      "medium": "video_game",
+      "scores": {
+        "influence": 79,
+        "ambition": 85,
+        "fairness": 81,
+        "traditionality": 23,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "kentucky_route_zero",
+      "title": "Kentucky Route Zero",
+      "original_title": "",
+      "creator": "Cardboard Computer",
+      "year": 2013,
+      "medium": "video_game",
+      "scores": {
+        "influence": 89,
+        "ambition": 89,
+        "fairness": 55,
+        "traditionality": 13,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "norco",
+      "title": "Norco",
+      "original_title": "",
+      "creator": "Geography of Robots / Yuts",
+      "year": 2022,
+      "medium": "video_game",
+      "scores": {
+        "influence": 68,
+        "ambition": 86,
+        "fairness": 75,
+        "traditionality": 54,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "oxenfree",
+      "title": "Oxenfree",
+      "original_title": "",
+      "creator": "Night School Studio",
+      "year": 2016,
+      "medium": "video_game",
+      "scores": {
+        "influence": 77,
+        "ambition": 83,
+        "fairness": 76,
+        "traditionality": 50,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "hypnospace",
+      "title": "Hypnospace Outlaw",
+      "original_title": "",
+      "creator": "Tendershoot / Jay Tholen",
+      "year": 2019,
+      "medium": "video_game",
+      "scores": {
+        "influence": 70,
+        "ambition": 83,
+        "fairness": 88,
+        "traditionality": 54,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "in_memoriam",
+      "title": "In Memoriam",
+      "original_title": "Missing: Since January",
+      "creator": "Lexis Numérique / Éric Viennot",
+      "year": 2003,
+      "medium": "video_game",
+      "scores": {
+        "influence": 67,
+        "ambition": 84,
+        "fairness": 78,
+        "traditionality": 58,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "beast_arg",
+      "title": "The Beast",
+      "original_title": "",
+      "creator": "Jordan Weisman",
+      "year": 2001,
+      "medium": "other",
+      "scores": {
+        "influence": 78,
+        "ambition": 86,
+        "fairness": 73,
+        "traditionality": 39,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "magnus_archives",
+      "title": "The Magnus Archives",
+      "original_title": "",
+      "creator": "Rusty Quill / Jonathan Sims",
+      "year": 2016,
+      "medium": "podcast",
+      "scores": {
+        "influence": 86,
+        "ambition": 91,
+        "fairness": 81,
+        "traditionality": 58,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "welcome_night_vale",
+      "title": "Welcome to Night Vale",
+      "original_title": "",
+      "creator": "Joseph Fink / Jeffrey Cranor",
+      "year": 2012,
+      "medium": "audio_drama",
+      "scores": {
+        "influence": 93,
+        "ambition": 86,
+        "fairness": 55,
+        "traditionality": 19,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "limetown",
+      "title": "Limetown",
+      "original_title": "",
+      "creator": "Two-Up / Zack Akers",
+      "year": 2015,
+      "medium": "podcast",
+      "scores": {
+        "influence": 72,
+        "ambition": 83,
+        "fairness": 70,
+        "traditionality": 49,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "alice_isnt_dead",
+      "title": "Alice Isn't Dead",
+      "original_title": "",
+      "creator": "Joseph Fink",
+      "year": 2016,
+      "medium": "audio_drama",
+      "scores": {
+        "influence": 54,
+        "ambition": 78,
+        "fairness": 69,
+        "traditionality": 42,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "rashomon",
+      "title": "Rashomon",
+      "original_title": "Rashōmon",
+      "creator": "Akira Kurosawa",
+      "year": 1950,
+      "medium": "film",
+      "scores": {
+        "influence": 100,
+        "ambition": 86,
+        "fairness": 68,
+        "traditionality": 28,
         "originality": 99
+      }
+    },
+    {
+      "work_id": "meshes_afternoon",
+      "title": "Meshes of the Afternoon",
+      "original_title": "",
+      "creator": "Maya Deren / Alexander Hammid",
+      "year": 1943,
+      "medium": "film",
+      "scores": {
+        "influence": 99,
+        "ambition": 82,
+        "fairness": 38,
+        "traditionality": 3,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "persona_film",
+      "title": "Persona",
+      "original_title": "",
+      "creator": "Ingmar Bergman",
+      "year": 1966,
+      "medium": "film",
+      "scores": {
+        "influence": 100,
+        "ambition": 89,
+        "fairness": 45,
+        "traditionality": 4,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "blow_up",
+      "title": "Blow-Up",
+      "original_title": "",
+      "creator": "Michelangelo Antonioni",
+      "year": 1966,
+      "medium": "film",
+      "scores": {
+        "influence": 95,
+        "ambition": 83,
+        "fairness": 43,
+        "traditionality": 35,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "conversation",
+      "title": "The Conversation",
+      "original_title": "",
+      "creator": "Francis Ford Coppola",
+      "year": 1974,
+      "medium": "film",
+      "scores": {
+        "influence": 97,
+        "ambition": 87,
+        "fairness": 80,
+        "traditionality": 66,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "trial_welles",
+      "title": "The Trial",
+      "original_title": "Le Procès",
+      "creator": "Orson Welles",
+      "year": 1962,
+      "medium": "film",
+      "scores": {
+        "influence": 92,
+        "ambition": 87,
+        "fairness": 53,
+        "traditionality": 12,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "investigation_citizen",
+      "title": "Investigation of a Citizen Above Suspicion",
+      "original_title": "Indagine su un cittadino al di sopra di ogni sospetto",
+      "creator": "Elio Petri",
+      "year": 1970,
+      "medium": "film",
+      "scores": {
+        "influence": 88,
+        "ambition": 85,
+        "fairness": 71,
+        "traditionality": 35,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "cache_film",
+      "title": "Caché",
+      "original_title": "",
+      "creator": "Michael Haneke",
+      "year": 2005,
+      "medium": "film",
+      "scores": {
+        "influence": 90,
+        "ambition": 84,
+        "fairness": 29,
+        "traditionality": 28,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "enemy_film",
+      "title": "Enemy",
+      "original_title": "",
+      "creator": "Denis Villeneuve",
+      "year": 2013,
+      "medium": "film",
+      "scores": {
+        "influence": 73,
+        "ambition": 83,
+        "fairness": 48,
+        "traditionality": 18,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "under_silver_lake",
+      "title": "Under the Silver Lake",
+      "original_title": "",
+      "creator": "David Robert Mitchell",
+      "year": 2018,
+      "medium": "film",
+      "scores": {
+        "influence": 71,
+        "ambition": 88,
+        "fairness": 58,
+        "traditionality": 44,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "donnie_darko",
+      "title": "Donnie Darko",
+      "original_title": "",
+      "creator": "Richard Kelly",
+      "year": 2001,
+      "medium": "film",
+      "scores": {
+        "influence": 93,
+        "ambition": 84,
+        "fairness": 52,
+        "traditionality": 22,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "pi_film",
+      "title": "Pi",
+      "original_title": "",
+      "creator": "Darren Aronofsky",
+      "year": 1998,
+      "medium": "film",
+      "scores": {
+        "influence": 91,
+        "ambition": 85,
+        "fairness": 59,
+        "traditionality": 15,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "upstream_color",
+      "title": "Upstream Color",
+      "original_title": "",
+      "creator": "Shane Carruth",
+      "year": 2013,
+      "medium": "film",
+      "scores": {
+        "influence": 76,
+        "ambition": 88,
+        "fairness": 51,
+        "traditionality": 7,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "coherence",
+      "title": "Coherence",
+      "original_title": "",
+      "creator": "James Ward Byrkit",
+      "year": 2013,
+      "medium": "film",
+      "scores": {
+        "influence": 76,
+        "ambition": 86,
+        "fairness": 83,
+        "traditionality": 25,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "predestination",
+      "title": "Predestination",
+      "original_title": "",
+      "creator": "Michael Spierig / Peter Spierig",
+      "year": 2014,
+      "medium": "film",
+      "scores": {
+        "influence": 83,
+        "ambition": 86,
+        "fairness": 78,
+        "traditionality": 29,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "machinist",
+      "title": "The Machinist",
+      "original_title": "",
+      "creator": "Brad Anderson",
+      "year": 2004,
+      "medium": "film",
+      "scores": {
+        "influence": 74,
+        "ambition": 79,
+        "fairness": 80,
+        "traditionality": 43,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "sixth_sense",
+      "title": "The Sixth Sense",
+      "original_title": "",
+      "creator": "M. Night Shyamalan",
+      "year": 1999,
+      "medium": "film",
+      "scores": {
+        "influence": 99,
+        "ambition": 87,
+        "fairness": 86,
+        "traditionality": 50,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "being_john_malkovich",
+      "title": "Being John Malkovich",
+      "original_title": "",
+      "creator": "Spike Jonze / Charlie Kaufman",
+      "year": 1999,
+      "medium": "film",
+      "scores": {
+        "influence": 90,
+        "ambition": 84,
+        "fairness": 75,
+        "traditionality": 16,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "eternal_sunshine",
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "original_title": "",
+      "creator": "Michel Gondry / Charlie Kaufman",
+      "year": 2004,
+      "medium": "film",
+      "scores": {
+        "influence": 97,
+        "ambition": 85,
+        "fairness": 82,
+        "traditionality": 11,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "mr_nobody",
+      "title": "Mr. Nobody",
+      "original_title": "",
+      "creator": "Jaco Van Dormael",
+      "year": 2009,
+      "medium": "film",
+      "scores": {
+        "influence": 78,
+        "ambition": 88,
+        "fairness": 55,
+        "traditionality": 11,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "perfect_blue",
+      "title": "Perfect Blue",
+      "original_title": "Pāfekuto Burū",
+      "creator": "Satoshi Kon",
+      "year": 1997,
+      "medium": "anime",
+      "scores": {
+        "influence": 98,
+        "ambition": 87,
+        "fairness": 82,
+        "traditionality": 21,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "paprika",
+      "title": "Paprika",
+      "original_title": "Papurika",
+      "creator": "Satoshi Kon",
+      "year": 2006,
+      "medium": "anime",
+      "scores": {
+        "influence": 94,
+        "ambition": 89,
+        "fairness": 67,
+        "traditionality": 9,
+        "originality": 94
       }
     }
   ],
   "axes": {
     "ambition": [
-      "twin_peaks",
-      "dark",
-      "attack_on_titan",
       "umineko",
-      "13_sentinels",
-      "outer_wilds",
-      "gnomon",
-      "sekimeiya",
-      "stalker",
-      "mulholland_drive",
-      "lost",
-      "mr_robot",
-      "westworld",
-      "leftovers",
-      "steins_gate",
-      "riven",
-      "great_ace_attorney",
-      "disco_elysium",
-      "alan_wake_2",
-      "kentucky_route_zero",
-      "pathologic_2",
+      "twin_peaks",
+      "house_of_leaves",
       "name_of_rose",
       "foucaults_pendulum",
-      "house_of_leaves",
-      "the_oa",
-      "higurashi",
-      "zero_escape",
-      "danganronpa_v3",
-      "immortality_game",
-      "soma",
-      "s_novel",
-      "luminaries",
-      "house_fata_morgana",
-      "remember11",
-      "slay_princess",
-      "solaris",
-      "memento",
-      "zodiac",
-      "handmaiden",
-      "arrival",
-      "prestige",
-      "severance",
-      "yellowjackets",
-      "monster_manga",
-      "heavenly_delusion",
-      "return_obra_dinn",
-      "lorelei_laser_eyes",
-      "my_name_is_red",
+      "dark",
       "pale_fire",
-      "magpie_murders",
-      "incendies",
-      "x_files",
-      "utopia_tv",
-      "pluto",
-      "pentiment",
-      "witness_game",
-      "tunic",
-      "citizen_kane",
-      "vertigo",
-      "inscryption",
-      "seven_deaths_evelyn",
-      "ever17",
+      "2666",
+      "outer_wilds",
+      "book_new_sun",
+      "mulholland_drive",
+      "lost_tv",
+      "13_sentinels",
+      "gnomon",
+      "s_ship_theseus",
+      "return_obra_dinn",
+      "immortality_game",
+      "disco_elysium",
       "last_year_marienbad",
+      "crying_lot_49",
+      "city_and_city",
+      "zodiac_film",
+      "memento",
       "primer",
       "burning",
-      "cache",
-      "rashomon",
-      "l_avventura",
-      "gosford_park",
-      "rise_golden_idol",
-      "odd_taxi",
-      "last_express",
-      "danganronpa_2",
-      "ai_somnium",
-      "ghost_trick",
-      "hamlet",
-      "moonstone",
-      "crying_lot_49",
-      "blue_velvet",
-      "sleuth",
-      "roottrees_dead",
-      "raging_loop",
-      "silver_case",
-      "chinatown",
-      "memories_of_murder",
-      "decision_to_leave",
-      "perfect_blue",
-      "true_detective",
-      "forgotten_city",
+      "cure",
+      "memories_murder",
+      "severance",
+      "mr_robot",
+      "leftovers",
+      "westworld",
+      "prisoner",
+      "monster_anime",
+      "attack_titan",
+      "steins_gate",
+      "zero_escape",
+      "higurashi",
+      "house_fata_morgana",
+      "428_shibuya",
+      "riven",
+      "heavens_vault",
+      "lorelei_laser_eyes",
+      "chants_sennaar",
+      "her_story",
+      "telling_lies",
       "paradise_killer",
-      "death_among_undead",
-      "city_and_city",
+      "forgotten_city",
+      "pentiment",
+      "ace_attorney",
+      "danganronpa",
+      "ai_somnium",
+      "science_adventure",
+      "silver_case",
+      "root_double",
+      "ever17",
+      "sekimeiya",
+      "raging_loop",
       "piranesi",
-      "cains_jawbone",
-      "conversation",
-      "case_golden_idol",
-      "inugami_curse",
-      "cat_many_tails",
-      "blow_up",
-      "hollow_man"
+      "annihilation",
+      "new_york_trilogy",
+      "dictionary_khazars",
+      "magus",
+      "third_policeman",
+      "raw_shark_texts",
+      "seven_deaths_evelyn",
+      "night_film",
+      "quincunx",
+      "luminaries",
+      "fingersmith",
+      "little_stranger",
+      "possession",
+      "shadow_wind",
+      "club_dumas",
+      "historian",
+      "yiddish_policemen",
+      "prestige_novel",
+      "manual_detection",
+      "last_house_needless",
+      "devotion_suspect_x",
+      "journey_midnight_sun",
+      "six_four",
+      "tokyo_zodiac",
+      "decagon_house",
+      "aosawa_murders",
+      "dublin_murder_squad",
+      "three_body_trilogy",
+      "solaris",
+      "picnic_hanging_rock",
+      "invention_morel",
+      "ubik",
+      "shutter_island",
+      "wailing",
+      "handmaiden",
+      "oldboy",
+      "and_then_none",
+      "roger_ackroyd",
+      "hollow_man",
+      "golden_idol_series",
+      "moonstone",
+      "sherlock_holmes"
     ],
     "fairness": [
       "return_obra_dinn",
-      "roottrees_dead",
+      "golden_idol_series",
       "hollow_man",
-      "judas_window",
-      "green_for_danger",
-      "death_of_jezebel",
-      "tokyo_zodiac",
-      "murder_crooked_house",
-      "case_golden_idol",
-      "rise_golden_idol",
-      "sekimeiya",
-      "till_death_do_us_part",
-      "he_who_whispers",
-      "she_died_a_lady",
-      "tragedy_x",
-      "decagon_house",
-      "honjin_murders",
-      "malice_higashino",
-      "knives_out",
-      "last_of_sheila",
-      "jonathan_creek",
-      "odd_taxi",
-      "ace_attorney_trials",
-      "ghost_trick",
-      "spider_and_web",
-      "outer_wilds",
+      "and_then_none",
+      "roger_ackroyd",
+      "greek_coffin",
       "poisoned_chocolates",
+      "decagon_house",
+      "tokyo_zodiac",
+      "ace_attorney",
+      "footsteps_lock",
+      "green_for_danger",
+      "death_jezebel",
+      "judas_window",
+      "crooked_hinge",
+      "constant_suicides",
       "five_little_pigs",
       "cards_on_table",
-      "calamity_town",
-      "cat_many_tails",
-      "tragedy_y",
-      "tour_de_force",
+      "peril_end_house",
+      "crooked_house",
+      "death_on_nile",
+      "orient_express",
+      "abc_murders",
+      "evil_under_sun",
+      "nine_tailors",
+      "have_his_carcass",
+      "chants_sennaar",
+      "lorelei_laser_eyes",
+      "her_story",
+      "13_sentinels",
+      "riven",
+      "heavens_vault",
+      "house_fata_morgana",
+      "higurashi",
+      "root_double",
+      "raging_loop",
+      "ai_somnium",
+      "silver_case",
+      "science_adventure",
+      "immortality_game",
+      "moving_toyshop",
+      "beast_must_die",
+      "daughter_time",
+      "brat_farrar",
+      "franchise_affair",
+      "english_murder",
+      "hamlet_revenge",
+      "overture_death",
+      "some_buried_caesar",
+      "susan_ryeland_series",
+      "hawthorne_series",
+      "honjin_murders",
+      "murder_crooked_house_jp",
+      "moai_island_puzzle",
+      "mill_house_murders",
       "death_among_undead",
+      "seven_deaths_evelyn",
       "devotion_suspect_x",
       "salvation_saint",
-      "appeal",
-      "deathtrap",
-      "great_ace_attorney",
-      "lorelei_laser_eyes",
-      "yellow_room",
-      "murder_roger_ackroyd",
-      "crooked_house",
-      "evil_under_sun",
-      "franchise_affair",
-      "magpie_murders",
+      "malice_higashino",
       "inugami_curse",
-      "newcomer",
-      "eight_detectives",
-      "westing_game",
-      "witness_prosecution",
-      "columbo",
-      "poker_face",
-      "deadline_game",
-      "tunic",
-      "chants_sennaar",
-      "13_sentinels",
-      "pentiment",
-      "moonstone",
-      "nine_tailors",
-      "death_on_nile",
-      "peril_end_house",
-      "after_funeral",
-      "moonflower_murders",
-      "everyone_family_killed",
-      "sleuth",
-      "glass_onion",
-      "mare_easttown",
-      "ai_somnium",
+      "village_eight_graves",
+      "six_four",
+      "roottrees_dead",
+      "unheard_game",
+      "painscreek_killings",
+      "paradise_killer",
+      "outer_wilds",
       "forgotten_city",
-      "anchorhead",
-      "prestige",
-      "arrival",
-      "abc_murders",
-      "orient_express",
-      "daughter_of_time",
-      "gosford_park",
-      "deep_red",
-      "veronica_mars",
-      "ace_attorney",
-      "memento",
-      "witness_game",
-      "umineko",
-      "gnosia",
-      "and_then_there_were_none",
-      "seven_deaths_evelyn",
-      "scream",
-      "bird_crystal_plumage",
-      "purloined_letter",
-      "mysterious_affair_styles",
-      "rear_window",
-      "dark",
-      "danganronpa_2",
-      "coherence",
-      "trents_last_case",
-      "murder_vicarage",
-      "cains_jawbone",
+      "pentiment",
+      "last_express",
+      "sherlock_crimes",
+      "professor_layton",
+      "danganronpa",
+      "zero_escape",
+      "sekimeiya",
+      "ghost_trick",
+      "paranormasight",
+      "detective_grimoire",
+      "blackwell_series",
+      "overboard_game",
+      "witness_prosecution_film",
       "diabolique",
-      "danganronpa_v3",
-      "her_story"
+      "clue_film",
+      "last_of_sheila",
+      "knives_out_series",
+      "sleuth_film",
+      "deathtrap_film",
+      "gosford_park",
+      "kid_detective",
+      "searching_film",
+      "invisible_guest",
+      "tell_no_one",
+      "memento",
+      "prestige_film",
+      "usual_suspects",
+      "identity_film",
+      "anatomy_fall",
+      "odd_taxi",
+      "monster_anime"
+    ],
+    "traditional_mystery": [
+      "and_then_none",
+      "roger_ackroyd",
+      "sherlock_holmes",
+      "hollow_man",
+      "name_of_rose",
+      "daughter_time",
+      "moonstone",
+      "maltese_falcon",
+      "big_sleep",
+      "five_little_pigs",
+      "death_on_nile",
+      "orient_express",
+      "abc_murders",
+      "green_for_danger",
+      "return_obra_dinn",
+      "poisoned_chocolates",
+      "decagon_house",
+      "golden_idol_series",
+      "tokyo_zodiac",
+      "greek_coffin",
+      "farewell_my_lovely",
+      "long_goodbye",
+      "glass_key",
+      "ace_attorney",
+      "witness_prosecution_film",
+      "diabolique",
+      "rear_window",
+      "vertigo",
+      "chinatown",
+      "memories_murder",
+      "roottrees_dead",
+      "gosford_park",
+      "knives_out_series",
+      "sleuth_film",
+      "pentiment",
+      "last_of_sheila",
+      "clue_film",
+      "nine_tailors",
+      "have_his_carcass",
+      "brat_farrar",
+      "franchise_affair",
+      "ghost_trick",
+      "beast_must_die",
+      "some_buried_caesar",
+      "doorbell_rang",
+      "death_jezebel",
+      "judas_window",
+      "crooked_hinge",
+      "constant_suicides",
+      "painscreek_killings",
+      "english_murder",
+      "hamlet_revenge",
+      "paradise_killer",
+      "overture_death",
+      "sherlock_crimes",
+      "honjin_murders",
+      "unheard_game",
+      "inugami_curse",
+      "village_eight_graves",
+      "murder_crooked_house_jp",
+      "professor_layton",
+      "moai_island_puzzle",
+      "mill_house_murders",
+      "detective_grimoire",
+      "death_among_undead",
+      "susan_ryeland_series",
+      "hawthorne_series",
+      "devotion_suspect_x",
+      "malice_higashino",
+      "salvation_saint",
+      "six_four",
+      "dublin_murder_squad",
+      "erast_fandorin",
+      "yiddish_policemen",
+      "city_and_city",
+      "shutter_island",
+      "memento",
+      "cure",
+      "her_story",
+      "higurashi",
+      "umineko",
+      "zero_escape",
+      "danganronpa",
+      "paranormasight",
+      "blackwell_series",
+      "forgotten_city",
+      "seven_deaths_evelyn",
+      "ai_somnium",
+      "silver_case",
+      "raging_loop",
+      "house_fata_morgana",
+      "odd_taxi",
+      "invisible_guest",
+      "searching_film",
+      "anatomy_fall",
+      "kid_detective",
+      "last_express",
+      "prestige_film",
+      "usual_suspects",
+      "identity_film"
     ],
     "originality": [
-      "last_year_marienbad",
-      "twin_peaks",
-      "gostak",
-      "return_obra_dinn",
-      "witness_game",
-      "cains_jawbone",
-      "pale_fire",
       "house_of_leaves",
-      "rashomon",
-      "vertigo",
-      "l_avventura",
-      "mulholland_drive",
-      "colossal_cave",
-      "riven",
-      "spider_and_web",
       "umineko",
-      "13_sentinels",
-      "slay_princess",
+      "pale_fire",
+      "last_year_marienbad",
       "outer_wilds",
-      "disco_elysium",
-      "immortality_game",
-      "kentucky_route_zero",
-      "pathologic_2",
-      "lorelei_laser_eyes",
-      "stanley_parable",
-      "inscryption",
-      "citizen_kane",
-      "stalker",
-      "psycho",
-      "solaris",
-      "primer",
-      "death_note",
-      "murder_roger_ackroyd",
+      "return_obra_dinn",
+      "twin_peaks",
       "crying_lot_49",
-      "gnomon",
-      "blow_up",
-      "blue_velvet",
-      "memento",
-      "perfect_blue",
-      "the_oa",
-      "welcome_night_vale",
-      "myst",
-      "last_express",
-      "anchorhead",
-      "mind_forever_voyaging",
-      "zero_escape",
-      "danganronpa_v3",
-      "ghost_trick",
-      "remember11",
-      "gnosia",
-      "silver_case",
-      "her_story",
-      "case_golden_idol",
-      "tunic",
-      "alan_wake_2",
-      "roottrees_dead",
-      "murders_rue_morgue",
-      "s_novel",
-      "cache",
-      "dark",
-      "severance",
-      "leftovers",
-      "zork",
-      "sekimeiya",
-      "soma",
-      "paradise_killer",
-      "chants_sennaar",
-      "moonstone",
-      "and_then_there_were_none",
-      "name_of_rose",
-      "foucaults_pendulum",
+      "mulholland_drive",
+      "third_policeman",
+      "dictionary_khazars",
+      "s_ship_theseus",
       "raw_shark_texts",
-      "city_and_city",
-      "piranesi",
-      "oldboy",
-      "memories_of_murder",
-      "burning",
-      "handmaiden",
-      "under_silver_lake",
-      "x_files",
-      "attack_on_titan",
-      "grim_fandango",
-      "higurashi",
+      "book_new_sun",
+      "foucaults_pendulum",
+      "name_of_rose",
+      "golden_idol_series",
+      "her_story",
+      "immortality_game",
+      "lorelei_laser_eyes",
+      "chants_sennaar",
+      "disco_elysium",
+      "heavens_vault",
+      "device_6",
+      "gorogoa",
+      "witness_game",
+      "tunic",
+      "fez",
+      "inscryption",
+      "stanley_parable",
+      "13_sentinels",
+      "zero_escape",
+      "ghost_trick",
       "danganronpa",
+      "ace_attorney",
+      "sekimeiya",
+      "science_adventure",
+      "silver_case",
       "house_fata_morgana",
-      "telling_lies",
-      "malice_aforethought",
-      "seven_deaths_evelyn",
-      "conversation",
-      "arrival",
-      "lost",
-      "odd_taxi",
-      "great_ace_attorney",
-      "ai_somnium",
+      "higurashi",
+      "raging_loop",
+      "root_double",
       "ever17",
-      "hamlet",
-      "purloined_letter",
-      "daughter_of_time",
-      "heavenly_delusion",
-      "serial_podcast"
+      "paranormasight",
+      "blackwell_series",
+      "last_express",
+      "forgotten_city",
+      "paradise_killer",
+      "pentiment",
+      "whos_lila",
+      "oneshot",
+      "kentucky_route_zero",
+      "norco",
+      "oxenfree",
+      "hypnospace",
+      "in_memoriam",
+      "beast_arg",
+      "magnus_archives",
+      "welcome_night_vale",
+      "limetown",
+      "alice_isnt_dead",
+      "rashomon",
+      "memento",
+      "primer",
+      "cure",
+      "burning",
+      "wailing",
+      "handmaiden",
+      "oldboy",
+      "meshes_afternoon",
+      "persona_film",
+      "blow_up",
+      "conversation",
+      "vertigo",
+      "rear_window",
+      "trial_welles",
+      "investigation_citizen",
+      "cache_film",
+      "enemy_film",
+      "under_silver_lake",
+      "donnie_darko",
+      "pi_film",
+      "upstream_color",
+      "coherence",
+      "predestination",
+      "machinist",
+      "sixth_sense",
+      "being_john_malkovich",
+      "eternal_sunshine",
+      "mr_nobody",
+      "perfect_blue",
+      "paprika",
+      "and_then_none",
+      "roger_ackroyd",
+      "hollow_man",
+      "moonstone",
+      "sherlock_holmes",
+      "decagon_house",
+      "tokyo_zodiac",
+      "daughter_time"
     ]
   }
 }

@@ -8,27 +8,33 @@
     "selection_axes": [
       "ambition",
       "fairness",
+      "traditional_mystery",
       "originality"
     ],
     "influence_is_selection_axis": false,
-    "retained_works": 1037,
-    "unique_agent_work_observations": 20032,
-    "ranked_selections": 29991,
+    "retained_works": 1142,
+    "unique_agent_work_observations": 21958,
+    "ranked_selections": 39998,
+    "collected_ranked_selections": 40000,
+    "excluded_ranked_selections": 2,
     "selection_group_lengths": {
-      "99": 9,
-      "100": 291
+      "99": 2,
+      "100": 398
     },
-    "identity_merges": 516,
-    "within_agent_merges": 9,
-    "retained_singletons": 192,
+    "identity_merges": 725,
+    "series_rollup_decisions": 273,
+    "within_agent_merges": 44,
+    "retained_singletons": 308,
     "unverified_singletons": 0,
-    "excluded_records": 3,
+    "excluded_records": 1,
     "malformed_observations": 0,
     "tv_component_rows": 0,
     "duplicate_canonical_identities": 0,
     "rank_adjustment_max": 5.0,
-    "lower_bound_z": 1.0,
-    "global_composite_sd": 8.217541411138171,
-    "minimum_top_25_support": 68
+    "lower_bound_z": 1.645,
+    "global_composite_sd": 10.0599194656112,
+    "minimum_top_25_support": 60,
+    "minimum_top_100_support": 20,
+    "top_100_below_ten_support": 0
   }
 }

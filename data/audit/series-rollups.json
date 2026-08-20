@@ -1,0 +1,5462 @@
+[
+  {
+    "from": {
+      "title": "The Adventure of the Speckled Band",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1892,
+      "medium": "short_story"
+    },
+    "to": {
+      "title": "The Adventure of the Speckled Band",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1892,
+      "medium": "short_story"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 17,
+    "agents": 17,
+    "observations": 17
+  },
+  {
+    "from": {
+      "title": "The Hound of the Baskervilles",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1902,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Hound of the Baskervilles",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1902,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 38,
+    "agents": 36,
+    "observations": 36
+  },
+  {
+    "from": {
+      "title": "Sherlock Holmes canon",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Sherlock Holmes Canon",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 15,
+    "observations": 15
+  },
+  {
+    "from": {
+      "title": "The Valley of Fear",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1915,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Sherlock Holmes Canon",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Sherlock Holmes Canon",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Sherlock Holmes Canon",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 29,
+    "observations": 29
+  },
+  {
+    "from": {
+      "title": "The Sherlock Holmes Canon",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Sherlock Holmes Canon",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 9,
+    "observations": 9
+  },
+  {
+    "from": {
+      "title": "The Hound of the Baskervilles",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1901,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Hound of the Baskervilles",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1901,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 38,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Sherlock Holmes",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Sherlock Holmes Canon",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "Father Brown canon",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1911,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Blue Cross",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "short_story"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1911,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "Father Brown",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 8,
+    "observations": 8
+  },
+  {
+    "from": {
+      "title": "Father Brown stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "Father Brown Canon",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "The Invisible Man",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1911,
+      "medium": "short_story"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Eye of Apollo",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1911,
+      "medium": "short_story"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 9,
+    "observations": 9
+  },
+  {
+    "from": {
+      "title": "The Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Father Brown",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1911,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Father Brown canon",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Father Brown Stories",
+      "original_title": "",
+      "creator": "G. K. Chesterton",
+      "year": 1910,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Murders in the Rue Morgue",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1841,
+      "medium": "short_story"
+    },
+    "to": {
+      "title": "The Murders in the Rue Morgue",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1841,
+      "medium": "short_story"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 34,
+    "agents": 34,
+    "observations": 34
+  },
+  {
+    "from": {
+      "title": "The Purloined Letter",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1844,
+      "medium": "short_story"
+    },
+    "to": {
+      "title": "The Purloined Letter",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1844,
+      "medium": "short_story"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 12,
+    "agents": 12,
+    "observations": 12
+  },
+  {
+    "from": {
+      "title": "The Auguste Dupin Tales",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1841,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "C. Auguste Dupin Stories",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1841,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "C. Auguste Dupin Stories",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1841,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "C. Auguste Dupin Stories",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1841,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "The Mystery of Marie Rogêt",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1842,
+      "medium": "short_story"
+    },
+    "to": {
+      "title": "C. Auguste Dupin Stories",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1841,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Murder of Roger Ackroyd",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1926,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Murder of Roger Ackroyd",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1926,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 99,
+    "observations": 99
+  },
+  {
+    "from": {
+      "title": "Murder on the Orient Express",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1934,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Murder on the Orient Express",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1934,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 86,
+    "agents": 86,
+    "observations": 86
+  },
+  {
+    "from": {
+      "title": "Death on the Nile",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1937,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Death on the Nile",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1937,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 75,
+    "agents": 75,
+    "observations": 75
+  },
+  {
+    "from": {
+      "title": "The A.B.C. Murders",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1936,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The A.B.C. Murders",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1936,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 86,
+    "agents": 86,
+    "observations": 86
+  },
+  {
+    "from": {
+      "title": "Five Little Pigs",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1942,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Five Little Pigs",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1942,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 96,
+    "agents": 96,
+    "observations": 96
+  },
+  {
+    "from": {
+      "title": "Evil Under the Sun",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1941,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Evil Under the Sun",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1941,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 50,
+    "agents": 50,
+    "observations": 50
+  },
+  {
+    "from": {
+      "title": "After the Funeral",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1953,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "After the Funeral",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1953,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 45,
+    "agents": 45,
+    "observations": 45
+  },
+  {
+    "from": {
+      "title": "Curtain",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1975,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Curtain",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1975,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 18,
+    "agents": 18,
+    "observations": 18
+  },
+  {
+    "from": {
+      "title": "Cards on the Table",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1936,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Cards on the Table",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1936,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 54,
+    "agents": 54,
+    "observations": 54
+  },
+  {
+    "from": {
+      "title": "Peril at End House",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Peril at End House",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 43,
+    "agents": 43,
+    "observations": 43
+  },
+  {
+    "from": {
+      "title": "The Mysterious Affair at Styles",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Mysterious Affair at Styles",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 10,
+    "agents": 10,
+    "observations": 10
+  },
+  {
+    "from": {
+      "title": "Hercule Poirot series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Hercule Poirot Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Hercule Poirot's Christmas",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1938,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Hercule Poirot Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 5,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "The Hollow",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1946,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Hercule Poirot Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Lord Edgware Dies",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1933,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Hercule Poirot Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 9,
+    "agents": 9,
+    "observations": 9
+  },
+  {
+    "from": {
+      "title": "Murder in Mesopotamia",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1936,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Hercule Poirot Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 7,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "Mrs McGinty's Dead",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1952,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Hercule Poirot Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Cat Among the Pigeons",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1959,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Hercule Poirot Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Sad Cypress",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1940,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Hercule Poirot Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1920,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 4,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "A Murder Is Announced",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1950,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "A Murder Is Announced",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1950,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 42,
+    "agents": 42,
+    "observations": 42
+  },
+  {
+    "from": {
+      "title": "The Body in the Library",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1942,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Miss Marple Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1930,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 5,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "The Murder at the Vicarage",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1930,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Miss Marple Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1930,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "A Pocket Full of Rye",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1953,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Miss Marple Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1930,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Moving Finger",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1942,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Miss Marple Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1930,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "The Mirror Crack'd from Side to Side",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1962,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Miss Marple Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1930,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Sleeping Murder",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1976,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Miss Marple Series",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1930,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Greek Coffin Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Greek Coffin Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 88,
+    "agents": 88,
+    "observations": 88
+  },
+  {
+    "from": {
+      "title": "The Chinese Orange Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1934,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Chinese Orange Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1934,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 56,
+    "agents": 56,
+    "observations": 56
+  },
+  {
+    "from": {
+      "title": "The Tragedy of Y",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Tragedy of Y",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 46,
+    "agents": 46,
+    "observations": 46
+  },
+  {
+    "from": {
+      "title": "Cat of Many Tails",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1949,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Cat of Many Tails",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1949,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 38,
+    "agents": 38,
+    "observations": 38
+  },
+  {
+    "from": {
+      "title": "The Tragedy of X",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Tragedy of X",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 28,
+    "agents": 28,
+    "observations": 28
+  },
+  {
+    "from": {
+      "title": "Calamity Town",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1942,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Calamity Town",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1942,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 21,
+    "agents": 21,
+    "observations": 21
+  },
+  {
+    "from": {
+      "title": "The Siamese Twin Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1933,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Siamese Twin Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1933,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 37,
+    "agents": 37,
+    "observations": 37
+  },
+  {
+    "from": {
+      "title": "Halfway House",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1936,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Ellery Queen Series",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1929,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 7,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "Ten Days' Wonder",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1948,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Ellery Queen Series",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1929,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 7,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "The Egyptian Cross Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Egyptian Cross Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 12,
+    "agents": 12,
+    "observations": 12
+  },
+  {
+    "from": {
+      "title": "The Finishing Stroke",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1958,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Ellery Queen Series",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1929,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Lamp of God",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1935,
+      "medium": "novella"
+    },
+    "to": {
+      "title": "Ellery Queen Series",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1929,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Roman Hat Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1929,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Ellery Queen Series",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1929,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Ellery Queen series",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1929,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Ellery Queen Series",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1929,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The French Powder Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1930,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Ellery Queen Series",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1929,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Hollow Man",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Hollow Man",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 73,
+    "observations": 73
+  },
+  {
+    "from": {
+      "title": "The Crooked Hinge",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1938,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Crooked Hinge",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1938,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 50,
+    "agents": 50,
+    "observations": 50
+  },
+  {
+    "from": {
+      "title": "Till Death Do Us Part",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1944,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Till Death Do Us Part",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1944,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 25,
+    "agents": 25,
+    "observations": 25
+  },
+  {
+    "from": {
+      "title": "The Case of the Constant Suicides",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1941,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Case of the Constant Suicides",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1941,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 38,
+    "agents": 38,
+    "observations": 38
+  },
+  {
+    "from": {
+      "title": "He Who Whispers",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1946,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "He Who Whispers",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1946,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 54,
+    "agents": 54,
+    "observations": 54
+  },
+  {
+    "from": {
+      "title": "The Three Coffins",
+      "original_title": "The Hollow Man",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Three Coffins",
+      "original_title": "The Hollow Man",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "The Three Coffins",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Three Coffins",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 15,
+    "observations": 15
+  },
+  {
+    "from": {
+      "title": "The Hollow Man",
+      "original_title": "The Three Coffins",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Hollow Man",
+      "original_title": "The Three Coffins",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 9,
+    "observations": 9
+  },
+  {
+    "from": {
+      "title": "The Green Capsule Problem",
+      "original_title": "The Problem of the Green Capsule",
+      "creator": "John Dickson Carr",
+      "year": 1939,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Green Capsule Problem",
+      "original_title": "The Problem of the Green Capsule",
+      "creator": "John Dickson Carr",
+      "year": 1939,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 13,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Problem of the Green Capsule",
+      "original_title": "The Black Spectacles",
+      "creator": "John Dickson Carr",
+      "year": 1939,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Problem of the Green Capsule",
+      "original_title": "The Black Spectacles",
+      "creator": "John Dickson Carr",
+      "year": 1939,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 13,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Death-Watch",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Dr. Gideon Fell Series",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1933,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 6,
+    "agents": 6,
+    "observations": 6
+  },
+  {
+    "from": {
+      "title": "Hag's Nook",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1933,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Dr. Gideon Fell Series",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1933,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 5,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "The Arabian Nights Murder",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1936,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Dr. Gideon Fell Series",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1933,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Problem of the Green Capsule",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1939,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Problem of the Green Capsule",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1939,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 13,
+    "agents": 10,
+    "observations": 10
+  },
+  {
+    "from": {
+      "title": "Dr. Gideon Fell series",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1933,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Dr. Gideon Fell Series",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1933,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Mad Hatter Mystery",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1933,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Dr. Gideon Fell Series",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1933,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Death in Five Boxes",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1938,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Dr. Gideon Fell Series",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1933,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Judas Window",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1938,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Judas Window",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1938,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 81,
+    "agents": 26,
+    "observations": 26
+  },
+  {
+    "from": {
+      "title": "She Died a Lady",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1943,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "She Died a Lady",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1943,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 48,
+    "agents": 45,
+    "observations": 45
+  },
+  {
+    "from": {
+      "title": "The Judas Window",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1938,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Judas Window",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1938,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 81,
+    "agents": 55,
+    "observations": 55
+  },
+  {
+    "from": {
+      "title": "Nine—and Death Makes Ten",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1940,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Sir Henry Merrivale Series",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 5,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "The Reader Is Warned",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1939,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Sir Henry Merrivale Series",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 6,
+    "agents": 6,
+    "observations": 6
+  },
+  {
+    "from": {
+      "title": "The Peacock Feather Murders",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1937,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Sir Henry Merrivale Series",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 6,
+    "agents": 6,
+    "observations": 6
+  },
+  {
+    "from": {
+      "title": "She Died a Lady",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1943,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "She Died a Lady",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1943,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 48,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Sir Henry Merrivale series",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Sir Henry Merrivale Series",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Ten Teacups",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1937,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Sir Henry Merrivale Series",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Plague Court Murders",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1934,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Sir Henry Merrivale Series",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The White Priory Murders",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1934,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Sir Henry Merrivale Series",
+      "original_title": "",
+      "creator": "Carter Dickson",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Nine Tailors",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1934,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Nine Tailors",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1934,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 97,
+    "agents": 97,
+    "observations": 97
+  },
+  {
+    "from": {
+      "title": "Gaudy Night",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Gaudy Night",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1935,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 91,
+    "agents": 91,
+    "observations": 91
+  },
+  {
+    "from": {
+      "title": "Strong Poison",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1930,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Strong Poison",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1930,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 55,
+    "agents": 55,
+    "observations": 55
+  },
+  {
+    "from": {
+      "title": "Murder Must Advertise",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1933,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Murder Must Advertise",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1933,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 19,
+    "agents": 19,
+    "observations": 19
+  },
+  {
+    "from": {
+      "title": "Lord Peter Wimsey series",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1923,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Lord Peter Wimsey Series",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1923,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Have His Carcase",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Have His Carcase",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1932,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 11,
+    "agents": 11,
+    "observations": 11
+  },
+  {
+    "from": {
+      "title": "Busman's Honeymoon",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1937,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Busman's Honeymoon",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1937,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 11,
+    "agents": 11,
+    "observations": 11
+  },
+  {
+    "from": {
+      "title": "Whose Body?",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1923,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Lord Peter Wimsey Series",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1923,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 7,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "The Five Red Herrings",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1931,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Lord Peter Wimsey Series",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1923,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Unpleasantness at the Bellona Club",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1928,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Lord Peter Wimsey Series",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1923,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 4,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "Unnatural Death",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1927,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Lord Peter Wimsey Series",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1923,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Honjin Murders",
+      "original_title": "Honjin Satsujin Jiken",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Honjin Murders",
+      "original_title": "Honjin Satsujin Jiken",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 98,
+    "agents": 32,
+    "observations": 32
+  },
+  {
+    "from": {
+      "title": "The Inugami Curse",
+      "original_title": "Inugamike no Ichizoku",
+      "creator": "Seishi Yokomizo",
+      "year": 1951,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Inugami Curse",
+      "original_title": "Inugamike no Ichizoku",
+      "creator": "Seishi Yokomizo",
+      "year": 1951,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 89,
+    "agents": 63,
+    "observations": 63
+  },
+  {
+    "from": {
+      "title": "The Honjin Murders",
+      "original_title": "Honjin satsujin jiken",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Honjin Murders",
+      "original_title": "Honjin satsujin jiken",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 98,
+    "agents": 57,
+    "observations": 57
+  },
+  {
+    "from": {
+      "title": "The Inugami Curse",
+      "original_title": "Inugamike no ichizoku",
+      "creator": "Seishi Yokomizo",
+      "year": 1951,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Inugami Curse",
+      "original_title": "Inugamike no ichizoku",
+      "creator": "Seishi Yokomizo",
+      "year": 1951,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 89,
+    "agents": 18,
+    "observations": 18
+  },
+  {
+    "from": {
+      "title": "The Honjin Murders",
+      "original_title": "本陣殺人事件",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Honjin Murders",
+      "original_title": "本陣殺人事件",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 98,
+    "agents": 9,
+    "observations": 9
+  },
+  {
+    "from": {
+      "title": "The Inugami Curse",
+      "original_title": "犬神家の一族",
+      "creator": "Seishi Yokomizo",
+      "year": 1951,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Inugami Curse",
+      "original_title": "犬神家の一族",
+      "creator": "Seishi Yokomizo",
+      "year": 1951,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 89,
+    "agents": 8,
+    "observations": 8
+  },
+  {
+    "from": {
+      "title": "Death on Gokumon Island",
+      "original_title": "Gokumonto",
+      "creator": "Seishi Yokomizo",
+      "year": 1947,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Death on Gokumon Island",
+      "original_title": "Gokumonto",
+      "creator": "Seishi Yokomizo",
+      "year": 1947,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 25,
+    "agents": 16,
+    "observations": 16
+  },
+  {
+    "from": {
+      "title": "The Village of Eight Graves",
+      "original_title": "Yatsuhakamura",
+      "creator": "Seishi Yokomizo",
+      "year": 1949,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Kosuke Kindaichi Series",
+      "original_title": "",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 8,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "Kosuke Kindaichi series",
+      "original_title": "金田一耕助シリーズ",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Kosuke Kindaichi Series",
+      "original_title": "",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Death on Gokumon Island",
+      "original_title": "Gokumontō",
+      "creator": "Seishi Yokomizo",
+      "year": 1947,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Death on Gokumon Island",
+      "original_title": "Gokumontō",
+      "creator": "Seishi Yokomizo",
+      "year": 1947,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 25,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Death on Gokumon Island",
+      "original_title": "Gokumon-tō",
+      "creator": "Seishi Yokomizo",
+      "year": 1947,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Death on Gokumon Island",
+      "original_title": "Gokumon-tō",
+      "creator": "Seishi Yokomizo",
+      "year": 1947,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 25,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Death on Gokumon Island",
+      "original_title": "獄門島",
+      "creator": "Seishi Yokomizo",
+      "year": 1947,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Death on Gokumon Island",
+      "original_title": "獄門島",
+      "creator": "Seishi Yokomizo",
+      "year": 1947,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 25,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "The Village of Eight Graves",
+      "original_title": "Yatsuhaka-mura",
+      "creator": "Seishi Yokomizo",
+      "year": 1949,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Kosuke Kindaichi Series",
+      "original_title": "",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 8,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Devotion of Suspect X",
+      "original_title": "Yogisha X no Kenshin",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Devotion of Suspect X",
+      "original_title": "Yogisha X no Kenshin",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 19,
+    "observations": 19
+  },
+  {
+    "from": {
+      "title": "The Devotion of Suspect X",
+      "original_title": "Yōgisha X no Kenshin",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Devotion of Suspect X",
+      "original_title": "Yōgisha X no Kenshin",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 57,
+    "observations": 57
+  },
+  {
+    "from": {
+      "title": "The Devotion of Suspect X",
+      "original_title": "Yogisha X no kenshin",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Devotion of Suspect X",
+      "original_title": "Yogisha X no kenshin",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "The Devotion of Suspect X",
+      "original_title": "Yōgisha X no kenshin",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Devotion of Suspect X",
+      "original_title": "Yōgisha X no kenshin",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 9,
+    "observations": 9
+  },
+  {
+    "from": {
+      "title": "The Devotion of Suspect X",
+      "original_title": "容疑者Xの献身",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Devotion of Suspect X",
+      "original_title": "容疑者Xの献身",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 9,
+    "observations": 9
+  },
+  {
+    "from": {
+      "title": "Salvation of a Saint",
+      "original_title": "聖女の救済",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Salvation of a Saint",
+      "original_title": "聖女の救済",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 48,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "Silent Parade",
+      "original_title": "沈黙のパレード",
+      "creator": "Keigo Higashino",
+      "year": 2018,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Detective Galileo Series",
+      "original_title": "",
+      "creator": "Keigo Higashino",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Salvation of a Saint",
+      "original_title": "Seijo no Kyusai",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Salvation of a Saint",
+      "original_title": "Seijo no Kyusai",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 48,
+    "agents": 27,
+    "observations": 27
+  },
+  {
+    "from": {
+      "title": "Salvation of a Saint",
+      "original_title": "Seijo no kyūsai",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Salvation of a Saint",
+      "original_title": "Seijo no kyūsai",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 48,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "Salvation of a Saint",
+      "original_title": "Seijo no kyusai",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Salvation of a Saint",
+      "original_title": "Seijo no kyusai",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 48,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Salvation of a Saint",
+      "original_title": "Seijo no Kyūsai",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Salvation of a Saint",
+      "original_title": "Seijo no Kyūsai",
+      "creator": "Keigo Higashino",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 48,
+    "agents": 10,
+    "observations": 10
+  },
+  {
+    "from": {
+      "title": "Detective Galileo series",
+      "original_title": "探偵ガリレオ",
+      "creator": "Keigo Higashino",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Detective Galileo Series",
+      "original_title": "",
+      "creator": "Keigo Higashino",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Decagon House Murders",
+      "original_title": "Jukkakukan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Decagon House Murders",
+      "original_title": "Jukkakukan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 65,
+    "observations": 65
+  },
+  {
+    "from": {
+      "title": "The Mill House Murders",
+      "original_title": "Suishakan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Mill House Murders",
+      "original_title": "Suishakan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 51,
+    "agents": 42,
+    "observations": 42
+  },
+  {
+    "from": {
+      "title": "The Decagon House Murders",
+      "original_title": "Jukkakukan no satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Decagon House Murders",
+      "original_title": "Jukkakukan no satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 25,
+    "observations": 25
+  },
+  {
+    "from": {
+      "title": "The Decagon House Murders",
+      "original_title": "十角館の殺人",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Decagon House Murders",
+      "original_title": "十角館の殺人",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 8,
+    "observations": 8
+  },
+  {
+    "from": {
+      "title": "The Labyrinth House Murders",
+      "original_title": "迷路館の殺人",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Labyrinth House Murders",
+      "original_title": "迷路館の殺人",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 27,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "The Mill House Murders",
+      "original_title": "Suishakan no satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Mill House Murders",
+      "original_title": "Suishakan no satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 51,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "The Labyrinth House Murders",
+      "original_title": "Meirokan no satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Labyrinth House Murders",
+      "original_title": "Meirokan no satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 27,
+    "agents": 6,
+    "observations": 6
+  },
+  {
+    "from": {
+      "title": "The Labyrinth House Murders",
+      "original_title": "Meirokan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Labyrinth House Murders",
+      "original_title": "Meirokan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 27,
+    "agents": 16,
+    "observations": 16
+  },
+  {
+    "from": {
+      "title": "Mansion Murders series",
+      "original_title": "館シリーズ",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Mansion Murders Series",
+      "original_title": "",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Clock Mansion Murders",
+      "original_title": "時計館の殺人",
+      "creator": "Yukito Ayatsuji",
+      "year": 1991,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Mansion Murders Series",
+      "original_title": "",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Mill House Murders",
+      "original_title": "水車館の殺人",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Mill House Murders",
+      "original_title": "水車館の殺人",
+      "creator": "Yukito Ayatsuji",
+      "year": 1988,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 51,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Decagon House Murders",
+      "original_title": "Jūkkakukan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Decagon House Murders",
+      "original_title": "Jūkkakukan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 99,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Clock Mansion Murders",
+      "original_title": "Tokeikan no Satsujin",
+      "creator": "Yukito Ayatsuji",
+      "year": 1991,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Mansion Murders Series",
+      "original_title": "",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Montalbano",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Montalbano",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "Inspector Montalbano Series",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Montalbano",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Montalbano series",
+      "original_title": "Il commissario Montalbano",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Montalbano",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Montalbano",
+      "original_title": "Il commissario Montalbano",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Montalbano",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 8,
+    "observations": 8
+  },
+  {
+    "from": {
+      "title": "Inspector Montalbano series",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Montalbano",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Shape of Water",
+      "original_title": "La forma dell'acqua",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Inspector Montalbano",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Inspector Montalbano Novels",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Montalbano",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Montalbano novels",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Montalbano",
+      "original_title": "",
+      "creator": "Andrea Camilleri",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Erlendur",
+      "original_title": "",
+      "creator": "Arnaldur Indriðason",
+      "year": 1997,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Erlendur",
+      "original_title": "",
+      "creator": "Arnaldur Indriðason",
+      "year": 1997,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 10,
+    "observations": 10
+  },
+  {
+    "from": {
+      "title": "Jar City",
+      "original_title": "Mýrin",
+      "creator": "Arnaldur Indriðason",
+      "year": 1996,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Inspector Erlendur",
+      "original_title": "",
+      "creator": "Arnaldur Indriðason",
+      "year": 1997,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Jar City",
+      "original_title": "Mýrin",
+      "creator": "Arnaldur Indriðason",
+      "year": 2000,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Inspector Erlendur",
+      "original_title": "",
+      "creator": "Arnaldur Indriðason",
+      "year": 1997,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Reykjavík Murder Mysteries",
+      "original_title": "",
+      "creator": "Arnaldur Indriðason",
+      "year": 1997,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Erlendur",
+      "original_title": "",
+      "creator": "Arnaldur Indriðason",
+      "year": 1997,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Morse series",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Morse",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Inspector Morse Novels",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Morse",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Morse",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Morse",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 8,
+    "observations": 8
+  },
+  {
+    "from": {
+      "title": "Inspector Morse Series",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Morse",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Wench Is Dead",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1989,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Inspector Morse",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Inspector Morse novels",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Morse",
+      "original_title": "",
+      "creator": "Colin Dexter",
+      "year": 1975,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Commissaire Adamsberg Series",
+      "original_title": "",
+      "creator": "Fred Vargas",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Commissaire Adamsberg",
+      "original_title": "",
+      "creator": "Fred Vargas",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Commissaire Adamsberg series",
+      "original_title": "",
+      "creator": "Fred Vargas",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Commissaire Adamsberg",
+      "original_title": "",
+      "creator": "Fred Vargas",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Chalk Circle Man",
+      "original_title": "L'Homme aux cercles bleus",
+      "creator": "Fred Vargas",
+      "year": 1991,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Commissaire Adamsberg",
+      "original_title": "",
+      "creator": "Fred Vargas",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Commissaire Adamsberg Novels",
+      "original_title": "",
+      "creator": "Fred Vargas",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Commissaire Adamsberg",
+      "original_title": "",
+      "creator": "Fred Vargas",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Commissaire Adamsberg",
+      "original_title": "",
+      "creator": "Fred Vargas",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Commissaire Adamsberg",
+      "original_title": "",
+      "creator": "Fred Vargas",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "The Maigret Series",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 8,
+    "observations": 8
+  },
+  {
+    "from": {
+      "title": "Inspector Maigret Series",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Maigret series",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Maigret",
+      "original_title": "Maigret",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Inspector Maigret series",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Maigret and the Headless Corpse",
+      "original_title": "Maigret et le corps sans tête",
+      "creator": "Georges Simenon",
+      "year": 1955,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Maigret Novels",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Maigret Series",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "A Man's Head",
+      "original_title": "La Tête d'un homme",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Wallander Series",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Wallander",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Kurt Wallander",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Wallander",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 8,
+    "observations": 8
+  },
+  {
+    "from": {
+      "title": "Wallander Series",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Wallander",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Kurt Wallander series",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Wallander",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Wallander series",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Wallander",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Wallander Novels",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Wallander",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Wallander",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Wallander",
+      "original_title": "",
+      "creator": "Henning Mankell",
+      "year": 1991,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "Judge Dee Mysteries",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Judge Dee Mysteries",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "Judge Dee series",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Judge Dee Mysteries",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Judge Dee mysteries",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Judge Dee Mysteries",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Judge Dee Novels",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Judge Dee Mysteries",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Chinese Gold Murders",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1959,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Judge Dee Mysteries",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Judge Dee series",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1950,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Judge Dee Mysteries",
+      "original_title": "",
+      "creator": "Robert van Gulik",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Remembrance of Earth's Past",
+      "original_title": "",
+      "creator": "Liu Cixin",
+      "year": 2006,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Remembrance of Earth's Past",
+      "original_title": "",
+      "creator": "Liu Cixin",
+      "year": 2006,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 60,
+    "observations": 60
+  },
+  {
+    "from": {
+      "title": "The Three-Body Problem",
+      "original_title": "Sān tǐ",
+      "creator": "Liu Cixin",
+      "year": 2006,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Remembrance of Earth's Past",
+      "original_title": "",
+      "creator": "Liu Cixin",
+      "year": 2006,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Three-Body Problem",
+      "original_title": "San ti",
+      "creator": "Liu Cixin",
+      "year": 2006,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Remembrance of Earth's Past",
+      "original_title": "",
+      "creator": "Liu Cixin",
+      "year": 2006,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Remembrance of Earth's Past trilogy",
+      "original_title": "Diqiu Wangshi",
+      "creator": "Liu Cixin",
+      "year": 2006,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Remembrance of Earth's Past",
+      "original_title": "",
+      "creator": "Liu Cixin",
+      "year": 2006,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The New York Trilogy",
+      "original_title": "",
+      "creator": "Paul Auster",
+      "year": 1985,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "The New York Trilogy",
+      "original_title": "",
+      "creator": "Paul Auster",
+      "year": 1985,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 83,
+    "observations": 83
+  },
+  {
+    "from": {
+      "title": "City of Glass",
+      "original_title": "",
+      "creator": "Paul Auster",
+      "year": 1985,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The New York Trilogy",
+      "original_title": "",
+      "creator": "Paul Auster",
+      "year": 1985,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Annihilation",
+      "original_title": "",
+      "creator": "Jeff VanderMeer",
+      "year": 2014,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Annihilation",
+      "original_title": "",
+      "creator": "Jeff VanderMeer",
+      "year": 2014,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 17,
+    "agents": 17,
+    "observations": 17
+  },
+  {
+    "from": {
+      "title": "Southern Reach",
+      "original_title": "",
+      "creator": "Jeff VanderMeer",
+      "year": 2014,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "The Southern Reach Series",
+      "original_title": "",
+      "creator": "Jeff VanderMeer",
+      "year": 2014,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 10,
+    "observations": 10
+  },
+  {
+    "from": {
+      "title": "The Southern Reach Series",
+      "original_title": "",
+      "creator": "Jeff VanderMeer",
+      "year": 2014,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "The Southern Reach Series",
+      "original_title": "",
+      "creator": "Jeff VanderMeer",
+      "year": 2014,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 38,
+    "observations": 38
+  },
+  {
+    "from": {
+      "title": "The Southern Reach",
+      "original_title": "",
+      "creator": "Jeff VanderMeer",
+      "year": 2014,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "The Southern Reach Series",
+      "original_title": "",
+      "creator": "Jeff VanderMeer",
+      "year": 2014,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Last Policeman trilogy",
+      "original_title": "",
+      "creator": "Ben H. Winters",
+      "year": 2012,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "The Last Policeman Trilogy",
+      "original_title": "",
+      "creator": "Ben H. Winters",
+      "year": 2012,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Last Policeman Trilogy",
+      "original_title": "",
+      "creator": "Ben H. Winters",
+      "year": 2012,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "The Last Policeman Trilogy",
+      "original_title": "",
+      "creator": "Ben H. Winters",
+      "year": 2012,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Last Policeman",
+      "original_title": "",
+      "creator": "Ben H. Winters",
+      "year": 2012,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Last Policeman Trilogy",
+      "original_title": "",
+      "creator": "Ben H. Winters",
+      "year": 2012,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 6,
+    "agents": 6,
+    "observations": 6
+  },
+  {
+    "from": {
+      "title": "Dirk Gently",
+      "original_title": "",
+      "creator": "Douglas Adams",
+      "year": 1987,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Dirk Gently",
+      "original_title": "",
+      "creator": "Douglas Adams",
+      "year": 1987,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "Dirk Gently's Holistic Detective Agency",
+      "original_title": "",
+      "creator": "Douglas Adams",
+      "year": 1987,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Dirk Gently",
+      "original_title": "",
+      "creator": "Douglas Adams",
+      "year": 1987,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Dirk Gently series",
+      "original_title": "",
+      "creator": "Douglas Adams",
+      "year": 1987,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Dirk Gently",
+      "original_title": "",
+      "creator": "Douglas Adams",
+      "year": 1987,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Summer of the Ubume",
+      "original_title": "Ubume no Natsu",
+      "creator": "Natsuhiko Kyogoku",
+      "year": 1994,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Hyakki Yagyō Series",
+      "original_title": "",
+      "creator": "Natsuhiko Kyogoku",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 8,
+    "agents": 8,
+    "observations": 8
+  },
+  {
+    "from": {
+      "title": "Hyakki Yagyō series",
+      "original_title": "百鬼夜行シリーズ",
+      "creator": "Natsuhiko Kyogoku",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Hyakki Yagyō Series",
+      "original_title": "",
+      "creator": "Natsuhiko Kyogoku",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Mouryou no Hako",
+      "original_title": "魍魎の匣",
+      "creator": "Natsuhiko Kyogoku",
+      "year": 1995,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Hyakki Yagyō Series",
+      "original_title": "",
+      "creator": "Natsuhiko Kyogoku",
+      "year": 1994,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 4,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "Lew Archer series",
+      "original_title": "",
+      "creator": "Ross Macdonald",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Lew Archer Series",
+      "original_title": "",
+      "creator": "Ross Macdonald",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Chill",
+      "original_title": "",
+      "creator": "Ross Macdonald",
+      "year": 1964,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Lew Archer Series",
+      "original_title": "",
+      "creator": "Ross Macdonald",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 7,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "The Galton Case",
+      "original_title": "",
+      "creator": "Ross Macdonald",
+      "year": 1959,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Lew Archer Series",
+      "original_title": "",
+      "creator": "Ross Macdonald",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 7,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "The Moving Target",
+      "original_title": "",
+      "creator": "Ross Macdonald",
+      "year": 1949,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Lew Archer Series",
+      "original_title": "",
+      "creator": "Ross Macdonald",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Lew Archer",
+      "original_title": "",
+      "creator": "Ross Macdonald",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Lew Archer Series",
+      "original_title": "",
+      "creator": "Ross Macdonald",
+      "year": 1949,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "In the Woods",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "In the Woods",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "novel"
+    },
+    "decision": "preserved_standalone_component",
+    "component_agent_support": 24,
+    "agents": 24,
+    "observations": 24
+  },
+  {
+    "from": {
+      "title": "Dublin Murder Squad",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Dublin Murder Squad",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 9,
+    "observations": 9
+  },
+  {
+    "from": {
+      "title": "Dublin Murder Squad Series",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Dublin Murder Squad",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Likeness",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2008,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Dublin Murder Squad",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "The Secret Place",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2014,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Dublin Murder Squad",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Dublin Murder Squad series",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Dublin Murder Squad",
+      "original_title": "",
+      "creator": "Tana French",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Byomkesh Bakshi Canon",
+      "original_title": "",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Byomkesh Bakshi Stories",
+      "original_title": "",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Byomkesh Bakshi Stories",
+      "original_title": "",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Byomkesh Bakshi Stories",
+      "original_title": "",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Byomkesh Bakshi stories",
+      "original_title": "Byomkesh Bakshi",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Byomkesh Bakshi Stories",
+      "original_title": "",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Byomkesh Bakshi Stories",
+      "original_title": "Byomkesh Bakshi",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Byomkesh Bakshi Stories",
+      "original_title": "",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "Byomkesh Bakshi series",
+      "original_title": "Byomkesh Bakshi",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Byomkesh Bakshi Stories",
+      "original_title": "",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Byomkesh Bakshi Stories",
+      "original_title": "ব্যোমকেশ বক্সী",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Byomkesh Bakshi Stories",
+      "original_title": "",
+      "creator": "Sharadindu Bandyopadhyay",
+      "year": 1932,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Death Notice",
+      "original_title": "",
+      "creator": "Zhou Haohui",
+      "year": 2009,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Death Notice",
+      "original_title": "",
+      "creator": "Zhou Haohui",
+      "year": 2009,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 24,
+    "observations": 24
+  },
+  {
+    "from": {
+      "title": "Death Notice trilogy",
+      "original_title": "Siwang Tongzhidan",
+      "creator": "Zhou Haohui",
+      "year": 2009,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Death Notice",
+      "original_title": "",
+      "creator": "Zhou Haohui",
+      "year": 2009,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Word Is Murder",
+      "original_title": "",
+      "creator": "Anthony Horowitz",
+      "year": 2017,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Hawthorne and Horowitz Series",
+      "original_title": "",
+      "creator": "Anthony Horowitz",
+      "year": 2017,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 5,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "Hawthorne and Horowitz series",
+      "original_title": "",
+      "creator": "Anthony Horowitz",
+      "year": 2017,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Hawthorne and Horowitz Series",
+      "original_title": "",
+      "creator": "Anthony Horowitz",
+      "year": 2017,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Erast Fandorin series",
+      "original_title": "Priklyucheniya Erasta Fandorina",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Erast Fandorin",
+      "original_title": "",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Winter Queen",
+      "original_title": "Азазель",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Erast Fandorin",
+      "original_title": "",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Winter Queen",
+      "original_title": "Azazel",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Erast Fandorin",
+      "original_title": "",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Erast Fandorin Series",
+      "original_title": "",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Erast Fandorin",
+      "original_title": "",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Erast Fandorin",
+      "original_title": "Priklyucheniya Erasta Fandorina",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Erast Fandorin",
+      "original_title": "",
+      "creator": "Boris Akunin",
+      "year": 1998,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Dr. Siri Paiboun",
+      "original_title": "",
+      "creator": "Colin Cotterill",
+      "year": 2004,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Dr. Siri Paiboun",
+      "original_title": "",
+      "creator": "Colin Cotterill",
+      "year": 2004,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Coroner's Lunch",
+      "original_title": "",
+      "creator": "Colin Cotterill",
+      "year": 2004,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Dr. Siri Paiboun",
+      "original_title": "",
+      "creator": "Colin Cotterill",
+      "year": 2004,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Ghote series",
+      "original_title": "",
+      "creator": "H. R. F. Keating",
+      "year": 1964,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Ghote Series",
+      "original_title": "",
+      "creator": "H. R. F. Keating",
+      "year": 1964,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Perfect Murder",
+      "original_title": "",
+      "creator": "H. R. F. Keating",
+      "year": 1964,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Inspector Ghote Series",
+      "original_title": "",
+      "creator": "H. R. F. Keating",
+      "year": 1964,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Thursday Next series",
+      "original_title": "",
+      "creator": "Jasper Fforde",
+      "year": 2001,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Thursday Next",
+      "original_title": "",
+      "creator": "Jasper Fforde",
+      "year": 2001,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Eyre Affair",
+      "original_title": "",
+      "creator": "Jasper Fforde",
+      "year": 2001,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Thursday Next",
+      "original_title": "",
+      "creator": "Jasper Fforde",
+      "year": 2001,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Thursday Next",
+      "original_title": "",
+      "creator": "Jasper Fforde",
+      "year": 2001,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Thursday Next",
+      "original_title": "",
+      "creator": "Jasper Fforde",
+      "year": 2001,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "The Snowman",
+      "original_title": "Snømannen",
+      "creator": "Jo Nesbø",
+      "year": 2007,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Harry Hole Series",
+      "original_title": "",
+      "creator": "Jo Nesbø",
+      "year": 1997,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "The Redbreast",
+      "original_title": "Rødstrupe",
+      "creator": "Jo Nesbø",
+      "year": 2000,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Harry Hole Series",
+      "original_title": "",
+      "creator": "Jo Nesbø",
+      "year": 1997,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 5,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "Harry Hole",
+      "original_title": "",
+      "creator": "Jo Nesbø",
+      "year": 1997,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Harry Hole Series",
+      "original_title": "",
+      "creator": "Jo Nesbø",
+      "year": 1997,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Keeper of Lost Causes",
+      "original_title": "Kvinden i buret",
+      "creator": "Jussi Adler-Olsen",
+      "year": 2007,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Department Q",
+      "original_title": "",
+      "creator": "Jussi Adler-Olsen",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 3,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Department Q",
+      "original_title": "Afdeling Q",
+      "creator": "Jussi Adler-Olsen",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Department Q",
+      "original_title": "",
+      "creator": "Jussi Adler-Olsen",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Department Q series",
+      "original_title": "",
+      "creator": "Jussi Adler-Olsen",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Department Q",
+      "original_title": "",
+      "creator": "Jussi Adler-Olsen",
+      "year": 2007,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Martin Beck",
+      "original_title": "",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Martin Beck",
+      "original_title": "",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 6,
+    "observations": 6
+  },
+  {
+    "from": {
+      "title": "Martin Beck series",
+      "original_title": "Roman om ett brott",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Martin Beck",
+      "original_title": "",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "Martin Beck",
+      "original_title": "Roman om ett brott",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Martin Beck",
+      "original_title": "",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 8,
+    "observations": 8
+  },
+  {
+    "from": {
+      "title": "Martin Beck series",
+      "original_title": "",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Martin Beck",
+      "original_title": "",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Murder at the Savoy",
+      "original_title": "Polis, polis, potatismos!",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1970,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Martin Beck",
+      "original_title": "",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Martin Beck Series",
+      "original_title": "Roman om ett brott",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Martin Beck",
+      "original_title": "",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 4,
+    "observations": 4
+  },
+  {
+    "from": {
+      "title": "Zaregoto Series",
+      "original_title": "",
+      "creator": "Nisio Isin",
+      "year": 2002,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Zaregoto Series",
+      "original_title": "",
+      "creator": "Nisio Isin",
+      "year": 2002,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Kubikiri Cycle",
+      "original_title": "クビキリサイクル",
+      "creator": "Nisio Isin",
+      "year": 2002,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Zaregoto Series",
+      "original_title": "",
+      "creator": "Nisio Isin",
+      "year": 2002,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Decapitation: Kubikiri Cycle",
+      "original_title": "Kubikiri Saikuru",
+      "creator": "Nisio Isin",
+      "year": 2002,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Zaregoto Series",
+      "original_title": "",
+      "creator": "Nisio Isin",
+      "year": 2002,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Fifth Season",
+      "original_title": "",
+      "creator": "N. K. Jemisin",
+      "year": 2015,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Broken Earth",
+      "original_title": "",
+      "creator": "N. K. Jemisin",
+      "year": 2015,
+      "medium": "book_series"
+    },
+    "decision": "continuous_component",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Broken Earth",
+      "original_title": "",
+      "creator": "N. K. Jemisin",
+      "year": 2015,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "The Broken Earth",
+      "original_title": "",
+      "creator": "N. K. Jemisin",
+      "year": 2015,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Adam Dalgliesh",
+      "original_title": "",
+      "creator": "P. D. James",
+      "year": 1962,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Adam Dalgliesh Series",
+      "original_title": "",
+      "creator": "P. D. James",
+      "year": 1962,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
+      "title": "Adam Dalgliesh series",
+      "original_title": "",
+      "creator": "P. D. James",
+      "year": 1962,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Adam Dalgliesh Series",
+      "original_title": "",
+      "creator": "P. D. James",
+      "year": 1962,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Shroud for a Nightingale",
+      "original_title": "",
+      "creator": "P. D. James",
+      "year": 1971,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Adam Dalgliesh Series",
+      "original_title": "",
+      "creator": "P. D. James",
+      "year": 1962,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Golden Scales",
+      "original_title": "",
+      "creator": "Parker Bilal",
+      "year": 2012,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Inspector Makana Series",
+      "original_title": "",
+      "creator": "Parker Bilal",
+      "year": 2012,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Makana series",
+      "original_title": "",
+      "creator": "Parker Bilal",
+      "year": 2012,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Makana Series",
+      "original_title": "",
+      "creator": "Parker Bilal",
+      "year": 2012,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Dalziel and Pascoe Series",
+      "original_title": "",
+      "creator": "Reginald Hill",
+      "year": 1970,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Dalziel and Pascoe",
+      "original_title": "",
+      "creator": "Reginald Hill",
+      "year": 1970,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "On Beulah Height",
+      "original_title": "",
+      "creator": "Reginald Hill",
+      "year": 1998,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Dalziel and Pascoe",
+      "original_title": "",
+      "creator": "Reginald Hill",
+      "year": 1970,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Dalziel and Pascoe",
+      "original_title": "",
+      "creator": "Reginald Hill",
+      "year": 1970,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Dalziel and Pascoe",
+      "original_title": "",
+      "creator": "Reginald Hill",
+      "year": 1970,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Nero Wolfe Series",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Nero Wolfe Series",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Nero Wolfe",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Nero Wolfe Series",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 6,
+    "observations": 6
+  },
+  {
+    "from": {
+      "title": "Nero Wolfe series",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Nero Wolfe Series",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Some Buried Caesar",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1939,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Nero Wolfe Series",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Doorbell Rang",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1965,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "Nero Wolfe Series",
+      "original_title": "",
+      "creator": "Rex Stout",
+      "year": 1934,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 1,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Gideon the Ninth",
+      "original_title": "",
+      "creator": "Tamsyn Muir",
+      "year": 2019,
+      "medium": "novel"
+    },
+    "to": {
+      "title": "The Locked Tomb",
+      "original_title": "",
+      "creator": "Tamsyn Muir",
+      "year": 2019,
+      "medium": "book_series"
+    },
+    "decision": "low_support_standalone_component",
+    "component_agent_support": 2,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "The Locked Tomb",
+      "original_title": "",
+      "creator": "Tamsyn Muir",
+      "year": 2019,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "The Locked Tomb",
+      "original_title": "",
+      "creator": "Tamsyn Muir",
+      "year": 2019,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 11,
+    "observations": 11
+  }
+]

@@ -12,6 +12,14 @@
   const selections = data.selections;
   const axes = data.axes;
   const selectionAxes = data.selectionAxes;
+  const selectionLists = data.selectionLists || selectionAxes.map((key) => ({ key, label: key, scoreAxis: key }));
+  const selectionLabel = (index) => selectionLists[index]?.label || selectionAxes[index] || "";
+  const axisCount = axes.length;
+  const adjustedStart = 12;
+  const placementAdjustedStart = adjustedStart + axisCount;
+  const rawStart = placementAdjustedStart + axisCount;
+  const selectionCountStart = rawStart + axisCount;
+  const meanPlacementStart = selectionCountStart + selectionAxes.length;
   const text = (id) => (id == null || id < 0 ? "" : strings[id] || "");
   const mediumLabel = (id) => text(id).replaceAll("_", " ");
   const fixed = (value, digits = 2) => (value == null ? "—" : Number(value).toFixed(digits));
@@ -89,15 +97,15 @@
       key: axis.key,
       label: axis.short,
       kind: "score",
-      value: (row) => row[12 + index],
-      show: (row) => fixed(row[12 + index]),
+      value: (row) => row[adjustedStart + index],
+      show: (row) => fixed(row[adjustedStart + index]),
       className: "numeric",
     })),
   ];
 
   const selectionColumns = [
     { key: "agent", label: "Agent", kind: "number", value: (row) => row[0], show: (row) => String(row[0]).padStart(3, "0"), className: "numeric" },
-    { key: "axis", label: "Selection criterion", kind: "category", value: (row) => selectionAxes[row[2]], show: (row) => selectionAxes[row[2]] },
+    { key: "axis", label: "Selection criterion", kind: "category", value: (row) => selectionLabel(row[2]), show: (row) => selectionLabel(row[2]) },
     { key: "place", label: "Place", kind: "rank", value: (row) => row[3], show: (row) => row[3], className: "numeric" },
     { key: "rawTitle", label: "Raw title", kind: "text", value: (row) => text(row[4]), show: (row) => text(row[4]), className: "title-cell" },
     { key: "rawCreator", label: "Raw creator", kind: "text", value: (row) => text(row[5]), show: (row) => text(row[5]), className: "creator-cell" },
@@ -117,7 +125,7 @@
 
   const workSearch = works.map((row) => [text(row[1]), text(row[2]), text(row[3]), mediumLabel(row[5]), row[4]].join(" ").toLocaleLowerCase());
   const selectionSearch = selections.map((row) => [
-    `agent ${row[0]}`, text(row[1]), selectionAxes[row[2]], text(row[4]), text(row[5]), row[6],
+    `agent ${row[0]}`, text(row[1]), selectionLabel(row[2]), text(row[4]), text(row[5]), row[6],
     mediumLabel(row[7]), text(works[row[8]][1]), text(works[row[8]][3]),
   ].join(" ").toLocaleLowerCase());
 
@@ -297,10 +305,10 @@
       ["Rater rate", percent(work[11])],
     ].map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`).join("");
     els.dialogAxisBody.innerHTML = axes.map((axis, axisIndex) => {
-      const selectionIndex = selectionAxes.indexOf(axis.key);
-      const count = selectionIndex < 0 ? "—" : integer(work[24 + selectionIndex]);
-      const meanRank = selectionIndex < 0 ? "—" : fixed(work[27 + selectionIndex], 2);
-      return `<tr><td>${escapeHtml(axis.label)}</td><td>${(axis.weight * 100).toFixed(0)}%</td><td>${fixed(work[12 + axisIndex])}</td><td>${fixed(work[16 + axisIndex])}</td><td>${fixed(work[20 + axisIndex])}</td><td>${count}</td><td>${meanRank}</td></tr>`;
+      const selectionIndex = selectionLists.findIndex((selection) => selection.scoreAxis === axis.key);
+      const count = selectionIndex < 0 ? "—" : integer(work[selectionCountStart + selectionIndex]);
+      const meanRank = selectionIndex < 0 ? "—" : fixed(work[meanPlacementStart + selectionIndex], 2);
+      return `<tr><td>${escapeHtml(axis.label)}</td><td>${(axis.weight * 100).toFixed(0)}%</td><td>${fixed(work[adjustedStart + axisIndex])}</td><td>${fixed(work[placementAdjustedStart + axisIndex])}</td><td>${fixed(work[rawStart + axisIndex])}</td><td>${count}</td><td>${meanRank}</td></tr>`;
     }).join("");
     els.dialog.showModal();
   }
@@ -344,7 +352,7 @@
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = state.view === "works" ? "mystery-consensus-works.csv" : "mystery-consensus-raw-selections.csv";
+    link.download = state.view === "works" ? "mystery-report-works.csv" : "mystery-report-raw-selections.csv";
     document.body.append(link);
     link.click();
     link.remove();
@@ -352,10 +360,10 @@
   }
 
   function populateControls() {
-    els.axis.insertAdjacentHTML("beforeend", selectionAxes.map((axis, index) => `<option value="${index}">${escapeHtml(axis)}</option>`).join(""));
+    els.axis.insertAdjacentHTML("beforeend", selectionLists.map((selection, index) => `<option value="${index}">${escapeHtml(selection.label)}</option>`).join(""));
     const media = [...new Set([...works.map((row) => text(row[5])), ...selections.map((row) => text(row[7]))])].sort((a, b) => a.localeCompare(b));
     els.medium.insertAdjacentHTML("beforeend", media.map((medium) => `<option value="${escapeHtml(medium)}">${escapeHtml(medium.replaceAll("_", " "))}</option>`).join(""));
-    els.datasetSummary.textContent = `Consensus dataset · ${integer(data.meta.agents)} valid agents · ${integer(data.meta.observations)} complete agent–work ratings · ±${fixed(data.meta.rankAdjustmentMax, 0)} placement correction · one-standard-error support penalty`;
+    els.datasetSummary.textContent = `Consensus dataset v${data.meta.version} · ${integer(data.meta.agents)} valid agents · ${integer(data.meta.observations)} complete agent–work ratings · ±${fixed(data.meta.rankAdjustmentMax, 0)} placement correction · one-sided 95% support penalty`;
   }
 
   els.viewButtons.forEach((button) => button.addEventListener("click", () => switchView(button.dataset.view)));

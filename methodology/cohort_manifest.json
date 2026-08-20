@@ -1,7 +1,7 @@
 {
-  "generalist_agents": 40,
-  "lens_assisted_agents": 60,
-  "lens_instruction": "Use the assigned lens to widen initial candidate discovery and counter familiarity bias. It is not a quota, eligibility restriction, score bonus, or limit on the final rankings. The final three selection lists must remain honest global top-100 judgments under the common rubric.",
+  "generalist_agents": 35,
+  "lens_assisted_agents": 65,
+  "lens_instruction": "Use the assigned lens to widen initial candidate discovery and counter familiarity bias. It is not a quota, eligibility restriction, score bonus, or limit on the final rankings. The final four selection lists must remain honest global top-100 judgments under the common rubric.",
   "agents": [
     {
       "agent_number": 1,
@@ -251,37 +251,37 @@
     {
       "agent_number": 36,
       "agent_id": "scorer-036",
-      "cohort": "generalist",
-      "cohort_label": "Generalist",
-      "lens": ""
+      "cohort": "traditional_genre",
+      "cohort_label": "Traditional mystery traditions",
+      "lens": "Search especially carefully across traditional mystery forms, eras, schools, and international traditions while judging all four lists globally."
     },
     {
       "agent_number": 37,
       "agent_id": "scorer-037",
-      "cohort": "generalist",
-      "cohort_label": "Generalist",
-      "lens": ""
+      "cohort": "traditional_genre",
+      "cohort_label": "Traditional mystery traditions",
+      "lens": "Search especially carefully across traditional mystery forms, eras, schools, and international traditions while judging all four lists globally."
     },
     {
       "agent_number": 38,
       "agent_id": "scorer-038",
-      "cohort": "generalist",
-      "cohort_label": "Generalist",
-      "lens": ""
+      "cohort": "traditional_genre",
+      "cohort_label": "Traditional mystery traditions",
+      "lens": "Search especially carefully across traditional mystery forms, eras, schools, and international traditions while judging all four lists globally."
     },
     {
       "agent_number": 39,
       "agent_id": "scorer-039",
-      "cohort": "generalist",
-      "cohort_label": "Generalist",
-      "lens": ""
+      "cohort": "traditional_genre",
+      "cohort_label": "Traditional mystery traditions",
+      "lens": "Search especially carefully across traditional mystery forms, eras, schools, and international traditions while judging all four lists globally."
     },
     {
       "agent_number": 40,
       "agent_id": "scorer-040",
-      "cohort": "generalist",
-      "cohort_label": "Generalist",
-      "lens": ""
+      "cohort": "traditional_genre",
+      "cohort_label": "Traditional mystery traditions",
+      "lens": "Search especially carefully across traditional mystery forms, eras, schools, and international traditions while judging all four lists globally."
     },
     {
       "agent_number": 41,

@@ -1,27 +1,16 @@
 {
-  "retained_singletons": 192,
-  "verified_automatically": 138,
-  "verified_with_targeted_sources": 54,
+  "retained_singletons": 308,
+  "verified_automatically": 206,
+  "verified_with_targeted_sources": 102,
   "unverified_retained": 0,
-  "excluded_records": 3,
+  "excluded_records": 1,
   "exclusions": [
     {
-      "title": "Professor Layton",
-      "year": 2007,
-      "medium": "video_game",
-      "reason": "Franchise-level umbrella over self-contained installments; fails the study work-unit rule."
-    },
-    {
-      "title": "The Puzzle of the Dead Man",
-      "year": 1936,
+      "title": "The Small Bone",
+      "creator": "Wojciech Chmielarz",
+      "year": 2015,
       "medium": "novel",
-      "reason": "Could not be corroborated in Patrick Quentin bibliographies or catalogues."
-    },
-    {
-      "title": "The Vanishing of Roger Stacey",
-      "year": 1957,
-      "medium": "novel",
-      "reason": "Could not be corroborated in John Rhode bibliographies or catalogues."
+      "reason": "No bibliographic or catalogue record could verify the supplied title, original title, creator, and year combination."
     }
   ]
 }

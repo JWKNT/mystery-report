@@ -1,0 +1,339 @@
+{
+  "preserve_component_support": 10,
+  "series": [
+    {
+      "parent": {"title": "Sherlock Holmes Canon", "original_title": "", "creator": "Arthur Conan Doyle", "year": 1887, "medium": "book_series"},
+      "creator_aliases": ["Arthur Conan Doyle", "Sir Arthur Conan Doyle"],
+      "media": ["book_series", "novel", "novella", "short_story"],
+      "parent_titles": ["Sherlock Holmes Canon", "The Sherlock Holmes Canon", "Sherlock Holmes", "Sherlock Holmes Stories"],
+      "standalone_components": [
+        {"titles": ["A Study in Scarlet"]}, {"titles": ["The Sign of the Four", "The Sign of Four"]},
+        {"titles": ["The Hound of the Baskervilles"]}, {"titles": ["The Valley of Fear"]},
+        {"titles": ["A Scandal in Bohemia"]}, {"titles": ["The Red-Headed League"]},
+        {"titles": ["The Adventure of the Speckled Band", "The Speckled Band"]},
+        {"titles": ["The Adventure of the Dancing Men", "The Dancing Men"]},
+        {"titles": ["The Blue Carbuncle"]}, {"titles": ["Silver Blaze"]},
+        {"titles": ["The Musgrave Ritual"]}, {"titles": ["The Final Problem"]},
+        {"titles": ["The Adventure of the Bruce-Partington Plans"]}, {"titles": ["The Adventure of the Six Napoleons"]}
+      ]
+    },
+    {
+      "parent": {"title": "Father Brown Stories", "original_title": "", "creator": "G. K. Chesterton", "year": 1910, "medium": "book_series"},
+      "creator_aliases": ["G. K. Chesterton", "G.K. Chesterton", "Gilbert Keith Chesterton"],
+      "media": ["book_series", "short_story"],
+      "parent_titles": ["Father Brown Stories", "Father Brown Canon", "Father Brown", "The Father Brown Stories"],
+      "standalone_components": [
+        {"titles": ["The Blue Cross"]}, {"titles": ["The Invisible Man"]}, {"titles": ["The Eye of Apollo"]},
+        {"titles": ["The Hammer of God"]}, {"titles": ["The Queer Feet"]}, {"titles": ["The Wrong Shape"]},
+        {"titles": ["The Oracle of the Dog"]}
+      ]
+    },
+    {
+      "parent": {"title": "C. Auguste Dupin Stories", "original_title": "", "creator": "Edgar Allan Poe", "year": 1841, "medium": "book_series"},
+      "creator_aliases": ["Edgar Allan Poe"],
+      "media": ["book_series", "short_story"],
+      "parent_titles": ["C. Auguste Dupin Stories", "The Auguste Dupin Tales", "Auguste Dupin Stories", "Dupin Stories"],
+      "standalone_components": [
+        {"titles": ["The Murders in the Rue Morgue"]}, {"titles": ["The Mystery of Marie Rogêt", "The Mystery of Marie Roget"]},
+        {"titles": ["The Purloined Letter"]}
+      ]
+    },
+    {
+      "parent": {"title": "Hercule Poirot Series", "original_title": "", "creator": "Agatha Christie", "year": 1920, "medium": "book_series"},
+      "creator_aliases": ["Agatha Christie"],
+      "media": ["book_series", "novel", "novella", "short_story"],
+      "parent_titles": ["Hercule Poirot Series", "Poirot Series", "Hercule Poirot Novels"],
+      "standalone_components": [
+        {"titles": ["The Mysterious Affair at Styles"]}, {"titles": ["The Murder of Roger Ackroyd"]},
+        {"titles": ["Peril at End House"]}, {"titles": ["Lord Edgware Dies"]}, {"titles": ["Murder on the Orient Express"]},
+        {"titles": ["The A.B.C. Murders", "The ABC Murders"]}, {"titles": ["Murder in Mesopotamia"]},
+        {"titles": ["Cards on the Table"]}, {"titles": ["Death on the Nile"]}, {"titles": ["Hercule Poirot's Christmas"]},
+        {"titles": ["Sad Cypress"]}, {"titles": ["Evil Under the Sun"]}, {"titles": ["Five Little Pigs"]},
+        {"titles": ["The Hollow"]}, {"titles": ["After the Funeral"]},
+        {"titles": ["Mrs McGinty's Dead", "Mrs. McGinty's Dead"]}, {"titles": ["Cat Among the Pigeons"]},
+        {"titles": ["Curtain", "Curtain: Poirot's Last Case"]}
+      ]
+    },
+    {
+      "parent": {"title": "Miss Marple Series", "original_title": "", "creator": "Agatha Christie", "year": 1930, "medium": "book_series"},
+      "creator_aliases": ["Agatha Christie"],
+      "media": ["book_series", "novel", "novella", "short_story"],
+      "parent_titles": ["Miss Marple Series", "Miss Marple Novels", "Miss Marple Stories"],
+      "standalone_components": [
+        {"titles": ["The Murder at the Vicarage"]}, {"titles": ["The Body in the Library"]},
+        {"titles": ["The Moving Finger"]}, {"titles": ["A Murder Is Announced"]},
+        {"titles": ["A Pocket Full of Rye"]}, {"titles": ["The Mirror Crack'd from Side to Side"]},
+        {"titles": ["Sleeping Murder"]}, {"titles": ["The Thirteen Problems"]}
+      ]
+    },
+    {
+      "parent": {"title": "Ellery Queen Series", "original_title": "", "creator": "Ellery Queen", "year": 1929, "medium": "book_series"},
+      "creator_aliases": ["Ellery Queen"],
+      "media": ["book_series", "novel", "novella", "short_story"],
+      "parent_titles": ["Ellery Queen Series", "Ellery Queen Novels"],
+      "standalone_components": [
+        {"titles": ["The Roman Hat Mystery"]}, {"titles": ["The French Powder Mystery"]},
+        {"titles": ["The Greek Coffin Mystery"]}, {"titles": ["The Egyptian Cross Mystery"]},
+        {"titles": ["The Tragedy of X", "The X Tragedy"]}, {"titles": ["The Tragedy of Y", "The Y Tragedy"]},
+        {"titles": ["The Siamese Twin Mystery"]}, {"titles": ["The Chinese Orange Mystery"]},
+        {"titles": ["The Lamp of God"]}, {"titles": ["Halfway House"]}, {"titles": ["Calamity Town"]},
+        {"titles": ["Ten Days' Wonder"]}, {"titles": ["Cat of Many Tails"]}, {"titles": ["The Finishing Stroke"]}
+      ]
+    },
+    {
+      "parent": {"title": "Dr. Gideon Fell Series", "original_title": "", "creator": "John Dickson Carr", "year": 1933, "medium": "book_series"},
+      "creator_aliases": ["John Dickson Carr"],
+      "media": ["book_series", "novel", "novella", "short_story"],
+      "parent_titles": ["Dr. Gideon Fell Series", "Gideon Fell Series", "Dr Gideon Fell Novels"],
+      "standalone_components": [
+        {"titles": ["Hag's Nook"]}, {"titles": ["The Mad Hatter Mystery"]}, {"titles": ["Death-Watch"]},
+        {"titles": ["The Arabian Nights Murder"]}, {"titles": ["The Hollow Man", "The Three Coffins"]},
+        {"titles": ["The Crooked Hinge"]}, {"titles": ["The Problem of the Green Capsule", "The Black Spectacles"]},
+        {"titles": ["The Case of the Constant Suicides"]}, {"titles": ["Till Death Do Us Part"]}, {"titles": ["He Who Whispers"]},
+        {"titles": ["Death in Five Boxes"]}
+      ]
+    },
+    {
+      "parent": {"title": "Sir Henry Merrivale Series", "original_title": "", "creator": "Carter Dickson", "year": 1934, "medium": "book_series"},
+      "creator_aliases": ["Carter Dickson", "John Dickson Carr"],
+      "media": ["book_series", "novel", "novella", "short_story"],
+      "parent_titles": ["Sir Henry Merrivale Series", "Henry Merrivale Series", "H.M. Series"],
+      "standalone_components": [
+        {"titles": ["The Plague Court Murders"]}, {"titles": ["The Peacock Feather Murders"]},
+        {"titles": ["The Ten Teacups"]}, {"titles": ["The Judas Window"]}, {"titles": ["The Reader Is Warned"]},
+        {"titles": ["Nine—and Death Makes Ten", "Nine and Death Makes Ten"]}, {"titles": ["She Died a Lady"]},
+        {"titles": ["The White Priory Murders"]}
+      ]
+    },
+    {
+      "parent": {"title": "Lord Peter Wimsey Series", "original_title": "", "creator": "Dorothy L. Sayers", "year": 1923, "medium": "book_series"},
+      "creator_aliases": ["Dorothy L. Sayers", "Dorothy Sayers"],
+      "media": ["book_series", "novel", "novella", "short_story"],
+      "parent_titles": ["Lord Peter Wimsey Series", "Lord Peter Wimsey Novels"],
+      "standalone_components": [
+        {"titles": ["Whose Body?"]}, {"titles": ["Unnatural Death"]}, {"titles": ["The Unpleasantness at the Bellona Club"]},
+        {"titles": ["Strong Poison"]}, {"titles": ["The Five Red Herrings"]}, {"titles": ["Have His Carcase"]},
+        {"titles": ["Murder Must Advertise"]}, {"titles": ["The Nine Tailors"]}, {"titles": ["Gaudy Night"]},
+        {"titles": ["Busman's Honeymoon"]}
+      ]
+    },
+    {
+      "parent": {"title": "Kosuke Kindaichi Series", "original_title": "", "creator": "Seishi Yokomizo", "year": 1946, "medium": "book_series"},
+      "creator_aliases": ["Seishi Yokomizo"],
+      "media": ["book_series", "novel"],
+      "parent_titles": ["Kosuke Kindaichi Series", "Kindaichi Novels"],
+      "standalone_components": [
+        {"titles": ["The Honjin Murders"]}, {"titles": ["Death on Gokumon Island", "Gokumon Island"]},
+        {"titles": ["The Village of Eight Graves"]}, {"titles": ["The Inugami Curse"]}
+      ]
+    },
+    {
+      "parent": {"title": "Detective Galileo Series", "original_title": "", "creator": "Keigo Higashino", "year": 1998, "medium": "book_series"},
+      "creator_aliases": ["Keigo Higashino"],
+      "media": ["book_series", "novel"],
+      "parent_titles": ["Detective Galileo Series", "Galileo Series"],
+      "standalone_components": [
+        {"titles": ["The Devotion of Suspect X"]}, {"titles": ["Salvation of a Saint"]}, {"titles": ["Silent Parade"]}
+      ]
+    },
+    {
+      "parent": {"title": "Mansion Murders Series", "original_title": "", "creator": "Yukito Ayatsuji", "year": 1987, "medium": "book_series"},
+      "creator_aliases": ["Yukito Ayatsuji"],
+      "media": ["book_series", "novel"],
+      "parent_titles": ["Mansion Murders Series", "The Mansion Murders", "Yakata Series"],
+      "standalone_components": [
+        {"titles": ["The Decagon House Murders"]}, {"titles": ["The Mill House Murders", "The Water Mill House Murders"]},
+        {"titles": ["The Labyrinth House Murders"]}, {"titles": ["The Clock Mansion Murders"]}
+      ]
+    },
+    {
+      "parent": {"title": "Inspector Montalbano", "original_title": "", "creator": "Andrea Camilleri", "year": 1994, "medium": "book_series"},
+      "creator_aliases": ["Andrea Camilleri"], "media": ["book_series", "novel"],
+      "parent_titles": ["Inspector Montalbano", "Inspector Montalbano Novels", "Montalbano Series"],
+      "standalone_components": [{"titles": ["The Shape of Water"]}]
+    },
+    {
+      "parent": {"title": "Inspector Erlendur", "original_title": "", "creator": "Arnaldur Indriðason", "year": 1997, "medium": "book_series"},
+      "creator_aliases": ["Arnaldur Indriðason", "Arnaldur Indridason"], "media": ["book_series", "novel"],
+      "parent_titles": ["Inspector Erlendur", "Reykjavík Murder Mysteries", "Reykjavik Murder Mysteries", "Inspector Erlendur Series"],
+      "standalone_components": [{"titles": ["Jar City"]}]
+    },
+    {
+      "parent": {"title": "Inspector Morse", "original_title": "", "creator": "Colin Dexter", "year": 1975, "medium": "book_series"},
+      "creator_aliases": ["Colin Dexter"], "media": ["book_series", "novel"],
+      "parent_titles": ["Inspector Morse", "The Inspector Morse Novels", "Inspector Morse Novels"],
+      "standalone_components": [{"titles": ["The Wench Is Dead"]}]
+    },
+    {
+      "parent": {"title": "Commissaire Adamsberg", "original_title": "", "creator": "Fred Vargas", "year": 1991, "medium": "book_series"},
+      "creator_aliases": ["Fred Vargas"], "media": ["book_series", "novel"],
+      "parent_titles": ["Commissaire Adamsberg", "Commissaire Adamsberg Novels", "Adamsberg Series"],
+      "standalone_components": [{"titles": ["The Chalk Circle Man"]}]
+    },
+    {
+      "parent": {"title": "Maigret", "original_title": "", "creator": "Georges Simenon", "year": 1931, "medium": "book_series"},
+      "creator_aliases": ["Georges Simenon"], "media": ["book_series", "novel"],
+      "parent_titles": ["Maigret", "Maigret Novels", "Inspector Maigret Series"],
+      "standalone_components": [{"titles": ["A Man's Head"]}, {"titles": ["Maigret and the Headless Corpse"]}]
+    },
+    {
+      "parent": {"title": "Wallander", "original_title": "", "creator": "Henning Mankell", "year": 1991, "medium": "book_series"},
+      "creator_aliases": ["Henning Mankell"], "media": ["book_series", "novel"],
+      "parent_titles": ["Wallander", "Kurt Wallander", "Wallander Novels", "Inspector Wallander Series"]
+    },
+    {
+      "parent": {"title": "Judge Dee Mysteries", "original_title": "", "creator": "Robert van Gulik", "year": 1949, "medium": "book_series"},
+      "creator_aliases": ["Robert van Gulik"], "media": ["book_series", "novel"],
+      "parent_titles": ["Judge Dee Mysteries", "Judge Dee Series", "Judge Dee Novels"],
+      "standalone_components": [{"titles": ["The Chinese Gold Murders"]}]
+    },
+    {
+      "parent": {"title": "Remembrance of Earth's Past", "original_title": "", "creator": "Liu Cixin", "year": 2006, "medium": "book_series"},
+      "creator_aliases": ["Liu Cixin", "Cixin Liu"], "media": ["book_series", "novel"],
+      "parent_titles": ["Remembrance of Earth's Past", "Remembrance of Earth's Past Trilogy", "The Three-Body Trilogy"],
+      "standalone_components": [{"titles": ["The Three-Body Problem", "Three Body Problem"]}]
+    },
+    {
+      "parent": {"title": "The New York Trilogy", "original_title": "", "creator": "Paul Auster", "year": 1985, "medium": "book_series"},
+      "creator_aliases": ["Paul Auster"], "media": ["book_series", "novel", "novella"],
+      "parent_titles": ["The New York Trilogy", "New York Trilogy"],
+      "standalone_components": [{"titles": ["City of Glass"]}, {"titles": ["Ghosts"]}, {"titles": ["The Locked Room"]}]
+    },
+    {
+      "parent": {"title": "The Southern Reach Series", "original_title": "", "creator": "Jeff VanderMeer", "year": 2014, "medium": "book_series"},
+      "creator_aliases": ["Jeff VanderMeer", "Jeff Vandermeer"], "media": ["book_series", "novel"],
+      "parent_titles": ["The Southern Reach Series", "The Southern Reach Trilogy", "Southern Reach"],
+      "standalone_components": [{"titles": ["Annihilation"]}, {"titles": ["Authority"]}, {"titles": ["Acceptance"]}, {"titles": ["Absolution"]}]
+    },
+    {
+      "parent": {"title": "The Last Policeman Trilogy", "original_title": "", "creator": "Ben H. Winters", "year": 2012, "medium": "book_series"},
+      "creator_aliases": ["Ben H. Winters", "Ben Winters"], "media": ["book_series", "novel"],
+      "parent_titles": ["The Last Policeman Trilogy", "Last Policeman Trilogy"],
+      "standalone_components": [{"titles": ["The Last Policeman"]}]
+    },
+    {
+      "parent": {"title": "Dirk Gently", "original_title": "", "creator": "Douglas Adams", "year": 1987, "medium": "book_series"},
+      "creator_aliases": ["Douglas Adams"], "media": ["book_series", "novel"],
+      "parent_titles": ["Dirk Gently", "Dirk Gently Series"],
+      "standalone_components": [{"titles": ["Dirk Gently's Holistic Detective Agency"]}, {"titles": ["The Long Dark Tea-Time of the Soul"]}]
+    },
+    {
+      "parent": {"title": "Hyakki Yagyō Series", "original_title": "", "creator": "Natsuhiko Kyogoku", "year": 1994, "medium": "book_series"},
+      "creator_aliases": ["Natsuhiko Kyogoku", "Natsuhiko Kyōgoku"], "media": ["book_series", "novel"],
+      "parent_titles": ["Hyakki Yagyō Series", "Hyakki Yagyo Series", "Kyogokudo Series"],
+      "standalone_components": [{"titles": ["The Summer of the Ubume"]}, {"titles": ["Mouryou no Hako", "Mōryō no Hako"]}]
+    },
+    {
+      "parent": {"title": "Lew Archer Series", "original_title": "", "creator": "Ross Macdonald", "year": 1949, "medium": "book_series"},
+      "creator_aliases": ["Ross Macdonald"], "media": ["book_series", "novel"],
+      "parent_titles": ["Lew Archer Series", "Lew Archer"],
+      "standalone_components": [{"titles": ["The Moving Target"]}, {"titles": ["The Galton Case"]}, {"titles": ["The Chill"]}]
+    },
+    {
+      "parent": {"title": "Dublin Murder Squad", "original_title": "", "creator": "Tana French", "year": 2007, "medium": "book_series"},
+      "creator_aliases": ["Tana French"], "media": ["book_series", "novel"],
+      "parent_titles": ["Dublin Murder Squad", "Dublin Murder Squad Series"],
+      "standalone_components": [{"titles": ["In the Woods"]}, {"titles": ["The Likeness"]}, {"titles": ["The Secret Place"]}]
+    },
+    {
+      "parent": {"title": "Byomkesh Bakshi Stories", "original_title": "", "creator": "Sharadindu Bandyopadhyay", "year": 1932, "medium": "book_series"},
+      "creator_aliases": ["Sharadindu Bandyopadhyay", "Sharadindu Bandopadhyay"], "media": ["book_series", "novel", "short_story"],
+      "parent_titles": ["Byomkesh Bakshi Stories", "Byomkesh Bakshi Canon", "Byomkesh Bakshi"]
+    },
+    {
+      "parent": {"title": "Death Notice", "original_title": "", "creator": "Zhou Haohui", "year": 2009, "medium": "book_series"},
+      "creator_aliases": ["Zhou Haohui"], "media": ["book_series", "novel"],
+      "parent_titles": ["Death Notice", "Death Notice Trilogy"]
+    },
+    {
+      "parent": {"title": "Hawthorne and Horowitz Series", "original_title": "", "creator": "Anthony Horowitz", "year": 2017, "medium": "book_series"},
+      "creator_aliases": ["Anthony Horowitz"], "media": ["book_series", "novel"],
+      "parent_titles": ["Hawthorne and Horowitz Series", "Hawthorne Series"],
+      "standalone_components": [{"titles": ["The Word Is Murder"]}]
+    },
+    {
+      "parent": {"title": "Erast Fandorin", "original_title": "", "creator": "Boris Akunin", "year": 1998, "medium": "book_series"},
+      "creator_aliases": ["Boris Akunin"], "media": ["book_series", "novel"],
+      "parent_titles": ["Erast Fandorin", "Erast Fandorin Series"],
+      "standalone_components": [{"titles": ["The Winter Queen"]}]
+    },
+    {
+      "parent": {"title": "Dr. Siri Paiboun", "original_title": "", "creator": "Colin Cotterill", "year": 2004, "medium": "book_series"},
+      "creator_aliases": ["Colin Cotterill"], "media": ["book_series", "novel"],
+      "parent_titles": ["Dr. Siri Paiboun", "Dr Siri Paiboun Series"],
+      "standalone_components": [{"titles": ["The Coroner's Lunch"]}]
+    },
+    {
+      "parent": {"title": "Inspector Ghote Series", "original_title": "", "creator": "H. R. F. Keating", "year": 1964, "medium": "book_series"},
+      "creator_aliases": ["H. R. F. Keating", "H.R.F. Keating"], "media": ["book_series", "novel"],
+      "parent_titles": ["Inspector Ghote Series", "Inspector Ghote"],
+      "standalone_components": [{"titles": ["The Perfect Murder"]}]
+    },
+    {
+      "parent": {"title": "Thursday Next", "original_title": "", "creator": "Jasper Fforde", "year": 2001, "medium": "book_series"},
+      "creator_aliases": ["Jasper Fforde"], "media": ["book_series", "novel"],
+      "parent_titles": ["Thursday Next", "Thursday Next Series"],
+      "standalone_components": [{"titles": ["The Eyre Affair"]}]
+    },
+    {
+      "parent": {"title": "Harry Hole Series", "original_title": "", "creator": "Jo Nesbø", "year": 1997, "medium": "book_series"},
+      "creator_aliases": ["Jo Nesbø", "Jo Nesbo"], "media": ["book_series", "novel"],
+      "parent_titles": ["Harry Hole", "Harry Hole Series"],
+      "standalone_components": [{"titles": ["The Redbreast"]}, {"titles": ["The Snowman"]}]
+    },
+    {
+      "parent": {"title": "Department Q", "original_title": "", "creator": "Jussi Adler-Olsen", "year": 2007, "medium": "book_series"},
+      "creator_aliases": ["Jussi Adler-Olsen", "Jussi Adler Olsen"], "media": ["book_series", "novel"],
+      "parent_titles": ["Department Q", "Department Q Series"],
+      "standalone_components": [{"titles": ["The Keeper of Lost Causes"]}]
+    },
+    {
+      "parent": {"title": "Martin Beck", "original_title": "", "creator": "Maj Sjöwall and Per Wahlöö", "year": 1965, "medium": "book_series"},
+      "creator_aliases": ["Maj Sjöwall and Per Wahlöö", "Maj Sjowall and Per Wahloo"], "media": ["book_series", "novel"],
+      "parent_titles": ["Martin Beck", "Martin Beck Series"],
+      "standalone_components": [{"titles": ["Murder at the Savoy"]}]
+    },
+    {
+      "parent": {"title": "Zaregoto Series", "original_title": "", "creator": "Nisio Isin", "year": 2002, "medium": "book_series"},
+      "creator_aliases": ["Nisio Isin", "NISIOISIN"], "media": ["book_series", "novel"],
+      "parent_titles": ["Zaregoto Series", "Zaregoto"],
+      "standalone_components": [{"titles": ["Decapitation: Kubikiri Cycle", "The Kubikiri Cycle"]}]
+    },
+    {
+      "parent": {"title": "The Broken Earth", "original_title": "", "creator": "N. K. Jemisin", "year": 2015, "medium": "book_series"},
+      "creator_aliases": ["N. K. Jemisin", "N.K. Jemisin"], "media": ["book_series", "novel"],
+      "parent_titles": ["The Broken Earth", "Broken Earth Trilogy"],
+      "continuous_components": [{"titles": ["The Fifth Season"]}]
+    },
+    {
+      "parent": {"title": "Adam Dalgliesh Series", "original_title": "", "creator": "P. D. James", "year": 1962, "medium": "book_series"},
+      "creator_aliases": ["P. D. James", "P.D. James"], "media": ["book_series", "novel"],
+      "parent_titles": ["Adam Dalgliesh", "Adam Dalgliesh Series"],
+      "standalone_components": [{"titles": ["Shroud for a Nightingale"]}]
+    },
+    {
+      "parent": {"title": "Inspector Makana Series", "original_title": "", "creator": "Parker Bilal", "year": 2012, "medium": "book_series"},
+      "creator_aliases": ["Parker Bilal"], "media": ["book_series", "novel"],
+      "parent_titles": ["Inspector Makana Series", "Inspector Makana"],
+      "standalone_components": [{"titles": ["The Golden Scales"]}]
+    },
+    {
+      "parent": {"title": "Dalziel and Pascoe", "original_title": "", "creator": "Reginald Hill", "year": 1970, "medium": "book_series"},
+      "creator_aliases": ["Reginald Hill"], "media": ["book_series", "novel"],
+      "parent_titles": ["Dalziel and Pascoe", "Dalziel and Pascoe Series"],
+      "standalone_components": [{"titles": ["On Beulah Height"]}]
+    },
+    {
+      "parent": {"title": "Nero Wolfe Series", "original_title": "", "creator": "Rex Stout", "year": 1934, "medium": "book_series"},
+      "creator_aliases": ["Rex Stout"], "media": ["book_series", "novel", "novella"],
+      "parent_titles": ["Nero Wolfe", "Nero Wolfe Series"],
+      "standalone_components": [{"titles": ["Some Buried Caesar"]}, {"titles": ["The Doorbell Rang"]}]
+    },
+    {
+      "parent": {"title": "The Locked Tomb", "original_title": "", "creator": "Tamsyn Muir", "year": 2019, "medium": "book_series"},
+      "creator_aliases": ["Tamsyn Muir"], "media": ["book_series", "novel"],
+      "parent_titles": ["The Locked Tomb", "Locked Tomb Series"],
+      "standalone_components": [{"titles": ["Gideon the Ninth"]}]
+    }
+  ]
+}

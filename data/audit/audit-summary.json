@@ -1,56 +1,58 @@
 {
   "agents": 100,
-  "valid_observations": 20041,
-  "unique_agent_work_observations": 20032,
-  "retained_works": 1037,
-  "singletons": 192,
-  "excluded": 3,
-  "identity_merges": 516,
-  "within_agent_merges": 9,
+  "valid_observations": 22018,
+  "unique_agent_work_observations": 21958,
+  "retained_works": 1142,
+  "singletons": 308,
+  "excluded": 1,
+  "identity_merges": 725,
+  "series_rollup_decisions": 273,
+  "within_agent_merges": 44,
   "malformed_observations": 0,
   "unknown_axis_references": 0,
   "global_axis_means": {
-    "influence": 82.10379949073842,
-    "ambition": 83.53950710863188,
-    "fairness": 77.24940603801255,
-    "originality": 87.17118007172428
+    "influence": 81.20613016350138,
+    "ambition": 83.27439122288145,
+    "fairness": 77.71781760769326,
+    "traditionality": 69.19679373320581,
+    "originality": 87.18449559124515
   },
   "top_25": [
     {
       "rank": 1,
-      "title": "Outer Wilds",
-      "creator": "Mobius Digital",
-      "year": 2019,
-      "medium": "video_game",
-      "weighted_score": 94.5972,
-      "support": 100
-    },
-    {
-      "rank": 2,
       "title": "Return of the Obra Dinn",
       "creator": "Lucas Pope",
       "year": 2018,
       "medium": "video_game",
-      "weighted_score": 93.8263,
+      "weighted_score": 91.3764,
       "support": 100
     },
     {
+      "rank": 2,
+      "title": "The Murder of Roger Ackroyd",
+      "creator": "Agatha Christie",
+      "year": 1926,
+      "medium": "novel",
+      "weighted_score": 90.5636,
+      "support": 99
+    },
+    {
       "rank": 3,
-      "title": "Umineko When They Cry",
-      "creator": "Ryukishi07",
-      "year": 2007,
-      "medium": "visual_novel",
-      "weighted_score": 93.1769,
+      "title": "The Hollow Man",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel",
+      "weighted_score": 90.339,
       "support": 99
     },
     {
       "rank": 4,
-      "title": "Memento",
-      "creator": "Christopher Nolan",
-      "year": 2000,
-      "medium": "film",
-      "weighted_score": 92.7879,
-      "support": 100
+      "title": "The Tokyo Zodiac Murders",
+      "creator": "Soji Shimada",
+      "year": 1981,
+      "medium": "novel",
+      "weighted_score": 89.4242,
+      "support": 99
     },
     {
       "rank": 5,
@@ -58,188 +60,188 @@
       "creator": "Umberto Eco",
       "year": 1980,
       "medium": "novel",
-      "weighted_score": 92.1009,
+      "weighted_score": 89.0321,
       "support": 100
     },
     {
       "rank": 6,
-      "title": "The Murder of Roger Ackroyd",
-      "creator": "Agatha Christie",
-      "year": 1926,
-      "medium": "novel",
-      "weighted_score": 90.8463,
-      "support": 100
-    },
-    {
-      "rank": 7,
-      "title": "Watchmen",
-      "creator": "Alan Moore and Dave Gibbons",
-      "year": 1986,
-      "medium": "comic",
-      "weighted_score": 90.7777,
-      "support": 82
-    },
-    {
-      "rank": 8,
-      "title": "The Hollow Man",
-      "creator": "John Dickson Carr",
-      "year": 1935,
-      "medium": "novel",
-      "weighted_score": 90.217,
-      "support": 100
-    },
-    {
-      "rank": 9,
-      "title": "The Moonstone",
-      "creator": "Wilkie Collins",
-      "year": 1868,
-      "medium": "novel",
-      "weighted_score": 90.1481,
-      "support": 83
-    },
-    {
-      "rank": 10,
-      "title": "Dark",
-      "creator": "Baran bo Odar and Jantje Friese",
-      "year": 2017,
-      "medium": "tv_series",
-      "weighted_score": 89.7657,
-      "support": 100
-    },
-    {
-      "rank": 11,
-      "title": "Pale Fire",
-      "creator": "Vladimir Nabokov",
-      "year": 1962,
-      "medium": "novel",
-      "weighted_score": 89.6822,
-      "support": 100
-    },
-    {
-      "rank": 12,
-      "title": "The Tokyo Zodiac Murders",
-      "creator": "Soji Shimada",
-      "year": 1981,
-      "medium": "novel",
-      "weighted_score": 89.3524,
-      "support": 100
-    },
-    {
-      "rank": 13,
-      "title": "13 Sentinels: Aegis Rim",
-      "creator": "George Kamitani",
-      "year": 2019,
-      "medium": "video_game",
-      "weighted_score": 89.2445,
-      "support": 93
-    },
-    {
-      "rank": 14,
-      "title": "The City & the City",
-      "creator": "China Miéville",
-      "year": 2009,
-      "medium": "novel",
-      "weighted_score": 89.194,
-      "support": 99
-    },
-    {
-      "rank": 15,
-      "title": "Disco Elysium",
-      "creator": "ZA/UM",
-      "year": 2019,
-      "medium": "video_game",
-      "weighted_score": 88.9254,
-      "support": 94
-    },
-    {
-      "rank": 16,
-      "title": "The Book of the New Sun",
-      "creator": "Gene Wolfe",
-      "year": 1980,
-      "medium": "book_series",
-      "weighted_score": 88.6429,
-      "support": 76
-    },
-    {
-      "rank": 17,
-      "title": "Riven",
-      "creator": "Cyan",
-      "year": 1997,
-      "medium": "video_game",
-      "weighted_score": 88.5919,
-      "support": 69
-    },
-    {
-      "rank": 18,
-      "title": "Attack on Titan",
-      "creator": "Hajime Isayama",
-      "year": 2009,
-      "medium": "manga",
-      "weighted_score": 88.3629,
-      "support": 68
-    },
-    {
-      "rank": 19,
-      "title": "Zero Escape",
-      "creator": "Kotaro Uchikoshi",
-      "year": 2009,
-      "medium": "video_game",
-      "weighted_score": 88.1556,
-      "support": 91
-    },
-    {
-      "rank": 20,
-      "title": "The Prestige",
-      "creator": "Christopher Nolan",
-      "year": 2006,
-      "medium": "film",
-      "weighted_score": 88.115,
-      "support": 89
-    },
-    {
-      "rank": 21,
       "title": "And Then There Were None",
       "creator": "Agatha Christie",
       "year": 1939,
       "medium": "novel",
-      "weighted_score": 88.0176,
-      "support": 97
-    },
-    {
-      "rank": 22,
-      "title": "Monster",
-      "creator": "Naoki Urasawa",
-      "year": 1994,
-      "medium": "manga",
-      "weighted_score": 87.5368,
-      "support": 86
-    },
-    {
-      "rank": 23,
-      "title": "Foucault's Pendulum",
-      "creator": "Umberto Eco",
-      "year": 1988,
-      "medium": "novel",
-      "weighted_score": 87.4204,
+      "weighted_score": 88.8737,
       "support": 100
     },
     {
-      "rank": 24,
-      "title": "The Mystery of the Yellow Room",
-      "creator": "Gaston Leroux",
-      "year": 1907,
+      "rank": 7,
+      "title": "The Decagon House Murders",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
       "medium": "novel",
-      "weighted_score": 87.3861,
-      "support": 69
+      "weighted_score": 88.1632,
+      "support": 99
     },
     {
-      "rank": 25,
+      "rank": 8,
+      "title": "The Moonstone",
+      "creator": "Wilkie Collins",
+      "year": 1868,
+      "medium": "novel",
+      "weighted_score": 87.5362,
+      "support": 98
+    },
+    {
+      "rank": 9,
+      "title": "Umineko When They Cry",
+      "creator": "Ryukishi07",
+      "year": 2007,
+      "medium": "visual_novel",
+      "weighted_score": 87.1281,
+      "support": 98
+    },
+    {
+      "rank": 10,
+      "title": "The Devotion of Suspect X",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel",
+      "weighted_score": 87.0242,
+      "support": 99
+    },
+    {
+      "rank": 11,
       "title": "The Case of the Golden Idol",
       "creator": "Color Gray Games",
       "year": 2022,
       "medium": "video_game",
-      "weighted_score": 87.332,
+      "weighted_score": 86.8826,
+      "support": 79
+    },
+    {
+      "rank": 12,
+      "title": "The Honjin Murders",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "novel",
+      "weighted_score": 86.6226,
+      "support": 98
+    },
+    {
+      "rank": 13,
+      "title": "Ace Attorney",
+      "creator": "Shu Takumi",
+      "year": 2001,
+      "medium": "video_game",
+      "weighted_score": 86.5817,
+      "support": 97
+    },
+    {
+      "rank": 14,
+      "title": "The Poisoned Chocolates Case",
+      "creator": "Anthony Berkeley",
+      "year": 1929,
+      "medium": "novel",
+      "weighted_score": 86.5797,
+      "support": 92
+    },
+    {
+      "rank": 15,
+      "title": "Memento",
+      "creator": "Christopher Nolan",
+      "year": 2000,
+      "medium": "film",
+      "weighted_score": 86.4234,
       "support": 99
+    },
+    {
+      "rank": 16,
+      "title": "The Nine Tailors",
+      "creator": "Dorothy L. Sayers",
+      "year": 1934,
+      "medium": "novel",
+      "weighted_score": 86.2907,
+      "support": 97
+    },
+    {
+      "rank": 17,
+      "title": "The Mystery of the Yellow Room",
+      "creator": "Gaston Leroux",
+      "year": 1907,
+      "medium": "novel",
+      "weighted_score": 86.2335,
+      "support": 69
+    },
+    {
+      "rank": 18,
+      "title": "The Greek Coffin Mystery",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel",
+      "weighted_score": 86.223,
+      "support": 88
+    },
+    {
+      "rank": 19,
+      "title": "Murder on the Orient Express",
+      "creator": "Agatha Christie",
+      "year": 1934,
+      "medium": "novel",
+      "weighted_score": 85.8274,
+      "support": 86
+    },
+    {
+      "rank": 20,
+      "title": "Five Little Pigs",
+      "creator": "Agatha Christie",
+      "year": 1942,
+      "medium": "novel",
+      "weighted_score": 85.7786,
+      "support": 96
+    },
+    {
+      "rank": 21,
+      "title": "Ghost Trick: Phantom Detective",
+      "creator": "Shu Takumi",
+      "year": 2010,
+      "medium": "video_game",
+      "weighted_score": 85.4289,
+      "support": 91
+    },
+    {
+      "rank": 22,
+      "title": "Sherlock Holmes Canon",
+      "creator": "Arthur Conan Doyle",
+      "year": 1887,
+      "medium": "book_series",
+      "weighted_score": 85.4077,
+      "support": 60
+    },
+    {
+      "rank": 23,
+      "title": "Chinatown",
+      "creator": "Roman Polanski",
+      "year": 1974,
+      "medium": "film",
+      "weighted_score": 85.336,
+      "support": 95
+    },
+    {
+      "rank": 24,
+      "title": "The City & the City",
+      "creator": "China Miéville",
+      "year": 2009,
+      "medium": "novel",
+      "weighted_score": 85.2664,
+      "support": 100
+    },
+    {
+      "rank": 25,
+      "title": "Magpie Murders",
+      "creator": "Anthony Horowitz",
+      "year": 2016,
+      "medium": "novel",
+      "weighted_score": 85.1905,
+      "support": 83
     }
   ]
 }

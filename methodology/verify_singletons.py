@@ -7,6 +7,7 @@ import concurrent.futures
 import html
 import json
 import re
+import time
 import unicodedata
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -47,7 +48,22 @@ def year_matches(text: str, year: int, tolerance: int = 2) -> bool:
 
 
 def get_json(url: str, params: dict[str, Any] | None = None) -> Any:
-    response = requests.get(url, params=params, headers={"User-Agent": USER_AGENT}, timeout=25)
+    last_error: Exception | None = None
+    for attempt in range(5):
+        try:
+            response = requests.get(url, params=params, headers={"User-Agent": USER_AGENT}, timeout=25)
+            if response.status_code == 429 or response.status_code >= 500:
+                delay = min(12.0, float(response.headers.get("Retry-After", 0) or 0) or 1.5 * (2 ** attempt))
+                time.sleep(delay)
+                continue
+            response.raise_for_status()
+            return response.json()
+        except (requests.RequestException, ValueError) as exc:
+            last_error = exc
+            if attempt < 4:
+                time.sleep(1.5 * (2 ** attempt))
+    if last_error:
+        raise last_error
     response.raise_for_status()
     return response.json()
 
@@ -152,7 +168,7 @@ def wikidata(work: dict[str, Any]) -> dict[str, Any] | None:
 
 def run_source(works: list[dict[str, Any]], pending: set[int], results: list[dict[str, Any]],
                verifier: Callable[[dict[str, Any]], dict[str, Any] | None]) -> None:
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
         futures = {executor.submit(verifier, works[index]): index for index in sorted(pending)}
         for future in concurrent.futures.as_completed(futures):
             index = futures[future]
@@ -171,6 +187,23 @@ def main() -> None:
     works = json.loads(INPUT.read_text())
     results = [{"work": work, "status": "unverified"} for work in works]
     pending = set(range(len(works)))
+    if OUTPUT.exists():
+        prior = json.loads(OUTPUT.read_text())
+        prior_verified = {
+            (
+                normalized(record["work"]["title"]),
+                normalized(record["work"]["creator"]),
+                record["work"]["year"],
+                record["work"]["medium"],
+            ): record
+            for record in prior
+            if record.get("status") == "verified"
+        }
+        for index, work in enumerate(works):
+            key = (normalized(work["title"]), normalized(work["creator"]), work["year"], work["medium"])
+            if key in prior_verified:
+                results[index] = prior_verified[key]
+                pending.discard(index)
     for verifier in (wikipedia, open_library, imdb, wikidata):
         run_source(works, pending, results, verifier)
         print(f"after {verifier.__name__}: verified={len(works) - len(pending)} pending={len(pending)}", flush=True)

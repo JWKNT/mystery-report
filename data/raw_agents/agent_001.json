@@ -12,7 +12,8 @@
         "influence": 75,
         "ambition": 99,
         "fairness": 92,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 72
       }
     },
     {
@@ -26,7 +27,8 @@
         "influence": 96,
         "ambition": 98,
         "fairness": 47,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 55
       }
     },
     {
@@ -40,7 +42,8 @@
         "influence": 76,
         "ambition": 98,
         "fairness": 73,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 30
       }
     },
     {
@@ -54,7 +57,8 @@
         "influence": 93,
         "ambition": 97,
         "fairness": 90,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 91
       }
     },
     {
@@ -68,7 +72,8 @@
         "influence": 91,
         "ambition": 98,
         "fairness": 56,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 18
       }
     },
     {
@@ -82,7 +87,8 @@
         "influence": 87,
         "ambition": 97,
         "fairness": 86,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 32
       }
     },
     {
@@ -96,7 +102,8 @@
         "influence": 92,
         "ambition": 98,
         "fairness": 38,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 8
       }
     },
     {
@@ -110,7 +117,8 @@
         "influence": 85,
         "ambition": 98,
         "fairness": 35,
-        "originality": 95
+        "originality": 95,
+        "traditionality": 12
       }
     },
     {
@@ -124,7 +132,8 @@
         "influence": 87,
         "ambition": 97,
         "fairness": 83,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 15
       }
     },
     {
@@ -138,7 +147,8 @@
         "influence": 98,
         "ambition": 96,
         "fairness": 84,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 42
       }
     },
     {
@@ -152,7 +162,8 @@
         "influence": 78,
         "ambition": 96,
         "fairness": 96,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 38
       }
     },
     {
@@ -166,7 +177,8 @@
         "influence": 84,
         "ambition": 96,
         "fairness": 78,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 62
       }
     },
     {
@@ -180,7 +192,8 @@
         "influence": 92,
         "ambition": 96,
         "fairness": 69,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 22
       }
     },
     {
@@ -194,7 +207,8 @@
         "influence": 91,
         "ambition": 95,
         "fairness": 44,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 44
       }
     },
     {
@@ -208,7 +222,8 @@
         "influence": 82,
         "ambition": 95,
         "fairness": 89,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 82
       }
     },
     {
@@ -222,7 +237,8 @@
         "influence": 93,
         "ambition": 96,
         "fairness": 50,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 16
       }
     },
     {
@@ -236,7 +252,8 @@
         "influence": 93,
         "ambition": 95,
         "fairness": 33,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 18
       }
     },
     {
@@ -250,7 +267,8 @@
         "influence": 85,
         "ambition": 96,
         "fairness": 77,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 38
       }
     },
     {
@@ -264,7 +282,8 @@
         "influence": 95,
         "ambition": 96,
         "fairness": 81,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 16
       }
     },
     {
@@ -278,7 +297,8 @@
         "influence": 91,
         "ambition": 95,
         "fairness": 83,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 55
       }
     },
     {
@@ -292,7 +312,8 @@
         "influence": 88,
         "ambition": 96,
         "fairness": 54,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 62
       }
     },
     {
@@ -306,7 +327,8 @@
         "influence": 97,
         "ambition": 97,
         "fairness": 34,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 22
       }
     },
     {
@@ -320,7 +342,8 @@
         "influence": 86,
         "ambition": 96,
         "fairness": 60,
-        "originality": 95
+        "originality": 95,
+        "traditionality": 12
       }
     },
     {
@@ -334,7 +357,8 @@
         "influence": 89,
         "ambition": 96,
         "fairness": 49,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 28
       }
     },
     {
@@ -348,7 +372,8 @@
         "influence": 88,
         "ambition": 95,
         "fairness": 78,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 38
       }
     },
     {
@@ -362,7 +387,8 @@
         "influence": 91,
         "ambition": 94,
         "fairness": 72,
-        "originality": 78
+        "originality": 78,
+        "traditionality": 82
       }
     },
     {
@@ -376,7 +402,8 @@
         "influence": 50,
         "ambition": 96,
         "fairness": 70,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 47
       }
     },
     {
@@ -390,7 +417,8 @@
         "influence": 77,
         "ambition": 95,
         "fairness": 58,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 12
       }
     },
     {
@@ -404,7 +432,8 @@
         "influence": 76,
         "ambition": 94,
         "fairness": 67,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 36
       }
     },
     {
@@ -418,7 +447,8 @@
         "influence": 45,
         "ambition": 94,
         "fairness": 61,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 26
       }
     },
     {
@@ -432,7 +462,8 @@
         "influence": 82,
         "ambition": 94,
         "fairness": 86,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 72
       }
     },
     {
@@ -446,7 +477,8 @@
         "influence": 80,
         "ambition": 92,
         "fairness": 79,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 66
       }
     },
     {
@@ -460,7 +492,8 @@
         "influence": 58,
         "ambition": 95,
         "fairness": 84,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 72
       }
     },
     {
@@ -474,7 +507,8 @@
         "influence": 76,
         "ambition": 95,
         "fairness": 74,
-        "originality": 80
+        "originality": 80,
+        "traditionality": 70
       }
     },
     {
@@ -488,7 +522,8 @@
         "influence": 43,
         "ambition": 94,
         "fairness": 85,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 86
       }
     },
     {
@@ -502,7 +537,8 @@
         "influence": 96,
         "ambition": 96,
         "fairness": 73,
-        "originality": 87
+        "originality": 87,
+        "traditionality": 12
       }
     },
     {
@@ -516,7 +552,8 @@
         "influence": 75,
         "ambition": 94,
         "fairness": 88,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 88
       }
     },
     {
@@ -530,7 +567,8 @@
         "influence": 77,
         "ambition": 93,
         "fairness": 91,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 95
       }
     },
     {
@@ -544,7 +582,8 @@
         "influence": 88,
         "ambition": 93,
         "fairness": 97,
-        "originality": 95
+        "originality": 95,
+        "traditionality": 99
       }
     },
     {
@@ -558,7 +597,8 @@
         "influence": 87,
         "ambition": 92,
         "fairness": 96,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 98
       }
     },
     {
@@ -572,7 +612,8 @@
         "influence": 84,
         "ambition": 93,
         "fairness": 96,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 98
       }
     },
     {
@@ -586,7 +627,8 @@
         "influence": 100,
         "ambition": 93,
         "fairness": 93,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 96
       }
     },
     {
@@ -600,7 +642,8 @@
         "influence": 99,
         "ambition": 91,
         "fairness": 97,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 99
       }
     },
     {
@@ -614,7 +657,8 @@
         "influence": 100,
         "ambition": 95,
         "fairness": 74,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 30
       }
     },
     {
@@ -628,7 +672,8 @@
         "influence": 93,
         "ambition": 94,
         "fairness": 83,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 74
       }
     },
     {
@@ -642,7 +687,8 @@
         "influence": 100,
         "ambition": 92,
         "fairness": 94,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 95
       }
     },
     {
@@ -656,7 +702,8 @@
         "influence": 98,
         "ambition": 92,
         "fairness": 87,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 83
       }
     },
     {
@@ -670,7 +717,8 @@
         "influence": 100,
         "ambition": 95,
         "fairness": 86,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 42
       }
     },
     {
@@ -684,7 +732,8 @@
         "influence": 70,
         "ambition": 96,
         "fairness": 86,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 20
       }
     },
     {
@@ -698,7 +747,8 @@
         "influence": 81,
         "ambition": 95,
         "fairness": 99,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 86
       }
     },
     {
@@ -712,7 +762,8 @@
         "influence": 79,
         "ambition": 95,
         "fairness": 88,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 68
       }
     },
     {
@@ -726,7 +777,8 @@
         "influence": 62,
         "ambition": 94,
         "fairness": 96,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 98
       }
     },
     {
@@ -740,7 +792,8 @@
         "influence": 70,
         "ambition": 93,
         "fairness": 85,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 72
       }
     },
     {
@@ -754,7 +807,8 @@
         "influence": 55,
         "ambition": 93,
         "fairness": 98,
-        "originality": 94
+        "originality": 94,
+        "traditionality": 96
       }
     },
     {
@@ -768,7 +822,8 @@
         "influence": 38,
         "ambition": 94,
         "fairness": 91,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 58
       }
     },
     {
@@ -782,7 +837,8 @@
         "influence": 82,
         "ambition": 91,
         "fairness": 94,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 78
       }
     },
     {
@@ -796,7 +852,8 @@
         "influence": 55,
         "ambition": 93,
         "fairness": 74,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 42
       }
     },
     {
@@ -810,7 +867,8 @@
         "influence": 58,
         "ambition": 91,
         "fairness": 93,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 84
       }
     },
     {
@@ -824,7 +882,8 @@
         "influence": 90,
         "ambition": 94,
         "fairness": 92,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 32
       }
     },
     {
@@ -838,7 +897,8 @@
         "influence": 99,
         "ambition": 92,
         "fairness": 78,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 35
       }
     },
     {
@@ -852,7 +912,8 @@
         "influence": 60,
         "ambition": 93,
         "fairness": 86,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 25
       }
     },
     {
@@ -866,7 +927,8 @@
         "influence": 42,
         "ambition": 91,
         "fairness": 94,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 83
       }
     },
     {
@@ -880,7 +942,8 @@
         "influence": 41,
         "ambition": 92,
         "fairness": 91,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 89
       }
     },
     {
@@ -894,7 +957,8 @@
         "influence": 88,
         "ambition": 94,
         "fairness": 45,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 8
       }
     },
     {
@@ -908,7 +972,8 @@
         "influence": 55,
         "ambition": 91,
         "fairness": 97,
-        "originality": 92
+        "originality": 92,
+        "traditionality": 77
       }
     },
     {
@@ -922,7 +987,8 @@
         "influence": 70,
         "ambition": 94,
         "fairness": 84,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 32
       }
     },
     {
@@ -936,7 +1002,8 @@
         "influence": 92,
         "ambition": 90,
         "fairness": 77,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 42
       }
     },
     {
@@ -950,7 +1017,8 @@
         "influence": 80,
         "ambition": 93,
         "fairness": 55,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 28
       }
     },
     {
@@ -964,7 +1032,8 @@
         "influence": 83,
         "ambition": 93,
         "fairness": 85,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 78
       }
     },
     {
@@ -978,7 +1047,8 @@
         "influence": 97,
         "ambition": 90,
         "fairness": 70,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 33
       }
     },
     {
@@ -992,7 +1062,8 @@
         "influence": 96,
         "ambition": 92,
         "fairness": 85,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 64
       }
     },
     {
@@ -1006,7 +1077,8 @@
         "influence": 97,
         "ambition": 93,
         "fairness": 58,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 18
       }
     },
     {
@@ -1020,7 +1092,8 @@
         "influence": 95,
         "ambition": 92,
         "fairness": 65,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 18
       }
     },
     {
@@ -1034,7 +1107,8 @@
         "influence": 86,
         "ambition": 92,
         "fairness": 54,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 12
       }
     },
     {
@@ -1048,7 +1122,8 @@
         "influence": 93,
         "ambition": 92,
         "fairness": 84,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 16
       }
     },
     {
@@ -1062,7 +1137,8 @@
         "influence": 94,
         "ambition": 93,
         "fairness": 84,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 62
       }
     },
     {
@@ -1076,7 +1152,8 @@
         "influence": 98,
         "ambition": 91,
         "fairness": 93,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 56
       }
     },
     {
@@ -1090,7 +1167,8 @@
         "influence": 95,
         "ambition": 94,
         "fairness": 62,
-        "originality": 77
+        "originality": 77,
+        "traditionality": 84
       }
     },
     {
@@ -1104,7 +1182,8 @@
         "influence": 86,
         "ambition": 91,
         "fairness": 48,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 25
       }
     },
     {
@@ -1118,7 +1197,8 @@
         "influence": 87,
         "ambition": 90,
         "fairness": 57,
-        "originality": 87
+        "originality": 87,
+        "traditionality": 64
       }
     },
     {
@@ -1132,7 +1212,8 @@
         "influence": 94,
         "ambition": 91,
         "fairness": 67,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 85
       }
     },
     {
@@ -1146,7 +1227,8 @@
         "influence": 75,
         "ambition": 91,
         "fairness": 78,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 75
       }
     },
     {
@@ -1160,7 +1242,8 @@
         "influence": 96,
         "ambition": 90,
         "fairness": 20,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 10
       }
     },
     {
@@ -1174,7 +1257,8 @@
         "influence": 96,
         "ambition": 90,
         "fairness": 35,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 48
       }
     },
     {
@@ -1188,7 +1272,8 @@
         "influence": 95,
         "ambition": 92,
         "fairness": 24,
-        "originality": 100
+        "originality": 100,
+        "traditionality": 2
       }
     },
     {
@@ -1202,7 +1287,8 @@
         "influence": 91,
         "ambition": 91,
         "fairness": 32,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 28
       }
     },
     {
@@ -1216,7 +1302,8 @@
         "influence": 94,
         "ambition": 90,
         "fairness": 72,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 72
       }
     },
     {
@@ -1230,7 +1317,8 @@
         "influence": 100,
         "ambition": 91,
         "fairness": 86,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 88
       }
     },
     {
@@ -1244,7 +1332,8 @@
         "influence": 100,
         "ambition": 91,
         "fairness": 74,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 56
       }
     },
     {
@@ -1258,7 +1347,8 @@
         "influence": 100,
         "ambition": 89,
         "fairness": 61,
-        "originality": 100
+        "originality": 100,
+        "traditionality": 48
       }
     },
     {
@@ -1272,7 +1362,8 @@
         "influence": 97,
         "ambition": 91,
         "fairness": 91,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 87
       }
     },
     {
@@ -1286,7 +1377,8 @@
         "influence": 93,
         "ambition": 91,
         "fairness": 59,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 45
       }
     },
     {
@@ -1300,7 +1392,8 @@
         "influence": 80,
         "ambition": 93,
         "fairness": 55,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 48
       }
     },
     {
@@ -1314,7 +1407,8 @@
         "influence": 83,
         "ambition": 90,
         "fairness": 91,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 89
       }
     },
     {
@@ -1328,7 +1422,8 @@
         "influence": 87,
         "ambition": 92,
         "fairness": 76,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 35
       }
     },
     {
@@ -1342,7 +1437,8 @@
         "influence": 90,
         "ambition": 91,
         "fairness": 25,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 5
       }
     },
     {
@@ -1356,7 +1452,8 @@
         "influence": 78,
         "ambition": 92,
         "fairness": 71,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 80
       }
     },
     {
@@ -1370,7 +1467,8 @@
         "influence": 96,
         "ambition": 90,
         "fairness": 83,
-        "originality": 65
+        "originality": 65,
+        "traditionality": 88
       }
     },
     {
@@ -1384,7 +1482,8 @@
         "influence": 78,
         "ambition": 94,
         "fairness": 77,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 38
       }
     },
     {
@@ -1398,7 +1497,8 @@
         "influence": 83,
         "ambition": 93,
         "fairness": 91,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 28
       }
     },
     {
@@ -1412,7 +1512,8 @@
         "influence": 80,
         "ambition": 83,
         "fairness": 98,
-        "originality": 78
+        "originality": 78,
+        "traditionality": 99
       }
     },
     {
@@ -1426,7 +1527,8 @@
         "influence": 81,
         "ambition": 78,
         "fairness": 98,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 99
       }
     },
     {
@@ -1440,7 +1542,8 @@
         "influence": 57,
         "ambition": 74,
         "fairness": 98,
-        "originality": 76
+        "originality": 76,
+        "traditionality": 99
       }
     },
     {
@@ -1454,7 +1557,8 @@
         "influence": 52,
         "ambition": 78,
         "fairness": 96,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 97
       }
     },
     {
@@ -1468,7 +1572,8 @@
         "influence": 48,
         "ambition": 73,
         "fairness": 97,
-        "originality": 74
+        "originality": 74,
+        "traditionality": 96
       }
     },
     {
@@ -1482,7 +1587,8 @@
         "influence": 45,
         "ambition": 75,
         "fairness": 97,
-        "originality": 80
+        "originality": 80,
+        "traditionality": 96
       }
     },
     {
@@ -1496,7 +1602,8 @@
         "influence": 42,
         "ambition": 70,
         "fairness": 95,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 94
       }
     },
     {
@@ -1510,7 +1617,8 @@
         "influence": 64,
         "ambition": 75,
         "fairness": 96,
-        "originality": 77
+        "originality": 77,
+        "traditionality": 98
       }
     },
     {
@@ -1524,7 +1632,8 @@
         "influence": 50,
         "ambition": 79,
         "fairness": 97,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 98
       }
     },
     {
@@ -1538,7 +1647,8 @@
         "influence": 100,
         "ambition": 82,
         "fairness": 96,
-        "originality": 90
+        "originality": 90,
+        "traditionality": 98
       }
     },
     {
@@ -1552,7 +1662,8 @@
         "influence": 96,
         "ambition": 78,
         "fairness": 96,
-        "originality": 74
+        "originality": 74,
+        "traditionality": 98
       }
     },
     {
@@ -1566,7 +1677,8 @@
         "influence": 95,
         "ambition": 80,
         "fairness": 94,
-        "originality": 80
+        "originality": 80,
+        "traditionality": 97
       }
     },
     {
@@ -1580,7 +1692,8 @@
         "influence": 88,
         "ambition": 80,
         "fairness": 98,
-        "originality": 77
+        "originality": 77,
+        "traditionality": 98
       }
     },
     {
@@ -1594,7 +1707,8 @@
         "influence": 85,
         "ambition": 76,
         "fairness": 96,
-        "originality": 76
+        "originality": 76,
+        "traditionality": 97
       }
     },
     {
@@ -1608,7 +1722,8 @@
         "influence": 81,
         "ambition": 72,
         "fairness": 95,
-        "originality": 68
+        "originality": 68,
+        "traditionality": 97
       }
     },
     {
@@ -1622,7 +1737,8 @@
         "influence": 84,
         "ambition": 76,
         "fairness": 96,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 98
       }
     },
     {
@@ -1636,7 +1752,8 @@
         "influence": 68,
         "ambition": 70,
         "fairness": 95,
-        "originality": 65
+        "originality": 65,
+        "traditionality": 96
       }
     },
     {
@@ -1650,7 +1767,8 @@
         "influence": 88,
         "ambition": 80,
         "fairness": 94,
-        "originality": 78
+        "originality": 78,
+        "traditionality": 96
       }
     },
     {
@@ -1664,7 +1782,8 @@
         "influence": 84,
         "ambition": 84,
         "fairness": 96,
-        "originality": 77
+        "originality": 77,
+        "traditionality": 98
       }
     },
     {
@@ -1678,7 +1797,8 @@
         "influence": 88,
         "ambition": 82,
         "fairness": 94,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 96
       }
     },
     {
@@ -1692,7 +1812,8 @@
         "influence": 80,
         "ambition": 72,
         "fairness": 93,
-        "originality": 70
+        "originality": 70,
+        "traditionality": 95
       }
     },
     {
@@ -1706,7 +1827,8 @@
         "influence": 82,
         "ambition": 80,
         "fairness": 97,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 98
       }
     },
     {
@@ -1720,7 +1842,8 @@
         "influence": 83,
         "ambition": 83,
         "fairness": 94,
-        "originality": 78
+        "originality": 78,
+        "traditionality": 96
       }
     },
     {
@@ -1734,7 +1857,8 @@
         "influence": 38,
         "ambition": 78,
         "fairness": 95,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 96
       }
     },
     {
@@ -1748,7 +1872,8 @@
         "influence": 56,
         "ambition": 85,
         "fairness": 97,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 98
       }
     },
     {
@@ -1762,7 +1887,8 @@
         "influence": 87,
         "ambition": 82,
         "fairness": 98,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 94
       }
     },
     {
@@ -1776,7 +1902,8 @@
         "influence": 71,
         "ambition": 80,
         "fairness": 97,
-        "originality": 81
+        "originality": 81,
+        "traditionality": 94
       }
     },
     {
@@ -1790,7 +1917,8 @@
         "influence": 42,
         "ambition": 72,
         "fairness": 95,
-        "originality": 68
+        "originality": 68,
+        "traditionality": 93
       }
     },
     {
@@ -1804,7 +1932,8 @@
         "influence": 40,
         "ambition": 80,
         "fairness": 95,
-        "originality": 70
+        "originality": 70,
+        "traditionality": 94
       }
     },
     {
@@ -1818,7 +1947,8 @@
         "influence": 42,
         "ambition": 78,
         "fairness": 96,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 95
       }
     },
     {
@@ -1832,7 +1962,8 @@
         "influence": 32,
         "ambition": 74,
         "fairness": 94,
-        "originality": 79
+        "originality": 79,
+        "traditionality": 93
       }
     },
     {
@@ -1846,7 +1977,8 @@
         "influence": 35,
         "ambition": 79,
         "fairness": 94,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 90
       }
     },
     {
@@ -1860,7 +1992,8 @@
         "influence": 94,
         "ambition": 78,
         "fairness": 96,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 96
       }
     },
     {
@@ -1874,7 +2007,8 @@
         "influence": 76,
         "ambition": 76,
         "fairness": 92,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 94
       }
     },
     {
@@ -1888,7 +2022,8 @@
         "influence": 82,
         "ambition": 80,
         "fairness": 97,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 97
       }
     },
     {
@@ -1902,7 +2037,8 @@
         "influence": 91,
         "ambition": 70,
         "fairness": 91,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 94
       }
     },
     {
@@ -1916,7 +2052,8 @@
         "influence": 86,
         "ambition": 84,
         "fairness": 93,
-        "originality": 78
+        "originality": 78,
+        "traditionality": 95
       }
     },
     {
@@ -1930,7 +2067,8 @@
         "influence": 91,
         "ambition": 76,
         "fairness": 96,
-        "originality": 87
+        "originality": 87,
+        "traditionality": 97
       }
     },
     {
@@ -1944,7 +2082,8 @@
         "influence": 96,
         "ambition": 74,
         "fairness": 97,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 98
       }
     },
     {
@@ -1958,7 +2097,8 @@
         "influence": 92,
         "ambition": 76,
         "fairness": 95,
-        "originality": 75
+        "originality": 75,
+        "traditionality": 92
       }
     },
     {
@@ -1972,7 +2112,8 @@
         "influence": 55,
         "ambition": 74,
         "fairness": 93,
-        "originality": 74
+        "originality": 74,
+        "traditionality": 91
       }
     },
     {
@@ -1986,7 +2127,8 @@
         "influence": 55,
         "ambition": 70,
         "fairness": 92,
-        "originality": 67
+        "originality": 67,
+        "traditionality": 88
       }
     },
     {
@@ -2000,7 +2142,8 @@
         "influence": 78,
         "ambition": 72,
         "fairness": 95,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 86
       }
     },
     {
@@ -2014,7 +2157,8 @@
         "influence": 81,
         "ambition": 76,
         "fairness": 94,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 89
       }
     },
     {
@@ -2028,7 +2172,8 @@
         "influence": 46,
         "ambition": 72,
         "fairness": 92,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 88
       }
     },
     {
@@ -2042,7 +2187,8 @@
         "influence": 88,
         "ambition": 80,
         "fairness": 97,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 89
       }
     },
     {
@@ -2056,7 +2202,8 @@
         "influence": 82,
         "ambition": 78,
         "fairness": 94,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 86
       }
     },
     {
@@ -2070,7 +2217,8 @@
         "influence": 30,
         "ambition": 82,
         "fairness": 98,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 96
       }
     },
     {
@@ -2084,7 +2232,8 @@
         "influence": 95,
         "ambition": 78,
         "fairness": 95,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 98
       }
     },
     {
@@ -2098,7 +2247,8 @@
         "influence": 81,
         "ambition": 84,
         "fairness": 97,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 88
       }
     },
     {
@@ -2112,7 +2262,8 @@
         "influence": 90,
         "ambition": 82,
         "fairness": 92,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 94
       }
     },
     {
@@ -2126,7 +2277,8 @@
         "influence": 12,
         "ambition": 90,
         "fairness": 99,
-        "originality": 86
+        "originality": 86,
+        "traditionality": 92
       }
     },
     {
@@ -2140,7 +2292,8 @@
         "influence": 22,
         "ambition": 84,
         "fairness": 98,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 96
       }
     },
     {
@@ -2154,7 +2307,8 @@
         "influence": 25,
         "ambition": 88,
         "fairness": 95,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 68
       }
     },
     {
@@ -2168,7 +2322,8 @@
         "influence": 78,
         "ambition": 90,
         "fairness": 95,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 25
       }
     },
     {
@@ -2182,7 +2337,8 @@
         "influence": 46,
         "ambition": 87,
         "fairness": 97,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 30
       }
     },
     {
@@ -2196,7 +2352,8 @@
         "influence": 25,
         "ambition": 72,
         "fairness": 96,
-        "originality": 83
+        "originality": 83,
+        "traditionality": 91
       }
     },
     {
@@ -2210,7 +2367,8 @@
         "influence": 18,
         "ambition": 72,
         "fairness": 96,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 93
       }
     },
     {
@@ -2224,7 +2382,8 @@
         "influence": 15,
         "ambition": 65,
         "fairness": 97,
-        "originality": 70
+        "originality": 70,
+        "traditionality": 94
       }
     },
     {
@@ -2238,7 +2397,8 @@
         "influence": 82,
         "ambition": 78,
         "fairness": 96,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 95
       }
     },
     {
@@ -2252,7 +2412,8 @@
         "influence": 100,
         "ambition": 72,
         "fairness": 95,
-        "originality": 85
+        "originality": 85,
+        "traditionality": 98
       }
     },
     {
@@ -2266,7 +2427,8 @@
         "influence": 80,
         "ambition": 72,
         "fairness": 93,
-        "originality": 76
+        "originality": 76,
+        "traditionality": 94
       }
     },
     {
@@ -2280,7 +2442,8 @@
         "influence": 80,
         "ambition": 78,
         "fairness": 93,
-        "originality": 74
+        "originality": 74,
+        "traditionality": 84
       }
     },
     {
@@ -2294,7 +2457,8 @@
         "influence": 84,
         "ambition": 88,
         "fairness": 94,
-        "originality": 89
+        "originality": 89,
+        "traditionality": 66
       }
     },
     {
@@ -2308,7 +2472,8 @@
         "influence": 90,
         "ambition": 68,
         "fairness": 96,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 96
       }
     },
     {
@@ -2322,7 +2487,8 @@
         "influence": 98,
         "ambition": 90,
         "fairness": 91,
-        "originality": 100
+        "originality": 100,
+        "traditionality": 52
       }
     },
     {
@@ -2336,7 +2502,8 @@
         "influence": 100,
         "ambition": 65,
         "fairness": 85,
-        "originality": 100
+        "originality": 100,
+        "traditionality": 99
       }
     },
     {
@@ -2350,7 +2517,8 @@
         "influence": 100,
         "ambition": 58,
         "fairness": 94,
-        "originality": 88
+        "originality": 88,
+        "traditionality": 98
       }
     },
     {
@@ -2364,7 +2532,8 @@
         "influence": 97,
         "ambition": 60,
         "fairness": 95,
-        "originality": 72
+        "originality": 72,
+        "traditionality": 99
       }
     },
     {
@@ -2378,7 +2547,8 @@
         "influence": 70,
         "ambition": 62,
         "fairness": 96,
-        "originality": 76
+        "originality": 76,
+        "traditionality": 98
       }
     },
     {
@@ -2392,7 +2562,8 @@
         "influence": 87,
         "ambition": 74,
         "fairness": 97,
-        "originality": 84
+        "originality": 84,
+        "traditionality": 97
       }
     },
     {
@@ -2406,7 +2577,8 @@
         "influence": 81,
         "ambition": 70,
         "fairness": 93,
-        "originality": 82
+        "originality": 82,
+        "traditionality": 88
       }
     },
     {
@@ -2420,7 +2592,8 @@
         "influence": 68,
         "ambition": 76,
         "fairness": 94,
-        "originality": 81
+        "originality": 81,
+        "traditionality": 80
       }
     },
     {
@@ -2434,7 +2607,8 @@
         "influence": 88,
         "ambition": 78,
         "fairness": 72,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 40
       }
     },
     {
@@ -2448,7 +2622,8 @@
         "influence": 91,
         "ambition": 75,
         "fairness": 83,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 34
       }
     },
     {
@@ -2462,7 +2637,8 @@
         "influence": 90,
         "ambition": 88,
         "fairness": 52,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 42
       }
     },
     {
@@ -2476,7 +2652,8 @@
         "influence": 88,
         "ambition": 96,
         "fairness": 66,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 18
       }
     },
     {
@@ -2490,7 +2667,8 @@
         "influence": 100,
         "ambition": 70,
         "fairness": 66,
-        "originality": 100
+        "originality": 100,
+        "traditionality": 40
       }
     },
     {
@@ -2504,7 +2682,8 @@
         "influence": 100,
         "ambition": 75,
         "fairness": 77,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 78
       }
     },
     {
@@ -2518,7 +2697,8 @@
         "influence": 100,
         "ambition": 82,
         "fairness": 72,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 52
       }
     },
     {
@@ -2532,7 +2712,8 @@
         "influence": 90,
         "ambition": 75,
         "fairness": 47,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 32
       }
     },
     {
@@ -2546,7 +2727,8 @@
         "influence": 85,
         "ambition": 70,
         "fairness": 40,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 25
       }
     },
     {
@@ -2560,7 +2742,8 @@
         "influence": 86,
         "ambition": 72,
         "fairness": 35,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 10
       }
     },
     {
@@ -2574,7 +2757,8 @@
         "influence": 99,
         "ambition": 87,
         "fairness": 43,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 12
       }
     },
     {
@@ -2588,7 +2772,8 @@
         "influence": 97,
         "ambition": 75,
         "fairness": 55,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 18
       }
     },
     {
@@ -2602,7 +2787,8 @@
         "influence": 99,
         "ambition": 77,
         "fairness": 62,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 38
       }
     },
     {
@@ -2616,7 +2802,8 @@
         "influence": 92,
         "ambition": 70,
         "fairness": 65,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 28
       }
     },
     {
@@ -2630,7 +2817,8 @@
         "influence": 91,
         "ambition": 80,
         "fairness": 38,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 12
       }
     },
     {
@@ -2644,7 +2832,8 @@
         "influence": 92,
         "ambition": 86,
         "fairness": 79,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 34
       }
     },
     {
@@ -2658,7 +2847,8 @@
         "influence": 97,
         "ambition": 77,
         "fairness": 81,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 20
       }
     },
     {
@@ -2672,7 +2862,8 @@
         "influence": 79,
         "ambition": 82,
         "fairness": 35,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 8
       }
     },
     {
@@ -2686,7 +2877,8 @@
         "influence": 91,
         "ambition": 75,
         "fairness": 41,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 10
       }
     },
     {
@@ -2700,7 +2892,8 @@
         "influence": 83,
         "ambition": 78,
         "fairness": 82,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 24
       }
     },
     {
@@ -2714,7 +2907,8 @@
         "influence": 68,
         "ambition": 72,
         "fairness": 39,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 18
       }
     },
     {
@@ -2728,7 +2922,8 @@
         "influence": 98,
         "ambition": 78,
         "fairness": 85,
-        "originality": 95
+        "originality": 95,
+        "traditionality": 55
       }
     },
     {
@@ -2742,7 +2937,8 @@
         "influence": 76,
         "ambition": 84,
         "fairness": 42,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 10
       }
     },
     {
@@ -2756,7 +2952,8 @@
         "influence": 91,
         "ambition": 89,
         "fairness": 72,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 36
       }
     },
     {
@@ -2770,7 +2967,8 @@
         "influence": 93,
         "ambition": 72,
         "fairness": 63,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 10
       }
     },
     {
@@ -2784,7 +2982,8 @@
         "influence": 58,
         "ambition": 68,
         "fairness": 40,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 12
       }
     },
     {
@@ -2798,7 +2997,8 @@
         "influence": 85,
         "ambition": 85,
         "fairness": 38,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 8
       }
     },
     {
@@ -2812,7 +3012,8 @@
         "influence": 83,
         "ambition": 78,
         "fairness": 85,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 28
       }
     },
     {
@@ -2826,7 +3027,8 @@
         "influence": 85,
         "ambition": 85,
         "fairness": 82,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 22
       }
     },
     {
@@ -2840,7 +3042,8 @@
         "influence": 48,
         "ambition": 82,
         "fairness": 86,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 35
       }
     },
     {
@@ -2854,7 +3057,8 @@
         "influence": 74,
         "ambition": 70,
         "fairness": 86,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 12
       }
     },
     {
@@ -2868,7 +3072,8 @@
         "influence": 58,
         "ambition": 65,
         "fairness": 84,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 58
       }
     },
     {
@@ -2882,7 +3087,8 @@
         "influence": 48,
         "ambition": 62,
         "fairness": 78,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 24
       }
     },
     {
@@ -2896,7 +3102,8 @@
         "influence": 85,
         "ambition": 78,
         "fairness": 45,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 8
       }
     },
     {
@@ -2910,7 +3117,8 @@
         "influence": 97,
         "ambition": 88,
         "fairness": 71,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 18
       }
     },
     {
@@ -2924,7 +3132,8 @@
         "influence": 90,
         "ambition": 85,
         "fairness": 28,
-        "originality": 99
+        "originality": 99,
+        "traditionality": 5
       }
     },
     {
@@ -2938,7 +3147,8 @@
         "influence": 52,
         "ambition": 80,
         "fairness": 82,
-        "originality": 94
+        "originality": 94,
+        "traditionality": 75
       }
     },
     {
@@ -2952,7 +3162,8 @@
         "influence": 60,
         "ambition": 82,
         "fairness": 47,
-        "originality": 97
+        "originality": 97,
+        "traditionality": 38
       }
     },
     {
@@ -2966,7 +3177,8 @@
         "influence": 28,
         "ambition": 75,
         "fairness": 91,
-        "originality": 96
+        "originality": 96,
+        "traditionality": 70
       }
     },
     {
@@ -2980,7 +3192,8 @@
         "influence": 66,
         "ambition": 76,
         "fairness": 70,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 35
       }
     },
     {
@@ -2994,7 +3207,8 @@
         "influence": 91,
         "ambition": 80,
         "fairness": 52,
-        "originality": 98
+        "originality": 98,
+        "traditionality": 12
       }
     }
   ],
@@ -3304,6 +3518,108 @@
       "golden_idol",
       "lovecraft_investigations",
       "odd_taxi"
+    ],
+    "traditional_mystery": [
+      "name_of_rose",
+      "roger_ackroyd",
+      "moonstone",
+      "and_then_none",
+      "obra_dinn",
+      "hollow_man",
+      "magpie_murders",
+      "city_and_city",
+      "decagon_house",
+      "tokyo_zodiac",
+      "murder_crooked_house",
+      "great_ace_attorney",
+      "orient_express",
+      "five_little_pigs",
+      "woman_in_white",
+      "my_name_is_red",
+      "high_and_low",
+      "secret_in_their_eyes",
+      "devotion_suspect_x",
+      "malice",
+      "nine_tailors",
+      "gaudy_night",
+      "honjin_murders",
+      "golden_idol",
+      "pentiment",
+      "chinatown",
+      "death_nile",
+      "last_sheila",
+      "witness_prosecution",
+      "knives_out",
+      "gosford_park",
+      "true_detective",
+      "seven_deaths",
+      "greek_coffin",
+      "poison_chocolates",
+      "judas_window",
+      "crooked_hinge",
+      "tragedy_y",
+      "inugami_curse",
+      "death_notice",
+      "appeal",
+      "jonathan_creek",
+      "westing_game",
+      "odd_taxi",
+      "forgotten_city",
+      "ghost_trick",
+      "zero_escape",
+      "danganronpa",
+      "death_note",
+      "monster",
+      "pluto",
+      "luminaries",
+      "shadow_wind",
+      "smillas_sense",
+      "girl_dragon_tattoo",
+      "zodiac_film",
+      "memories_murder",
+      "decision_leave",
+      "searching",
+      "drishyam",
+      "kahaani",
+      "anatomy_murder",
+      "invisible_guest",
+      "tell_no_one",
+      "guilty_2018",
+      "body_2012",
+      "poker_face",
+      "ace_attorney",
+      "roottrees",
+      "rise_golden_idol",
+      "painscreek",
+      "erased",
+      "problem_cell_13",
+      "speckled_band",
+      "purloined_letter",
+      "rue_morgue",
+      "death_compass",
+      "judge_hangman",
+      "confessions_minato",
+      "newcomer",
+      "moonflower_murders",
+      "everyone_family",
+      "twyford_code",
+      "glass_onion",
+      "clue_film",
+      "sleuth",
+      "evil_under_sun",
+      "murder_announced",
+      "after_funeral",
+      "curtain",
+      "crooked_house",
+      "strong_poison",
+      "rim_crystal",
+      "she_died_lady",
+      "death_top_hat",
+      "chinese_orange",
+      "abc_murders",
+      "bleak_house",
+      "last_express",
+      "paradise_killer"
     ]
   }
 }
