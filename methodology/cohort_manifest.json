@@ -1,0 +1,707 @@
+{
+  "generalist_agents": 40,
+  "lens_assisted_agents": 60,
+  "lens_instruction": "Use the assigned lens to widen initial candidate discovery and counter familiarity bias. It is not a quota, eligibility restriction, score bonus, or limit on the final rankings. The final three selection lists must remain honest global top-100 judgments under the common rubric.",
+  "agents": [
+    {
+      "agent_number": 1,
+      "agent_id": "scorer-001",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 2,
+      "agent_id": "scorer-002",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 3,
+      "agent_id": "scorer-003",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 4,
+      "agent_id": "scorer-004",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 5,
+      "agent_id": "scorer-005",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 6,
+      "agent_id": "scorer-006",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 7,
+      "agent_id": "scorer-007",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 8,
+      "agent_id": "scorer-008",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 9,
+      "agent_id": "scorer-009",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 10,
+      "agent_id": "scorer-010",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 11,
+      "agent_id": "scorer-011",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 12,
+      "agent_id": "scorer-012",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 13,
+      "agent_id": "scorer-013",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 14,
+      "agent_id": "scorer-014",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 15,
+      "agent_id": "scorer-015",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 16,
+      "agent_id": "scorer-016",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 17,
+      "agent_id": "scorer-017",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 18,
+      "agent_id": "scorer-018",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 19,
+      "agent_id": "scorer-019",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 20,
+      "agent_id": "scorer-020",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 21,
+      "agent_id": "scorer-021",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 22,
+      "agent_id": "scorer-022",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 23,
+      "agent_id": "scorer-023",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 24,
+      "agent_id": "scorer-024",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 25,
+      "agent_id": "scorer-025",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 26,
+      "agent_id": "scorer-026",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 27,
+      "agent_id": "scorer-027",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 28,
+      "agent_id": "scorer-028",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 29,
+      "agent_id": "scorer-029",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 30,
+      "agent_id": "scorer-030",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 31,
+      "agent_id": "scorer-031",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 32,
+      "agent_id": "scorer-032",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 33,
+      "agent_id": "scorer-033",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 34,
+      "agent_id": "scorer-034",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 35,
+      "agent_id": "scorer-035",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 36,
+      "agent_id": "scorer-036",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 37,
+      "agent_id": "scorer-037",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 38,
+      "agent_id": "scorer-038",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 39,
+      "agent_id": "scorer-039",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 40,
+      "agent_id": "scorer-040",
+      "cohort": "generalist",
+      "cohort_label": "Generalist",
+      "lens": ""
+    },
+    {
+      "agent_number": 41,
+      "agent_id": "scorer-041",
+      "cohort": "early_foundational",
+      "cohort_label": "Early and foundational traditions",
+      "lens": "Search especially carefully across early and foundational mystery traditions."
+    },
+    {
+      "agent_number": 42,
+      "agent_id": "scorer-042",
+      "cohort": "early_foundational",
+      "cohort_label": "Early and foundational traditions",
+      "lens": "Search especially carefully across early and foundational mystery traditions."
+    },
+    {
+      "agent_number": 43,
+      "agent_id": "scorer-043",
+      "cohort": "early_foundational",
+      "cohort_label": "Early and foundational traditions",
+      "lens": "Search especially carefully across early and foundational mystery traditions."
+    },
+    {
+      "agent_number": 44,
+      "agent_id": "scorer-044",
+      "cohort": "early_foundational",
+      "cohort_label": "Early and foundational traditions",
+      "lens": "Search especially carefully across early and foundational mystery traditions."
+    },
+    {
+      "agent_number": 45,
+      "agent_id": "scorer-045",
+      "cohort": "early_foundational",
+      "cohort_label": "Early and foundational traditions",
+      "lens": "Search especially carefully across early and foundational mystery traditions."
+    },
+    {
+      "agent_number": 46,
+      "agent_id": "scorer-046",
+      "cohort": "midcentury_postwar",
+      "cohort_label": "Mid-century and postwar traditions",
+      "lens": "Search especially carefully across mid-century and postwar mystery traditions."
+    },
+    {
+      "agent_number": 47,
+      "agent_id": "scorer-047",
+      "cohort": "midcentury_postwar",
+      "cohort_label": "Mid-century and postwar traditions",
+      "lens": "Search especially carefully across mid-century and postwar mystery traditions."
+    },
+    {
+      "agent_number": 48,
+      "agent_id": "scorer-048",
+      "cohort": "midcentury_postwar",
+      "cohort_label": "Mid-century and postwar traditions",
+      "lens": "Search especially carefully across mid-century and postwar mystery traditions."
+    },
+    {
+      "agent_number": 49,
+      "agent_id": "scorer-049",
+      "cohort": "midcentury_postwar",
+      "cohort_label": "Mid-century and postwar traditions",
+      "lens": "Search especially carefully across mid-century and postwar mystery traditions."
+    },
+    {
+      "agent_number": 50,
+      "agent_id": "scorer-050",
+      "cohort": "midcentury_postwar",
+      "cohort_label": "Mid-century and postwar traditions",
+      "lens": "Search especially carefully across mid-century and postwar mystery traditions."
+    },
+    {
+      "agent_number": 51,
+      "agent_id": "scorer-051",
+      "cohort": "east_asian",
+      "cohort_label": "East Asian traditions across forms",
+      "lens": "Search especially carefully across East Asian traditions and forms."
+    },
+    {
+      "agent_number": 52,
+      "agent_id": "scorer-052",
+      "cohort": "east_asian",
+      "cohort_label": "East Asian traditions across forms",
+      "lens": "Search especially carefully across East Asian traditions and forms."
+    },
+    {
+      "agent_number": 53,
+      "agent_id": "scorer-053",
+      "cohort": "east_asian",
+      "cohort_label": "East Asian traditions across forms",
+      "lens": "Search especially carefully across East Asian traditions and forms."
+    },
+    {
+      "agent_number": 54,
+      "agent_id": "scorer-054",
+      "cohort": "east_asian",
+      "cohort_label": "East Asian traditions across forms",
+      "lens": "Search especially carefully across East Asian traditions and forms."
+    },
+    {
+      "agent_number": 55,
+      "agent_id": "scorer-055",
+      "cohort": "east_asian",
+      "cohort_label": "East Asian traditions across forms",
+      "lens": "Search especially carefully across East Asian traditions and forms."
+    },
+    {
+      "agent_number": 56,
+      "agent_id": "scorer-056",
+      "cohort": "non_anglophone_europe",
+      "cohort_label": "Non-Anglophone European traditions",
+      "lens": "Search especially carefully across non-Anglophone European traditions and forms."
+    },
+    {
+      "agent_number": 57,
+      "agent_id": "scorer-057",
+      "cohort": "non_anglophone_europe",
+      "cohort_label": "Non-Anglophone European traditions",
+      "lens": "Search especially carefully across non-Anglophone European traditions and forms."
+    },
+    {
+      "agent_number": 58,
+      "agent_id": "scorer-058",
+      "cohort": "non_anglophone_europe",
+      "cohort_label": "Non-Anglophone European traditions",
+      "lens": "Search especially carefully across non-Anglophone European traditions and forms."
+    },
+    {
+      "agent_number": 59,
+      "agent_id": "scorer-059",
+      "cohort": "non_anglophone_europe",
+      "cohort_label": "Non-Anglophone European traditions",
+      "lens": "Search especially carefully across non-Anglophone European traditions and forms."
+    },
+    {
+      "agent_number": 60,
+      "agent_id": "scorer-060",
+      "cohort": "non_anglophone_europe",
+      "cohort_label": "Non-Anglophone European traditions",
+      "lens": "Search especially carefully across non-Anglophone European traditions and forms."
+    },
+    {
+      "agent_number": 61,
+      "agent_id": "scorer-061",
+      "cohort": "global_south_west_asia",
+      "cohort_label": "Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions",
+      "lens": "Search especially carefully across Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions and forms."
+    },
+    {
+      "agent_number": 62,
+      "agent_id": "scorer-062",
+      "cohort": "global_south_west_asia",
+      "cohort_label": "Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions",
+      "lens": "Search especially carefully across Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions and forms."
+    },
+    {
+      "agent_number": 63,
+      "agent_id": "scorer-063",
+      "cohort": "global_south_west_asia",
+      "cohort_label": "Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions",
+      "lens": "Search especially carefully across Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions and forms."
+    },
+    {
+      "agent_number": 64,
+      "agent_id": "scorer-064",
+      "cohort": "global_south_west_asia",
+      "cohort_label": "Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions",
+      "lens": "Search especially carefully across Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions and forms."
+    },
+    {
+      "agent_number": 65,
+      "agent_id": "scorer-065",
+      "cohort": "global_south_west_asia",
+      "cohort_label": "Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions",
+      "lens": "Search especially carefully across Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions and forms."
+    },
+    {
+      "agent_number": 66,
+      "agent_id": "scorer-066",
+      "cohort": "international_cinema",
+      "cohort_label": "International cinema",
+      "lens": "Search especially carefully across international cinema and film history."
+    },
+    {
+      "agent_number": 67,
+      "agent_id": "scorer-067",
+      "cohort": "international_cinema",
+      "cohort_label": "International cinema",
+      "lens": "Search especially carefully across international cinema and film history."
+    },
+    {
+      "agent_number": 68,
+      "agent_id": "scorer-068",
+      "cohort": "international_cinema",
+      "cohort_label": "International cinema",
+      "lens": "Search especially carefully across international cinema and film history."
+    },
+    {
+      "agent_number": 69,
+      "agent_id": "scorer-069",
+      "cohort": "international_cinema",
+      "cohort_label": "International cinema",
+      "lens": "Search especially carefully across international cinema and film history."
+    },
+    {
+      "agent_number": 70,
+      "agent_id": "scorer-070",
+      "cohort": "international_cinema",
+      "cohort_label": "International cinema",
+      "lens": "Search especially carefully across international cinema and film history."
+    },
+    {
+      "agent_number": 71,
+      "agent_id": "scorer-071",
+      "cohort": "television_serialized_screen",
+      "cohort_label": "Television and serialized screen narratives",
+      "lens": "Search especially carefully across television and other serialized screen narratives."
+    },
+    {
+      "agent_number": 72,
+      "agent_id": "scorer-072",
+      "cohort": "television_serialized_screen",
+      "cohort_label": "Television and serialized screen narratives",
+      "lens": "Search especially carefully across television and other serialized screen narratives."
+    },
+    {
+      "agent_number": 73,
+      "agent_id": "scorer-073",
+      "cohort": "television_serialized_screen",
+      "cohort_label": "Television and serialized screen narratives",
+      "lens": "Search especially carefully across television and other serialized screen narratives."
+    },
+    {
+      "agent_number": 74,
+      "agent_id": "scorer-074",
+      "cohort": "television_serialized_screen",
+      "cohort_label": "Television and serialized screen narratives",
+      "lens": "Search especially carefully across television and other serialized screen narratives."
+    },
+    {
+      "agent_number": 75,
+      "agent_id": "scorer-075",
+      "cohort": "television_serialized_screen",
+      "cohort_label": "Television and serialized screen narratives",
+      "lens": "Search especially carefully across television and other serialized screen narratives."
+    },
+    {
+      "agent_number": 76,
+      "agent_id": "scorer-076",
+      "cohort": "animation_graphic",
+      "cohort_label": "Animation and graphic narratives",
+      "lens": "Search especially carefully across animation, comics, manga, and other graphic narratives."
+    },
+    {
+      "agent_number": 77,
+      "agent_id": "scorer-077",
+      "cohort": "animation_graphic",
+      "cohort_label": "Animation and graphic narratives",
+      "lens": "Search especially carefully across animation, comics, manga, and other graphic narratives."
+    },
+    {
+      "agent_number": 78,
+      "agent_id": "scorer-078",
+      "cohort": "animation_graphic",
+      "cohort_label": "Animation and graphic narratives",
+      "lens": "Search especially carefully across animation, comics, manga, and other graphic narratives."
+    },
+    {
+      "agent_number": 79,
+      "agent_id": "scorer-079",
+      "cohort": "animation_graphic",
+      "cohort_label": "Animation and graphic narratives",
+      "lens": "Search especially carefully across animation, comics, manga, and other graphic narratives."
+    },
+    {
+      "agent_number": 80,
+      "agent_id": "scorer-080",
+      "cohort": "animation_graphic",
+      "cohort_label": "Animation and graphic narratives",
+      "lens": "Search especially carefully across animation, comics, manga, and other graphic narratives."
+    },
+    {
+      "agent_number": 81,
+      "agent_id": "scorer-081",
+      "cohort": "interactive",
+      "cohort_label": "Games, visual novels, and interactive fiction",
+      "lens": "Search especially carefully across games, visual novels, interactive fiction, and other interactive forms."
+    },
+    {
+      "agent_number": 82,
+      "agent_id": "scorer-082",
+      "cohort": "interactive",
+      "cohort_label": "Games, visual novels, and interactive fiction",
+      "lens": "Search especially carefully across games, visual novels, interactive fiction, and other interactive forms."
+    },
+    {
+      "agent_number": 83,
+      "agent_id": "scorer-083",
+      "cohort": "interactive",
+      "cohort_label": "Games, visual novels, and interactive fiction",
+      "lens": "Search especially carefully across games, visual novels, interactive fiction, and other interactive forms."
+    },
+    {
+      "agent_number": 84,
+      "agent_id": "scorer-084",
+      "cohort": "interactive",
+      "cohort_label": "Games, visual novels, and interactive fiction",
+      "lens": "Search especially carefully across games, visual novels, interactive fiction, and other interactive forms."
+    },
+    {
+      "agent_number": 85,
+      "agent_id": "scorer-085",
+      "cohort": "interactive",
+      "cohort_label": "Games, visual novels, and interactive fiction",
+      "lens": "Search especially carefully across games, visual novels, interactive fiction, and other interactive forms."
+    },
+    {
+      "agent_number": 86,
+      "agent_id": "scorer-086",
+      "cohort": "audio_stage_web",
+      "cohort_label": "Audio, stage, web, and less common forms",
+      "lens": "Search especially carefully across audio, stage, web, serial, and other less commonly surveyed forms."
+    },
+    {
+      "agent_number": 87,
+      "agent_id": "scorer-087",
+      "cohort": "audio_stage_web",
+      "cohort_label": "Audio, stage, web, and less common forms",
+      "lens": "Search especially carefully across audio, stage, web, serial, and other less commonly surveyed forms."
+    },
+    {
+      "agent_number": 88,
+      "agent_id": "scorer-088",
+      "cohort": "audio_stage_web",
+      "cohort_label": "Audio, stage, web, and less common forms",
+      "lens": "Search especially carefully across audio, stage, web, serial, and other less commonly surveyed forms."
+    },
+    {
+      "agent_number": 89,
+      "agent_id": "scorer-089",
+      "cohort": "audio_stage_web",
+      "cohort_label": "Audio, stage, web, and less common forms",
+      "lens": "Search especially carefully across audio, stage, web, serial, and other less commonly surveyed forms."
+    },
+    {
+      "agent_number": 90,
+      "agent_id": "scorer-090",
+      "cohort": "audio_stage_web",
+      "cohort_label": "Audio, stage, web, and less common forms",
+      "lens": "Search especially carefully across audio, stage, web, serial, and other less commonly surveyed forms."
+    },
+    {
+      "agent_number": 91,
+      "agent_id": "scorer-091",
+      "cohort": "formal_puzzle",
+      "cohort_label": "Formal puzzles, fair-play construction, and intricate tricks",
+      "lens": "Search especially carefully for formal puzzles, fair-play construction, and intricate mystery mechanisms."
+    },
+    {
+      "agent_number": 92,
+      "agent_id": "scorer-092",
+      "cohort": "formal_puzzle",
+      "cohort_label": "Formal puzzles, fair-play construction, and intricate tricks",
+      "lens": "Search especially carefully for formal puzzles, fair-play construction, and intricate mystery mechanisms."
+    },
+    {
+      "agent_number": 93,
+      "agent_id": "scorer-093",
+      "cohort": "formal_puzzle",
+      "cohort_label": "Formal puzzles, fair-play construction, and intricate tricks",
+      "lens": "Search especially carefully for formal puzzles, fair-play construction, and intricate mystery mechanisms."
+    },
+    {
+      "agent_number": 94,
+      "agent_id": "scorer-094",
+      "cohort": "formal_puzzle",
+      "cohort_label": "Formal puzzles, fair-play construction, and intricate tricks",
+      "lens": "Search especially carefully for formal puzzles, fair-play construction, and intricate mystery mechanisms."
+    },
+    {
+      "agent_number": 95,
+      "agent_id": "scorer-095",
+      "cohort": "formal_puzzle",
+      "cohort_label": "Formal puzzles, fair-play construction, and intricate tricks",
+      "lens": "Search especially carefully for formal puzzles, fair-play construction, and intricate mystery mechanisms."
+    },
+    {
+      "agent_number": 96,
+      "agent_id": "scorer-096",
+      "cohort": "boundary_experimental",
+      "cohort_label": "Psychological, perspectival, speculative, structural, and interpretive mysteries",
+      "lens": "Search especially carefully for psychological, perspectival, speculative, structural, and interpretive mysteries beyond conventional genre boundaries."
+    },
+    {
+      "agent_number": 97,
+      "agent_id": "scorer-097",
+      "cohort": "boundary_experimental",
+      "cohort_label": "Psychological, perspectival, speculative, structural, and interpretive mysteries",
+      "lens": "Search especially carefully for psychological, perspectival, speculative, structural, and interpretive mysteries beyond conventional genre boundaries."
+    },
+    {
+      "agent_number": 98,
+      "agent_id": "scorer-098",
+      "cohort": "boundary_experimental",
+      "cohort_label": "Psychological, perspectival, speculative, structural, and interpretive mysteries",
+      "lens": "Search especially carefully for psychological, perspectival, speculative, structural, and interpretive mysteries beyond conventional genre boundaries."
+    },
+    {
+      "agent_number": 99,
+      "agent_id": "scorer-099",
+      "cohort": "boundary_experimental",
+      "cohort_label": "Psychological, perspectival, speculative, structural, and interpretive mysteries",
+      "lens": "Search especially carefully for psychological, perspectival, speculative, structural, and interpretive mysteries beyond conventional genre boundaries."
+    },
+    {
+      "agent_number": 100,
+      "agent_id": "scorer-100",
+      "cohort": "boundary_experimental",
+      "cohort_label": "Psychological, perspectival, speculative, structural, and interpretive mysteries",
+      "lens": "Search especially carefully for psychological, perspectival, speculative, structural, and interpretive mysteries beyond conventional genre boundaries."
+    }
+  ]
+}

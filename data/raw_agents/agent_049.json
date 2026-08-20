@@ -1,0 +1,2553 @@
+{
+  "agent_id": "scorer-049",
+  "works": [
+    {
+      "work_id": "name_rose",
+      "title": "The Name of the Rose",
+      "original_title": "Il nome della rosa",
+      "creator": "Umberto Eco",
+      "year": 1980,
+      "medium": "novel",
+      "scores": {
+        "influence": 93,
+        "ambition": 95,
+        "fairness": 89,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "city_city",
+      "title": "The City & the City",
+      "original_title": "",
+      "creator": "China Miéville",
+      "year": 2009,
+      "medium": "novel",
+      "scores": {
+        "influence": 76,
+        "ambition": 91,
+        "fairness": 88,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "invention_morel",
+      "title": "The Invention of Morel",
+      "original_title": "La invención de Morel",
+      "creator": "Adolfo Bioy Casares",
+      "year": 1940,
+      "medium": "novel",
+      "scores": {
+        "influence": 86,
+        "ambition": 86,
+        "fairness": 90,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "manuscript_saragossa",
+      "title": "The Manuscript Found in Saragossa",
+      "original_title": "Manuscrit trouvé à Saragosse",
+      "creator": "Jan Potocki",
+      "year": 1804,
+      "medium": "novel",
+      "scores": {
+        "influence": 82,
+        "ambition": 96,
+        "fairness": 82,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "seven_deaths",
+      "title": "The Seven Deaths of Evelyn Hardcastle",
+      "original_title": "",
+      "creator": "Stuart Turton",
+      "year": 2018,
+      "medium": "novel",
+      "scores": {
+        "influence": 73,
+        "ambition": 94,
+        "fairness": 86,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "outer_wilds",
+      "title": "Outer Wilds",
+      "original_title": "",
+      "creator": "Mobius Digital",
+      "year": 2019,
+      "medium": "video_game",
+      "scores": {
+        "influence": 79,
+        "ambition": 97,
+        "fairness": 96,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "obra_dinn",
+      "title": "Return of the Obra Dinn",
+      "original_title": "",
+      "creator": "Lucas Pope",
+      "year": 2018,
+      "medium": "video_game",
+      "scores": {
+        "influence": 84,
+        "ambition": 94,
+        "fairness": 99,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "golden_idol",
+      "title": "The Case of the Golden Idol",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game",
+      "scores": {
+        "influence": 66,
+        "ambition": 91,
+        "fairness": 98,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "decagon",
+      "title": "The Decagon House Murders",
+      "original_title": "十角館の殺人",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
+      "medium": "novel",
+      "scores": {
+        "influence": 85,
+        "ambition": 89,
+        "fairness": 99,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "tokyo_zodiac",
+      "title": "The Tokyo Zodiac Murders",
+      "original_title": "占星術殺人事件",
+      "creator": "Sōji Shimada",
+      "year": 1981,
+      "medium": "novel",
+      "scores": {
+        "influence": 82,
+        "ambition": 88,
+        "fairness": 98,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "honjin",
+      "title": "The Honjin Murders",
+      "original_title": "本陣殺人事件",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "novel",
+      "scores": {
+        "influence": 86,
+        "ambition": 84,
+        "fairness": 98,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "roger_ackroyd",
+      "title": "The Murder of Roger Ackroyd",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1926,
+      "medium": "novel",
+      "scores": {
+        "influence": 99,
+        "ambition": 90,
+        "fairness": 99,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "and_then_none",
+      "title": "And Then There Were None",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1939,
+      "medium": "novel",
+      "scores": {
+        "influence": 99,
+        "ambition": 95,
+        "fairness": 96,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "hollow_man",
+      "title": "The Hollow Man",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel",
+      "scores": {
+        "influence": 95,
+        "ambition": 92,
+        "fairness": 99,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "yellow_room",
+      "title": "The Mystery of the Yellow Room",
+      "original_title": "Le Mystère de la chambre jaune",
+      "creator": "Gaston Leroux",
+      "year": 1907,
+      "medium": "novel",
+      "scores": {
+        "influence": 94,
+        "ambition": 88,
+        "fairness": 97,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "last_express",
+      "title": "The Last Express",
+      "original_title": "",
+      "creator": "Jordan Mechner",
+      "year": 1997,
+      "medium": "video_game",
+      "scores": {
+        "influence": 81,
+        "ambition": 92,
+        "fairness": 95,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "memento",
+      "title": "Memento",
+      "original_title": "",
+      "creator": "Christopher Nolan",
+      "year": 2000,
+      "medium": "film",
+      "scores": {
+        "influence": 93,
+        "ambition": 91,
+        "fairness": 94,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "perfect_blue",
+      "title": "Perfect Blue",
+      "original_title": "",
+      "creator": "Satoshi Kon",
+      "year": 1997,
+      "medium": "anime",
+      "scores": {
+        "influence": 94,
+        "ambition": 91,
+        "fairness": 87,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "odd_taxi",
+      "title": "Odd Taxi",
+      "original_title": "オッドタクシー",
+      "creator": "Baku Kinoshita",
+      "year": 2021,
+      "medium": "anime",
+      "scores": {
+        "influence": 75,
+        "ambition": 92,
+        "fairness": 95,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "from_hell",
+      "title": "From Hell",
+      "original_title": "",
+      "creator": "Alan Moore and Eddie Campbell",
+      "year": 1989,
+      "medium": "comic",
+      "scores": {
+        "influence": 91,
+        "ambition": 98,
+        "fairness": 85,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "monster",
+      "title": "Monster",
+      "original_title": "",
+      "creator": "Naoki Urasawa",
+      "year": 1994,
+      "medium": "manga",
+      "scores": {
+        "influence": 91,
+        "ambition": 97,
+        "fairness": 90,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "twentieth_century_boys",
+      "title": "20th Century Boys",
+      "original_title": "20世紀少年",
+      "creator": "Naoki Urasawa",
+      "year": 1999,
+      "medium": "manga",
+      "scores": {
+        "influence": 88,
+        "ambition": 99,
+        "fairness": 83,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "prestige",
+      "title": "The Prestige",
+      "original_title": "",
+      "creator": "Christopher Priest",
+      "year": 1995,
+      "medium": "novel",
+      "scores": {
+        "influence": 83,
+        "ambition": 94,
+        "fairness": 93,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "higurashi",
+      "title": "Higurashi When They Cry",
+      "original_title": "ひぐらしのなく頃に",
+      "creator": "Ryukishi07",
+      "year": 2002,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 87,
+        "ambition": 98,
+        "fairness": 86,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "piranesi",
+      "title": "Piranesi",
+      "original_title": "",
+      "creator": "Susanna Clarke",
+      "year": 2020,
+      "medium": "novel",
+      "scores": {
+        "influence": 75,
+        "ambition": 88,
+        "fairness": 92,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "la_confidential",
+      "title": "L.A. Confidential",
+      "original_title": "",
+      "creator": "Curtis Hanson",
+      "year": 1997,
+      "medium": "film",
+      "scores": {
+        "influence": 90,
+        "ambition": 95,
+        "fairness": 93,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "devotion_suspect_x",
+      "title": "The Devotion of Suspect X",
+      "original_title": "容疑者Xの献身",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel",
+      "scores": {
+        "influence": 87,
+        "ambition": 88,
+        "fairness": 99,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "chinatown",
+      "title": "Chinatown",
+      "original_title": "",
+      "creator": "Roman Polanski",
+      "year": 1974,
+      "medium": "film",
+      "scores": {
+        "influence": 95,
+        "ambition": 93,
+        "fairness": 92,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "conversation",
+      "title": "The Conversation",
+      "original_title": "",
+      "creator": "Francis Ford Coppola",
+      "year": 1974,
+      "medium": "film",
+      "scores": {
+        "influence": 88,
+        "ambition": 90,
+        "fairness": 87,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "gone_girl",
+      "title": "Gone Girl",
+      "original_title": "",
+      "creator": "Gillian Flynn",
+      "year": 2012,
+      "medium": "novel",
+      "scores": {
+        "influence": 91,
+        "ambition": 90,
+        "fairness": 91,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "shutter_island",
+      "title": "Shutter Island",
+      "original_title": "",
+      "creator": "Dennis Lehane",
+      "year": 2003,
+      "medium": "novel",
+      "scores": {
+        "influence": 82,
+        "ambition": 89,
+        "fairness": 91,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "third_man",
+      "title": "The Third Man",
+      "original_title": "",
+      "creator": "Carol Reed",
+      "year": 1949,
+      "medium": "film",
+      "scores": {
+        "influence": 93,
+        "ambition": 86,
+        "fairness": 90,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "vertigo",
+      "title": "Vertigo",
+      "original_title": "",
+      "creator": "Alfred Hitchcock",
+      "year": 1958,
+      "medium": "film",
+      "scores": {
+        "influence": 97,
+        "ambition": 93,
+        "fairness": 83,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "usual_suspects",
+      "title": "The Usual Suspects",
+      "original_title": "",
+      "creator": "Bryan Singer",
+      "year": 1995,
+      "medium": "film",
+      "scores": {
+        "influence": 92,
+        "ambition": 88,
+        "fairness": 86,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "invisible_guest",
+      "title": "The Invisible Guest",
+      "original_title": "Contratiempo",
+      "creator": "Oriol Paulo",
+      "year": 2016,
+      "medium": "film",
+      "scores": {
+        "influence": 67,
+        "ambition": 87,
+        "fairness": 93,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "others",
+      "title": "The Others",
+      "original_title": "Los otros",
+      "creator": "Alejandro Amenábar",
+      "year": 2001,
+      "medium": "film",
+      "scores": {
+        "influence": 86,
+        "ambition": 88,
+        "fairness": 94,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "oldboy",
+      "title": "Oldboy",
+      "original_title": "올드보이",
+      "creator": "Park Chan-wook",
+      "year": 2003,
+      "medium": "film",
+      "scores": {
+        "influence": 91,
+        "ambition": 94,
+        "fairness": 85,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "sixth_sense",
+      "title": "The Sixth Sense",
+      "original_title": "",
+      "creator": "M. Night Shyamalan",
+      "year": 1999,
+      "medium": "film",
+      "scores": {
+        "influence": 94,
+        "ambition": 87,
+        "fairness": 95,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "handmaiden",
+      "title": "The Handmaiden",
+      "original_title": "아가씨",
+      "creator": "Park Chan-wook",
+      "year": 2016,
+      "medium": "film",
+      "scores": {
+        "influence": 82,
+        "ambition": 95,
+        "fairness": 90,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "skin_i_live_in",
+      "title": "The Skin I Live In",
+      "original_title": "La piel que habito",
+      "creator": "Pedro Almodóvar",
+      "year": 2011,
+      "medium": "film",
+      "scores": {
+        "influence": 74,
+        "ambition": 90,
+        "fairness": 86,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "twin_peaks",
+      "title": "Twin Peaks",
+      "original_title": "",
+      "creator": "David Lynch and Mark Frost",
+      "year": 1990,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 99,
+        "ambition": 100,
+        "fairness": 58,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "umineko",
+      "title": "Umineko When They Cry",
+      "original_title": "うみねこのなく頃に",
+      "creator": "Ryukishi07",
+      "year": 2007,
+      "medium": "visual_novel",
+      "scores": {
+        "influence": 88,
+        "ambition": 100,
+        "fairness": 78,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "house_leaves",
+      "title": "House of Leaves",
+      "original_title": "",
+      "creator": "Mark Z. Danielewski",
+      "year": 2000,
+      "medium": "novel",
+      "scores": {
+        "influence": 91,
+        "ambition": 99,
+        "fairness": 63,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "pale_fire",
+      "title": "Pale Fire",
+      "original_title": "",
+      "creator": "Vladimir Nabokov",
+      "year": 1962,
+      "medium": "novel",
+      "scores": {
+        "influence": 92,
+        "ambition": 96,
+        "fairness": 76,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "mulholland_drive",
+      "title": "Mulholland Drive",
+      "original_title": "",
+      "creator": "David Lynch",
+      "year": 2001,
+      "medium": "film",
+      "scores": {
+        "influence": 97,
+        "ambition": 97,
+        "fairness": 70,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "third_policeman",
+      "title": "The Third Policeman",
+      "original_title": "",
+      "creator": "Flann O'Brien",
+      "year": 1967,
+      "medium": "novel",
+      "scores": {
+        "influence": 84,
+        "ambition": 92,
+        "fairness": 72,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "crying_lot_49",
+      "title": "The Crying of Lot 49",
+      "original_title": "",
+      "creator": "Thomas Pynchon",
+      "year": 1966,
+      "medium": "novel",
+      "scores": {
+        "influence": 91,
+        "ambition": 91,
+        "fairness": 60,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "foucault_pendulum",
+      "title": "Foucault's Pendulum",
+      "original_title": "Il pendolo di Foucault",
+      "creator": "Umberto Eco",
+      "year": 1988,
+      "medium": "novel",
+      "scores": {
+        "influence": 89,
+        "ambition": 98,
+        "fairness": 69,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "city_of_glass",
+      "title": "City of Glass",
+      "original_title": "",
+      "creator": "Paul Auster",
+      "year": 1985,
+      "medium": "novella",
+      "scores": {
+        "influence": 86,
+        "ambition": 91,
+        "fairness": 62,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "solaris",
+      "title": "Solaris",
+      "original_title": "",
+      "creator": "Stanisław Lem",
+      "year": 1961,
+      "medium": "novel",
+      "scores": {
+        "influence": 96,
+        "ambition": 96,
+        "fairness": 67,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "roadside_picnic",
+      "title": "Roadside Picnic",
+      "original_title": "Пикник на обочине",
+      "creator": "Arkady and Boris Strugatsky",
+      "year": 1972,
+      "medium": "novel",
+      "scores": {
+        "influence": 94,
+        "ambition": 92,
+        "fairness": 72,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "picnic_hanging_rock",
+      "title": "Picnic at Hanging Rock",
+      "original_title": "",
+      "creator": "Joan Lindsay",
+      "year": 1967,
+      "medium": "novel",
+      "scores": {
+        "influence": 89,
+        "ambition": 90,
+        "fairness": 54,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "southern_reach",
+      "title": "The Southern Reach Series",
+      "original_title": "",
+      "creator": "Jeff VanderMeer",
+      "year": 2014,
+      "medium": "book_series",
+      "scores": {
+        "influence": 86,
+        "ambition": 98,
+        "fairness": 61,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "fifth_head",
+      "title": "The Fifth Head of Cerberus",
+      "original_title": "",
+      "creator": "Gene Wolfe",
+      "year": 1972,
+      "medium": "novel",
+      "scores": {
+        "influence": 76,
+        "ambition": 96,
+        "fairness": 71,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "lost",
+      "title": "Lost",
+      "original_title": "",
+      "creator": "Damon Lindelof and Carlton Cuse",
+      "year": 2004,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 99,
+        "ambition": 100,
+        "fairness": 48,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "prisoner",
+      "title": "The Prisoner",
+      "original_title": "",
+      "creator": "Patrick McGoohan",
+      "year": 1967,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 96,
+        "ambition": 95,
+        "fairness": 45,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "marienbad",
+      "title": "Last Year at Marienbad",
+      "original_title": "L'Année dernière à Marienbad",
+      "creator": "Alain Resnais",
+      "year": 1961,
+      "medium": "film",
+      "scores": {
+        "influence": 92,
+        "ambition": 92,
+        "fairness": 41,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "lain",
+      "title": "Serial Experiments Lain",
+      "original_title": "",
+      "creator": "Ryūtarō Nakamura",
+      "year": 1998,
+      "medium": "anime",
+      "scores": {
+        "influence": 90,
+        "ambition": 96,
+        "fairness": 56,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "watchmen",
+      "title": "Watchmen",
+      "original_title": "",
+      "creator": "Alan Moore and Dave Gibbons",
+      "year": 1986,
+      "medium": "comic",
+      "scores": {
+        "influence": 100,
+        "ambition": 98,
+        "fairness": 86,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "book_new_sun",
+      "title": "The Book of the New Sun",
+      "original_title": "",
+      "creator": "Gene Wolfe",
+      "year": 1980,
+      "medium": "book_series",
+      "scores": {
+        "influence": 91,
+        "ambition": 100,
+        "fairness": 68,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "luminaries",
+      "title": "The Luminaries",
+      "original_title": "",
+      "creator": "Eleanor Catton",
+      "year": 2013,
+      "medium": "novel",
+      "scores": {
+        "influence": 76,
+        "ambition": 98,
+        "fairness": 91,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "five_little_pigs",
+      "title": "Five Little Pigs",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1942,
+      "medium": "novel",
+      "scores": {
+        "influence": 90,
+        "ambition": 91,
+        "fairness": 99,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "moonstone",
+      "title": "The Moonstone",
+      "original_title": "",
+      "creator": "Wilkie Collins",
+      "year": 1868,
+      "medium": "novel",
+      "scores": {
+        "influence": 100,
+        "ambition": 96,
+        "fairness": 95,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "woman_white",
+      "title": "The Woman in White",
+      "original_title": "",
+      "creator": "Wilkie Collins",
+      "year": 1859,
+      "medium": "novel",
+      "scores": {
+        "influence": 99,
+        "ambition": 94,
+        "fairness": 91,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "hound_baskervilles",
+      "title": "The Hound of the Baskervilles",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1902,
+      "medium": "novel",
+      "scores": {
+        "influence": 99,
+        "ambition": 88,
+        "fairness": 94,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "daughter_time",
+      "title": "The Daughter of Time",
+      "original_title": "",
+      "creator": "Josephine Tey",
+      "year": 1951,
+      "medium": "novel",
+      "scores": {
+        "influence": 94,
+        "ambition": 89,
+        "fairness": 97,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "dark",
+      "title": "Dark",
+      "original_title": "",
+      "creator": "Baran bo Odar and Jantje Friese",
+      "year": 2017,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 91,
+        "ambition": 100,
+        "fairness": 92,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "babylon_berlin",
+      "title": "Babylon Berlin",
+      "original_title": "",
+      "creator": "Tom Tykwer, Achim von Borries, and Henk Handloegten",
+      "year": 2017,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 78,
+        "ambition": 98,
+        "fairness": 87,
+        "originality": 85
+      }
+    },
+    {
+      "work_id": "pluto",
+      "title": "Pluto",
+      "original_title": "",
+      "creator": "Naoki Urasawa",
+      "year": 2003,
+      "medium": "manga",
+      "scores": {
+        "influence": 85,
+        "ambition": 96,
+        "fairness": 92,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "attack_titan",
+      "title": "Attack on Titan",
+      "original_title": "進撃の巨人",
+      "creator": "Hajime Isayama",
+      "year": 2009,
+      "medium": "manga",
+      "scores": {
+        "influence": 98,
+        "ambition": 100,
+        "fairness": 86,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "gone_world",
+      "title": "The Gone World",
+      "original_title": "",
+      "creator": "Tom Sweterlitsch",
+      "year": 2018,
+      "medium": "novel",
+      "scores": {
+        "influence": 69,
+        "ambition": 96,
+        "fairness": 90,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "arcadia",
+      "title": "Arcadia",
+      "original_title": "",
+      "creator": "Tom Stoppard",
+      "year": 1993,
+      "medium": "stage_play",
+      "scores": {
+        "influence": 87,
+        "ambition": 97,
+        "fairness": 96,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "fingersmith",
+      "title": "Fingersmith",
+      "original_title": "",
+      "creator": "Sarah Waters",
+      "year": 2002,
+      "medium": "novel",
+      "scores": {
+        "influence": 87,
+        "ambition": 92,
+        "fairness": 95,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "bleak_house",
+      "title": "Bleak House",
+      "original_title": "",
+      "creator": "Charles Dickens",
+      "year": 1852,
+      "medium": "novel",
+      "scores": {
+        "influence": 100,
+        "ambition": 98,
+        "fairness": 86,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "gaudy_night",
+      "title": "Gaudy Night",
+      "original_title": "",
+      "creator": "Dorothy L. Sayers",
+      "year": 1935,
+      "medium": "novel",
+      "scores": {
+        "influence": 94,
+        "ambition": 91,
+        "fairness": 96,
+        "originality": 83
+      }
+    },
+    {
+      "work_id": "summer_ubume",
+      "title": "The Summer of the Ubume",
+      "original_title": "姑獲鳥の夏",
+      "creator": "Natsuhiko Kyogoku",
+      "year": 1994,
+      "medium": "novel",
+      "scores": {
+        "influence": 75,
+        "ambition": 97,
+        "fairness": 88,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "eversion",
+      "title": "Eversion",
+      "original_title": "",
+      "creator": "Alastair Reynolds",
+      "year": 2022,
+      "medium": "novel",
+      "scores": {
+        "influence": 58,
+        "ambition": 92,
+        "fairness": 93,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "sentinels",
+      "title": "13 Sentinels: Aegis Rim",
+      "original_title": "十三機兵防衛圏",
+      "creator": "Vanillaware",
+      "year": 2019,
+      "medium": "video_game",
+      "scores": {
+        "influence": 74,
+        "ambition": 100,
+        "fairness": 87,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "fingerpost",
+      "title": "An Instance of the Fingerpost",
+      "original_title": "",
+      "creator": "Iain Pears",
+      "year": 1997,
+      "medium": "novel",
+      "scores": {
+        "influence": 80,
+        "ambition": 98,
+        "fairness": 90,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "expanse",
+      "title": "The Expanse",
+      "original_title": "",
+      "creator": "James S. A. Corey",
+      "year": 2011,
+      "medium": "book_series",
+      "scores": {
+        "influence": 94,
+        "ambition": 100,
+        "fairness": 88,
+        "originality": 84
+      }
+    },
+    {
+      "work_id": "cains_jawbone",
+      "title": "Cain's Jawbone",
+      "original_title": "",
+      "creator": "Edward Powys Mathers",
+      "year": 1934,
+      "medium": "novel",
+      "scores": {
+        "influence": 70,
+        "ambition": 83,
+        "fairness": 96,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "crooked_house_shimada",
+      "title": "Murder in the Crooked House",
+      "original_title": "斜め屋敷の犯罪",
+      "creator": "Sōji Shimada",
+      "year": 1982,
+      "medium": "novel",
+      "scores": {
+        "influence": 72,
+        "ambition": 88,
+        "fairness": 97,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "aosawa",
+      "title": "The Aosawa Murders",
+      "original_title": "ユージニア",
+      "creator": "Riku Onda",
+      "year": 2005,
+      "medium": "novel",
+      "scores": {
+        "influence": 69,
+        "ambition": 87,
+        "fairness": 91,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "death_undead",
+      "title": "Death Among the Undead",
+      "original_title": "屍人荘の殺人",
+      "creator": "Masahiro Imamura",
+      "year": 2017,
+      "medium": "novel",
+      "scores": {
+        "influence": 64,
+        "ambition": 87,
+        "fairness": 94,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "paradise_killer",
+      "title": "Paradise Killer",
+      "original_title": "",
+      "creator": "Kaizen Game Works",
+      "year": 2020,
+      "medium": "video_game",
+      "scores": {
+        "influence": 65,
+        "ambition": 84,
+        "fairness": 92,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "ghost_trick",
+      "title": "Ghost Trick: Phantom Detective",
+      "original_title": "ゴースト トリック",
+      "creator": "Shu Takumi",
+      "year": 2010,
+      "medium": "video_game",
+      "scores": {
+        "influence": 77,
+        "ambition": 87,
+        "fairness": 96,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "witness",
+      "title": "The Witness",
+      "original_title": "",
+      "creator": "Jonathan Blow",
+      "year": 2016,
+      "medium": "video_game",
+      "scores": {
+        "influence": 85,
+        "ambition": 89,
+        "fairness": 98,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "forgotten_city",
+      "title": "The Forgotten City",
+      "original_title": "",
+      "creator": "Modern Storyteller",
+      "year": 2021,
+      "medium": "video_game",
+      "scores": {
+        "influence": 67,
+        "ambition": 87,
+        "fairness": 95,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "chants_sennaar",
+      "title": "Chants of Sennaar",
+      "original_title": "",
+      "creator": "Rundisc",
+      "year": 2023,
+      "medium": "video_game",
+      "scores": {
+        "influence": 54,
+        "ambition": 86,
+        "fairness": 97,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "contradiction",
+      "title": "Contradiction: Spot the Liar!",
+      "original_title": "",
+      "creator": "Baggy Cat",
+      "year": 2015,
+      "medium": "video_game",
+      "scores": {
+        "influence": 47,
+        "ambition": 77,
+        "fairness": 94,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "overboard",
+      "title": "Overboard!",
+      "original_title": "",
+      "creator": "inkle",
+      "year": 2021,
+      "medium": "video_game",
+      "scores": {
+        "influence": 54,
+        "ambition": 80,
+        "fairness": 96,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "roottrees_dead",
+      "title": "The Roottrees Are Dead",
+      "original_title": "",
+      "creator": "Robin Ward",
+      "year": 2025,
+      "medium": "video_game",
+      "scores": {
+        "influence": 53,
+        "ambition": 84,
+        "fairness": 98,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "game_kidnapping",
+      "title": "The Name of the Game Is a Kidnapping",
+      "original_title": "ゲームの名は誘拐",
+      "creator": "Keigo Higashino",
+      "year": 2002,
+      "medium": "novel",
+      "scores": {
+        "influence": 59,
+        "ambition": 81,
+        "fairness": 95,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "malice_higashino",
+      "title": "Malice",
+      "original_title": "悪意",
+      "creator": "Keigo Higashino",
+      "year": 1996,
+      "medium": "novel",
+      "scores": {
+        "influence": 78,
+        "ambition": 86,
+        "fairness": 98,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "constant_suicides",
+      "title": "The Case of the Constant Suicides",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1941,
+      "medium": "novel",
+      "scores": {
+        "influence": 72,
+        "ambition": 84,
+        "fairness": 98,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "green_danger",
+      "title": "Green for Danger",
+      "original_title": "",
+      "creator": "Christianna Brand",
+      "year": 1944,
+      "medium": "novel",
+      "scores": {
+        "influence": 82,
+        "ambition": 87,
+        "fairness": 98,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "beast_must_die",
+      "title": "The Beast Must Die",
+      "original_title": "",
+      "creator": "Nicholas Blake",
+      "year": 1938,
+      "medium": "novel",
+      "scores": {
+        "influence": 78,
+        "ambition": 86,
+        "fairness": 96,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "sleuth",
+      "title": "Sleuth",
+      "original_title": "",
+      "creator": "Anthony Shaffer",
+      "year": 1970,
+      "medium": "stage_play",
+      "scores": {
+        "influence": 90,
+        "ambition": 88,
+        "fairness": 95,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "death_compass",
+      "title": "Death and the Compass",
+      "original_title": "La muerte y la brújula",
+      "creator": "Jorge Luis Borges",
+      "year": 1942,
+      "medium": "short_story",
+      "scores": {
+        "influence": 91,
+        "ambition": 85,
+        "fairness": 95,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "purloined_letter",
+      "title": "The Purloined Letter",
+      "original_title": "",
+      "creator": "Edgar Allan Poe",
+      "year": 1844,
+      "medium": "short_story",
+      "scores": {
+        "influence": 100,
+        "ambition": 78,
+        "fairness": 94,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "2666",
+      "title": "2666",
+      "original_title": "",
+      "creator": "Roberto Bolaño",
+      "year": 2004,
+      "medium": "novel",
+      "scores": {
+        "influence": 95,
+        "ambition": 100,
+        "fairness": 50,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "gravity_rainbow",
+      "title": "Gravity's Rainbow",
+      "original_title": "",
+      "creator": "Thomas Pynchon",
+      "year": 1973,
+      "medium": "novel",
+      "scores": {
+        "influence": 98,
+        "ambition": 100,
+        "fairness": 44,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "s_novel",
+      "title": "S.",
+      "original_title": "",
+      "creator": "Doug Dorst and J. J. Abrams",
+      "year": 2013,
+      "medium": "novel",
+      "scores": {
+        "influence": 72,
+        "ambition": 98,
+        "fairness": 71,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "cloud_atlas",
+      "title": "Cloud Atlas",
+      "original_title": "",
+      "creator": "David Mitchell",
+      "year": 2004,
+      "medium": "novel",
+      "scores": {
+        "influence": 95,
+        "ambition": 99,
+        "fairness": 70,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "secret_history",
+      "title": "The Secret History",
+      "original_title": "",
+      "creator": "Donna Tartt",
+      "year": 1992,
+      "medium": "novel",
+      "scores": {
+        "influence": 91,
+        "ambition": 94,
+        "fairness": 80,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "magus",
+      "title": "The Magus",
+      "original_title": "",
+      "creator": "John Fowles",
+      "year": 1965,
+      "medium": "novel",
+      "scores": {
+        "influence": 84,
+        "ambition": 98,
+        "fairness": 43,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "savage_detectives",
+      "title": "The Savage Detectives",
+      "original_title": "Los detectives salvajes",
+      "creator": "Roberto Bolaño",
+      "year": 1998,
+      "medium": "novel",
+      "scores": {
+        "influence": 90,
+        "ambition": 98,
+        "fairness": 49,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "my_name_red",
+      "title": "My Name Is Red",
+      "original_title": "Benim Adım Kırmızı",
+      "creator": "Orhan Pamuk",
+      "year": 1998,
+      "medium": "novel",
+      "scores": {
+        "influence": 92,
+        "ambition": 98,
+        "fairness": 84,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "anathem",
+      "title": "Anathem",
+      "original_title": "",
+      "creator": "Neal Stephenson",
+      "year": 2008,
+      "medium": "novel",
+      "scores": {
+        "influence": 81,
+        "ambition": 99,
+        "fairness": 79,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "three_body",
+      "title": "Remembrance of Earth's Past",
+      "original_title": "地球往事",
+      "creator": "Cixin Liu",
+      "year": 2006,
+      "medium": "book_series",
+      "scores": {
+        "influence": 99,
+        "ambition": 100,
+        "fairness": 72,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "evangelion",
+      "title": "Neon Genesis Evangelion",
+      "original_title": "新世紀エヴァンゲリオン",
+      "creator": "Hideaki Anno",
+      "year": 1995,
+      "medium": "anime",
+      "scores": {
+        "influence": 99,
+        "ambition": 99,
+        "fairness": 53,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "gits_sac",
+      "title": "Ghost in the Shell: Stand Alone Complex",
+      "original_title": "攻殻機動隊 STAND ALONE COMPLEX",
+      "creator": "Kenji Kamiyama",
+      "year": 2002,
+      "medium": "anime",
+      "scores": {
+        "influence": 91,
+        "ambition": 97,
+        "fairness": 86,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "big_o",
+      "title": "The Big O",
+      "original_title": "",
+      "creator": "Kazuyoshi Katayama",
+      "year": 1999,
+      "medium": "anime",
+      "scores": {
+        "influence": 75,
+        "ambition": 95,
+        "fairness": 52,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "oa",
+      "title": "The OA",
+      "original_title": "",
+      "creator": "Brit Marling and Zal Batmanglij",
+      "year": 2016,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 75,
+        "ambition": 97,
+        "fairness": 31,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "westworld",
+      "title": "Westworld",
+      "original_title": "",
+      "creator": "Jonathan Nolan and Lisa Joy",
+      "year": 2016,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 95,
+        "ambition": 100,
+        "fairness": 60,
+        "originality": 91
+      }
+    },
+    {
+      "work_id": "severance",
+      "title": "Severance",
+      "original_title": "",
+      "creator": "Dan Erickson",
+      "year": 2022,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 88,
+        "ambition": 96,
+        "fairness": 72,
+        "originality": 94
+      }
+    },
+    {
+      "work_id": "leftovers",
+      "title": "The Leftovers",
+      "original_title": "",
+      "creator": "Damon Lindelof and Tom Perrotta",
+      "year": 2014,
+      "medium": "tv_series",
+      "scores": {
+        "influence": 88,
+        "ambition": 95,
+        "fairness": 58,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "disco_elysium",
+      "title": "Disco Elysium",
+      "original_title": "",
+      "creator": "ZA/UM",
+      "year": 2019,
+      "medium": "video_game",
+      "scores": {
+        "influence": 89,
+        "ambition": 99,
+        "fairness": 87,
+        "originality": 95
+      }
+    },
+    {
+      "work_id": "pentiment",
+      "title": "Pentiment",
+      "original_title": "",
+      "creator": "Obsidian Entertainment",
+      "year": 2022,
+      "medium": "video_game",
+      "scores": {
+        "influence": 76,
+        "ambition": 95,
+        "fairness": 93,
+        "originality": 93
+      }
+    },
+    {
+      "work_id": "alan_wake_2",
+      "title": "Alan Wake 2",
+      "original_title": "",
+      "creator": "Remedy Entertainment",
+      "year": 2023,
+      "medium": "video_game",
+      "scores": {
+        "influence": 81,
+        "ambition": 98,
+        "fairness": 68,
+        "originality": 96
+      }
+    },
+    {
+      "work_id": "death_nile",
+      "title": "Death on the Nile",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1937,
+      "medium": "novel",
+      "scores": {
+        "influence": 96,
+        "ambition": 89,
+        "fairness": 99,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "crooked_house_christie",
+      "title": "Crooked House",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1949,
+      "medium": "novel",
+      "scores": {
+        "influence": 89,
+        "ambition": 86,
+        "fairness": 99,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "peril_end_house",
+      "title": "Peril at End House",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1932,
+      "medium": "novel",
+      "scores": {
+        "influence": 86,
+        "ambition": 84,
+        "fairness": 98,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "cards_table",
+      "title": "Cards on the Table",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1936,
+      "medium": "novel",
+      "scores": {
+        "influence": 84,
+        "ambition": 88,
+        "fairness": 98,
+        "originality": 84
+      }
+    },
+    {
+      "work_id": "evil_under_sun",
+      "title": "Evil Under the Sun",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1941,
+      "medium": "novel",
+      "scores": {
+        "influence": 85,
+        "ambition": 85,
+        "fairness": 98,
+        "originality": 85
+      }
+    },
+    {
+      "work_id": "abc_murders",
+      "title": "The ABC Murders",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1936,
+      "medium": "novel",
+      "scores": {
+        "influence": 92,
+        "ambition": 89,
+        "fairness": 97,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "ordeal_innocence",
+      "title": "Ordeal by Innocence",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1958,
+      "medium": "novel",
+      "scores": {
+        "influence": 83,
+        "ambition": 87,
+        "fairness": 97,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "murder_announced",
+      "title": "A Murder Is Announced",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1950,
+      "medium": "novel",
+      "scores": {
+        "influence": 88,
+        "ambition": 87,
+        "fairness": 98,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "towards_zero",
+      "title": "Towards Zero",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1944,
+      "medium": "novel",
+      "scores": {
+        "influence": 80,
+        "ambition": 88,
+        "fairness": 98,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "lord_edgware",
+      "title": "Lord Edgware Dies",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1933,
+      "medium": "novel",
+      "scores": {
+        "influence": 83,
+        "ambition": 84,
+        "fairness": 97,
+        "originality": 86
+      }
+    },
+    {
+      "work_id": "curtain",
+      "title": "Curtain",
+      "original_title": "",
+      "creator": "Agatha Christie",
+      "year": 1975,
+      "medium": "novel",
+      "scores": {
+        "influence": 91,
+        "ambition": 88,
+        "fairness": 96,
+        "originality": 87
+      }
+    },
+    {
+      "work_id": "speckled_band",
+      "title": "The Adventure of the Speckled Band",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1892,
+      "medium": "short_story",
+      "scores": {
+        "influence": 98,
+        "ambition": 81,
+        "fairness": 96,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "silver_blaze",
+      "title": "Silver Blaze",
+      "original_title": "",
+      "creator": "Arthur Conan Doyle",
+      "year": 1892,
+      "medium": "short_story",
+      "scores": {
+        "influence": 97,
+        "ambition": 80,
+        "fairness": 98,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "judas_window",
+      "title": "The Judas Window",
+      "original_title": "",
+      "creator": "John Dickson Carr",
+      "year": 1938,
+      "medium": "novel",
+      "scores": {
+        "influence": 80,
+        "ambition": 86,
+        "fairness": 99,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "chinese_orange",
+      "title": "The Chinese Orange Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1934,
+      "medium": "novel",
+      "scores": {
+        "influence": 79,
+        "ambition": 87,
+        "fairness": 98,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "greek_coffin",
+      "title": "The Greek Coffin Mystery",
+      "original_title": "",
+      "creator": "Ellery Queen",
+      "year": 1932,
+      "medium": "novel",
+      "scores": {
+        "influence": 83,
+        "ambition": 91,
+        "fairness": 99,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "death_jezebel",
+      "title": "Death of Jezebel",
+      "original_title": "",
+      "creator": "Christianna Brand",
+      "year": 1948,
+      "medium": "novel",
+      "scores": {
+        "influence": 70,
+        "ambition": 86,
+        "fairness": 99,
+        "originality": 90
+      }
+    },
+    {
+      "work_id": "franchise_affair",
+      "title": "The Franchise Affair",
+      "original_title": "",
+      "creator": "Josephine Tey",
+      "year": 1948,
+      "medium": "novel",
+      "scores": {
+        "influence": 84,
+        "ambition": 84,
+        "fairness": 97,
+        "originality": 88
+      }
+    },
+    {
+      "work_id": "poisoned_chocolates",
+      "title": "The Poisoned Chocolates Case",
+      "original_title": "",
+      "creator": "Anthony Berkeley",
+      "year": 1929,
+      "medium": "novel",
+      "scores": {
+        "influence": 88,
+        "ambition": 89,
+        "fairness": 99,
+        "originality": 92
+      }
+    },
+    {
+      "work_id": "oxford_murders",
+      "title": "The Oxford Murders",
+      "original_title": "Crímenes imperceptibles",
+      "creator": "Guillermo Martínez",
+      "year": 2003,
+      "medium": "novel",
+      "scores": {
+        "influence": 66,
+        "ambition": 88,
+        "fairness": 97,
+        "originality": 89
+      }
+    },
+    {
+      "work_id": "garden_forking",
+      "title": "The Garden of Forking Paths",
+      "original_title": "El jardín de senderos que se bifurcan",
+      "creator": "Jorge Luis Borges",
+      "year": 1941,
+      "medium": "short_story",
+      "scores": {
+        "influence": 100,
+        "ambition": 88,
+        "fairness": 83,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "trial",
+      "title": "The Trial",
+      "original_title": "Der Process",
+      "creator": "Franz Kafka",
+      "year": 1925,
+      "medium": "novel",
+      "scores": {
+        "influence": 100,
+        "ambition": 94,
+        "fairness": 34,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "castle",
+      "title": "The Castle",
+      "original_title": "Das Schloss",
+      "creator": "Franz Kafka",
+      "year": 1926,
+      "medium": "novel",
+      "scores": {
+        "influence": 99,
+        "ambition": 93,
+        "fairness": 25,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "dictionary_khazars",
+      "title": "Dictionary of the Khazars",
+      "original_title": "Hazarski rečnik",
+      "creator": "Milorad Pavić",
+      "year": 1984,
+      "medium": "novel",
+      "scores": {
+        "influence": 86,
+        "ambition": 96,
+        "fairness": 42,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "winter_night",
+      "title": "If on a winter's night a traveler",
+      "original_title": "Se una notte d'inverno un viaggiatore",
+      "creator": "Italo Calvino",
+      "year": 1979,
+      "medium": "novel",
+      "scores": {
+        "influence": 95,
+        "ambition": 97,
+        "fairness": 57,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "tlon",
+      "title": "Tlön, Uqbar, Orbis Tertius",
+      "original_title": "",
+      "creator": "Jorge Luis Borges",
+      "year": 1940,
+      "medium": "short_story",
+      "scores": {
+        "influence": 99,
+        "ambition": 89,
+        "fairness": 80,
+        "originality": 100
+      }
+    },
+    {
+      "work_id": "aura",
+      "title": "Aura",
+      "original_title": "",
+      "creator": "Carlos Fuentes",
+      "year": 1962,
+      "medium": "novella",
+      "scores": {
+        "influence": 84,
+        "ambition": 87,
+        "fairness": 68,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "pedro_paramo",
+      "title": "Pedro Páramo",
+      "original_title": "",
+      "creator": "Juan Rulfo",
+      "year": 1955,
+      "medium": "novel",
+      "scores": {
+        "influence": 99,
+        "ambition": 92,
+        "fairness": 53,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "blind_owl",
+      "title": "The Blind Owl",
+      "original_title": "بوف کور",
+      "creator": "Sadegh Hedayat",
+      "year": 1937,
+      "medium": "novel",
+      "scores": {
+        "influence": 94,
+        "ambition": 91,
+        "fairness": 38,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "obscene_bird",
+      "title": "The Obscene Bird of Night",
+      "original_title": "El obsceno pájaro de la noche",
+      "creator": "José Donoso",
+      "year": 1970,
+      "medium": "novel",
+      "scores": {
+        "influence": 88,
+        "ambition": 97,
+        "fairness": 35,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "box_man",
+      "title": "The Box Man",
+      "original_title": "箱男",
+      "creator": "Kōbō Abe",
+      "year": 1973,
+      "medium": "novel",
+      "scores": {
+        "influence": 83,
+        "ambition": 92,
+        "fairness": 48,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "woman_dunes",
+      "title": "The Woman in the Dunes",
+      "original_title": "砂の女",
+      "creator": "Kōbō Abe",
+      "year": 1962,
+      "medium": "novel",
+      "scores": {
+        "influence": 97,
+        "ambition": 90,
+        "fairness": 66,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "raw_shark",
+      "title": "The Raw Shark Texts",
+      "original_title": "",
+      "creator": "Steven Hall",
+      "year": 2007,
+      "medium": "novel",
+      "scores": {
+        "influence": 72,
+        "ambition": 91,
+        "fairness": 62,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "affirmation",
+      "title": "The Affirmation",
+      "original_title": "",
+      "creator": "Christopher Priest",
+      "year": 1981,
+      "medium": "novel",
+      "scores": {
+        "influence": 68,
+        "ambition": 90,
+        "fairness": 58,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "vita_nostra",
+      "title": "Vita Nostra",
+      "original_title": "",
+      "creator": "Marina and Sergey Dyachenko",
+      "year": 2007,
+      "medium": "novel",
+      "scores": {
+        "influence": 76,
+        "ambition": 94,
+        "fairness": 56,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "ice_kavan",
+      "title": "Ice",
+      "original_title": "",
+      "creator": "Anna Kavan",
+      "year": 1967,
+      "medium": "novel",
+      "scores": {
+        "influence": 88,
+        "ambition": 93,
+        "fairness": 31,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "enemy",
+      "title": "Enemy",
+      "original_title": "",
+      "creator": "Denis Villeneuve",
+      "year": 2013,
+      "medium": "film",
+      "scores": {
+        "influence": 78,
+        "ambition": 87,
+        "fairness": 47,
+        "originality": 97
+      }
+    },
+    {
+      "work_id": "upstream_color",
+      "title": "Upstream Color",
+      "original_title": "",
+      "creator": "Shane Carruth",
+      "year": 2013,
+      "medium": "film",
+      "scores": {
+        "influence": 80,
+        "ambition": 91,
+        "fairness": 50,
+        "originality": 98
+      }
+    },
+    {
+      "work_id": "angels_egg",
+      "title": "Angel's Egg",
+      "original_title": "天使のたまご",
+      "creator": "Mamoru Oshii",
+      "year": 1985,
+      "medium": "anime",
+      "scores": {
+        "influence": 81,
+        "ambition": 91,
+        "fairness": 24,
+        "originality": 99
+      }
+    },
+    {
+      "work_id": "immortality",
+      "title": "Immortality",
+      "original_title": "",
+      "creator": "Sam Barlow",
+      "year": 2022,
+      "medium": "video_game",
+      "scores": {
+        "influence": 75,
+        "ambition": 95,
+        "fairness": 76,
+        "originality": 99
+      }
+    }
+  ],
+  "axes": {
+    "ambition": [
+      "twin_peaks",
+      "umineko",
+      "book_new_sun",
+      "lost",
+      "three_body",
+      "expanse",
+      "attack_titan",
+      "dark",
+      "sentinels",
+      "2666",
+      "gravity_rainbow",
+      "twentieth_century_boys",
+      "house_leaves",
+      "cloud_atlas",
+      "anathem",
+      "monster",
+      "from_hell",
+      "southern_reach",
+      "foucault_pendulum",
+      "luminaries",
+      "fingerpost",
+      "higurashi",
+      "my_name_red",
+      "savage_detectives",
+      "magus",
+      "alan_wake_2",
+      "watchmen",
+      "arcadia",
+      "outer_wilds",
+      "oa",
+      "gits_sac",
+      "solaris",
+      "fifth_head",
+      "manuscript_saragossa",
+      "name_rose",
+      "bleak_house",
+      "summer_ubume",
+      "mulholland_drive",
+      "moonstone",
+      "woman_white",
+      "pluto",
+      "gone_world",
+      "severance",
+      "lain",
+      "la_confidential",
+      "prisoner",
+      "prestige",
+      "handmaiden",
+      "and_then_none",
+      "westworld",
+      "disco_elysium",
+      "pale_fire",
+      "city_city",
+      "seven_deaths",
+      "obra_dinn",
+      "oldboy",
+      "pentiment",
+      "leftovers",
+      "evangelion",
+      "babylon_berlin",
+      "big_o",
+      "vertigo",
+      "chinatown",
+      "last_express",
+      "memento",
+      "odd_taxi",
+      "hollow_man",
+      "s_novel",
+      "city_of_glass",
+      "roadside_picnic",
+      "perfect_blue",
+      "gone_girl",
+      "conversation",
+      "picnic_hanging_rock",
+      "third_policeman",
+      "secret_history",
+      "fingersmith",
+      "gaudy_night",
+      "yellow_room",
+      "golden_idol",
+      "decagon",
+      "tokyo_zodiac",
+      "honjin",
+      "roger_ackroyd",
+      "piranesi",
+      "devotion_suspect_x",
+      "shutter_island",
+      "third_man",
+      "usual_suspects",
+      "invisible_guest",
+      "others",
+      "skin_i_live_in",
+      "sixth_sense",
+      "daughter_time",
+      "five_little_pigs",
+      "hound_baskervilles",
+      "eversion",
+      "invention_morel",
+      "crying_lot_49",
+      "marienbad"
+    ],
+    "fairness": [
+      "obra_dinn",
+      "roger_ackroyd",
+      "decagon",
+      "five_little_pigs",
+      "devotion_suspect_x",
+      "hollow_man",
+      "judas_window",
+      "death_jezebel",
+      "death_nile",
+      "greek_coffin",
+      "poisoned_chocolates",
+      "crooked_house_christie",
+      "tokyo_zodiac",
+      "honjin",
+      "golden_idol",
+      "green_danger",
+      "malice_higashino",
+      "constant_suicides",
+      "murder_announced",
+      "peril_end_house",
+      "towards_zero",
+      "cards_table",
+      "evil_under_sun",
+      "silver_blaze",
+      "death_undead",
+      "yellow_room",
+      "daughter_time",
+      "ordeal_innocence",
+      "abc_murders",
+      "lord_edgware",
+      "outer_wilds",
+      "ghost_trick",
+      "witness",
+      "chants_sennaar",
+      "crooked_house_shimada",
+      "arcadia",
+      "seven_deaths",
+      "and_then_none",
+      "prestige",
+      "moonstone",
+      "odd_taxi",
+      "fingersmith",
+      "woman_white",
+      "higurashi",
+      "name_rose",
+      "la_confidential",
+      "chinatown",
+      "pluto",
+      "gone_world",
+      "dark",
+      "fingerpost",
+      "pentiment",
+      "expanse",
+      "monster",
+      "attack_titan",
+      "gaudy_night",
+      "summer_ubume",
+      "sentinels",
+      "luminaries",
+      "babylon_berlin",
+      "overboard",
+      "roottrees_dead",
+      "paradise_killer",
+      "forgotten_city",
+      "contradiction",
+      "game_kidnapping",
+      "beast_must_die",
+      "sleuth",
+      "death_compass",
+      "purloined_letter",
+      "cains_jawbone",
+      "aosawa",
+      "oxford_murders",
+      "chinese_orange",
+      "franchise_affair",
+      "speckled_band",
+      "curtain",
+      "others",
+      "sixth_sense",
+      "invisible_guest",
+      "memento",
+      "last_express",
+      "third_man",
+      "gone_girl",
+      "shutter_island",
+      "handmaiden",
+      "usual_suspects",
+      "oldboy",
+      "skin_i_live_in",
+      "conversation",
+      "city_city",
+      "invention_morel",
+      "manuscript_saragossa",
+      "from_hell",
+      "twentieth_century_boys",
+      "piranesi",
+      "hound_baskervilles",
+      "eversion",
+      "perfect_blue",
+      "vertigo"
+    ],
+    "originality": [
+      "twin_peaks",
+      "house_leaves",
+      "pale_fire",
+      "mulholland_drive",
+      "third_policeman",
+      "marienbad",
+      "umineko",
+      "garden_forking",
+      "death_compass",
+      "tlon",
+      "trial",
+      "dictionary_khazars",
+      "winter_night",
+      "manuscript_saragossa",
+      "angels_egg",
+      "cains_jawbone",
+      "book_new_sun",
+      "outer_wilds",
+      "witness",
+      "immortality",
+      "lost",
+      "crying_lot_49",
+      "fifth_head",
+      "solaris",
+      "city_city",
+      "invention_morel",
+      "memento",
+      "perfect_blue",
+      "lain",
+      "prisoner",
+      "pedro_paramo",
+      "blind_owl",
+      "obscene_bird",
+      "box_man",
+      "ice_kavan",
+      "castle",
+      "upstream_color",
+      "ghost_trick",
+      "paradise_killer",
+      "obra_dinn",
+      "roger_ackroyd",
+      "city_of_glass",
+      "roadside_picnic",
+      "southern_reach",
+      "watchmen",
+      "foucault_pendulum",
+      "last_express",
+      "yellow_room",
+      "sleuth",
+      "purloined_letter",
+      "handmaiden",
+      "oldboy",
+      "skin_i_live_in",
+      "name_rose",
+      "higurashi",
+      "sentinels",
+      "vita_nostra",
+      "raw_shark",
+      "affirmation",
+      "woman_dunes",
+      "aura",
+      "enemy",
+      "decagon",
+      "tokyo_zodiac",
+      "from_hell",
+      "twentieth_century_boys",
+      "death_undead",
+      "chants_sennaar",
+      "golden_idol",
+      "aosawa",
+      "odd_taxi",
+      "prestige",
+      "and_then_none",
+      "piranesi",
+      "vertigo",
+      "seven_deaths",
+      "picnic_hanging_rock",
+      "crooked_house_shimada",
+      "malice_higashino",
+      "overboard",
+      "roottrees_dead",
+      "game_kidnapping",
+      "constant_suicides",
+      "green_danger",
+      "beast_must_die",
+      "gone_girl",
+      "chinatown",
+      "conversation",
+      "monster",
+      "shutter_island",
+      "third_man",
+      "usual_suspects",
+      "invisible_guest",
+      "others",
+      "sixth_sense",
+      "la_confidential",
+      "devotion_suspect_x",
+      "honjin",
+      "forgotten_city",
+      "hollow_man"
+    ]
+  }
+}

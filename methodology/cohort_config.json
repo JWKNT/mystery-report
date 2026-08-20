@@ -1,0 +1,67 @@
+{
+  "generalist": {
+    "agent_numbers": [1, 40],
+    "label": "Generalist",
+    "lens": ""
+  },
+  "early_foundational": {
+    "agent_numbers": [41, 45],
+    "label": "Early and foundational traditions",
+    "lens": "Search especially carefully across early and foundational mystery traditions."
+  },
+  "midcentury_postwar": {
+    "agent_numbers": [46, 50],
+    "label": "Mid-century and postwar traditions",
+    "lens": "Search especially carefully across mid-century and postwar mystery traditions."
+  },
+  "east_asian": {
+    "agent_numbers": [51, 55],
+    "label": "East Asian traditions across forms",
+    "lens": "Search especially carefully across East Asian traditions and forms."
+  },
+  "non_anglophone_europe": {
+    "agent_numbers": [56, 60],
+    "label": "Non-Anglophone European traditions",
+    "lens": "Search especially carefully across non-Anglophone European traditions and forms."
+  },
+  "global_south_west_asia": {
+    "agent_numbers": [61, 65],
+    "label": "Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions",
+    "lens": "Search especially carefully across Latin American, African, Middle Eastern, South Asian, and Southeast Asian traditions and forms."
+  },
+  "international_cinema": {
+    "agent_numbers": [66, 70],
+    "label": "International cinema",
+    "lens": "Search especially carefully across international cinema and film history."
+  },
+  "television_serialized_screen": {
+    "agent_numbers": [71, 75],
+    "label": "Television and serialized screen narratives",
+    "lens": "Search especially carefully across television and other serialized screen narratives."
+  },
+  "animation_graphic": {
+    "agent_numbers": [76, 80],
+    "label": "Animation and graphic narratives",
+    "lens": "Search especially carefully across animation, comics, manga, and other graphic narratives."
+  },
+  "interactive": {
+    "agent_numbers": [81, 85],
+    "label": "Games, visual novels, and interactive fiction",
+    "lens": "Search especially carefully across games, visual novels, interactive fiction, and other interactive forms."
+  },
+  "audio_stage_web": {
+    "agent_numbers": [86, 90],
+    "label": "Audio, stage, web, and less common forms",
+    "lens": "Search especially carefully across audio, stage, web, serial, and other less commonly surveyed forms."
+  },
+  "formal_puzzle": {
+    "agent_numbers": [91, 95],
+    "label": "Formal puzzles, fair-play construction, and intricate tricks",
+    "lens": "Search especially carefully for formal puzzles, fair-play construction, and intricate mystery mechanisms."
+  },
+  "boundary_experimental": {
+    "agent_numbers": [96, 100],
+    "label": "Psychological, perspectival, speculative, structural, and interpretive mysteries",
+    "lens": "Search especially carefully for psychological, perspectival, speculative, structural, and interpretive mysteries beyond conventional genre boundaries."
+  }
+}

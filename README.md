@@ -1,10 +1,10 @@
-# Mystery Consensus Explorer
+# Mystery Report
 
 A dependency-free browser app for exploring the fresh 100-agent mystery-work consensus dataset.
 
 Live site: <https://jehlp.net/mystery-report/>
 
-Open `index.html` directly, or serve `/Users/jw/Desktop/bin` with any static server and visit `/mystery-report/`. The repository includes its palette, typography, accessibility utilities, header, and saved light/dark theme, so the deployed site has no external runtime dependencies.
+For local development, place this repository beside a checkout of [`site-theme`](https://github.com/JWKNT/site-theme), serve their parent directory, and visit `/mystery-report/`. The page imports the common palette, typography, accessibility utilities, header, and saved light/dark theme from `/site-theme/v1/`; only report-specific layout remains in this repository.
 
 ## Features
 
@@ -40,11 +40,21 @@ The displayed consensus score is a one-standard-error lower confidence score:
 
 This gives lightly supported works an explicit uncertainty penalty without imposing a minimum-support cutoff or treating a work’s absence from another agent’s union as a zero.
 
+## Published data
+
+The source data and its audit trail are checked into the repository, rather than being available only through the rendered table:
+
+- [`data/consensus-data.js`](data/consensus-data.js) — compact, generated payload loaded by the browser app.
+- [`data/aggregate.json`](data/aggregate.json) — reconciled aggregate with the normalized works, observations, ranked selections, and calculated scores in readable JSON.
+- [`data/raw_agents/`](data/raw_agents/) — the 100 original validated agent reports, one JSON file per agent.
+- [`data/audit/`](data/audit/) — integrity, reconciliation, exclusion, and verification records.
+- [`methodology/`](methodology/) — collection prompt and schema plus the validation, reconciliation, scoring, verification, and dashboard-build scripts.
+
 ## Files
 
 - `index.html` — semantic application shell.
-- `assets/base.css` and `assets/theme.js` — self-contained shared theme and theme toggle.
 - `assets/styles.css` — project-specific table and control layout.
 - `assets/app.js` — sorting, filtering, pagination, detail dialog, and CSV export.
-- `data/consensus-data.js` — generated scored survey dataset.
+- `data/` — browser payload, readable aggregate, raw reports, and audit artifacts.
+- `methodology/` — reproducible data-collection and aggregation materials.
 - `tests/static-site.test.mjs` — structural and data-integrity checks.

@@ -1,0 +1,74 @@
+[
+  {
+    "agent_number": 21,
+    "canonical": "The Southern Reach Series",
+    "kept": "annihilation",
+    "discarded": [
+      "the-southern-reach-series"
+    ]
+  },
+  {
+    "agent_number": 41,
+    "canonical": "Zero Escape",
+    "kept": "nine_hours_nine_persons_nine_doors",
+    "discarded": [
+      "virtues_last_reward"
+    ]
+  },
+  {
+    "agent_number": 57,
+    "canonical": "The Southern Reach Series",
+    "kept": "annihilation",
+    "discarded": [
+      "southern_reach"
+    ]
+  },
+  {
+    "agent_number": 58,
+    "canonical": "The Southern Reach Series",
+    "kept": "annihilation",
+    "discarded": [
+      "southern_reach"
+    ]
+  },
+  {
+    "agent_number": 59,
+    "canonical": "The Southern Reach Series",
+    "kept": "annihilation",
+    "discarded": [
+      "southern_reach"
+    ]
+  },
+  {
+    "agent_number": 60,
+    "canonical": "The Southern Reach Series",
+    "kept": "annihilation",
+    "discarded": [
+      "southern_reach"
+    ]
+  },
+  {
+    "agent_number": 79,
+    "canonical": "The Southern Reach Series",
+    "kept": "southern_reach",
+    "discarded": [
+      "annihilation"
+    ]
+  },
+  {
+    "agent_number": 80,
+    "canonical": "The Southern Reach Series",
+    "kept": "southern_reach",
+    "discarded": [
+      "annihilation"
+    ]
+  },
+  {
+    "agent_number": 95,
+    "canonical": "The Southern Reach Series",
+    "kept": "the_southern_reach",
+    "discarded": [
+      "annihilation"
+    ]
+  }
+]

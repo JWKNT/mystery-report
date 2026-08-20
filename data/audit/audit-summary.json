@@ -1,0 +1,245 @@
+{
+  "agents": 100,
+  "valid_observations": 20041,
+  "unique_agent_work_observations": 20032,
+  "retained_works": 1037,
+  "singletons": 192,
+  "excluded": 3,
+  "identity_merges": 516,
+  "within_agent_merges": 9,
+  "malformed_observations": 0,
+  "unknown_axis_references": 0,
+  "global_axis_means": {
+    "influence": 82.10379949073842,
+    "ambition": 83.53950710863188,
+    "fairness": 77.24940603801255,
+    "originality": 87.17118007172428
+  },
+  "top_25": [
+    {
+      "rank": 1,
+      "title": "Outer Wilds",
+      "creator": "Mobius Digital",
+      "year": 2019,
+      "medium": "video_game",
+      "weighted_score": 94.5972,
+      "support": 100
+    },
+    {
+      "rank": 2,
+      "title": "Return of the Obra Dinn",
+      "creator": "Lucas Pope",
+      "year": 2018,
+      "medium": "video_game",
+      "weighted_score": 93.8263,
+      "support": 100
+    },
+    {
+      "rank": 3,
+      "title": "Umineko When They Cry",
+      "creator": "Ryukishi07",
+      "year": 2007,
+      "medium": "visual_novel",
+      "weighted_score": 93.1769,
+      "support": 99
+    },
+    {
+      "rank": 4,
+      "title": "Memento",
+      "creator": "Christopher Nolan",
+      "year": 2000,
+      "medium": "film",
+      "weighted_score": 92.7879,
+      "support": 100
+    },
+    {
+      "rank": 5,
+      "title": "The Name of the Rose",
+      "creator": "Umberto Eco",
+      "year": 1980,
+      "medium": "novel",
+      "weighted_score": 92.1009,
+      "support": 100
+    },
+    {
+      "rank": 6,
+      "title": "The Murder of Roger Ackroyd",
+      "creator": "Agatha Christie",
+      "year": 1926,
+      "medium": "novel",
+      "weighted_score": 90.8463,
+      "support": 100
+    },
+    {
+      "rank": 7,
+      "title": "Watchmen",
+      "creator": "Alan Moore and Dave Gibbons",
+      "year": 1986,
+      "medium": "comic",
+      "weighted_score": 90.7777,
+      "support": 82
+    },
+    {
+      "rank": 8,
+      "title": "The Hollow Man",
+      "creator": "John Dickson Carr",
+      "year": 1935,
+      "medium": "novel",
+      "weighted_score": 90.217,
+      "support": 100
+    },
+    {
+      "rank": 9,
+      "title": "The Moonstone",
+      "creator": "Wilkie Collins",
+      "year": 1868,
+      "medium": "novel",
+      "weighted_score": 90.1481,
+      "support": 83
+    },
+    {
+      "rank": 10,
+      "title": "Dark",
+      "creator": "Baran bo Odar and Jantje Friese",
+      "year": 2017,
+      "medium": "tv_series",
+      "weighted_score": 89.7657,
+      "support": 100
+    },
+    {
+      "rank": 11,
+      "title": "Pale Fire",
+      "creator": "Vladimir Nabokov",
+      "year": 1962,
+      "medium": "novel",
+      "weighted_score": 89.6822,
+      "support": 100
+    },
+    {
+      "rank": 12,
+      "title": "The Tokyo Zodiac Murders",
+      "creator": "Soji Shimada",
+      "year": 1981,
+      "medium": "novel",
+      "weighted_score": 89.3524,
+      "support": 100
+    },
+    {
+      "rank": 13,
+      "title": "13 Sentinels: Aegis Rim",
+      "creator": "George Kamitani",
+      "year": 2019,
+      "medium": "video_game",
+      "weighted_score": 89.2445,
+      "support": 93
+    },
+    {
+      "rank": 14,
+      "title": "The City & the City",
+      "creator": "China Miéville",
+      "year": 2009,
+      "medium": "novel",
+      "weighted_score": 89.194,
+      "support": 99
+    },
+    {
+      "rank": 15,
+      "title": "Disco Elysium",
+      "creator": "ZA/UM",
+      "year": 2019,
+      "medium": "video_game",
+      "weighted_score": 88.9254,
+      "support": 94
+    },
+    {
+      "rank": 16,
+      "title": "The Book of the New Sun",
+      "creator": "Gene Wolfe",
+      "year": 1980,
+      "medium": "book_series",
+      "weighted_score": 88.6429,
+      "support": 76
+    },
+    {
+      "rank": 17,
+      "title": "Riven",
+      "creator": "Cyan",
+      "year": 1997,
+      "medium": "video_game",
+      "weighted_score": 88.5919,
+      "support": 69
+    },
+    {
+      "rank": 18,
+      "title": "Attack on Titan",
+      "creator": "Hajime Isayama",
+      "year": 2009,
+      "medium": "manga",
+      "weighted_score": 88.3629,
+      "support": 68
+    },
+    {
+      "rank": 19,
+      "title": "Zero Escape",
+      "creator": "Kotaro Uchikoshi",
+      "year": 2009,
+      "medium": "video_game",
+      "weighted_score": 88.1556,
+      "support": 91
+    },
+    {
+      "rank": 20,
+      "title": "The Prestige",
+      "creator": "Christopher Nolan",
+      "year": 2006,
+      "medium": "film",
+      "weighted_score": 88.115,
+      "support": 89
+    },
+    {
+      "rank": 21,
+      "title": "And Then There Were None",
+      "creator": "Agatha Christie",
+      "year": 1939,
+      "medium": "novel",
+      "weighted_score": 88.0176,
+      "support": 97
+    },
+    {
+      "rank": 22,
+      "title": "Monster",
+      "creator": "Naoki Urasawa",
+      "year": 1994,
+      "medium": "manga",
+      "weighted_score": 87.5368,
+      "support": 86
+    },
+    {
+      "rank": 23,
+      "title": "Foucault's Pendulum",
+      "creator": "Umberto Eco",
+      "year": 1988,
+      "medium": "novel",
+      "weighted_score": 87.4204,
+      "support": 100
+    },
+    {
+      "rank": 24,
+      "title": "The Mystery of the Yellow Room",
+      "creator": "Gaston Leroux",
+      "year": 1907,
+      "medium": "novel",
+      "weighted_score": 87.3861,
+      "support": 69
+    },
+    {
+      "rank": 25,
+      "title": "The Case of the Golden Idol",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game",
+      "weighted_score": 87.332,
+      "support": 99
+    }
+  ]
+}

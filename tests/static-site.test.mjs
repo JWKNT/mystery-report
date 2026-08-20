@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readFile, readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import test from "node:test";
@@ -17,10 +17,10 @@ async function dataset() {
   return context.window.MYSTERY_CONSENSUS_DATA;
 }
 
-test("page embeds its theme assets and exposes the core controls", async () => {
+test("page imports the shared site theme and exposes the core controls", async () => {
   const html = await source("index.html");
-  assert.match(html, /assets\/theme\.js/);
-  assert.match(html, /assets\/base\.css/);
+  assert.match(html, /\/site-theme\/v1\/theme\.js/);
+  assert.match(html, /\/site-theme\/v1\/base\.css/);
   assert.match(html, /data-view="works"/);
   assert.match(html, /data-view="selections"/);
   assert.match(html, /id="search-input"/);
@@ -56,6 +56,28 @@ test("embedded data contains the complete scored three-list survey", async () =>
   assert.equal(data.axes.reduce((sum, axis) => sum + axis.weight, 0), 1);
   assert.ok(data.works.every((row) => row.length === 30));
   assert.ok(data.selections.every((row) => row.length === 13));
+});
+
+test("repository publishes the reconciled aggregate and all 100 source reports", async () => {
+  const aggregate = JSON.parse(await source("data/aggregate.json"));
+  assert.equal(aggregate.agent_count, 100);
+  assert.equal(aggregate.works.length, 1_037);
+  assert.equal(aggregate.raw_selections.length, 29_991);
+  assert.equal(aggregate.unique_agent_work_observation_count, 20_032);
+  assert.equal(aggregate.excluded.length, 3);
+
+  const rawDirectory = path.join(root, "data", "raw_agents");
+  const filenames = (await readdir(rawDirectory))
+    .filter((filename) => /^agent_\d{3}\.json$/.test(filename))
+    .sort();
+  assert.equal(filenames.length, 100);
+
+  const reports = await Promise.all(
+    filenames.map(async (filename) => JSON.parse(await readFile(path.join(rawDirectory, filename), "utf8"))),
+  );
+  assert.equal(new Set(reports.map((report) => report.agent_id)).size, 100);
+  assert.ok(reports.every((report) => report.works.length >= 100 && report.works.length <= 300));
+  assert.ok(reports.every((report) => Object.keys(report.axes).sort().join(",") === "ambition,fairness,originality"));
 });
 
 test("known work-unit variants are reconciled and TV labels are unified", async () => {
