@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore a scored 100-agent consensus survey of mystery stories across media.">
+    <meta name="theme-color" content="#ffffff">
+    <title>Mystery Consensus Explorer</title>
+    <script src="assets/theme.js"></script>
+    <link rel="stylesheet" href="assets/base.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="data/consensus-data.js" defer></script>
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#results">Skip to results</a>
+
+    <header class="site-header">
+      <a class="site-title" href="./">Mystery Consensus</a>
+      <nav aria-label="Page links">
+        <a href="#explorer" aria-current="page">Explorer</a>
+        <a href="#categories">Categories</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Use dark theme">◐</button>
+      </nav>
+    </header>
+
+    <main id="explorer">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <p class="eyebrow">Multi-agent ranking</p>
+          <h1 id="page-title">Greatest mystery stories</h1>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="Data controls">
+        <div class="view-switch" role="group" aria-label="Dataset view">
+          <button type="button" class="view-button is-active" data-view="works" aria-pressed="true">Works</button>
+          <button type="button" class="view-button" data-view="selections" aria-pressed="false">Raw selections</button>
+        </div>
+
+        <label class="search-control" for="search-input">
+          <span>Search</span>
+          <input id="search-input" type="search" autocomplete="off" placeholder="Title, creator, medium…">
+          <kbd>⌘K</kbd>
+        </label>
+
+        <label class="filter-control" id="axis-control" for="axis-filter" hidden>
+          <span>Criterion</span>
+          <select id="axis-filter">
+            <option value="all">All criteria</option>
+          </select>
+        </label>
+
+        <label class="filter-control" for="medium-filter">
+          <span>Medium</span>
+          <select id="medium-filter">
+            <option value="all">All media</option>
+          </select>
+        </label>
+
+        <label class="filter-control page-size-control" for="page-size">
+          <span>Rows</span>
+          <select id="page-size">
+            <option value="25">25</option>
+            <option value="50" selected>50</option>
+            <option value="100">100</option>
+          </select>
+        </label>
+
+        <button type="button" class="text-button" id="reset-controls">Reset</button>
+        <button type="button" id="export-csv">Export CSV</button>
+      </section>
+
+      <section class="sort-builder" aria-label="Multi-column sorting">
+        <span class="sort-caption">Order</span>
+        <label for="primary-sort">
+          <span>First</span>
+          <select id="primary-sort"></select>
+        </label>
+        <label for="primary-direction">
+          <span>Direction</span>
+          <select id="primary-direction"></select>
+        </label>
+        <span class="sort-then" aria-hidden="true">then</span>
+        <label for="secondary-sort">
+          <span>Second</span>
+          <select id="secondary-sort"><option value="">None</option></select>
+        </label>
+        <label for="secondary-direction">
+          <span>Direction</span>
+          <select id="secondary-direction" disabled></select>
+        </label>
+      </section>
+
+      <div class="active-filter" id="active-work-filter" hidden>
+        <span id="active-work-filter-label"></span>
+        <button type="button" class="text-button" id="clear-work-filter">Clear work filter</button>
+      </div>
+
+      <section class="results" id="results" aria-labelledby="results-title">
+        <div class="results-heading">
+          <div>
+            <p class="eyebrow" id="results-kicker">Normalized catalogue</p>
+            <h2 id="results-title">Works</h2>
+          </div>
+          <p id="result-status" class="result-status" role="status" aria-live="polite"></p>
+        </div>
+
+        <div class="table-scroll" tabindex="0" aria-label="Sortable consensus data">
+          <table>
+            <thead><tr id="table-head"></tr></thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+
+        <div class="table-footer">
+          <p id="range-status"></p>
+          <div class="pager" aria-label="Result pages">
+            <button type="button" id="previous-page" aria-label="Previous page">←</button>
+            <span id="page-status"></span>
+            <button type="button" id="next-page" aria-label="Next page">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="categories" class="categories" aria-labelledby="categories-title">
+        <p class="eyebrow">Categories</p>
+        <h2 id="categories-title">What each category measures</h2>
+        <dl class="category-guide">
+          <div><dt>Influence · 10%</dt><dd>Importance to mystery and later works that borrowed from it. Scored after candidate selection; never used to choose candidates.</dd></div>
+          <div><dt>Ambition · 40%</dt><dd>Grandeur, complexity, scope, and the challenge of coherently resolving many moving parts.</dd></div>
+          <div><dt>Fairness · 25%</dt><dd>Whether revelations follow from rules, evidence, mechanisms, and expectations established beforehand.</dd></div>
+          <div><dt>Originality · 25%</dt><dd>How distinctive the setting, questions, construction, tricks, and resolution feel to audiences now.</dd></div>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      <p id="dataset-summary"></p>
+    </footer>
+
+    <dialog id="work-dialog">
+      <div class="dialog-shell">
+        <button type="button" class="dialog-close" id="dialog-close" aria-label="Close work details">×</button>
+        <p class="dialog-kicker" id="dialog-kicker"></p>
+        <h2 id="dialog-title"></h2>
+        <p class="dialog-subtitle" id="dialog-subtitle"></p>
+        <dl class="dialog-stats" id="dialog-stats"></dl>
+        <div class="dialog-table-scroll">
+          <table class="dialog-table">
+            <thead><tr><th>Category</th><th>Weight</th><th>Posterior score</th><th>Rank-adjusted mean</th><th>Raw mean</th><th>Selections</th><th>Mean place</th></tr></thead>
+            <tbody id="dialog-axis-body"></tbody>
+          </table>
+        </div>
+        <div class="dialog-actions">
+          <button type="button" id="view-work-placements">View raw selections</button>
+          <button type="button" class="text-button" id="dialog-done">Done</button>
+        </div>
+      </div>
+    </dialog>
+
+    <noscript><p class="noscript">This explorer requires JavaScript to sort and filter the embedded dataset.</p></noscript>
+  </body>
+</html>
