@@ -21,10 +21,10 @@ SELECTION_AXES = ("ambition", "fairness", "traditional_mystery", "originality")
 RANK_ADJUSTMENT_AXES = ("ambition", "fairness", "originality")
 WEIGHTS = {
     "influence": 0.10,
-    "ambition": 0.30,
+    "ambition": 0.35,
     "fairness": 0.25,
-    "traditionality": 0.20,
-    "originality": 0.15,
+    "traditionality": 0.10,
+    "originality": 0.20,
 }
 PRIOR_STRENGTH = 10
 RANK_ADJUSTMENT_MAX = 5.0

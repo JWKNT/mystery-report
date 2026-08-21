@@ -24,224 +24,224 @@
       "creator": "Lucas Pope",
       "year": 2018,
       "medium": "video_game",
-      "weighted_score": 91.3764,
+      "weighted_score": 92.4287,
       "support": 100
     },
     {
       "rank": 2,
-      "title": "The Murder of Roger Ackroyd",
-      "creator": "Agatha Christie",
-      "year": 1926,
-      "medium": "novel",
-      "weighted_score": 90.5636,
-      "support": 99
-    },
-    {
-      "rank": 3,
-      "title": "The Hollow Man",
-      "creator": "John Dickson Carr",
-      "year": 1935,
-      "medium": "novel",
-      "weighted_score": 90.339,
-      "support": 99
-    },
-    {
-      "rank": 4,
-      "title": "The Tokyo Zodiac Murders",
-      "creator": "Soji Shimada",
-      "year": 1981,
-      "medium": "novel",
-      "weighted_score": 89.4242,
-      "support": 99
-    },
-    {
-      "rank": 5,
       "title": "The Name of the Rose",
       "creator": "Umberto Eco",
       "year": 1980,
       "medium": "novel",
-      "weighted_score": 89.0321,
+      "weighted_score": 90.153,
       "support": 100
     },
     {
-      "rank": 6,
-      "title": "And Then There Were None",
+      "rank": 3,
+      "title": "The Murder of Roger Ackroyd",
       "creator": "Agatha Christie",
-      "year": 1939,
+      "year": 1926,
       "medium": "novel",
-      "weighted_score": 88.8737,
-      "support": 100
-    },
-    {
-      "rank": 7,
-      "title": "The Decagon House Murders",
-      "creator": "Yukito Ayatsuji",
-      "year": 1987,
-      "medium": "novel",
-      "weighted_score": 88.1632,
+      "weighted_score": 90.0394,
       "support": 99
     },
     {
-      "rank": 8,
-      "title": "The Moonstone",
-      "creator": "Wilkie Collins",
-      "year": 1868,
+      "rank": 4,
+      "title": "The Hollow Man",
+      "creator": "John Dickson Carr",
+      "year": 1935,
       "medium": "novel",
-      "weighted_score": 87.5362,
-      "support": 98
+      "weighted_score": 89.7125,
+      "support": 99
     },
     {
-      "rank": 9,
+      "rank": 5,
       "title": "Umineko When They Cry",
       "creator": "Ryukishi07",
       "year": 2007,
       "medium": "visual_novel",
-      "weighted_score": 87.1281,
+      "weighted_score": 89.6495,
       "support": 98
     },
     {
-      "rank": 10,
-      "title": "The Devotion of Suspect X",
-      "creator": "Keigo Higashino",
-      "year": 2005,
-      "medium": "novel",
-      "weighted_score": 87.0242,
-      "support": 99
-    },
-    {
-      "rank": 11,
-      "title": "The Case of the Golden Idol",
-      "creator": "Color Gray Games",
-      "year": 2022,
-      "medium": "video_game",
-      "weighted_score": 86.8826,
-      "support": 79
-    },
-    {
-      "rank": 12,
-      "title": "The Honjin Murders",
-      "creator": "Seishi Yokomizo",
-      "year": 1946,
-      "medium": "novel",
-      "weighted_score": 86.6226,
-      "support": 98
-    },
-    {
-      "rank": 13,
-      "title": "Ace Attorney",
-      "creator": "Shu Takumi",
-      "year": 2001,
-      "medium": "video_game",
-      "weighted_score": 86.5817,
-      "support": 97
-    },
-    {
-      "rank": 14,
-      "title": "The Poisoned Chocolates Case",
-      "creator": "Anthony Berkeley",
-      "year": 1929,
-      "medium": "novel",
-      "weighted_score": 86.5797,
-      "support": 92
-    },
-    {
-      "rank": 15,
+      "rank": 6,
       "title": "Memento",
       "creator": "Christopher Nolan",
       "year": 2000,
       "medium": "film",
-      "weighted_score": 86.4234,
+      "weighted_score": 89.3597,
       "support": 99
     },
     {
-      "rank": 16,
-      "title": "The Nine Tailors",
-      "creator": "Dorothy L. Sayers",
-      "year": 1934,
-      "medium": "novel",
-      "weighted_score": 86.2907,
-      "support": 97
-    },
-    {
-      "rank": 17,
-      "title": "The Mystery of the Yellow Room",
-      "creator": "Gaston Leroux",
-      "year": 1907,
-      "medium": "novel",
-      "weighted_score": 86.2335,
-      "support": 69
-    },
-    {
-      "rank": 18,
-      "title": "The Greek Coffin Mystery",
-      "creator": "Ellery Queen",
-      "year": 1932,
-      "medium": "novel",
-      "weighted_score": 86.223,
-      "support": 88
-    },
-    {
-      "rank": 19,
-      "title": "Murder on the Orient Express",
-      "creator": "Agatha Christie",
-      "year": 1934,
-      "medium": "novel",
-      "weighted_score": 85.8274,
-      "support": 86
-    },
-    {
-      "rank": 20,
-      "title": "Five Little Pigs",
-      "creator": "Agatha Christie",
-      "year": 1942,
-      "medium": "novel",
-      "weighted_score": 85.7786,
-      "support": 96
-    },
-    {
-      "rank": 21,
-      "title": "Ghost Trick: Phantom Detective",
-      "creator": "Shu Takumi",
-      "year": 2010,
+      "rank": 7,
+      "title": "Outer Wilds",
+      "creator": "Mobius Digital",
+      "year": 2019,
       "medium": "video_game",
-      "weighted_score": 85.4289,
-      "support": 91
+      "weighted_score": 89.1454,
+      "support": 100
     },
     {
-      "rank": 22,
-      "title": "Sherlock Holmes Canon",
-      "creator": "Arthur Conan Doyle",
-      "year": 1887,
-      "medium": "book_series",
-      "weighted_score": 85.4077,
-      "support": 60
+      "rank": 8,
+      "title": "The Tokyo Zodiac Murders",
+      "creator": "Soji Shimada",
+      "year": 1981,
+      "medium": "novel",
+      "weighted_score": 88.8542,
+      "support": 99
     },
     {
-      "rank": 23,
-      "title": "Chinatown",
-      "creator": "Roman Polanski",
-      "year": 1974,
-      "medium": "film",
-      "weighted_score": 85.336,
-      "support": 95
+      "rank": 9,
+      "title": "And Then There Were None",
+      "creator": "Agatha Christie",
+      "year": 1939,
+      "medium": "novel",
+      "weighted_score": 88.4149,
+      "support": 100
     },
     {
-      "rank": 24,
+      "rank": 10,
       "title": "The City & the City",
       "creator": "China Miéville",
       "year": 2009,
       "medium": "novel",
-      "weighted_score": 85.2664,
+      "weighted_score": 87.5376,
       "support": 100
     },
     {
-      "rank": 25,
-      "title": "Magpie Murders",
-      "creator": "Anthony Horowitz",
-      "year": 2016,
+      "rank": 11,
+      "title": "Watchmen",
+      "creator": "Alan Moore and Dave Gibbons",
+      "year": 1986,
+      "medium": "comic",
+      "weighted_score": 87.4045,
+      "support": 87
+    },
+    {
+      "rank": 12,
+      "title": "The Decagon House Murders",
+      "creator": "Yukito Ayatsuji",
+      "year": 1987,
       "medium": "novel",
-      "weighted_score": 85.1905,
-      "support": 83
+      "weighted_score": 87.2337,
+      "support": 99
+    },
+    {
+      "rank": 13,
+      "title": "The Moonstone",
+      "creator": "Wilkie Collins",
+      "year": 1868,
+      "medium": "novel",
+      "weighted_score": 87.0968,
+      "support": 98
+    },
+    {
+      "rank": 14,
+      "title": "The Case of the Golden Idol",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game",
+      "weighted_score": 86.7744,
+      "support": 79
+    },
+    {
+      "rank": 15,
+      "title": "Zero Escape",
+      "creator": "Kotaro Uchikoshi",
+      "year": 2009,
+      "medium": "video_game",
+      "weighted_score": 86.6481,
+      "support": 94
+    },
+    {
+      "rank": 16,
+      "title": "The Devotion of Suspect X",
+      "creator": "Keigo Higashino",
+      "year": 2005,
+      "medium": "novel",
+      "weighted_score": 86.4405,
+      "support": 99
+    },
+    {
+      "rank": 17,
+      "title": "Ghost Trick: Phantom Detective",
+      "creator": "Shu Takumi",
+      "year": 2010,
+      "medium": "video_game",
+      "weighted_score": 85.9272,
+      "support": 91
+    },
+    {
+      "rank": 18,
+      "title": "Monster",
+      "creator": "Naoki Urasawa",
+      "year": 1994,
+      "medium": "manga",
+      "weighted_score": 85.8252,
+      "support": 94
+    },
+    {
+      "rank": 19,
+      "title": "Ace Attorney",
+      "creator": "Shu Takumi",
+      "year": 2001,
+      "medium": "video_game",
+      "weighted_score": 85.7344,
+      "support": 97
+    },
+    {
+      "rank": 20,
+      "title": "The Poisoned Chocolates Case",
+      "creator": "Anthony Berkeley",
+      "year": 1929,
+      "medium": "novel",
+      "weighted_score": 85.4851,
+      "support": 92
+    },
+    {
+      "rank": 21,
+      "title": "Chinatown",
+      "creator": "Roman Polanski",
+      "year": 1974,
+      "medium": "film",
+      "weighted_score": 85.4408,
+      "support": 95
+    },
+    {
+      "rank": 22,
+      "title": "The Honjin Murders",
+      "creator": "Seishi Yokomizo",
+      "year": 1946,
+      "medium": "novel",
+      "weighted_score": 85.4209,
+      "support": 98
+    },
+    {
+      "rank": 23,
+      "title": "The Mystery of the Yellow Room",
+      "creator": "Gaston Leroux",
+      "year": 1907,
+      "medium": "novel",
+      "weighted_score": 85.2927,
+      "support": 69
+    },
+    {
+      "rank": 24,
+      "title": "Disco Elysium",
+      "creator": "ZA/UM",
+      "year": 2019,
+      "medium": "video_game",
+      "weighted_score": 85.2699,
+      "support": 98
+    },
+    {
+      "rank": 25,
+      "title": "Her Story",
+      "creator": "Sam Barlow",
+      "year": 2015,
+      "medium": "video_game",
+      "weighted_score": 85.1991,
+      "support": 100
     }
   ]
 }

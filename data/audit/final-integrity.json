@@ -32,9 +32,9 @@
     "duplicate_canonical_identities": 0,
     "rank_adjustment_max": 5.0,
     "lower_bound_z": 1.645,
-    "global_composite_sd": 10.0599194656112,
-    "minimum_top_25_support": 60,
-    "minimum_top_100_support": 20,
+    "global_composite_sd": 8.416813809367067,
+    "minimum_top_25_support": 69,
+    "minimum_top_100_support": 13,
     "top_100_below_ten_support": 0
   }
 }

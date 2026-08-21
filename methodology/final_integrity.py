@@ -55,10 +55,10 @@ def main() -> int:
     method = aggregate["method"]
     expected_weights = {
         "influence": 0.10,
-        "ambition": 0.30,
+        "ambition": 0.35,
         "fairness": 0.25,
-        "traditionality": 0.20,
-        "originality": 0.15,
+        "traditionality": 0.10,
+        "originality": 0.20,
     }
     if method["weights"] != expected_weights:
         errors.append("aggregate weights differ from the final specification")

@@ -30,10 +30,10 @@ For ambition, fairness, and originality, each agent’s raw score receives a bou
 Rank-adjusted axis means are shrunk toward their corpus-wide means using ten virtual ratings. The posterior weighted mean uses these weights:
 
 - Influence: 10%
-- Ambition: 30%
+- Ambition: 35%
 - Fairness: 25%
-- Traditionality: 20%
-- Originality: 15%
+- Traditionality: 10%
+- Originality: 20%
 
 The displayed consensus score is a one-sided 95% lower confidence score:
 

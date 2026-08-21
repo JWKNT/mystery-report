@@ -30,7 +30,7 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.match(html, /id="work-dialog"/);
   assert.match(html, /What each category measures/);
   assert.match(html, /Placement-adjusted mean/);
-  assert.match(html, /Influence · 10%[\s\S]*Ambition · 30%[\s\S]*Fairness · 25%[\s\S]*Traditionality · 20%[\s\S]*Originality · 15%/);
+  assert.match(html, /Influence · 10%[\s\S]*Ambition · 35%[\s\S]*Fairness · 25%[\s\S]*Traditionality · 10%[\s\S]*Originality · 20%/);
   assert.doesNotMatch(html, /id="method"|Placement-only Borda consensus/);
   assert.doesNotMatch(html, /id="status-filter"|quick-stats|Browse the normalized works/i);
 });
@@ -46,11 +46,11 @@ test("embedded data contains the complete scored four-list survey", async () => 
   assert.equal(data.meta.priorStrength, 10);
   assert.equal(data.meta.rankAdjustmentMax, 5);
   assert.equal(data.meta.lowerBoundZ, 1.645);
-  assert.ok(data.meta.globalCompositeSd > 10 && data.meta.globalCompositeSd < 10.1);
+  assert.ok(data.meta.globalCompositeSd > 8.4 && data.meta.globalCompositeSd < 8.5);
   assert.equal(data.works.length, 1_142);
   assert.equal(data.selections.length, 39_998);
   assert.deepEqual(Array.from(data.axes, (axis) => axis.key), ["influence", "ambition", "fairness", "traditionality", "originality"]);
-  assert.deepEqual(Array.from(data.axes, (axis) => axis.weight), [0.1, 0.3, 0.25, 0.2, 0.15]);
+  assert.deepEqual(Array.from(data.axes, (axis) => axis.weight), [0.1, 0.35, 0.25, 0.1, 0.2]);
   assert.deepEqual(Array.from(data.axes, (axis) => axis.selectionAxis), [false, true, true, true, true]);
   assert.deepEqual(Array.from(data.selectionAxes), ["ambition", "fairness", "traditional_mystery", "originality"]);
   assert.equal(data.axes.reduce((sum, axis) => sum + axis.weight, 0), 1);
@@ -141,7 +141,7 @@ test("consensus scores combine rank adjustment, Bayesian shrinkage, and uncertai
   }
   assert.deepEqual(
     Array.from(data.works.slice(0, 3), (work) => data.strings[work[1]]),
-    ["Return of the Obra Dinn", "The Murder of Roger Ackroyd", "The Hollow Man"],
+    ["Return of the Obra Dinn", "The Name of the Rose", "The Murder of Roger Ackroyd"],
   );
   assert.ok(data.works.slice(0, 25).every((work) => work[10] >= 60));
 });
