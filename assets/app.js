@@ -3,8 +3,14 @@
 
   const datasets = window.MYSTERY_CONSENSUS_DATASETS || {};
   const requestedDataset = new URLSearchParams(window.location.search).get("dataset");
-  const datasetKey = requestedDataset === "v3" ? "v3" : "v4";
-  const publicVersion = datasetKey === "v3" ? "version-1" : "version-2";
+  const publicDataset = ["v1", "v3"].includes(requestedDataset) ? "v1" : "v2";
+  const datasetKey = publicDataset === "v1" ? "v3" : "v4";
+  const publicVersion = publicDataset === "v1" ? "version-1" : "version-2";
+  if (["v3", "v4"].includes(requestedDataset)) {
+    const canonicalUrl = new URL(window.location.href);
+    canonicalUrl.searchParams.set("dataset", publicDataset);
+    window.history.replaceState(null, "", canonicalUrl);
+  }
   const data = datasets[datasetKey] || window.MYSTERY_CONSENSUS_DATA;
   if (!data || !Array.isArray(data.works) || !Array.isArray(data.selections)) {
     document.querySelector("#result-status").textContent = "The embedded dataset could not be loaded.";
@@ -373,7 +379,7 @@
 
   function populateControls() {
     els.datasetTabs.forEach((tab) => {
-      const active = tab.dataset.dataset === datasetKey;
+      const active = tab.dataset.dataset === publicDataset;
       tab.classList.toggle("is-active", active);
       if (active) tab.setAttribute("aria-current", "page");
       else tab.removeAttribute("aria-current");

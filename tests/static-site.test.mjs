@@ -27,7 +27,7 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.match(html, /\/site-theme\/v1\/theme\.js/);
   assert.match(html, /\/site-theme\/v1\/base\.css/);
   assert.match(html, /data\/v3\/consensus-data\.js/);
-  assert.match(html, /data-dataset="v3">Version 1<[\s\S]*data-dataset="v4">Version 2</);
+  assert.match(html, /href="\?dataset=v1" data-dataset="v1">Version 1<[\s\S]*href="\?dataset=v2" data-dataset="v2">Version 2</);
   assert.match(html, /data-view="works"/);
   assert.match(html, /data-view="selections"/);
   assert.match(html, /id="search-input"/);
@@ -252,6 +252,8 @@ test("application code supports sorting, filtering, pagination, details, and exp
   assert.match(app, /selectionAxes/);
   assert.match(app, /MYSTERY_CONSENSUS_DATASETS/);
   assert.match(app, /requestedDataset/);
+  assert.match(app, /\["v1", "v3"\]\.includes\(requestedDataset\)/);
+  assert.match(app, /replaceState\(null, "", canonicalUrl\)/);
   assert.match(app, /categoryDescriptions/);
   assert.match(app, /column\.kind === "year"/);
   assert.match(app, /\["text", "category"\]\.includes/);
