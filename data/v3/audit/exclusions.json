@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Professor Layton",
+    "year": 2007,
+    "medium": "video_game",
+    "reason": "Franchise-level umbrella over self-contained installments; fails the study work-unit rule."
+  },
+  {
+    "title": "The Puzzle of the Dead Man",
+    "year": 1936,
+    "medium": "novel",
+    "reason": "Could not be corroborated in Patrick Quentin bibliographies or catalogues."
+  },
+  {
+    "title": "The Vanishing of Roger Stacey",
+    "year": 1957,
+    "medium": "novel",
+    "reason": "Could not be corroborated in John Rhode bibliographies or catalogues."
+  }
+]

@@ -9,6 +9,7 @@
     <script src="/site-theme/v1/theme.js"></script>
     <link rel="stylesheet" href="/site-theme/v1/base.css">
     <link rel="stylesheet" href="assets/styles.css">
+    <script src="data/v3/consensus-data.js" defer></script>
     <script src="data/consensus-data.js" defer></script>
     <script src="assets/app.js" defer></script>
   </head>
@@ -31,6 +32,11 @@
           <h1 id="page-title">Greatest mystery stories</h1>
         </div>
       </section>
+
+      <nav class="dataset-tabs" aria-label="Consensus dataset version">
+        <a href="?dataset=v4" data-dataset="v4">V4 · five axes</a>
+        <a href="?dataset=v3" data-dataset="v3">V3 · original four axes</a>
+      </nav>
 
       <section class="controls" aria-label="Data controls">
         <div class="view-switch" role="group" aria-label="Dataset view">
@@ -126,13 +132,7 @@
       <section id="categories" class="categories" aria-labelledby="categories-title">
         <p class="eyebrow">Categories</p>
         <h2 id="categories-title">What each category measures</h2>
-        <dl class="category-guide">
-          <div><dt>Influence · 10%</dt><dd>Importance to mystery and later works that borrowed from it. Scored after candidate selection; never used to choose candidates.</dd></div>
-          <div><dt>Ambition · 35%</dt><dd>Grandeur, complexity, scope, and the challenge of coherently resolving many moving parts.</dd></div>
-          <div><dt>Fairness · 25%</dt><dd>Whether revelations follow from rules, evidence, mechanisms, and expectations established beforehand.</dd></div>
-          <div><dt>Traditionality · 10%</dt><dd>How closely the work follows the recognizable traditional mystery form. This measures form, not quality.</dd></div>
-          <div><dt>Originality · 20%</dt><dd>How distinctive the setting, questions, construction, tricks, and resolution feel to audiences now.</dd></div>
-        </dl>
+        <dl class="category-guide" id="category-guide"></dl>
       </section>
     </main>
 

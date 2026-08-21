@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["agent_id", "works", "axes"],
+  "properties": {
+    "agent_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "works": {
+      "type": "array",
+      "minItems": 100,
+      "maxItems": 300,
+      "items": {"$ref": "#/definitions/work"}
+    },
+    "axes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ambition", "fairness", "originality"],
+      "properties": {
+        "ambition": {"$ref": "#/definitions/ranking"},
+        "fairness": {"$ref": "#/definitions/ranking"},
+        "originality": {"$ref": "#/definitions/ranking"}
+      }
+    }
+  },
+  "definitions": {
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["influence", "ambition", "fairness", "originality"],
+      "properties": {
+        "influence": {"type": "integer", "minimum": 0, "maximum": 100},
+        "ambition": {"type": "integer", "minimum": 0, "maximum": 100},
+        "fairness": {"type": "integer", "minimum": 0, "maximum": 100},
+        "originality": {"type": "integer", "minimum": 0, "maximum": 100}
+      }
+    },
+    "work": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["work_id", "title", "original_title", "creator", "year", "medium", "scores"],
+      "properties": {
+        "work_id": {"type": "string", "minLength": 1, "maxLength": 100, "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "title": {"type": "string", "minLength": 1, "maxLength": 220},
+        "original_title": {"type": "string", "maxLength": 220},
+        "creator": {"type": "string", "minLength": 1, "maxLength": 220},
+        "year": {"type": "integer", "minimum": 1000, "maximum": 2026},
+        "medium": {
+          "type": "string",
+          "enum": [
+            "novel",
+            "book_series",
+            "novella",
+            "short_story",
+            "film",
+            "tv_series",
+            "anime",
+            "cartoon",
+            "comic",
+            "manga",
+            "video_game",
+            "visual_novel",
+            "web_serial",
+            "radio_drama",
+            "audio_drama",
+            "stage_play",
+            "podcast",
+            "documentary",
+            "other"
+          ]
+        },
+        "scores": {"$ref": "#/definitions/scores"}
+      }
+    },
+    "ranking": {
+      "type": "array",
+      "minItems": 100,
+      "maxItems": 100,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1, "maxLength": 100, "pattern": "^[a-z0-9][a-z0-9_-]*$"}
+    }
+  }
+}

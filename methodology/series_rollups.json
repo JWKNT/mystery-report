@@ -173,7 +173,7 @@
     {
       "parent": {"title": "Maigret", "original_title": "", "creator": "Georges Simenon", "year": 1931, "medium": "book_series"},
       "creator_aliases": ["Georges Simenon"], "media": ["book_series", "novel"],
-      "parent_titles": ["Maigret", "Maigret Novels", "Inspector Maigret Series"],
+      "parent_titles": ["Maigret", "Inspector Maigret", "Maigret Novels", "Inspector Maigret Series", "Jules Maigret Series"],
       "standalone_components": [{"titles": ["A Man's Head"]}, {"titles": ["Maigret and the Headless Corpse"]}]
     },
     {
@@ -290,7 +290,7 @@
     {
       "parent": {"title": "Martin Beck", "original_title": "", "creator": "Maj Sjöwall and Per Wahlöö", "year": 1965, "medium": "book_series"},
       "creator_aliases": ["Maj Sjöwall and Per Wahlöö", "Maj Sjowall and Per Wahloo"], "media": ["book_series", "novel"],
-      "parent_titles": ["Martin Beck", "Martin Beck Series"],
+      "parent_titles": ["Martin Beck", "Martin Beck Series", "Martin Beck Novels"],
       "standalone_components": [{"titles": ["Murder at the Savoy"]}]
     },
     {
@@ -304,6 +304,25 @@
       "creator_aliases": ["N. K. Jemisin", "N.K. Jemisin"], "media": ["book_series", "novel"],
       "parent_titles": ["The Broken Earth", "Broken Earth Trilogy"],
       "continuous_components": [{"titles": ["The Fifth Season"]}]
+    },
+    {
+      "parent": {"title": "The Golden Idol Series", "original_title": "", "creator": "Color Gray Games", "year": 2022, "medium": "video_game"},
+      "creator_aliases": [
+        "Color Gray Games",
+        "Andrejs Kļaviņš and Color Gray Games",
+        "Andrejs and Ernests Kļaviņš",
+        "Andrejs Kļaviņš and Ernests Kļaviņš"
+      ], "media": ["video_game"],
+      "parent_titles": ["The Golden Idol Series", "Golden Idol Series", "The Golden Idol Saga", "Golden Idol Saga"],
+      "continuous_components": [
+        {"titles": ["The Case of the Golden Idol"]},
+        {"titles": ["The Rise of the Golden Idol"]}
+      ]
+    },
+    {
+      "parent": {"title": "Inspector Sejer", "original_title": "", "creator": "Karin Fossum", "year": 1995, "medium": "book_series"},
+      "creator_aliases": ["Karin Fossum"], "media": ["book_series", "novel"],
+      "parent_titles": ["Inspector Sejer", "Inspector Sejer Series", "Inspector Sejer Novels"]
     },
     {
       "parent": {"title": "Adam Dalgliesh Series", "original_title": "", "creator": "P. D. James", "year": 1962, "medium": "book_series"},

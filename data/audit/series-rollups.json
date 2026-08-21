@@ -3361,6 +3361,26 @@
   },
   {
     "from": {
+      "title": "Inspector Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 5,
+    "observations": 5
+  },
+  {
+    "from": {
       "title": "Inspector Maigret Series",
       "original_title": "",
       "creator": "Georges Simenon",
@@ -3418,6 +3438,26 @@
     "component_agent_support": 0,
     "agents": 2,
     "observations": 2
+  },
+  {
+    "from": {
+      "title": "Jules Maigret series",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
   },
   {
     "from": {
@@ -3481,6 +3521,26 @@
   },
   {
     "from": {
+      "title": "Inspector Maigret",
+      "original_title": "Jules Maigret",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
       "title": "Maigret Series",
       "original_title": "",
       "creator": "Georges Simenon",
@@ -3498,6 +3558,26 @@
     "component_agent_support": 0,
     "agents": 4,
     "observations": 4
+  },
+  {
+    "from": {
+      "title": "Inspector Maigret",
+      "original_title": "Commissaire Maigret",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Maigret",
+      "original_title": "",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
   },
   {
     "from": {
@@ -5041,6 +5121,26 @@
   },
   {
     "from": {
+      "title": "Martin Beck Novels",
+      "original_title": "Roman om ett brott",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Martin Beck",
+      "original_title": "",
+      "creator": "Maj Sjöwall and Per Wahlöö",
+      "year": 1965,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
       "title": "Martin Beck Series",
       "original_title": "Roman om ett brott",
       "creator": "Maj Sjöwall and Per Wahlöö",
@@ -5152,6 +5252,206 @@
       "original_title": "",
       "creator": "N. K. Jemisin",
       "year": 2015,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Case of the Golden Idol",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "The Golden Idol Series",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "decision": "continuous_component",
+    "component_agent_support": 0,
+    "agents": 77,
+    "observations": 77
+  },
+  {
+    "from": {
+      "title": "The Rise of the Golden Idol",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2024,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "The Golden Idol Series",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "decision": "continuous_component",
+    "component_agent_support": 0,
+    "agents": 19,
+    "observations": 19
+  },
+  {
+    "from": {
+      "title": "The Golden Idol Series",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "The Golden Idol Series",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 17,
+    "observations": 17
+  },
+  {
+    "from": {
+      "title": "The Case of the Golden Idol",
+      "original_title": "",
+      "creator": "Andrejs and Ernests Kļaviņš",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "The Golden Idol Series",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "decision": "continuous_component",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Golden Idol series",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "The Golden Idol Series",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Golden Idol series",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "The Golden Idol Series",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "The Case of the Golden Idol",
+      "original_title": "",
+      "creator": "Andrejs Kļaviņš and Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "The Golden Idol Series",
+      "original_title": "",
+      "creator": "Color Gray Games",
+      "year": 2022,
+      "medium": "video_game"
+    },
+    "decision": "continuous_component",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Sejer Novels",
+      "original_title": "",
+      "creator": "Karin Fossum",
+      "year": 1995,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Sejer",
+      "original_title": "",
+      "creator": "Karin Fossum",
+      "year": 1995,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Inspector Sejer",
+      "original_title": "Konrad Sejer",
+      "creator": "Karin Fossum",
+      "year": 1995,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Sejer",
+      "original_title": "",
+      "creator": "Karin Fossum",
+      "year": 1995,
+      "medium": "book_series"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Inspector Sejer",
+      "original_title": "",
+      "creator": "Karin Fossum",
+      "year": 1995,
+      "medium": "book_series"
+    },
+    "to": {
+      "title": "Inspector Sejer",
+      "original_title": "",
+      "creator": "Karin Fossum",
+      "year": 1995,
       "medium": "book_series"
     },
     "decision": "parent_alias",

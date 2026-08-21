@@ -51,6 +51,39 @@ main {
   line-height: 1.2;
 }
 
+.dataset-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.dataset-tabs a {
+  position: relative;
+  bottom: -1px;
+  padding: 8px 14px 9px;
+  border: 1px solid transparent;
+  color: var(--muted-strong);
+  font-size: 11px;
+  font-variant: small-caps;
+  letter-spacing: .4px;
+  text-decoration: none;
+}
+
+.dataset-tabs a:hover,
+.dataset-tabs a:focus-visible {
+  color: var(--blue-dark);
+}
+
+.dataset-tabs a.is-active,
+.dataset-tabs a[aria-current="page"] {
+  border-color: var(--line-strong);
+  border-bottom-color: var(--paper);
+  background: var(--paper);
+  color: var(--blue-dark);
+  font-weight: 600;
+}
+
 .controls {
   display: flex;
   flex-wrap: wrap;
@@ -413,7 +446,7 @@ button:disabled {
 
 .category-guide {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   margin: 14px 0 0;
   border-top: 1px solid var(--line);
 }

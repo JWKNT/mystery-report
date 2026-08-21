@@ -1,0 +1,314 @@
+[
+  {
+    "agent_number": 1,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 10,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 15,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 16,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 17,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 19,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 21,
+    "canonical": "The Southern Reach Series",
+    "kept": "annihilation",
+    "discarded": [
+      "the-southern-reach-series"
+    ]
+  },
+  {
+    "agent_number": 21,
+    "canonical": "The Golden Idol Series",
+    "kept": "the-case-of-the-golden-idol",
+    "discarded": [
+      "the-rise-of-the-golden-idol"
+    ]
+  },
+  {
+    "agent_number": 24,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 28,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 31,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "the_rise_of_the_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 34,
+    "canonical": "The Golden Idol Series",
+    "kept": "case-of-the-golden-idol_2022_video_game",
+    "discarded": [
+      "rise-of-the-golden-idol_2024_video_game"
+    ]
+  },
+  {
+    "agent_number": 35,
+    "canonical": "The Golden Idol Series",
+    "kept": "case-of-the-golden-idol_2022_video_game",
+    "discarded": [
+      "rise-of-the-golden-idol_2024_video_game"
+    ]
+  },
+  {
+    "agent_number": 41,
+    "canonical": "Zero Escape",
+    "kept": "nine_hours_nine_persons_nine_doors",
+    "discarded": [
+      "virtues_last_reward"
+    ]
+  },
+  {
+    "agent_number": 42,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 43,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 45,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 46,
+    "canonical": "The Golden Idol Series",
+    "kept": "case_of_the_golden_idol",
+    "discarded": [
+      "rise_of_the_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 57,
+    "canonical": "The Southern Reach Series",
+    "kept": "annihilation",
+    "discarded": [
+      "southern_reach"
+    ]
+  },
+  {
+    "agent_number": 58,
+    "canonical": "The Southern Reach Series",
+    "kept": "annihilation",
+    "discarded": [
+      "southern_reach"
+    ]
+  },
+  {
+    "agent_number": 59,
+    "canonical": "The Southern Reach Series",
+    "kept": "annihilation",
+    "discarded": [
+      "southern_reach"
+    ]
+  },
+  {
+    "agent_number": 60,
+    "canonical": "The Southern Reach Series",
+    "kept": "annihilation",
+    "discarded": [
+      "southern_reach"
+    ]
+  },
+  {
+    "agent_number": 71,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "the_rise_of_the_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 72,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "the_rise_of_the_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 74,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "the_rise_of_the_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 75,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "the_rise_of_the_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 79,
+    "canonical": "The Southern Reach Series",
+    "kept": "southern_reach",
+    "discarded": [
+      "annihilation"
+    ]
+  },
+  {
+    "agent_number": 80,
+    "canonical": "The Southern Reach Series",
+    "kept": "southern_reach",
+    "discarded": [
+      "annihilation"
+    ]
+  },
+  {
+    "agent_number": 81,
+    "canonical": "The Golden Idol Series",
+    "kept": "case_golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 83,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden-idol",
+    "discarded": [
+      "rise-golden-idol"
+    ]
+  },
+  {
+    "agent_number": 84,
+    "canonical": "The Golden Idol Series",
+    "kept": "s084_case_of_the_golden_idol",
+    "discarded": [
+      "s084_rise_of_the_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 85,
+    "canonical": "The Golden Idol Series",
+    "kept": "case_golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 86,
+    "canonical": "The Golden Idol Series",
+    "kept": "case_golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 92,
+    "canonical": "The Golden Idol Series",
+    "kept": "the-case-of-the-golden-idol",
+    "discarded": [
+      "the-rise-of-the-golden-idol"
+    ]
+  },
+  {
+    "agent_number": 95,
+    "canonical": "The Southern Reach Series",
+    "kept": "the_southern_reach",
+    "discarded": [
+      "annihilation"
+    ]
+  },
+  {
+    "agent_number": 95,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "the_rise_of_the_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 96,
+    "canonical": "The Golden Idol Series",
+    "kept": "case_golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 97,
+    "canonical": "The Golden Idol Series",
+    "kept": "case_golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 98,
+    "canonical": "The Golden Idol Series",
+    "kept": "case_golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  }
+]

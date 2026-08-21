@@ -1,7 +1,10 @@
 (() => {
   "use strict";
 
-  const data = window.MYSTERY_CONSENSUS_DATA;
+  const datasets = window.MYSTERY_CONSENSUS_DATASETS || {};
+  const requestedDataset = new URLSearchParams(window.location.search).get("dataset");
+  const datasetKey = requestedDataset === "v3" ? "v3" : "v4";
+  const data = datasets[datasetKey] || window.MYSTERY_CONSENSUS_DATA;
   if (!data || !Array.isArray(data.works) || !Array.isArray(data.selections)) {
     document.querySelector("#result-status").textContent = "The embedded dataset could not be loaded.";
     return;
@@ -31,6 +34,13 @@
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+  const categoryDescriptions = {
+    influence: "Importance to mystery and later works that borrowed from it. Scored after candidate selection; never used to choose candidates.",
+    ambition: "Grandeur, complexity, scope, and the challenge of coherently resolving many moving parts.",
+    fairness: "Whether revelations follow from rules, evidence, mechanisms, and expectations established beforehand.",
+    traditionality: "How closely the work follows the recognizable traditional mystery form. This measures form, not quality.",
+    originality: "How distinctive the setting, questions, construction, tricks, and resolution feel to audiences now.",
+  };
 
   const state = {
     view: "works",
@@ -80,6 +90,8 @@
     dialogAxisBody: document.querySelector("#dialog-axis-body"),
     viewWorkPlacements: document.querySelector("#view-work-placements"),
     datasetSummary: document.querySelector("#dataset-summary"),
+    datasetTabs: [...document.querySelectorAll("[data-dataset]")],
+    categoryGuide: document.querySelector("#category-guide"),
   };
 
   const workColumns = [
@@ -352,7 +364,9 @@
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = state.view === "works" ? "mystery-report-works.csv" : "mystery-report-raw-selections.csv";
+    link.download = state.view === "works"
+      ? `mystery-report-${datasetKey}-works.csv`
+      : `mystery-report-${datasetKey}-raw-selections.csv`;
     document.body.append(link);
     link.click();
     link.remove();
@@ -360,9 +374,16 @@
   }
 
   function populateControls() {
+    els.datasetTabs.forEach((tab) => {
+      const active = tab.dataset.dataset === datasetKey;
+      tab.classList.toggle("is-active", active);
+      if (active) tab.setAttribute("aria-current", "page");
+      else tab.removeAttribute("aria-current");
+    });
     els.axis.insertAdjacentHTML("beforeend", selectionLists.map((selection, index) => `<option value="${index}">${escapeHtml(selection.label)}</option>`).join(""));
     const media = [...new Set([...works.map((row) => text(row[5])), ...selections.map((row) => text(row[7]))])].sort((a, b) => a.localeCompare(b));
     els.medium.insertAdjacentHTML("beforeend", media.map((medium) => `<option value="${escapeHtml(medium)}">${escapeHtml(medium.replaceAll("_", " "))}</option>`).join(""));
+    els.categoryGuide.innerHTML = axes.map((axis) => `<div><dt>${escapeHtml(axis.label)} · ${(axis.weight * 100).toFixed(0)}%</dt><dd>${escapeHtml(categoryDescriptions[axis.key] || "")}</dd></div>`).join("");
     els.datasetSummary.textContent = `Consensus dataset v${data.meta.version} · ${integer(data.meta.agents)} valid agents · ${integer(data.meta.observations)} complete agent–work ratings · ±${fixed(data.meta.rankAdjustmentMax, 0)} placement correction · one-sided 95% support penalty`;
   }
 

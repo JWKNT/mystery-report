@@ -145,9 +145,10 @@ def main() -> None:
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(
-        "window.MYSTERY_CONSENSUS_DATA="
+        "window.MYSTERY_CONSENSUS_DATASETS=window.MYSTERY_CONSENSUS_DATASETS||{};"
+        "window.MYSTERY_CONSENSUS_DATASETS.v4="
         + json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
-        + ";\n"
+        + ";window.MYSTERY_CONSENSUS_DATA=window.MYSTERY_CONSENSUS_DATASETS.v4;\n"
     )
     print(json.dumps(payload["meta"], indent=2))
 

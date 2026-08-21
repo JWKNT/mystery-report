@@ -1,10 +1,50 @@
 [
   {
+    "agent_number": 1,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 3,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
     "agent_number": 6,
     "canonical": "Hercule Poirot Series",
     "kept": "poirot_christmas",
     "discarded": [
       "hollow_christie"
+    ]
+  },
+  {
+    "agent_number": 8,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 9,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 17,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
     ]
   },
   {
@@ -87,6 +127,14 @@
     ]
   },
   {
+    "agent_number": 29,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
     "agent_number": 30,
     "canonical": "Dr. Gideon Fell Series",
     "kept": "death-watch",
@@ -120,11 +168,43 @@
     ]
   },
   {
+    "agent_number": 30,
+    "canonical": "The Golden Idol Series",
+    "kept": "the-case-of-the-golden-idol",
+    "discarded": [
+      "the-rise-of-the-golden-idol"
+    ]
+  },
+  {
+    "agent_number": 31,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "the_rise_of_the_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 33,
+    "canonical": "The Golden Idol Series",
+    "kept": "the_case_of_the_golden_idol",
+    "discarded": [
+      "the_rise_of_the_golden_idol"
+    ]
+  },
+  {
     "agent_number": 34,
     "canonical": "Lew Archer Series",
     "kept": "chill",
     "discarded": [
       "galton_case"
+    ]
+  },
+  {
+    "agent_number": 37,
+    "canonical": "The Golden Idol Series",
+    "kept": "the-case-of-the-golden-idol-2022",
+    "discarded": [
+      "the-rise-of-the-golden-idol-2024"
     ]
   },
   {
@@ -158,6 +238,30 @@
     "discarded": [
       "the-peacock-feather-murders",
       "nine-and-death-makes-ten"
+    ]
+  },
+  {
+    "agent_number": 38,
+    "canonical": "The Golden Idol Series",
+    "kept": "the-case-of-the-golden-idol",
+    "discarded": [
+      "the-rise-of-the-golden-idol"
+    ]
+  },
+  {
+    "agent_number": 39,
+    "canonical": "The Golden Idol Series",
+    "kept": "the-case-of-the-golden-idol-2022",
+    "discarded": [
+      "the-rise-of-the-golden-idol-2024"
+    ]
+  },
+  {
+    "agent_number": 45,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
     ]
   },
   {
@@ -199,6 +303,30 @@
     "discarded": [
       "the-peacock-feather-murders",
       "nine-and-death-makes-ten"
+    ]
+  },
+  {
+    "agent_number": 50,
+    "canonical": "The Golden Idol Series",
+    "kept": "the-case-of-the-golden-idol",
+    "discarded": [
+      "the-rise-of-the-golden-idol"
+    ]
+  },
+  {
+    "agent_number": 51,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 53,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
     ]
   },
   {
@@ -256,6 +384,22 @@
     "discarded": [
       "nine_and_death_makes_ten",
       "the_peacock_feather_murders"
+    ]
+  },
+  {
+    "agent_number": 68,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 69,
+    "canonical": "The Golden Idol Series",
+    "kept": "the-case-of-the-golden-idol",
+    "discarded": [
+      "the-rise-of-the-golden-idol"
     ]
   },
   {
@@ -339,6 +483,14 @@
     "kept": "the_chill",
     "discarded": [
       "the_galton_case"
+    ]
+  },
+  {
+    "agent_number": 86,
+    "canonical": "The Golden Idol Series",
+    "kept": "golden_idol",
+    "discarded": [
+      "rise_golden_idol"
     ]
   },
   {

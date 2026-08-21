@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "errors": [],
+  "checks": {
+    "raw_agent_files": 100,
+    "valid_agent_files": 100,
+    "unique_agent_ids": 100,
+    "selection_axes": [
+      "ambition",
+      "fairness",
+      "originality"
+    ],
+    "influence_is_selection_axis": false,
+    "retained_works": 1036,
+    "unique_agent_work_observations": 20002,
+    "ranked_selections": 29997,
+    "collected_ranked_selections": 30000,
+    "excluded_ranked_selections": 3,
+    "selection_group_lengths": {
+      "99": 3,
+      "100": 297
+    },
+    "identity_merges": 513,
+    "within_agent_merges": 39,
+    "retained_singletons": 192,
+    "unverified_singletons": 0,
+    "excluded_records": 3,
+    "malformed_observations": 0,
+    "tv_component_rows": 0,
+    "duplicate_canonical_identities": 0,
+    "rank_adjustment_max": 5.0,
+    "lower_bound_z": 1.645,
+    "global_composite_sd": 8.217953419513433,
+    "minimum_top_25_support": 68,
+    "minimum_top_100_support": 12,
+    "top_100_below_ten_support": 0
+  }
+}

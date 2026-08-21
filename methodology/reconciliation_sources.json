@@ -1,0 +1,35 @@
+[
+  {
+    "canonical": "The Golden Idol Series",
+    "aliases_and_components": [
+      "The Golden Idol Series",
+      "The Golden Idol Saga",
+      "The Case of the Golden Idol",
+      "The Rise of the Golden Idol"
+    ],
+    "decision": "Consolidate the connected games and series labels into one work unit in v3 and v4.",
+    "sources": [
+      "https://www.playstack.com/games/goldenidol/",
+      "https://www.playstack.com/games/rise?from=games",
+      "https://merch.playstack.com/collections"
+    ]
+  },
+  {
+    "canonical": "Maigret",
+    "aliases_and_components": ["Maigret", "Inspector Maigret", "Jules Maigret series"],
+    "decision": "Merge series-label variants; do not treat them as separate works.",
+    "sources": ["https://www.penguin.co.uk/series/INSMAI/inspector-maigret"]
+  },
+  {
+    "canonical": "Martin Beck",
+    "aliases_and_components": ["Martin Beck", "Martin Beck Novels"],
+    "decision": "Merge series-label variants; independently supported novel titles remain separate under the existing component rule.",
+    "sources": ["https://www.penguinrandomhouse.com/series/MBE/martin-beck-police-mystery-series/"]
+  },
+  {
+    "canonical": "Inspector Sejer",
+    "aliases_and_components": ["Inspector Sejer", "Inspector Sejer Novels"],
+    "decision": "Merge series-label variants; do not treat them as separate works.",
+    "sources": ["https://www.penguin.co.uk/series/INSSEJ/inspector-sejer"]
+  }
+]

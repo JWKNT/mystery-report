@@ -1,7 +1,7 @@
 {
-  "retained_singletons": 308,
+  "retained_singletons": 306,
   "verified_automatically": 206,
-  "verified_with_targeted_sources": 102,
+  "verified_with_targeted_sources": 100,
   "unverified_retained": 0,
   "excluded_records": 1,
   "exclusions": [

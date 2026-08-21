@@ -11,16 +11,23 @@ async function source(relativePath) {
   return readFile(path.join(root, relativePath), "utf8");
 }
 
-async function dataset() {
+async function datasets() {
   const context = { window: {} };
+  vm.runInNewContext(await source("data/v3/consensus-data.js"), context);
   vm.runInNewContext(await source("data/consensus-data.js"), context);
-  return context.window.MYSTERY_CONSENSUS_DATA;
+  return context.window.MYSTERY_CONSENSUS_DATASETS;
+}
+
+async function dataset() {
+  return (await datasets()).v4;
 }
 
 test("page imports the shared site theme and exposes the core controls", async () => {
   const html = await source("index.html");
   assert.match(html, /\/site-theme\/v1\/theme\.js/);
   assert.match(html, /\/site-theme\/v1\/base\.css/);
+  assert.match(html, /data\/v3\/consensus-data\.js/);
+  assert.match(html, /data-dataset="v4"[\s\S]*data-dataset="v3"/);
   assert.match(html, /data-view="works"/);
   assert.match(html, /data-view="selections"/);
   assert.match(html, /id="search-input"/);
@@ -30,24 +37,24 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.match(html, /id="work-dialog"/);
   assert.match(html, /What each category measures/);
   assert.match(html, /Placement-adjusted mean/);
-  assert.match(html, /Influence · 10%[\s\S]*Ambition · 35%[\s\S]*Fairness · 25%[\s\S]*Traditionality · 10%[\s\S]*Originality · 20%/);
+  assert.match(html, /id="category-guide"/);
   assert.doesNotMatch(html, /id="method"|Placement-only Borda consensus/);
   assert.doesNotMatch(html, /id="status-filter"|quick-stats|Browse the normalized works/i);
 });
 
-test("embedded data contains the complete scored four-list survey", async () => {
+test("embedded v4 data contains the complete scored four-list survey", async () => {
   const data = await dataset();
   assert.equal(data.meta.agents, 100);
-  assert.equal(data.meta.works, 1_142);
-  assert.equal(data.meta.observations, 21_958);
+  assert.equal(data.meta.works, 1_137);
+  assert.equal(data.meta.observations, 21_939);
   assert.equal(data.meta.selections, 39_998);
-  assert.equal(data.meta.verified_singletons, 308);
+  assert.equal(data.meta.verified_singletons, 306);
   assert.equal(data.meta.excluded, 1);
   assert.equal(data.meta.priorStrength, 10);
   assert.equal(data.meta.rankAdjustmentMax, 5);
   assert.equal(data.meta.lowerBoundZ, 1.645);
   assert.ok(data.meta.globalCompositeSd > 8.4 && data.meta.globalCompositeSd < 8.5);
-  assert.equal(data.works.length, 1_142);
+  assert.equal(data.works.length, 1_137);
   assert.equal(data.selections.length, 39_998);
   assert.deepEqual(Array.from(data.axes, (axis) => axis.key), ["influence", "ambition", "fairness", "traditionality", "originality"]);
   assert.deepEqual(Array.from(data.axes, (axis) => axis.weight), [0.1, 0.35, 0.25, 0.1, 0.2]);
@@ -61,11 +68,11 @@ test("embedded data contains the complete scored four-list survey", async () => 
 test("repository publishes the reconciled aggregate and all 100 source reports", async () => {
   const aggregate = JSON.parse(await source("data/aggregate.json"));
   assert.equal(aggregate.agent_count, 100);
-  assert.equal(aggregate.works.length, 1_142);
+  assert.equal(aggregate.works.length, 1_137);
   assert.equal(aggregate.raw_selections.length, 39_998);
   assert.equal(aggregate.collected_raw_selection_count, 40_000);
   assert.equal(aggregate.excluded_raw_selection_count, 2);
-  assert.equal(aggregate.unique_agent_work_observation_count, 21_958);
+  assert.equal(aggregate.unique_agent_work_observation_count, 21_939);
   assert.equal(aggregate.excluded.length, 1);
 
   const rawDirectory = path.join(root, "data", "raw_agents");
@@ -99,6 +106,13 @@ test("known work-unit variants are reconciled and TV labels are unified", async 
   assert.equal(exact("The Hound of the Baskervilles").length, 1);
   assert.equal(exact("Father Brown Stories").length, 1);
   assert.equal(exact("The Blue Cross").length, 0);
+  assert.equal(exact("The Golden Idol Series").length, 1);
+  assert.equal(exact("The Case of the Golden Idol").length, 0);
+  assert.equal(exact("The Rise of the Golden Idol").length, 0);
+  assert.equal(exact("The Golden Idol Series")[0][10], 100);
+  assert.equal(exact("Inspector Maigret").length, 0);
+  assert.equal(exact("Martin Beck Novels").length, 0);
+  assert.equal(exact("Inspector Sejer Novels").length, 0);
   assert.ok(data.works.every((work) => !["tv_season", "tv_episode"].includes(medium(work))));
   assert.ok(data.selections.every((row) => !["tv_season", "tv_episode"].includes(data.strings[row[7]])));
 });
@@ -146,6 +160,65 @@ test("consensus scores combine rank adjustment, Bayesian shrinkage, and uncertai
   assert.ok(data.works.slice(0, 25).every((work) => work[10] >= 60));
 });
 
+test("v3 preserves its four axes while using the v4 uncertainty treatment", async () => {
+  const data = (await datasets()).v3;
+  assert.equal(data.meta.agents, 100);
+  assert.equal(data.meta.works, 1_036);
+  assert.equal(data.meta.observations, 20_002);
+  assert.equal(data.meta.selections, 29_997);
+  assert.equal(data.meta.verified_singletons, 192);
+  assert.equal(data.meta.excluded, 3);
+  assert.equal(data.meta.priorStrength, 10);
+  assert.equal(data.meta.lowerBoundZ, 1.645);
+  assert.ok(data.meta.globalCompositeSd > 8.2 && data.meta.globalCompositeSd < 8.3);
+  assert.deepEqual(Array.from(data.axes, (axis) => axis.key), ["influence", "ambition", "fairness", "originality"]);
+  assert.deepEqual(Array.from(data.axes, (axis) => axis.weight), [0.1, 0.4, 0.25, 0.25]);
+  assert.deepEqual(Array.from(data.selectionAxes), ["ambition", "fairness", "originality"]);
+  assert.equal(data.axes.reduce((sum, axis) => sum + axis.weight, 0), 1);
+  assert.ok(data.works.every((row) => row.length === 30));
+  assert.ok(data.selections.every((row) => row.length === 13));
+
+  for (const work of data.works) {
+    const expectedPosterior = data.axes.reduce((sum, axis, index) => sum + axis.weight * work[12 + index], 0);
+    const expectedPenalty = data.meta.lowerBoundZ * data.meta.globalCompositeSd / Math.sqrt(work[10]);
+    assert.ok(Math.abs(expectedPosterior - work[7]) < 1e-5);
+    assert.ok(Math.abs(expectedPenalty - work[9]) < 1e-5);
+    assert.ok(Math.abs(work[7] - work[9] - work[6]) < 1e-5);
+  }
+  assert.deepEqual(
+    Array.from(data.works.slice(0, 3), (work) => data.strings[work[1]]),
+    ["Outer Wilds", "Return of the Obra Dinn", "Umineko When They Cry"],
+  );
+  const goldenIdol = data.works.filter((work) => data.strings[work[1]] === "The Golden Idol Series");
+  assert.equal(goldenIdol.length, 1);
+  assert.equal(goldenIdol[0][10], 99);
+  assert.ok(data.works.slice(0, 100).every((work) => work[10] >= 10));
+});
+
+test("repository publishes the v3 aggregate and all 100 v3 source reports", async () => {
+  const aggregate = JSON.parse(await source("data/v3/aggregate.json"));
+  assert.equal(aggregate.agent_count, 100);
+  assert.equal(aggregate.works.length, 1_036);
+  assert.equal(aggregate.raw_selections.length, 29_997);
+  assert.equal(aggregate.collected_raw_selection_count, 30_000);
+  assert.equal(aggregate.excluded_raw_selection_count, 3);
+  assert.equal(aggregate.unique_agent_work_observation_count, 20_002);
+  assert.equal(aggregate.method.prior_strength, 10);
+  assert.equal(aggregate.method.lower_bound_z, 1.645);
+  assert.equal(aggregate.method.confidence_support_denominator, "sqrt(actual agent support)");
+
+  const rawDirectory = path.join(root, "data", "v3", "raw_agents");
+  const filenames = (await readdir(rawDirectory))
+    .filter((filename) => /^agent_\d{3}\.json$/.test(filename))
+    .sort();
+  assert.equal(filenames.length, 100);
+  const reports = await Promise.all(
+    filenames.map(async (filename) => JSON.parse(await readFile(path.join(rawDirectory, filename), "utf8"))),
+  );
+  assert.ok(reports.every((report) => Object.keys(report.axes).sort().join(",") === "ambition,fairness,originality"));
+  assert.ok(reports.every((report) => Object.values(report.axes).every((ranking) => ranking.length === 100)));
+});
+
 test("application code supports sorting, filtering, pagination, details, and export", async () => {
   const app = await source("assets/app.js");
   assert.match(app, /data-sort/);
@@ -160,6 +233,9 @@ test("application code supports sorting, filtering, pagination, details, and exp
   assert.match(app, /Uncertainty penalty/);
   assert.match(app, /placementAdjustedStart \+ axisIndex/);
   assert.match(app, /selectionAxes/);
+  assert.match(app, /MYSTERY_CONSENSUS_DATASETS/);
+  assert.match(app, /requestedDataset/);
+  assert.match(app, /categoryDescriptions/);
   assert.match(app, /column\.kind === "year"/);
   assert.match(app, /\["text", "category"\]\.includes/);
   assert.doesNotMatch(app, /Borda/i);

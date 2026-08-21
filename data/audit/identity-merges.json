@@ -1786,31 +1786,14 @@
   },
   {
     "from": {
-      "title": "The Case of the Golden Idol",
-      "original_title": "",
-      "creator": "Andrejs and Ernests Kļaviņš",
-      "year": 2022,
-      "medium": "video_game"
-    },
-    "to": {
-      "title": "The Case of the Golden Idol",
+      "title": "The Golden Idol",
       "original_title": "",
       "creator": "Color Gray Games",
       "year": 2022,
       "medium": "video_game"
     },
-    "observations": 1
-  },
-  {
-    "from": {
-      "title": "The Case of the Golden Idol",
-      "original_title": "",
-      "creator": "Andrejs Kļaviņš and Color Gray Games",
-      "year": 2022,
-      "medium": "video_game"
-    },
     "to": {
-      "title": "The Case of the Golden Idol",
+      "title": "The Golden Idol Series",
       "original_title": "",
       "creator": "Color Gray Games",
       "year": 2022,
@@ -8943,57 +8926,6 @@
   },
   {
     "from": {
-      "title": "The Golden Idol",
-      "original_title": "",
-      "creator": "Color Gray Games",
-      "year": 2022,
-      "medium": "video_game"
-    },
-    "to": {
-      "title": "The Golden Idol Series",
-      "original_title": "",
-      "creator": "Color Gray Games",
-      "year": 2022,
-      "medium": "video_game"
-    },
-    "observations": 1
-  },
-  {
-    "from": {
-      "title": "The Golden Idol series",
-      "original_title": "",
-      "creator": "Color Gray Games",
-      "year": 2022,
-      "medium": "video_game"
-    },
-    "to": {
-      "title": "The Golden Idol Series",
-      "original_title": "",
-      "creator": "Color Gray Games",
-      "year": 2022,
-      "medium": "video_game"
-    },
-    "observations": 2
-  },
-  {
-    "from": {
-      "title": "Golden Idol series",
-      "original_title": "",
-      "creator": "Color Gray Games",
-      "year": 2022,
-      "medium": "video_game"
-    },
-    "to": {
-      "title": "The Golden Idol Series",
-      "original_title": "",
-      "creator": "Color Gray Games",
-      "year": 2022,
-      "medium": "video_game"
-    },
-    "observations": 1
-  },
-  {
-    "from": {
       "title": "That Awful Mess on Via Merulana",
       "original_title": "Quer pasticciaccio brutto de via Merulana",
       "creator": "Carlo Emilio Gadda",
@@ -10062,57 +9994,6 @@
       "medium": "video_game"
     },
     "observations": 1
-  },
-  {
-    "from": {
-      "title": "Jules Maigret series",
-      "original_title": "",
-      "creator": "Georges Simenon",
-      "year": 1931,
-      "medium": "book_series"
-    },
-    "to": {
-      "title": "Inspector Maigret",
-      "original_title": "",
-      "creator": "Georges Simenon",
-      "year": 1931,
-      "medium": "book_series"
-    },
-    "observations": 1
-  },
-  {
-    "from": {
-      "title": "Inspector Maigret",
-      "original_title": "Jules Maigret",
-      "creator": "Georges Simenon",
-      "year": 1931,
-      "medium": "book_series"
-    },
-    "to": {
-      "title": "Inspector Maigret",
-      "original_title": "",
-      "creator": "Georges Simenon",
-      "year": 1931,
-      "medium": "book_series"
-    },
-    "observations": 1
-  },
-  {
-    "from": {
-      "title": "Inspector Maigret",
-      "original_title": "Commissaire Maigret",
-      "creator": "Georges Simenon",
-      "year": 1931,
-      "medium": "book_series"
-    },
-    "to": {
-      "title": "Inspector Maigret",
-      "original_title": "",
-      "creator": "Georges Simenon",
-      "year": 1931,
-      "medium": "book_series"
-    },
-    "observations": 2
   },
   {
     "from": {
@@ -11708,23 +11589,6 @@
       "original_title": "Las cuatro estaciones",
       "creator": "Leonardo Padura",
       "year": 1991,
-      "medium": "book_series"
-    },
-    "observations": 1
-  },
-  {
-    "from": {
-      "title": "Inspector Sejer",
-      "original_title": "",
-      "creator": "Karin Fossum",
-      "year": 1995,
-      "medium": "book_series"
-    },
-    "to": {
-      "title": "Inspector Sejer",
-      "original_title": "Konrad Sejer",
-      "creator": "Karin Fossum",
-      "year": 1995,
       "medium": "book_series"
     },
     "observations": 1
