@@ -144,6 +144,38 @@
     ]
   },
   {
+    "agent_number": 51,
+    "canonical": "Danganronpa",
+    "kept": "danganronpa_trigger_happy_havoc",
+    "discarded": [
+      "danganronpa_2_goodbye_despair"
+    ]
+  },
+  {
+    "agent_number": 52,
+    "canonical": "Danganronpa",
+    "kept": "danganronpa_trigger_happy_havoc",
+    "discarded": [
+      "danganronpa_2_goodbye_despair"
+    ]
+  },
+  {
+    "agent_number": 54,
+    "canonical": "Danganronpa",
+    "kept": "danganronpa_trigger_happy_havoc",
+    "discarded": [
+      "danganronpa_2_goodbye_despair"
+    ]
+  },
+  {
+    "agent_number": 55,
+    "canonical": "Danganronpa",
+    "kept": "danganronpa_trigger_happy_havoc",
+    "discarded": [
+      "danganronpa_2_goodbye_despair"
+    ]
+  },
+  {
     "agent_number": 57,
     "canonical": "The Southern Reach Series",
     "kept": "annihilation",
@@ -225,6 +257,15 @@
   },
   {
     "agent_number": 81,
+    "canonical": "Danganronpa",
+    "kept": "danganronpa_v3",
+    "discarded": [
+      "danganronpa",
+      "danganronpa_2"
+    ]
+  },
+  {
+    "agent_number": 81,
     "canonical": "The Golden Idol Series",
     "kept": "case_golden_idol",
     "discarded": [
@@ -249,10 +290,28 @@
   },
   {
     "agent_number": 85,
+    "canonical": "Danganronpa",
+    "kept": "danganronpa_v3",
+    "discarded": [
+      "danganronpa",
+      "danganronpa_2"
+    ]
+  },
+  {
+    "agent_number": 85,
     "canonical": "The Golden Idol Series",
     "kept": "case_golden_idol",
     "discarded": [
       "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 86,
+    "canonical": "Danganronpa",
+    "kept": "danganronpa_v3",
+    "discarded": [
+      "danganronpa",
+      "danganronpa_2"
     ]
   },
   {
@@ -289,6 +348,15 @@
   },
   {
     "agent_number": 96,
+    "canonical": "Danganronpa",
+    "kept": "danganronpa_v3",
+    "discarded": [
+      "danganronpa",
+      "danganronpa_2"
+    ]
+  },
+  {
+    "agent_number": 96,
     "canonical": "The Golden Idol Series",
     "kept": "case_golden_idol",
     "discarded": [
@@ -304,11 +372,27 @@
     ]
   },
   {
+    "agent_number": 97,
+    "canonical": "Danganronpa",
+    "kept": "danganronpa_v3",
+    "discarded": [
+      "danganronpa_2"
+    ]
+  },
+  {
     "agent_number": 98,
     "canonical": "The Golden Idol Series",
     "kept": "case_golden_idol",
     "discarded": [
       "rise_golden_idol"
+    ]
+  },
+  {
+    "agent_number": 98,
+    "canonical": "Danganronpa",
+    "kept": "danganronpa_v3",
+    "discarded": [
+      "danganronpa_2"
     ]
   }
 ]

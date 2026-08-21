@@ -320,6 +320,23 @@
       ]
     },
     {
+      "parent": {"title": "Danganronpa", "original_title": "", "creator": "Kazutaka Kodaka", "year": 2010, "medium": "video_game"},
+      "creator_aliases": [
+        "Kazutaka Kodaka",
+        "Kazutaka Kodaka and Spike Chunsoft",
+        "Spike Chunsoft and Kazutaka Kodaka",
+        "Spike Chunsoft / Kazutaka Kodaka",
+        "Spike Chunsoft"
+      ],
+      "media": ["video_game", "visual_novel"],
+      "parent_titles": ["Danganronpa", "Danganronpa Series"],
+      "continuous_components": [
+        {"titles": ["Danganronpa: Trigger Happy Havoc"]},
+        {"titles": ["Danganronpa 2: Goodbye Despair"]},
+        {"titles": ["Danganronpa V3: Killing Harmony"]}
+      ]
+    },
+    {
       "parent": {"title": "Inspector Sejer", "original_title": "", "creator": "Karin Fossum", "year": 1995, "medium": "book_series"},
       "creator_aliases": ["Karin Fossum"], "media": ["book_series", "novel"],
       "parent_titles": ["Inspector Sejer", "Inspector Sejer Series", "Inspector Sejer Novels"]

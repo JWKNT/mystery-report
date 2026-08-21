@@ -31,5 +31,17 @@
     "aliases_and_components": ["Inspector Sejer", "Inspector Sejer Novels"],
     "decision": "Merge series-label variants; do not treat them as separate works.",
     "sources": ["https://www.penguin.co.uk/series/INSSEJ/inspector-sejer"]
+  },
+  {
+    "canonical": "Danganronpa",
+    "aliases_and_components": [
+      "Danganronpa",
+      "Danganronpa Series",
+      "Danganronpa: Trigger Happy Havoc",
+      "Danganronpa 2: Goodbye Despair",
+      "Danganronpa V3: Killing Harmony"
+    ],
+    "decision": "Consolidate the mainline games and series labels into one continuous-series work unit in v3 and v4.",
+    "sources": ["https://www.spike-chunsoft.com/games/danganronpa-decadence/"]
   }
 ]

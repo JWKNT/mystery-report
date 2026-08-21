@@ -5401,6 +5401,306 @@
   },
   {
     "from": {
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "visual_novel"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "continuous_component",
+    "component_agent_support": 0,
+    "agents": 14,
+    "observations": 14
+  },
+  {
+    "from": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "visual_novel"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 11,
+    "observations": 11
+  },
+  {
+    "from": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 34,
+    "observations": 34
+  },
+  {
+    "from": {
+      "title": "Danganronpa series",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 3,
+    "observations": 3
+  },
+  {
+    "from": {
+      "title": "Danganronpa Series",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 7,
+    "observations": 7
+  },
+  {
+    "from": {
+      "title": "Danganronpa Series",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "visual_novel"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka and Spike Chunsoft",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Danganronpa series",
+      "original_title": "Dangan Ronpa",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Danganronpa Series",
+      "original_title": "ダンガンロンパ",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "visual_novel"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Spike Chunsoft",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Danganronpa",
+      "original_title": "ダンガンロンパ",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Spike Chunsoft and Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "visual_novel"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Danganronpa series",
+      "original_title": "",
+      "creator": "Spike Chunsoft / Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "visual_novel"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
+      "title": "Danganronpa series",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "visual_novel"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 2,
+    "observations": 2
+  },
+  {
+    "from": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka and Spike Chunsoft",
+      "year": 2010,
+      "medium": "visual_novel"
+    },
+    "to": {
+      "title": "Danganronpa",
+      "original_title": "",
+      "creator": "Kazutaka Kodaka",
+      "year": 2010,
+      "medium": "video_game"
+    },
+    "decision": "parent_alias",
+    "component_agent_support": 0,
+    "agents": 1,
+    "observations": 1
+  },
+  {
+    "from": {
       "title": "Inspector Sejer Novels",
       "original_title": "",
       "creator": "Karin Fossum",

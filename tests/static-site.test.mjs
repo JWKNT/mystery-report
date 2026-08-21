@@ -27,7 +27,7 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.match(html, /\/site-theme\/v1\/theme\.js/);
   assert.match(html, /\/site-theme\/v1\/base\.css/);
   assert.match(html, /data\/v3\/consensus-data\.js/);
-  assert.match(html, /data-dataset="v4"[\s\S]*data-dataset="v3"/);
+  assert.match(html, /data-dataset="v3">Version 1<[\s\S]*data-dataset="v4">Version 2</);
   assert.match(html, /data-view="works"/);
   assert.match(html, /data-view="selections"/);
   assert.match(html, /id="search-input"/);
@@ -38,6 +38,7 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.match(html, /What each category measures/);
   assert.match(html, /Placement-adjusted mean/);
   assert.match(html, /id="category-guide"/);
+  assert.doesNotMatch(html, /<footer\b|dataset-summary/);
   assert.doesNotMatch(html, /id="method"|Placement-only Borda consensus/);
   assert.doesNotMatch(html, /id="status-filter"|quick-stats|Browse the normalized works/i);
 });
@@ -45,7 +46,7 @@ test("page imports the shared site theme and exposes the core controls", async (
 test("embedded v4 data contains the complete scored four-list survey", async () => {
   const data = await dataset();
   assert.equal(data.meta.agents, 100);
-  assert.equal(data.meta.works, 1_137);
+  assert.equal(data.meta.works, 1_136);
   assert.equal(data.meta.observations, 21_939);
   assert.equal(data.meta.selections, 39_998);
   assert.equal(data.meta.verified_singletons, 306);
@@ -54,7 +55,7 @@ test("embedded v4 data contains the complete scored four-list survey", async () 
   assert.equal(data.meta.rankAdjustmentMax, 5);
   assert.equal(data.meta.lowerBoundZ, 1.645);
   assert.ok(data.meta.globalCompositeSd > 8.4 && data.meta.globalCompositeSd < 8.5);
-  assert.equal(data.works.length, 1_137);
+  assert.equal(data.works.length, 1_136);
   assert.equal(data.selections.length, 39_998);
   assert.deepEqual(Array.from(data.axes, (axis) => axis.key), ["influence", "ambition", "fairness", "traditionality", "originality"]);
   assert.deepEqual(Array.from(data.axes, (axis) => axis.weight), [0.1, 0.35, 0.25, 0.1, 0.2]);
@@ -68,7 +69,7 @@ test("embedded v4 data contains the complete scored four-list survey", async () 
 test("repository publishes the reconciled aggregate and all 100 source reports", async () => {
   const aggregate = JSON.parse(await source("data/aggregate.json"));
   assert.equal(aggregate.agent_count, 100);
-  assert.equal(aggregate.works.length, 1_137);
+  assert.equal(aggregate.works.length, 1_136);
   assert.equal(aggregate.raw_selections.length, 39_998);
   assert.equal(aggregate.collected_raw_selection_count, 40_000);
   assert.equal(aggregate.excluded_raw_selection_count, 2);
@@ -99,7 +100,11 @@ test("known work-unit variants are reconciled and TV labels are unified", async 
   assert.equal(exact("The Southern Reach Series").length, 1);
   assert.equal(exact("The New York Trilogy").length, 1);
   assert.equal(exact("Zero Escape").length, 1);
-  assert.equal(exact("Danganronpa: Trigger Happy Havoc").length, 1);
+  assert.equal(exact("Danganronpa").length, 1);
+  assert.equal(exact("Danganronpa")[0][10], 82);
+  assert.equal(exact("Danganronpa: Trigger Happy Havoc").length, 0);
+  assert.equal(exact("Danganronpa 2: Goodbye Despair").length, 0);
+  assert.equal(exact("Danganronpa V3: Killing Harmony").length, 0);
   assert.equal(exact("The 8 Mansion Murders").length, 1);
   assert.equal(exact("Sherlock Holmes Canon").length, 1);
   assert.equal(exact("The Valley of Fear").length, 0);
@@ -163,8 +168,8 @@ test("consensus scores combine rank adjustment, Bayesian shrinkage, and uncertai
 test("v3 preserves its four axes while using the v4 uncertainty treatment", async () => {
   const data = (await datasets()).v3;
   assert.equal(data.meta.agents, 100);
-  assert.equal(data.meta.works, 1_036);
-  assert.equal(data.meta.observations, 20_002);
+  assert.equal(data.meta.works, 1_034);
+  assert.equal(data.meta.observations, 19_988);
   assert.equal(data.meta.selections, 29_997);
   assert.equal(data.meta.verified_singletons, 192);
   assert.equal(data.meta.excluded, 3);
@@ -192,20 +197,32 @@ test("v3 preserves its four axes while using the v4 uncertainty treatment", asyn
   const goldenIdol = data.works.filter((work) => data.strings[work[1]] === "The Golden Idol Series");
   assert.equal(goldenIdol.length, 1);
   assert.equal(goldenIdol[0][10], 99);
+  const danganronpa = data.works.filter((work) => data.strings[work[1]] === "Danganronpa");
+  assert.equal(danganronpa.length, 1);
+  assert.equal(danganronpa[0][10], 54);
+  assert.equal(data.works.filter((work) => [
+    "Danganronpa: Trigger Happy Havoc",
+    "Danganronpa 2: Goodbye Despair",
+    "Danganronpa V3: Killing Harmony",
+  ].includes(data.strings[work[1]])).length, 0);
   assert.ok(data.works.slice(0, 100).every((work) => work[10] >= 10));
 });
 
 test("repository publishes the v3 aggregate and all 100 v3 source reports", async () => {
   const aggregate = JSON.parse(await source("data/v3/aggregate.json"));
   assert.equal(aggregate.agent_count, 100);
-  assert.equal(aggregate.works.length, 1_036);
+  assert.equal(aggregate.works.length, 1_034);
   assert.equal(aggregate.raw_selections.length, 29_997);
   assert.equal(aggregate.collected_raw_selection_count, 30_000);
   assert.equal(aggregate.excluded_raw_selection_count, 3);
-  assert.equal(aggregate.unique_agent_work_observation_count, 20_002);
+  assert.equal(aggregate.unique_agent_work_observation_count, 19_988);
   assert.equal(aggregate.method.prior_strength, 10);
   assert.equal(aggregate.method.lower_bound_z, 1.645);
   assert.equal(aggregate.method.confidence_support_denominator, "sqrt(actual agent support)");
+
+  const singletons = JSON.parse(await source("data/v3/audit/singletons.json"));
+  const verifiedSingletons = JSON.parse(await source("data/v3/audit/singleton-verification-final.json"));
+  assert.deepEqual(verifiedSingletons.map((record) => record.work), singletons);
 
   const rawDirectory = path.join(root, "data", "v3", "raw_agents");
   const filenames = (await readdir(rawDirectory))
@@ -238,6 +255,8 @@ test("application code supports sorting, filtering, pagination, details, and exp
   assert.match(app, /categoryDescriptions/);
   assert.match(app, /column\.kind === "year"/);
   assert.match(app, /\["text", "category"\]\.includes/);
+  const workColumns = app.slice(app.indexOf("const workColumns"), app.indexOf("const selectionColumns"));
+  assert.doesNotMatch(workColumns, /posteriorMean|uncertaintyPenalty|Posterior mean|Uncertainty penalty/);
   assert.doesNotMatch(app, /Borda/i);
   assert.doesNotMatch(app, /nominations|Placement points/i);
 });

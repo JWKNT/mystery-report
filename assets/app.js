@@ -4,6 +4,7 @@
   const datasets = window.MYSTERY_CONSENSUS_DATASETS || {};
   const requestedDataset = new URLSearchParams(window.location.search).get("dataset");
   const datasetKey = requestedDataset === "v3" ? "v3" : "v4";
+  const publicVersion = datasetKey === "v3" ? "version-1" : "version-2";
   const data = datasets[datasetKey] || window.MYSTERY_CONSENSUS_DATA;
   if (!data || !Array.isArray(data.works) || !Array.isArray(data.selections)) {
     document.querySelector("#result-status").textContent = "The embedded dataset could not be loaded.";
@@ -89,7 +90,6 @@
     dialogStats: document.querySelector("#dialog-stats"),
     dialogAxisBody: document.querySelector("#dialog-axis-body"),
     viewWorkPlacements: document.querySelector("#view-work-placements"),
-    datasetSummary: document.querySelector("#dataset-summary"),
     datasetTabs: [...document.querySelectorAll("[data-dataset]")],
     categoryGuide: document.querySelector("#category-guide"),
   };
@@ -101,8 +101,6 @@
     { key: "year", label: "Year", kind: "year", value: (row) => row[4], show: (row) => row[4], className: "numeric" },
     { key: "medium", label: "Medium", kind: "category", value: (row) => mediumLabel(row[5]), show: (row) => mediumLabel(row[5]) },
     { key: "consensusScore", label: "Consensus score", kind: "score", value: (row) => row[6], show: (row) => fixed(row[6]), className: "numeric" },
-    { key: "posteriorMean", label: "Posterior mean", kind: "score", value: (row) => row[7], show: (row) => fixed(row[7]), className: "numeric" },
-    { key: "uncertaintyPenalty", label: "Uncertainty penalty", kind: "score", value: (row) => row[9], show: (row) => fixed(row[9]), className: "numeric" },
     { key: "support", label: "Raters", kind: "count", value: (row) => row[10], show: (row) => integer(row[10]), className: "numeric" },
     { key: "supportRate", label: "Rater rate", kind: "score", value: (row) => row[11], show: (row) => percent(row[11]), className: "numeric" },
     ...axes.map((axis, index) => ({
@@ -365,8 +363,8 @@
     const link = document.createElement("a");
     link.href = url;
     link.download = state.view === "works"
-      ? `mystery-report-${datasetKey}-works.csv`
-      : `mystery-report-${datasetKey}-raw-selections.csv`;
+      ? `mystery-report-${publicVersion}-works.csv`
+      : `mystery-report-${publicVersion}-raw-selections.csv`;
     document.body.append(link);
     link.click();
     link.remove();
@@ -384,7 +382,6 @@
     const media = [...new Set([...works.map((row) => text(row[5])), ...selections.map((row) => text(row[7]))])].sort((a, b) => a.localeCompare(b));
     els.medium.insertAdjacentHTML("beforeend", media.map((medium) => `<option value="${escapeHtml(medium)}">${escapeHtml(medium.replaceAll("_", " "))}</option>`).join(""));
     els.categoryGuide.innerHTML = axes.map((axis) => `<div><dt>${escapeHtml(axis.label)} · ${(axis.weight * 100).toFixed(0)}%</dt><dd>${escapeHtml(categoryDescriptions[axis.key] || "")}</dd></div>`).join("");
-    els.datasetSummary.textContent = `Consensus dataset v${data.meta.version} · ${integer(data.meta.agents)} valid agents · ${integer(data.meta.observations)} complete agent–work ratings · ±${fixed(data.meta.rankAdjustmentMax, 0)} placement correction · one-sided 95% support penalty`;
   }
 
   els.viewButtons.forEach((button) => button.addEventListener("click", () => switchView(button.dataset.view)));

@@ -1,19 +1,19 @@
 {
   "agents": 100,
   "valid_observations": 20041,
-  "unique_agent_work_observations": 20002,
-  "retained_works": 1036,
+  "unique_agent_work_observations": 19988,
+  "retained_works": 1034,
   "singletons": 192,
   "excluded": 3,
-  "identity_merges": 513,
-  "within_agent_merges": 39,
+  "identity_merges": 512,
+  "within_agent_merges": 49,
   "malformed_observations": 0,
   "unknown_axis_references": 0,
   "global_axis_means": {
-    "influence": 82.14840742037102,
-    "ambition": 83.54882239061448,
-    "fairness": 77.21824172016682,
-    "originality": 87.17697753574546
+    "influence": 82.15166374781086,
+    "ambition": 83.5504926674804,
+    "fairness": 77.21518866422544,
+    "originality": 87.17899080876313
   },
   "top_25": [
     {
@@ -22,7 +22,7 @@
       "creator": "Mobius Digital",
       "year": 2019,
       "medium": "video_game",
-      "weighted_score": 93.4716,
+      "weighted_score": 93.4722,
       "support": 100
     },
     {
@@ -31,7 +31,7 @@
       "creator": "Lucas Pope",
       "year": 2018,
       "medium": "video_game",
-      "weighted_score": 92.7358,
+      "weighted_score": 92.7363,
       "support": 100
     },
     {
@@ -40,7 +40,7 @@
       "creator": "Ryukishi07",
       "year": 2007,
       "medium": "visual_novel",
-      "weighted_score": 92.108,
+      "weighted_score": 92.1086,
       "support": 99
     },
     {
@@ -49,7 +49,7 @@
       "creator": "Christopher Nolan",
       "year": 2000,
       "medium": "film",
-      "weighted_score": 91.7446,
+      "weighted_score": 91.7451,
       "support": 100
     },
     {
@@ -58,7 +58,7 @@
       "creator": "Umberto Eco",
       "year": 1980,
       "medium": "novel",
-      "weighted_score": 91.0888,
+      "weighted_score": 91.0893,
       "support": 100
     },
     {
@@ -67,7 +67,7 @@
       "creator": "Agatha Christie",
       "year": 1926,
       "medium": "novel",
-      "weighted_score": 89.8913,
+      "weighted_score": 89.8918,
       "support": 100
     },
     {
@@ -76,7 +76,7 @@
       "creator": "Alan Moore and Dave Gibbons",
       "year": 1986,
       "medium": "comic",
-      "weighted_score": 89.6808,
+      "weighted_score": 89.6814,
       "support": 82
     },
     {
@@ -85,7 +85,7 @@
       "creator": "John Dickson Carr",
       "year": 1935,
       "medium": "novel",
-      "weighted_score": 89.2905,
+      "weighted_score": 89.2911,
       "support": 100
     },
     {
@@ -94,7 +94,7 @@
       "creator": "Wilkie Collins",
       "year": 1868,
       "medium": "novel",
-      "weighted_score": 89.0946,
+      "weighted_score": 89.0951,
       "support": 83
     },
     {
@@ -103,7 +103,7 @@
       "creator": "Baran bo Odar and Jantje Friese",
       "year": 2017,
       "medium": "tv_series",
-      "weighted_score": 88.8597,
+      "weighted_score": 88.8603,
       "support": 100
     },
     {
@@ -112,7 +112,7 @@
       "creator": "Vladimir Nabokov",
       "year": 1962,
       "medium": "novel",
-      "weighted_score": 88.7801,
+      "weighted_score": 88.7806,
       "support": 100
     },
     {
@@ -121,7 +121,7 @@
       "creator": "Soji Shimada",
       "year": 1981,
       "medium": "novel",
-      "weighted_score": 88.4653,
+      "weighted_score": 88.4658,
       "support": 100
     },
     {
@@ -130,7 +130,7 @@
       "creator": "George Kamitani",
       "year": 2019,
       "medium": "video_game",
-      "weighted_score": 88.3165,
+      "weighted_score": 88.3171,
       "support": 93
     },
     {
@@ -139,7 +139,7 @@
       "creator": "China Miéville",
       "year": 2009,
       "medium": "novel",
-      "weighted_score": 88.3079,
+      "weighted_score": 88.3084,
       "support": 99
     },
     {
@@ -148,7 +148,7 @@
       "creator": "ZA/UM",
       "year": 2019,
       "medium": "video_game",
-      "weighted_score": 88.0197,
+      "weighted_score": 88.0202,
       "support": 94
     },
     {
@@ -157,7 +157,7 @@
       "creator": "Gene Wolfe",
       "year": 1980,
       "medium": "book_series",
-      "weighted_score": 87.6087,
+      "weighted_score": 87.6093,
       "support": 76
     },
     {
@@ -166,7 +166,7 @@
       "creator": "Cyan",
       "year": 1997,
       "medium": "video_game",
-      "weighted_score": 87.4886,
+      "weighted_score": 87.4892,
       "support": 69
     },
     {
@@ -175,7 +175,7 @@
       "creator": "Kotaro Uchikoshi",
       "year": 2009,
       "medium": "video_game",
-      "weighted_score": 87.2673,
+      "weighted_score": 87.2678,
       "support": 91
     },
     {
@@ -184,7 +184,7 @@
       "creator": "Hajime Isayama",
       "year": 2009,
       "medium": "manga",
-      "weighted_score": 87.2629,
+      "weighted_score": 87.2635,
       "support": 68
     },
     {
@@ -193,7 +193,7 @@
       "creator": "Christopher Nolan",
       "year": 2006,
       "medium": "film",
-      "weighted_score": 87.2151,
+      "weighted_score": 87.2157,
       "support": 89
     },
     {
@@ -202,7 +202,7 @@
       "creator": "Agatha Christie",
       "year": 1939,
       "medium": "novel",
-      "weighted_score": 87.1738,
+      "weighted_score": 87.1743,
       "support": 97
     },
     {
@@ -211,7 +211,7 @@
       "creator": "Naoki Urasawa",
       "year": 1994,
       "medium": "manga",
-      "weighted_score": 86.6455,
+      "weighted_score": 86.6461,
       "support": 86
     },
     {
@@ -220,7 +220,7 @@
       "creator": "Umberto Eco",
       "year": 1988,
       "medium": "novel",
-      "weighted_score": 86.6211,
+      "weighted_score": 86.6216,
       "support": 100
     },
     {
@@ -229,7 +229,7 @@
       "creator": "Color Gray Games",
       "year": 2022,
       "medium": "video_game",
-      "weighted_score": 86.5806,
+      "weighted_score": 86.5811,
       "support": 99
     },
     {
@@ -238,7 +238,7 @@
       "creator": "Yukito Ayatsuji",
       "year": 1987,
       "medium": "novel",
-      "weighted_score": 86.5352,
+      "weighted_score": 86.5357,
       "support": 100
     }
   ]

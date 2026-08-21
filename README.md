@@ -8,7 +8,7 @@ For local development, place this repository beside a checkout of [`site-theme`]
 
 ## Features
 
-- Switch between the original four-axis v3 survey and the five-axis v4 survey.
+- Switch between Version 1, the original four-axis survey, and Version 2, the five-axis survey.
 - Sort every column in either normalized works or raw-selection table, with an optional second field and field-aware directions.
 - Search titles, original titles, creators, media, criteria, and agent numbers.
 - Filter by medium and criterion.
@@ -20,17 +20,17 @@ For local development, place this repository beside a checkout of [`site-theme`]
 
 ## Data models
 
-V4 embeds 1,137 retained normalized works, 21,939 complete agent–work ratings, and 39,998 retained ranked selections from 100 valid agents. The collection produced exactly 40,000 placements; two nominations attached to one unverifiable work were excluded. Every retained singleton was checked against a catalogue, publisher, official, or reference record.
+Version 2 (stored internally as v4) embeds 1,136 retained normalized works, 21,939 complete agent–work ratings, and 39,998 retained ranked selections from 100 valid agents. Every retained singleton was checked against a catalogue, publisher, official, or reference record.
 
-V3 embeds 1,036 retained normalized works, 20,002 complete agent–work ratings, and 29,997 retained ranked selections from a separate set of 100 valid agents. It preserves the original four scored axes and three discovery lists while using the same uncertainty treatment as v4.
+Version 1 (stored internally as v3) embeds 1,034 retained normalized works, 19,988 complete agent–work ratings, and 29,997 retained ranked selections from a separate set of 100 valid agents. It preserves the original four scored axes and three discovery lists while using the same uncertainty treatment as Version 2.
 
-Identity reconciliation merges alternate titles, release-year variants, and medium-label disagreements within the same form. TV shows, seasons, and episodes are represented by the encompassing `tv_series`; continuous stories across installments are represented by their encompassing series. A narratively self-contained component normally remains separate only when at least ten agents nominated it independently. Explicit audited work-unit rules can still consolidate a connected saga when component and series labels clearly describe the same intended work, as with the Golden Idol games. Adaptations in different media remain separate works.
+Identity reconciliation merges alternate titles, release-year variants, and medium-label disagreements within the same form. TV shows, seasons, and episodes are represented by the encompassing `tv_series`; continuous stories across installments are represented by their encompassing series. A narratively self-contained component normally remains separate only when at least ten agents nominated it independently. Explicit audited work-unit rules can still consolidate a connected saga when component and series labels clearly describe the same intended work, as with the Golden Idol and Danganronpa games. Adaptations in different media remain separate works.
 
 Each agent selected and ranked 100 works independently for ambition, fairness, originality, and all-around achievement within the traditional mystery form. The natural union of those four lists was then scored on all five axes from 0 to 100. Influence was never a discovery or selection axis; it was scored only as a byproduct after selection. The traditional-mystery list contributes nominations and support, but its placement does not mechanically alter traditionality or any other score.
 
 For ambition, fairness, and originality, each agent’s raw score receives a bounded placement correction. Rank 1 adds five points, rank 50 is approximately neutral, rank 100 subtracts five, and absence from that particular list is conservatively treated as censored rank 101. Influence and traditionality receive no rank correction.
 
-Rank-adjusted axis means in both datasets are shrunk toward their corpus-wide means using ten virtual ratings. V4 uses these weights:
+Rank-adjusted axis means in both datasets are shrunk toward their corpus-wide means using ten virtual ratings. Version 2 uses these weights:
 
 - Influence: 10%
 - Ambition: 35%
@@ -38,7 +38,7 @@ Rank-adjusted axis means in both datasets are shrunk toward their corpus-wide me
 - Traditionality: 10%
 - Originality: 20%
 
-V3 keeps its original weights:
+Version 1 keeps its original weights:
 
 - Influence: 10%
 - Ambition: 40%

@@ -13,8 +13,7 @@ body {
 }
 
 .site-header,
-main,
-footer {
+main {
   width: min(1500px, calc(100% - 44px));
   margin-inline: auto;
 }
@@ -482,18 +481,6 @@ code {
   font: .88em/1.4 var(--mono);
 }
 
-footer {
-  margin-top: 28px;
-  padding-top: 12px;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 11px;
-}
-
-footer p {
-  margin: 0;
-}
-
 dialog {
   width: min(980px, calc(100% - 28px));
   max-height: calc(100vh - 40px);
@@ -647,8 +634,7 @@ dialog h2 {
 
 @media (max-width: 660px) {
   .site-header,
-  main,
-  footer {
+  main {
     width: min(100% - 28px, 1500px);
   }
 

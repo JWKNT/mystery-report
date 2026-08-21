@@ -231,8 +231,15 @@ def identity_from_work(work: dict[str, Any]) -> Identity:
         return Identity("This House Has People in It", "", "Alan Resnick", 2016, "web_serial")
     if title == "eighth detective" and creator == "takemaru abiko":
         return Identity("The 8 Mansion Murders", "8 no Satsujin", "Takemaru Abiko", 1989, "novel")
-    if title in {"danganronpa", "danganronpa trigger happy havoc"} and creator == "kazutaka kodaka":
-        return Identity("Danganronpa: Trigger Happy Havoc", "", "Kazutaka Kodaka", 2010, "visual_novel")
+    if title in {
+        "danganronpa", "danganronpa series", "danganronpa trigger happy havoc",
+        "danganronpa 2 goodbye despair", "danganronpa v3 killing harmony",
+    } and creator in {
+        "kazutaka kodaka", "kazutaka kodaka and spike chunsoft",
+        "spike chunsoft and kazutaka kodaka", "spike chunsoft kazutaka kodaka",
+        "spike chunsoft",
+    }:
+        return Identity("Danganronpa", "", "Kazutaka Kodaka", 2010, "video_game")
     if title in {
         "zero escape", "nine hours nine persons nine doors",
         "zero escape virtue s last reward", "zero escape zero time dilemma",

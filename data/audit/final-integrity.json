@@ -12,7 +12,7 @@
       "originality"
     ],
     "influence_is_selection_axis": false,
-    "retained_works": 1137,
+    "retained_works": 1136,
     "unique_agent_work_observations": 21939,
     "ranked_selections": 39998,
     "collected_ranked_selections": 40000,
@@ -21,8 +21,8 @@
       "99": 2,
       "100": 398
     },
-    "identity_merges": 717,
-    "series_rollup_decisions": 288,
+    "identity_merges": 704,
+    "series_rollup_decisions": 303,
     "within_agent_merges": 63,
     "retained_singletons": 306,
     "unverified_singletons": 0,
