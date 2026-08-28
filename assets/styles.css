@@ -188,6 +188,7 @@ dialog button:focus-visible {
 }
 
 .sort-details {
+  border-top: 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -424,7 +425,7 @@ button:disabled {
 
 .categories {
   max-width: 1080px;
-  margin-top: 32px;
+  margin: 32px auto 0;
   padding-top: 18px;
   border-top: 1px solid var(--line-strong);
 }
@@ -694,10 +695,6 @@ dialog h2 {
 
   .result-status {
     text-align: left;
-  }
-
-  .table-scroll {
-    max-height: 58vh;
   }
 
   .dialog-shell {
