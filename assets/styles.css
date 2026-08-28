@@ -19,6 +19,8 @@ main {
   padding-top: 22px;
 }
 
+.explorer-title { margin: 0 0 10px; font: 500 18px/1.25 var(--display); }
+
 .eyebrow {
   margin: 0 0 3px;
   color: var(--muted);
