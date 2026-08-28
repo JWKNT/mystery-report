@@ -24,8 +24,10 @@ async function dataset() {
 
 test("page imports the shared site theme and exposes the core controls", async () => {
   const html = await source("index.html");
-  assert.match(html, /\/site-theme\/v1\/theme\.js/);
-  assert.match(html, /\/site-theme\/v1\/base\.css/);
+  assert.match(html, /\/site-theme\/v2\/theme\.js/);
+  assert.match(html, /\/site-theme\/v2\/base\.css/);
+  assert.match(html, /favicons\/mystery-report\.png/);
+  assert.match(html, /<details class="sort-details">[\s\S]*<summary>Advanced sorting<\/summary>/);
   assert.match(html, /data\/v3\/consensus-data\.js/);
   assert.match(html, /assets\/app\.js\?v=canonical-version-slugs/);
   assert.match(html, /href="\?dataset=v1" data-dataset="v1">Version 1<[\s\S]*href="\?dataset=v2" data-dataset="v2">Version 2</);

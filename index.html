@@ -4,10 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Explore a scored 100-agent consensus survey of mystery stories across media.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mystery Consensus">
+    <meta property="og:description" content="A scored 100-agent consensus survey of mystery stories across media.">
+    <meta property="og:url" content="https://jehlp.net/mystery-report/">
+    <meta property="og:site_name" content="jehlp.net">
     <meta name="theme-color" content="#ffffff">
-    <title>Mystery Consensus Explorer</title>
-    <script src="/site-theme/v1/theme.js"></script>
-    <link rel="stylesheet" href="/site-theme/v1/base.css">
+    <link rel="canonical" href="https://jehlp.net/mystery-report/">
+    <title>Mystery Consensus · jehlp.net</title>
+    <link rel="icon" href="https://jehlp.net/site-theme/v2/favicons/mystery-report.png" type="image/png">
+    <script src="https://jehlp.net/site-theme/v2/theme.js"></script>
+    <link rel="stylesheet" href="https://jehlp.net/site-theme/v2/base.css">
     <link rel="stylesheet" href="assets/styles.css">
     <script src="data/v3/consensus-data.js" defer></script>
     <script src="data/consensus-data.js" defer></script>
@@ -21,18 +28,12 @@
       <nav aria-label="Page links">
         <a href="#explorer" aria-current="page">Explorer</a>
         <a href="#categories">Categories</a>
-        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Use dark theme">◐</button>
+        <a href="https://jehlp.net/">Projects</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Use dark theme" aria-pressed="false">◐</button>
       </nav>
     </header>
 
     <main id="explorer">
-      <section class="intro" aria-labelledby="page-title">
-        <div class="intro-copy">
-          <p class="eyebrow">Multi-agent ranking</p>
-          <h1 id="page-title">Greatest mystery stories</h1>
-        </div>
-      </section>
-
       <nav class="dataset-tabs" aria-label="Consensus dataset version">
         <a href="?dataset=v1" data-dataset="v1">Version 1</a>
         <a href="?dataset=v2" data-dataset="v2">Version 2</a>
@@ -77,26 +78,29 @@
         <button type="button" id="export-csv">Export CSV</button>
       </section>
 
-      <section class="sort-builder" aria-label="Multi-column sorting">
-        <span class="sort-caption">Order</span>
-        <label for="primary-sort">
-          <span>First</span>
-          <select id="primary-sort"></select>
-        </label>
-        <label for="primary-direction">
-          <span>Direction</span>
-          <select id="primary-direction"></select>
-        </label>
-        <span class="sort-then" aria-hidden="true">then</span>
-        <label for="secondary-sort">
-          <span>Second</span>
-          <select id="secondary-sort"><option value="">None</option></select>
-        </label>
-        <label for="secondary-direction">
-          <span>Direction</span>
-          <select id="secondary-direction" disabled></select>
-        </label>
-      </section>
+      <details class="sort-details">
+        <summary>Advanced sorting</summary>
+        <section class="sort-builder" aria-label="Multi-column sorting">
+          <span class="sort-caption">Order</span>
+          <label for="primary-sort">
+            <span>First</span>
+            <select id="primary-sort"></select>
+          </label>
+          <label for="primary-direction">
+            <span>Direction</span>
+            <select id="primary-direction"></select>
+          </label>
+          <span class="sort-then" aria-hidden="true">then</span>
+          <label for="secondary-sort">
+            <span>Second</span>
+            <select id="secondary-sort"><option value="">None</option></select>
+          </label>
+          <label for="secondary-direction">
+            <span>Direction</span>
+            <select id="secondary-direction" disabled></select>
+          </label>
+        </section>
+      </details>
 
       <div class="active-filter" id="active-work-filter" hidden>
         <span id="active-work-filter-label"></span>

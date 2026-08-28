@@ -4,7 +4,7 @@ A dependency-free browser app for comparing and exploring two 100-agent mystery-
 
 Live site: <https://jehlp.net/mystery-report/>
 
-For local development, place this repository beside a checkout of [`site-theme`](https://github.com/JWKNT/site-theme), serve their parent directory, and visit `/mystery-report/`. The page imports the common palette, typography, accessibility utilities, header, and saved light/dark theme from `/site-theme/v1/`; only report-specific layout remains in this repository.
+For local development, place this repository beside a checkout of [`site-theme`](https://github.com/JWKNT/site-theme), serve their parent directory, and visit `/mystery-report/`. The page imports the common palette, typography, accessibility utilities, header, and saved light/dark theme from `https://jehlp.net/site-theme/v2/`; only report-specific layout remains in this repository.
 
 ## Features
 
