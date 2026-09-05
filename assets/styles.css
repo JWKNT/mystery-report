@@ -1,6 +1,6 @@
 body {
   padding-bottom: 48px;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -24,7 +24,7 @@ main {
 .eyebrow {
   margin: 0 0 3px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: var(--text-meta, .75rem);
   font-variant: small-caps;
   letter-spacing: .5px;
 }
@@ -42,7 +42,7 @@ main {
   padding: 8px 14px 9px;
   border: 1px solid transparent;
   color: var(--muted-strong);
-  font-size: 11px;
+  font-size: var(--text-ui, .875rem);
   font-variant: small-caps;
   letter-spacing: .4px;
   text-decoration: none;
@@ -86,7 +86,7 @@ main {
   display: grid;
   gap: 3px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: var(--text-ui, .875rem);
   font-variant: small-caps;
   letter-spacing: .35px;
 }
@@ -110,7 +110,7 @@ main {
   border: 1px solid var(--line);
   background: var(--surface);
   color: var(--faint);
-  font: 9px/1.5 var(--mono);
+  font: var(--text-meta, .75rem)/1.5 var(--mono);
 }
 
 .filter-control select {
@@ -125,13 +125,13 @@ input[type="search"],
 select,
 main button,
 dialog button {
-  min-height: 32px;
+  min-height: var(--control-size, 2.25rem);
   padding: 5px 9px;
   border: 1px solid var(--line-strong);
   border-radius: 0;
   background: var(--paper);
   color: var(--ink);
-  font-size: 12px;
+  font-size: var(--text-ui, .875rem);
 }
 
 main button,
@@ -196,7 +196,7 @@ dialog button:focus-visible {
   width: max-content;
   padding: 9px 0;
   color: var(--muted-strong);
-  font: 600 10px/1.4 var(--sans);
+  font: 600 var(--text-ui, .875rem)/1.4 var(--sans);
   letter-spacing: .35px;
   text-transform: uppercase;
 }
@@ -205,7 +205,7 @@ dialog button:focus-visible {
   display: grid;
   gap: 3px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: var(--text-ui, .875rem);
   font-variant: small-caps;
   letter-spacing: .35px;
 }
@@ -214,7 +214,7 @@ dialog button:focus-visible {
   align-self: center;
   margin-right: 3px;
   color: var(--muted-strong);
-  font-size: 10px;
+  font-size: var(--text-ui, .875rem);
   font-variant: small-caps;
   font-weight: 600;
   letter-spacing: .45px;
@@ -231,8 +231,8 @@ dialog button:focus-visible {
 .sort-then {
   align-self: center;
   margin: 0 2px;
-  color: var(--faint);
-  font-size: 11px;
+  color: var(--muted);
+  font-size: var(--text-meta, .75rem);
   font-style: italic;
 }
 
@@ -243,7 +243,7 @@ dialog button:focus-visible {
   padding: 8px 0;
   border-bottom: 1px solid var(--line);
   color: var(--muted-strong);
-  font-size: 12px;
+  font-size: var(--text-ui, .875rem);
 }
 
 .active-filter::before {
@@ -273,7 +273,7 @@ dialog button:focus-visible {
 .result-status {
   margin: 0;
   color: var(--muted);
-  font: 10px/1.4 var(--mono);
+  font: var(--text-meta, .75rem)/1.4 var(--mono);
   text-align: right;
 }
 
@@ -290,7 +290,7 @@ table {
   width: 100%;
   min-width: 1160px;
   border-collapse: collapse;
-  font-size: 11px;
+  font-size: var(--text-meta, .75rem);
 }
 
 th {
@@ -311,7 +311,7 @@ th button {
   border: 0;
   background: transparent;
   color: inherit;
-  font-size: 9px;
+  font-size: var(--text-ui, .875rem);
   font-variant: small-caps;
   font-weight: 500;
   letter-spacing: .4px;
@@ -401,7 +401,7 @@ td.creator-cell {
   gap: 18px;
   padding-top: 10px;
   color: var(--muted);
-  font: 10px/1.4 var(--mono);
+  font: var(--text-meta, .75rem)/1.4 var(--mono);
 }
 
 .table-footer p {
@@ -456,7 +456,7 @@ button:disabled {
 
 .category-guide dt {
   color: var(--blue-dark);
-  font-size: 11px;
+  font-size: var(--text-ui, .875rem);
   font-variant: small-caps;
   font-weight: 600;
   letter-spacing: .35px;
@@ -465,7 +465,7 @@ button:disabled {
 .category-guide dd {
   margin: 3px 0 0;
   color: var(--muted-strong);
-  font-size: 12px;
+  font-size: var(--text-ui, .875rem);
 }
 
 code {
@@ -508,7 +508,7 @@ dialog::backdrop {
 .dialog-kicker {
   margin: 0;
   color: var(--blue-dark);
-  font: 10px/1.4 var(--mono);
+  font: var(--text-meta, .75rem)/1.4 var(--mono);
   text-transform: uppercase;
 }
 
@@ -549,7 +549,7 @@ dialog h2 {
 
 .dialog-stats dt {
   color: var(--muted);
-  font-size: 9px;
+  font-size: var(--text-ui, .875rem);
   font-variant: small-caps;
   letter-spacing: .35px;
 }
@@ -557,7 +557,7 @@ dialog h2 {
 .dialog-stats dd {
   margin: 1px 0 0;
   color: var(--blue-dark);
-  font: 600 13px/1.4 var(--mono);
+  font: 600 var(--text-ui, .875rem)/1.4 var(--mono);
 }
 
 .dialog-table-scroll {
