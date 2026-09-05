@@ -48,6 +48,16 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.doesNotMatch(html, /<a\b[^>]*href="(?:https:\/\/jehlp\.net\/|\/)"/);
 });
 
+test("comparison headings share one native table and titles can wrap at enlarged text", async () => {
+  const html = await source("index.html");
+  const css = await source("assets/styles.css");
+  assert.match(html, /<table class="ui-table">\s*<thead><tr id="table-head"><\/tr><\/thead>\s*<tbody id="table-body">/);
+  assert.match(html, /class="dialog-table ui-table"/);
+  assert.match(css, /table \{[^}]*font: var\(--text-ui, \.875rem\)/);
+  assert.match(css, /\.row-link \{[^}]*white-space: normal;/);
+  assert.doesNotMatch(css, /font-variant: small-caps|border-collapse: collapse/);
+});
+
 test("embedded v4 data contains the complete scored four-list survey", async () => {
   const data = await dataset();
   assert.equal(data.meta.agents, 100);

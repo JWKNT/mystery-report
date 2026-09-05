@@ -98,8 +98,8 @@ dialog button {
 
 main button,
 dialog button {
-  font-variant: small-caps;
-  letter-spacing: .35px;
+  font-variant: normal;
+  letter-spacing: normal;
 }
 
 main button:hover:not(:disabled),
@@ -156,8 +156,7 @@ dialog button:focus-visible {
   gap: 3px;
   color: var(--muted);
   font-size: var(--text-ui, .875rem);
-  font-variant: small-caps;
-  letter-spacing: .35px;
+  font-family: var(--sans);
 }
 
 .sort-caption {
@@ -165,9 +164,8 @@ dialog button:focus-visible {
   margin-right: 3px;
   color: var(--muted-strong);
   font-size: var(--text-ui, .875rem);
-  font-variant: small-caps;
+  font-family: var(--sans);
   font-weight: 600;
-  letter-spacing: .45px;
 }
 
 .sort-builder select[id$="-sort"] {
@@ -224,7 +222,7 @@ dialog button:focus-visible {
 .result-status {
   margin: 0;
   color: var(--muted);
-  font: var(--text-meta, .75rem)/1.4 var(--mono);
+  font: var(--text-ui, .875rem)/1.4 var(--sans);
   text-align: right;
 }
 
@@ -240,18 +238,11 @@ dialog button:focus-visible {
 table {
   width: 100%;
   min-width: 1160px;
-  border-collapse: collapse;
-  font-size: var(--text-meta, .75rem);
+  font: var(--text-ui, .875rem)/1.5 var(--sans);
 }
 
 th {
-  position: sticky;
-  z-index: 2;
-  top: 0;
   padding: 0;
-  border-bottom: 1px solid var(--line-strong);
-  background: var(--paper);
-  color: var(--muted);
   text-align: left;
 }
 
@@ -263,9 +254,9 @@ th button {
   background: transparent;
   color: inherit;
   font-size: var(--text-ui, .875rem);
-  font-variant: small-caps;
-  font-weight: 500;
-  letter-spacing: .4px;
+  font-variant: normal;
+  font-weight: 600;
+  letter-spacing: normal;
   text-align: inherit;
   white-space: nowrap;
 }
@@ -303,11 +294,13 @@ td.numeric {
 }
 
 td.title-cell {
-  min-width: 220px;
+  min-width: 16rem;
+  max-width: 24rem;
   color: var(--ink);
   font-family: var(--serif);
   font-size: 1rem;
   font-weight: 500;
+  white-space: normal;
 }
 
 td[data-column="rank"] { color: var(--muted); }
@@ -321,7 +314,7 @@ td.creator-cell {
   min-height: 0;
   max-width: 100%;
   padding: 0;
-  overflow: hidden;
+  overflow: visible;
   border: 0;
   background: none;
   color: inherit;
@@ -332,8 +325,8 @@ td.creator-cell {
   text-align: left;
   text-decoration: underline;
   text-decoration-color: transparent;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  text-overflow: clip;
+  white-space: normal;
 }
 
 .row-link:hover,
@@ -356,7 +349,7 @@ td.creator-cell {
   gap: 18px;
   padding-top: 10px;
   color: var(--muted);
-  font: var(--text-meta, .75rem)/1.4 var(--mono);
+  font: var(--text-ui, .875rem)/1.4 var(--sans);
 }
 
 .table-footer p {
@@ -416,7 +409,7 @@ button:disabled {
 .category-guide dd {
   margin: 8px 0 0;
   color: var(--muted-strong);
-  font-size: var(--text-ui, .875rem);
+  font-size: var(--text-body, 1rem);
   line-height: 1.65;
 }
 
@@ -470,8 +463,7 @@ dialog h2 {
 .dialog-stats dt {
   color: var(--muted);
   font-size: var(--text-ui, .875rem);
-  font-variant: small-caps;
-  letter-spacing: .35px;
+  font-family: var(--sans);
 }
 
 .dialog-stats dd {
