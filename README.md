@@ -9,12 +9,14 @@ For local development, place this repository beside a checkout of [`site-theme`]
 ## Features
 
 - Switch between Version 1, the original four-axis survey, and Version 2, the five-axis survey.
-- Sort every column in either normalized works or raw-selection table, with an optional second field and field-aware directions.
+- Read compact, wrapping work and raw-selection tables in the page, without an inner results scroller.
+- Compare every axis side by side on wide screens; narrower screens keep three summary columns and the same complete detail records.
+- Sort every field through Advanced sorting, with an optional second field and field-aware directions; all visible column headings also sort directly.
 - Search titles, original titles, creators, media, criteria, and agent numbers.
 - Filter by medium and criterion.
 - Inspect each work’s consensus score, posterior mean, uncertainty penalty, rank-adjusted and raw axis means, support, selection counts, and mean placement.
-- Jump from a work to its raw selections and all five scores supplied with each selection.
-- Export the current filtered and sorted view as CSV.
+- Jump from a work to its raw selections; open a raw title for its exact record and every supplied score alongside the canonical work’s details.
+- Export every original column for the current filtered and sorted view as CSV, including fields condensed out of the reading table.
 - Paginate 25, 50, or 100 rows at a time.
 - Read a short definition of each of the five scored categories.
 

@@ -17,16 +17,16 @@
     <link rel="stylesheet" href="https://jehlp.net/site-theme/v2/base.css">
     <link rel="stylesheet" href="https://jehlp.net/site-theme/v2/components.css">
     <script src="https://jehlp.net/site-theme/v2/components.js" defer></script>
-    <link rel="stylesheet" href="assets/styles.css?v=20260905-legibility">
+    <link rel="stylesheet" href="assets/styles.css?v=20260905-flow">
     <script src="data/v3/consensus-data.js" defer></script>
     <script src="data/consensus-data.js" defer></script>
-    <script src="assets/app.js?v=20260905-editorial-2" defer></script>
+    <script src="assets/app.js?v=20260905-flow" defer></script>
   </head>
   <body data-site-tone="blue">
     <a class="skip-link" href="#results">Skip to results</a>
 
     <header class="site-header site-header--identity">
-      <div class="site-brand"><span class="site-mark" aria-hidden="true">◈</span><a class="site-title" href="./">Mystery Consensus</a></div>
+      <div class="site-brand"><img class="site-mark" src="https://jehlp.net/site-theme/v2/marks/mystery-report.png" width="32" height="32" alt=""><a class="site-title" href="./">Mystery Consensus</a></div>
       <nav aria-label="Page links">
         <a href="#categories">Scoring</a>
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Use dark theme" aria-pressed="false">◐</button>
@@ -53,21 +53,21 @@
 
         <label class="filter-control ui-field" id="axis-control" for="axis-filter" hidden>
           <span>Criterion</span>
-          <select id="axis-filter">
+          <select id="axis-filter" data-ui-select>
             <option value="all">All criteria</option>
           </select>
         </label>
 
         <label class="filter-control ui-field" for="medium-filter">
           <span>Medium</span>
-          <select id="medium-filter">
+          <select id="medium-filter" data-ui-select>
             <option value="all">All media</option>
           </select>
         </label>
 
         <label class="filter-control page-size-control ui-field" for="page-size">
           <span>Rows</span>
-          <select id="page-size">
+          <select id="page-size" data-ui-select>
             <option value="25">25</option>
             <option value="50" selected>50</option>
             <option value="100">100</option>
@@ -84,20 +84,20 @@
           <span class="sort-caption">Order</span>
           <label for="primary-sort">
             <span>First</span>
-            <select id="primary-sort"></select>
+            <select id="primary-sort" data-ui-select></select>
           </label>
           <label for="primary-direction">
             <span>Direction</span>
-            <select id="primary-direction"></select>
+            <select id="primary-direction" data-ui-select></select>
           </label>
           <span class="sort-then" aria-hidden="true">then</span>
           <label for="secondary-sort">
             <span>Second</span>
-            <select id="secondary-sort"><option value="">None</option></select>
+            <select id="secondary-sort" data-ui-select><option value="">None</option></select>
           </label>
           <label for="secondary-direction">
             <span>Direction</span>
-            <select id="secondary-direction" disabled></select>
+            <select id="secondary-direction" data-ui-select disabled></select>
           </label>
         </section>
       </details>
@@ -107,14 +107,15 @@
         <button type="button" class="text-button" id="clear-work-filter">Clear work filter</button>
       </div>
 
-      <section class="results" id="results" aria-labelledby="results-title">
+      <section class="results" id="results" aria-labelledby="results-title" tabindex="-1">
         <div class="results-heading">
           <h1 id="results-title">Works</h1>
           <p id="result-status" class="result-status" role="status" aria-live="polite"></p>
         </div>
 
-        <div class="table-scroll" data-scroll-region tabindex="0" aria-label="Sortable consensus data">
-          <table class="ui-table">
+        <p class="results-help" id="results-help">Open a title for all scores and details. Advanced sorting and CSV include every column.</p>
+        <div class="table-flow">
+          <table class="results-table ui-table" aria-labelledby="results-title" aria-describedby="results-help">
             <thead><tr id="table-head"></tr></thead>
             <tbody id="table-body"></tbody>
           </table>
@@ -142,6 +143,10 @@
         <p class="dialog-kicker" id="dialog-kicker"></p>
         <h2 id="dialog-title"></h2>
         <p class="dialog-subtitle" id="dialog-subtitle"></p>
+        <section class="dialog-selection" id="dialog-selection" aria-labelledby="dialog-selection-title" hidden>
+          <h3 id="dialog-selection-title">Raw selection record</h3>
+          <dl class="selection-stats" id="dialog-selection-stats"></dl>
+        </section>
         <dl class="dialog-stats" id="dialog-stats"></dl>
         <div class="dialog-table-scroll" data-scroll-region aria-label="Category scores">
           <table class="dialog-table ui-table">

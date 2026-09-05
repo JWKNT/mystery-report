@@ -29,7 +29,7 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.match(html, /favicons\/mystery-report\.png/);
   assert.match(html, /<details class="sort-details">[\s\S]*<summary>Advanced sorting<\/summary>/);
   assert.match(html, /data\/v3\/consensus-data\.js/);
-  assert.match(html, /assets\/app\.js\?v=20260905-editorial-2/);
+  assert.match(html, /assets\/app\.js\?v=20260905-flow/);
   assert.match(html, /href="\?dataset=v1" data-dataset="v1">Version 1 · four axes<[\s\S]*href="\?dataset=v2" data-dataset="v2">Version 2 · five axes</);
   assert.match(html, /<h1 id="results-title">Works<\/h1>/);
   assert.match(html, /data-view="works"/);
@@ -51,11 +51,35 @@ test("page imports the shared site theme and exposes the core controls", async (
 test("comparison headings share one native table and titles can wrap at enlarged text", async () => {
   const html = await source("index.html");
   const css = await source("assets/styles.css");
-  assert.match(html, /<table class="ui-table">\s*<thead><tr id="table-head"><\/tr><\/thead>\s*<tbody id="table-body">/);
+  assert.match(html, /<table class="results-table ui-table"[^>]*>\s*<thead><tr id="table-head"><\/tr><\/thead>\s*<tbody id="table-body">/);
   assert.match(html, /class="dialog-table ui-table"/);
   assert.match(css, /table \{[^}]*font: var\(--text-ui, \.875rem\)/);
   assert.match(css, /\.row-link \{[^}]*white-space: normal;/);
   assert.doesNotMatch(css, /font-variant: small-caps|border-collapse: collapse/);
+});
+
+test("paginated tables flow in the page and retain native labeled semantics", async () => {
+  const html = await source("index.html");
+  const css = await source("assets/styles.css");
+  const app = await source("assets/app.js");
+  assert.match(html, /class="table-flow">\s*<table[^>]*aria-labelledby="results-title"[^>]*aria-describedby="results-help"/);
+  assert.match(html, /<section[^>]*id="results"[^>]*aria-labelledby="results-title"[^>]*tabindex="-1"/);
+  assert.doesNotMatch(html, /class="table-scroll"/);
+  assert.match(css, /\.results-table \{\s*table-layout: fixed;/);
+  assert.match(css, /\.results-table th\.axis-column \{ width: 9%; \}/);
+  assert.match(css, /@media \(max-width: 1100px\) \{\s*\.results-table \.axis-column \{ display: none; \}/);
+  assert.match(css, /\.results-table th:first-child \{ width: 20%; \}/);
+  assert.match(css, /\.results-table th:is\(\[data-column="consensusScore"\], \[data-column="place"\]\) \{ width: 26%; \}/);
+  assert.doesNotMatch(css, /\.results-table th:last-child/);
+  assert.doesNotMatch(css, /max-height: min\(68vh|min-width: 1160px|text-overflow: ellipsis/);
+  assert.match(app, /<th scope="col"/);
+  assert.match(app, /function visibleColumns\(\)/);
+  assert.match(app, /const currentColumns = columns\(\)/);
+  assert.match(app, /const available = columns\(\)/);
+  assert.match(app, /dialogSelectionStats\.innerHTML = selection \? selectionColumns\.map/);
+  assert.match(app, /const marker = active \? ` <span aria-hidden="true">\$\{direction === 1 \? "↑" : "↓"\}<\/span>`/);
+  assert.equal((html.match(/<select\b[^>]*data-ui-select/g) || []).length, 7);
+  assert.match(app, /window\.JehlpUI\?\.enhance\(els\.explorer\)/);
 });
 
 test("embedded v4 data contains the complete scored four-list survey", async () => {

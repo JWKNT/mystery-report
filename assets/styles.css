@@ -84,7 +84,6 @@ main {
 }
 
 input[type="search"],
-select,
 main button,
 dialog button {
   min-height: var(--control-size, 2.25rem);
@@ -107,8 +106,7 @@ dialog button:hover:not(:disabled) {
   background: var(--surface);
 }
 
-input[type="search"]:focus,
-select:focus {
+input[type="search"]:focus {
   border-color: var(--blue);
   outline: 1px solid var(--blue);
   outline-offset: 0;
@@ -226,20 +224,36 @@ dialog button:focus-visible {
   text-align: right;
 }
 
-.table-scroll {
+.results-help {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font: var(--text-meta, .75rem)/1.5 var(--sans);
+}
+
+.table-flow {
   max-width: 100%;
-  max-height: min(68vh, 720px);
-  overflow: auto;
   border-top: 1px solid var(--line-strong);
   border-bottom: 1px solid var(--line-strong);
-  scrollbar-width: thin;
 }
 
 table {
   width: 100%;
-  min-width: 1160px;
   font: var(--text-ui, .875rem)/1.5 var(--sans);
 }
+
+.results-table {
+  table-layout: fixed;
+}
+
+.results-table > thead {
+  position: static;
+}
+
+/* Direct percentages work in native fixed table layout and survive enlarged text. */
+.results-table th:first-child { width: 6%; }
+.results-table th:is([data-column="consensusScore"], [data-column="place"]) { width: 11%; }
+.results-table th.axis-column { width: 9%; }
+.results-table .axis-summary { display: none; }
 
 th {
   padding: 0;
@@ -258,7 +272,8 @@ th button {
   font-weight: 600;
   letter-spacing: normal;
   text-align: inherit;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 th button:hover,
@@ -269,13 +284,11 @@ th[data-sort-priority] button {
 }
 
 td {
-  max-width: 300px;
   padding: 9px 8px;
-  overflow: hidden;
   border-bottom: 1px solid var(--line);
   color: var(--muted-strong);
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  vertical-align: top;
+  overflow-wrap: anywhere;
 }
 
 tbody tr:hover td {
@@ -294,8 +307,6 @@ td.numeric {
 }
 
 td.title-cell {
-  min-width: 16rem;
-  max-width: 24rem;
   color: var(--ink);
   font-family: var(--serif);
   font-size: 1rem;
@@ -305,8 +316,16 @@ td.title-cell {
 
 td[data-column="rank"] { color: var(--muted); }
 
-td.creator-cell {
-  min-width: 160px;
+.row-meta {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted-strong);
+  font: var(--text-meta, .75rem)/1.5 var(--sans);
+}
+
+.row-score {
+  color: var(--ink);
+  font-size: var(--text-ui, .875rem);
 }
 
 .row-link {
@@ -472,6 +491,28 @@ dialog h2 {
   font: 600 var(--text-ui, .875rem)/1.4 var(--mono);
 }
 
+.dialog-selection {
+  margin-top: 18px;
+  padding-block: 12px;
+  border-block: 1px solid var(--line);
+}
+
+.dialog-selection h3 {
+  margin: 0 0 12px;
+  font: 600 var(--text-ui, .875rem)/1.4 var(--sans);
+}
+
+.selection-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 20px;
+  margin: 0;
+  font: var(--text-ui, .875rem)/1.5 var(--sans);
+}
+
+.selection-stats dt { color: var(--muted); }
+.selection-stats dd { margin: 2px 0 0; overflow-wrap: anywhere; }
+
 .dialog-table-scroll {
   max-width: 100%;
   overflow-x: auto;
@@ -513,6 +554,13 @@ dialog h2 {
   background: var(--surface);
 }
 
+@media (max-width: 1100px) {
+  .results-table .axis-column { display: none; }
+  .results-table .axis-summary { display: block; }
+  .results-table th:first-child { width: 20%; }
+  .results-table th:is([data-column="consensusScore"], [data-column="place"]) { width: 26%; }
+}
+
 @media (max-width: 980px) {
   .controls {
     align-items: end;
@@ -548,7 +596,8 @@ dialog h2 {
   }
 
   .filter-control {
-    flex: 1 1 120px;
+    flex: 1 1 9rem;
+    min-width: 0;
   }
 
   .filter-control select {
@@ -562,8 +611,17 @@ dialog h2 {
 
   .sort-builder {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
   }
+
+  .sort-builder label { min-width: 0; }
+
+  .results-table :is(th button, td) { padding-inline: 5px; }
+  .results-table th:first-child button { text-align: left; }
+  .results-table td:first-child { text-align: left; }
+
+  .active-filter { flex-wrap: wrap; }
+  .selection-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
   .sort-caption,
   .sort-then {

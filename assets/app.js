@@ -63,6 +63,7 @@
   };
 
   const els = {
+    explorer: document.querySelector("#explorer"),
     search: document.querySelector("#search-input"),
     axisControl: document.querySelector("#axis-control"),
     axis: document.querySelector("#axis-filter"),
@@ -91,6 +92,8 @@
     dialogTitle: document.querySelector("#dialog-title"),
     dialogSubtitle: document.querySelector("#dialog-subtitle"),
     dialogStats: document.querySelector("#dialog-stats"),
+    dialogSelection: document.querySelector("#dialog-selection"),
+    dialogSelectionStats: document.querySelector("#dialog-selection-stats"),
     dialogAxisBody: document.querySelector("#dialog-axis-body"),
     viewWorkPlacements: document.querySelector("#view-work-placements"),
     datasetTabs: [...document.querySelectorAll("[data-dataset]")],
@@ -143,6 +146,21 @@
   ].join(" ").toLocaleLowerCase());
 
   function columns() { return state.view === "works" ? workColumns : selectionColumns; }
+  // Summary columns work at every width; CSS reveals axis comparisons on wide screens.
+  // Neither presentation changes the complete sorting/export contract.
+  function visibleColumns() {
+    const isWorks = state.view === "works";
+    const keys = isWorks ? ["rank", "title", "consensusScore"] : ["agent", "rawTitle", "place"];
+    const summaries = keys.map((key) => {
+      const column = columns().find((item) => item.key === key);
+      return { ...column, label: ({ title: "Work", consensusScore: "Score", rawTitle: "Raw work", place: "Place" })[key] || column.label };
+    });
+    return [...summaries, ...axes.map((axis) => ({
+      ...columns().find((column) => column.key === (isWorks ? axis.key : `score_${axis.key}`)),
+      label: axis.short,
+      className: "numeric axis-column",
+    }))];
+  }
   function rows() { return state.view === "works" ? works : selections; }
 
   function directionChoices(column) {
@@ -200,13 +218,14 @@
   }
 
   function renderHeader() {
-    els.tableHead.innerHTML = columns().map((column) => {
+    els.tableHead.innerHTML = visibleColumns().map((column) => {
       const priority = state.sorts.findIndex((sort) => sort.key === column.key);
       const active = priority >= 0;
       const direction = active ? state.sorts[priority].direction : 1;
       const ariaSort = priority === 0 ? (direction === 1 ? "ascending" : "descending") : "";
-      const marker = active ? ` ${direction === 1 ? "↑" : "↓"}${priority + 1}` : "";
-      return `<th class="${escapeHtml(column.className || "")}"${ariaSort ? ` aria-sort="${ariaSort}"` : ""}${active ? ` data-sort-priority="${priority + 1}"` : ""}><button type="button" data-sort="${escapeHtml(column.key)}">${escapeHtml(column.label)}${marker}</button></th>`;
+      const marker = active ? ` <span aria-hidden="true">${direction === 1 ? "↑" : "↓"}</span>` : "";
+      const sortDescription = active ? `, ${priority === 0 ? "first" : "second"} sort, ${directionLabel(column.key, direction)}` : "";
+      return `<th scope="col" class="${escapeHtml(column.className || "")}" data-column="${escapeHtml(column.key)}"${ariaSort ? ` aria-sort="${ariaSort}"` : ""}${active ? ` data-sort-priority="${priority + 1}"` : ""}><button type="button" data-sort="${escapeHtml(column.key)}" aria-label="Sort by ${escapeHtml(column.label + sortDescription)}">${escapeHtml(column.label)}${marker}</button></th>`;
     }).join("");
     els.tableHead.querySelectorAll("[data-sort]").forEach((button) => button.addEventListener("click", () => {
       const key = button.dataset.sort;
@@ -216,31 +235,54 @@
       state.sorts[1] = { key: null, direction: 1 };
       state.page = 0;
       render();
+      els.tableHead.querySelector(`[data-sort="${key}"]`)?.focus({ preventScroll: true });
     }));
   }
 
-  function workTitleButton(workIndex, label) {
-    return `<button type="button" class="row-link" data-open-work="${workIndex}">${escapeHtml(label)}</button>`;
+  function workTitleButton(workIndex, label, selectionIndex = null) {
+    return `<button type="button" class="row-link" data-open-work="${workIndex}"${selectionIndex === null ? "" : ` data-selection="${selectionIndex}"`}>${escapeHtml(label)}</button>`;
+  }
+
+  function metadataLine(values, className = "") {
+    return `<span class="row-meta${className ? ` ${escapeHtml(className)}` : ""}">${values.filter((value) => value !== "" && value != null).map(escapeHtml).join(" · ")}</span>`;
+  }
+
+  function visibleCell(column, row, sourceIndex) {
+    if (state.view === "works") {
+      if (column.key === "title") return workTitleButton(sourceIndex, text(row[1]))
+        + metadataLine([text(row[3]), row[4], mediumLabel(row[5])]);
+      if (column.key === "consensusScore") return `<span class="row-score">${fixed(row[6])}</span>`
+        + metadataLine([`${integer(row[10])} raters`, percent(row[11])]);
+    } else {
+      if (column.key === "rawTitle") return workTitleButton(row[8], text(row[4]), sourceIndex)
+        + metadataLine([text(row[5]), row[6], mediumLabel(row[7])])
+        + metadataLine([selectionLabel(row[2])]);
+      if (column.key === "place") {
+        const axisIndex = axes.findIndex((axis) => axis.key === selectionLists[row[2]]?.scoreAxis);
+        return `<span class="row-score">${escapeHtml(row[3])}</span>`
+          + (axisIndex < 0 ? "" : metadataLine([`${row[9 + axisIndex]} ${axes[axisIndex].short.toLocaleLowerCase()}`], "axis-summary"));
+      }
+    }
+    return escapeHtml(column.show(row));
   }
 
   function renderBody(indices) {
     const source = rows();
     const pageIndices = indices.slice(state.page * state.pageSize, (state.page + 1) * state.pageSize);
     if (!pageIndices.length) {
-      els.tableBody.innerHTML = `<tr class="empty-row"><td colspan="${columns().length}">No rows match the current search and filters.</td></tr>`;
+      els.tableBody.innerHTML = `<tr class="empty-row"><td colspan="${visibleColumns().length}">No rows match the current search and filters.</td></tr>`;
       return;
     }
     els.tableBody.innerHTML = pageIndices.map((sourceIndex) => {
       const row = source[sourceIndex];
-      const workIndex = state.view === "works" ? sourceIndex : row[8];
-      const cells = columns().map((column) => {
-        const value = column.show(row);
-        const linked = (state.view === "works" && column.key === "title") || (state.view === "selections" && column.key === "canonical");
-        return `<td class="${escapeHtml(column.className || "")}" data-column="${escapeHtml(column.key)}">${linked ? workTitleButton(workIndex, value) : escapeHtml(value)}</td>`;
+      const cells = visibleColumns().map((column) => {
+        return `<td class="${escapeHtml(column.className || "")}" data-column="${escapeHtml(column.key)}">${visibleCell(column, row, sourceIndex)}</td>`;
       }).join("");
       return `<tr>${cells}</tr>`;
     }).join("");
-    els.tableBody.querySelectorAll("[data-open-work]").forEach((button) => button.addEventListener("click", () => openWork(Number(button.dataset.openWork))));
+    els.tableBody.querySelectorAll("[data-open-work]").forEach((button) => button.addEventListener("click", () => openWork(
+      Number(button.dataset.openWork), button.dataset.selection === undefined ? null : Number(button.dataset.selection),
+    )));
   }
 
   function renderFooter(indices) {
@@ -300,9 +342,11 @@
     });
     const unit = state.view === "works" ? "work" : "selection";
     els.resultStatus.textContent = `${integer(indices.length)} ${unit}${indices.length === 1 ? "" : "s"} · ${description.join(" · then ")}`;
+    // Select values/options are updated above; refresh any shared progressive enhancement.
+    window.JehlpUI?.enhance(els.explorer);
   }
 
-  function openWork(index) {
+  function openWork(index, selectionIndex = null) {
     const work = works[index];
     if (!work) return;
     state.selectedWork = index;
@@ -317,6 +361,10 @@
       ["Raters", integer(work[10])],
       ["Rater rate", percent(work[11])],
     ].map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`).join("");
+    const selection = selectionIndex === null ? null : selections[selectionIndex];
+    els.dialogSelection.hidden = !selection;
+    els.dialogSelectionStats.innerHTML = selection ? selectionColumns.map((column) =>
+      `<div><dt>${escapeHtml(column.label)}</dt><dd>${escapeHtml(column.show(selection))}</dd></div>`).join("") : "";
     els.dialogAxisBody.innerHTML = axes.map((axis, axisIndex) => {
       const selectionIndex = selectionLists.findIndex((selection) => selection.scoreAxis === axis.key);
       const count = selectionIndex < 0 ? "—" : integer(work[selectionCountStart + selectionIndex]);
@@ -409,8 +457,17 @@
   els.pageSize.addEventListener("change", () => { state.pageSize = Number(els.pageSize.value); state.page = 0; render(); });
   els.reset.addEventListener("click", resetControls);
   els.export.addEventListener("click", exportCsv);
-  els.previous.addEventListener("click", () => { if (state.page > 0) { state.page -= 1; render(); } });
-  els.next.addEventListener("click", () => { if (state.page < Math.ceil(state.currentIndices.length / state.pageSize) - 1) { state.page += 1; render(); } });
+  function turnPage(delta) {
+    const page = state.page + delta;
+    if (page < 0 || page >= Math.ceil(state.currentIndices.length / state.pageSize)) return;
+    state.page = page;
+    render();
+    const results = document.querySelector("#results");
+    results.focus({ preventScroll: true });
+    results.scrollIntoView({ block: "start", behavior: "instant" });
+  }
+  els.previous.addEventListener("click", () => turnPage(-1));
+  els.next.addEventListener("click", () => turnPage(1));
   els.clearWorkFilter.addEventListener("click", () => { state.workFilter = null; state.page = 0; render(); });
   els.viewWorkPlacements.addEventListener("click", () => {
     if (state.selectedWork == null) return;
@@ -421,6 +478,7 @@
     els.medium.value = "all";
     closeDialog();
     switchView("selections", { keepWorkFilter: true });
+    document.querySelector("#results").focus({ preventScroll: true });
     document.querySelector("#results").scrollIntoView({ block: "start" });
   });
   document.addEventListener("keydown", (event) => {
