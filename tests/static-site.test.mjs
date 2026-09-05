@@ -29,7 +29,7 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.match(html, /favicons\/mystery-report\.png/);
   assert.match(html, /<details class="sort-details">[\s\S]*<summary>Advanced sorting<\/summary>/);
   assert.match(html, /data\/v3\/consensus-data\.js/);
-  assert.match(html, /assets\/app\.js\?v=20260905-editorial/);
+  assert.match(html, /assets\/app\.js\?v=20260905-editorial-2/);
   assert.match(html, /href="\?dataset=v1" data-dataset="v1">Version 1 · four axes<[\s\S]*href="\?dataset=v2" data-dataset="v2">Version 2 · five axes</);
   assert.match(html, /<h1 id="results-title">Works<\/h1>/);
   assert.match(html, /data-view="works"/);

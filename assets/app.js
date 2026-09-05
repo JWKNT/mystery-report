@@ -298,7 +298,8 @@
       const column = columns().find((item) => item.key === sort.key);
       return `${column.label}, ${directionLabel(sort.key, sort.direction)}`;
     });
-    els.resultStatus.textContent = `${integer(indices.length)} ${state.view === "works" ? "works" : "selections"} · ${description.join(" · then ")}`;
+    const unit = state.view === "works" ? "work" : "selection";
+    els.resultStatus.textContent = `${integer(indices.length)} ${unit}${indices.length === 1 ? "" : "s"} · ${description.join(" · then ")}`;
   }
 
   function openWork(index) {
