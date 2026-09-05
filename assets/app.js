@@ -78,7 +78,6 @@
     activeFilter: document.querySelector("#active-work-filter"),
     activeFilterLabel: document.querySelector("#active-work-filter-label"),
     clearWorkFilter: document.querySelector("#clear-work-filter"),
-    resultsKicker: document.querySelector("#results-kicker"),
     resultsTitle: document.querySelector("#results-title"),
     resultStatus: document.querySelector("#result-status"),
     tableHead: document.querySelector("#table-head"),
@@ -282,7 +281,6 @@
       button.classList.toggle("is-active", active);
       button.setAttribute("aria-pressed", String(active));
     });
-    els.resultsKicker.textContent = isWorks ? "Normalized catalogue" : "Unaggregated source rows";
     els.resultsTitle.textContent = isWorks ? "Works" : "Raw selections";
     renderSortBuilder();
   }
@@ -300,7 +298,7 @@
       const column = columns().find((item) => item.key === sort.key);
       return `${column.label}, ${directionLabel(sort.key, sort.direction)}`;
     });
-    els.resultStatus.textContent = `${integer(indices.length)} matching rows · ${description.join(" · then ")}`;
+    els.resultStatus.textContent = `${integer(indices.length)} ${state.view === "works" ? "works" : "selections"} · ${description.join(" · then ")}`;
   }
 
   function openWork(index) {
@@ -385,7 +383,7 @@
     els.axis.insertAdjacentHTML("beforeend", selectionLists.map((selection, index) => `<option value="${index}">${escapeHtml(selection.label)}</option>`).join(""));
     const media = [...new Set([...works.map((row) => text(row[5])), ...selections.map((row) => text(row[7]))])].sort((a, b) => a.localeCompare(b));
     els.medium.insertAdjacentHTML("beforeend", media.map((medium) => `<option value="${escapeHtml(medium)}">${escapeHtml(medium.replaceAll("_", " "))}</option>`).join(""));
-    els.categoryGuide.innerHTML = axes.map((axis) => `<div><dt>${escapeHtml(axis.label)} · ${(axis.weight * 100).toFixed(0)}%</dt><dd>${escapeHtml(categoryDescriptions[axis.key] || "")}</dd></div>`).join("");
+    els.categoryGuide.innerHTML = axes.map((axis) => `<div><dt><span class="category-weight">${(axis.weight * 100).toFixed(0)}%</span>${escapeHtml(axis.label)}</dt><dd>${escapeHtml(categoryDescriptions[axis.key] || "")}</dd></div>`).join("");
   }
 
   els.viewButtons.forEach((button) => button.addEventListener("click", () => switchView(button.dataset.view)));

@@ -17,26 +17,23 @@
     <link rel="stylesheet" href="https://jehlp.net/site-theme/v2/base.css">
     <link rel="stylesheet" href="https://jehlp.net/site-theme/v2/components.css">
     <script src="https://jehlp.net/site-theme/v2/components.js" defer></script>
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/styles.css?v=20260905-editorial">
     <script src="data/v3/consensus-data.js" defer></script>
     <script src="data/consensus-data.js" defer></script>
-    <script src="assets/app.js?v=canonical-version-slugs" defer></script>
+    <script src="assets/app.js?v=20260905-editorial" defer></script>
   </head>
-  <body>
+  <body data-site-tone="blue">
     <a class="skip-link" href="#results">Skip to results</a>
 
-    <header class="site-header">
-      <a class="site-title" href="./">Mystery Consensus</a>
+    <header class="site-header site-header--identity">
+      <div class="site-brand"><span class="site-mark" aria-hidden="true">◈</span><a class="site-title" href="./">Mystery Consensus</a></div>
       <nav aria-label="Page links">
-        <a href="#explorer" aria-current="page">Explorer</a>
-        <a href="#categories">Categories</a>
-        <a href="https://jehlp.net/">Projects</a>
+        <a href="#categories">Scoring</a>
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Use dark theme" aria-pressed="false">◐</button>
       </nav>
     </header>
 
     <main id="explorer">
-      <h1 class="explorer-title">Consensus datasets</h1>
       <nav class="dataset-tabs" aria-label="Consensus dataset version">
         <a href="?dataset=v1" data-dataset="v1">Version 1 · four axes</a>
         <a href="?dataset=v2" data-dataset="v2">Version 2 · five axes</a>
@@ -112,10 +109,7 @@
 
       <section class="results" id="results" aria-labelledby="results-title">
         <div class="results-heading">
-          <div>
-            <p class="eyebrow" id="results-kicker">Normalized catalogue</p>
-            <h2 id="results-title">Works</h2>
-          </div>
+          <h1 id="results-title">Works</h1>
           <p id="result-status" class="result-status" role="status" aria-live="polite"></p>
         </div>
 
@@ -137,8 +131,7 @@
       </section>
 
       <section id="categories" class="categories" aria-labelledby="categories-title">
-        <p class="eyebrow">Categories</p>
-        <h2 id="categories-title">What each category measures</h2>
+        <h2 id="categories-title">Scoring key</h2>
         <dl class="category-guide" id="category-guide"></dl>
       </section>
     </main>

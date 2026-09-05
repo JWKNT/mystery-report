@@ -29,9 +29,9 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.match(html, /favicons\/mystery-report\.png/);
   assert.match(html, /<details class="sort-details">[\s\S]*<summary>Advanced sorting<\/summary>/);
   assert.match(html, /data\/v3\/consensus-data\.js/);
-  assert.match(html, /assets\/app\.js\?v=canonical-version-slugs/);
+  assert.match(html, /assets\/app\.js\?v=20260905-editorial/);
   assert.match(html, /href="\?dataset=v1" data-dataset="v1">Version 1 · four axes<[\s\S]*href="\?dataset=v2" data-dataset="v2">Version 2 · five axes</);
-  assert.match(html, /<h1 class="explorer-title">Consensus datasets<\/h1>/);
+  assert.match(html, /<h1 id="results-title">Works<\/h1>/);
   assert.match(html, /data-view="works"/);
   assert.match(html, /data-view="selections"/);
   assert.match(html, /id="search-input"/);
@@ -39,12 +39,13 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.match(html, /id="secondary-sort"/);
   assert.match(html, /id="export-csv"/);
   assert.match(html, /id="work-dialog"/);
-  assert.match(html, /What each category measures/);
+  assert.match(html, /<h2 id="categories-title">Scoring key<\/h2>/);
   assert.match(html, /Placement-adjusted mean/);
   assert.match(html, /id="category-guide"/);
   assert.doesNotMatch(html, /<footer\b|dataset-summary/);
   assert.doesNotMatch(html, /id="method"|Placement-only Borda consensus/);
   assert.doesNotMatch(html, /id="status-filter"|quick-stats|Browse the normalized works/i);
+  assert.doesNotMatch(html, /<a\b[^>]*href="(?:https:\/\/jehlp\.net\/|\/)"/);
 });
 
 test("embedded v4 data contains the complete scored four-list survey", async () => {
