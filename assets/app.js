@@ -88,8 +88,6 @@
     previous: document.querySelector("#previous-page"),
     next: document.querySelector("#next-page"),
     dialog: document.querySelector("#work-dialog"),
-    dialogClose: document.querySelector("#dialog-close"),
-    dialogDone: document.querySelector("#dialog-done"),
     dialogKicker: document.querySelector("#dialog-kicker"),
     dialogTitle: document.querySelector("#dialog-title"),
     dialogSubtitle: document.querySelector("#dialog-subtitle"),
@@ -415,9 +413,6 @@
   els.previous.addEventListener("click", () => { if (state.page > 0) { state.page -= 1; render(); } });
   els.next.addEventListener("click", () => { if (state.page < Math.ceil(state.currentIndices.length / state.pageSize) - 1) { state.page += 1; render(); } });
   els.clearWorkFilter.addEventListener("click", () => { state.workFilter = null; state.page = 0; render(); });
-  els.dialogClose.addEventListener("click", closeDialog);
-  els.dialogDone.addEventListener("click", closeDialog);
-  els.dialog.addEventListener("click", (event) => { if (event.target === els.dialog) closeDialog(); });
   els.viewWorkPlacements.addEventListener("click", () => {
     if (state.selectedWork == null) return;
     state.query = "";

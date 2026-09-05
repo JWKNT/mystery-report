@@ -1,3 +1,4 @@
+.ui-dialog { --dialog-width: 61rem; }
 body {
   padding-bottom: 48px;
   font-size: 1rem;
@@ -32,7 +33,7 @@ main {
 .dataset-tabs {
   display: flex;
   gap: 0;
-  margin-bottom: 14px;
+  margin-bottom: 0;
   border-bottom: 1px solid var(--line-strong);
 }
 
@@ -63,32 +64,8 @@ main {
 }
 
 .controls {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: end;
-  gap: 10px 14px;
   padding: 12px 0 14px;
-  border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line-strong);
-}
-
-.view-switch {
-  display: flex;
-  align-items: stretch;
-  gap: 0;
-}
-
-.view-switch .view-button + .view-button {
-  margin-left: -1px;
-}
-
-.controls label {
-  display: grid;
-  gap: 3px;
-  color: var(--muted);
-  font-size: var(--text-ui, .875rem);
-  font-variant: small-caps;
-  letter-spacing: .35px;
 }
 
 .search-control {
@@ -156,15 +133,6 @@ main button:focus-visible,
 dialog button:focus-visible {
   outline: 2px solid var(--blue);
   outline-offset: 1px;
-}
-
-.view-button.is-active,
-.view-button[aria-pressed="true"] {
-  position: relative;
-  z-index: 1;
-  border-color: var(--blue);
-  background: var(--surface-blue);
-  color: var(--blue-dark);
 }
 
 .text-button {
@@ -473,38 +441,6 @@ code {
   background: var(--surface);
   font: .88em/1.4 var(--mono);
 }
-
-dialog {
-  width: min(980px, calc(100% - 28px));
-  max-height: calc(100vh - 40px);
-  padding: 0;
-  overflow: auto;
-  border: 1px solid var(--line-strong);
-  border-radius: 0;
-  background: var(--paper);
-  color: var(--ink);
-  box-shadow: 0 10px 40px var(--shadow);
-}
-
-dialog::backdrop {
-  background: rgb(0 0 0 / 38%);
-}
-
-.dialog-shell {
-  position: relative;
-  padding: 26px 28px 24px;
-}
-
-.dialog-close {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-  min-width: 30px;
-  padding: 3px 8px;
-  font-size: 18px;
-  line-height: 1;
-}
-
 .dialog-kicker {
   margin: 0;
   color: var(--blue-dark);
@@ -697,9 +633,6 @@ dialog h2 {
     text-align: left;
   }
 
-  .dialog-shell {
-    padding: 22px 18px 20px;
-  }
 
   .dialog-stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
