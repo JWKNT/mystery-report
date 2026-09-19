@@ -66,7 +66,7 @@ test("paginated tables flow in the page and retain native labeled semantics", as
   assert.match(html, /<section[^>]*id="results"[^>]*aria-labelledby="results-title"[^>]*tabindex="-1"/);
   assert.doesNotMatch(html, /class="table-scroll"/);
   assert.match(css, /\.results-table \{\s*table-layout: fixed;/);
-  assert.match(css, /\.results-table th\.axis-column \{ width: 9%; \}/);
+  assert.match(css, /\.results-table th\.axis-column \{ width: 10\.5%; \}/);
   assert.match(css, /@media \(max-width: 1100px\) \{\s*\.results-table \.axis-column \{ display: none; \}/);
   assert.match(css, /\.results-table th:first-child \{ width: 20%; \}/);
   assert.match(css, /\.results-table th:is\(\[data-column="consensusScore"\], \[data-column="place"\]\) \{ width: 26%; \}/);

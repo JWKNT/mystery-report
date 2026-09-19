@@ -33,7 +33,7 @@ main {
   padding: 10px 0 12px;
   border-bottom: 2px solid transparent;
   color: var(--muted-strong);
-  font: var(--text-ui, .875rem)/1.4 var(--sans);
+  font: var(--text-ui, .875rem)/1.4 var(--ui, var(--serif));
   text-decoration: none;
 }
 
@@ -146,7 +146,7 @@ dialog button:focus-visible {
   width: max-content;
   padding: 8px 0;
   color: var(--muted-strong);
-  font: var(--text-ui, .875rem)/1.4 var(--sans);
+  font: var(--text-ui, .875rem)/1.4 var(--ui, var(--serif));
 }
 
 .sort-builder label {
@@ -154,7 +154,7 @@ dialog button:focus-visible {
   gap: 3px;
   color: var(--muted);
   font-size: var(--text-ui, .875rem);
-  font-family: var(--sans);
+  font-family: var(--ui, var(--serif));
 }
 
 .sort-caption {
@@ -162,7 +162,7 @@ dialog button:focus-visible {
   margin-right: 3px;
   color: var(--muted-strong);
   font-size: var(--text-ui, .875rem);
-  font-family: var(--sans);
+  font-family: var(--ui, var(--serif));
   font-weight: 600;
 }
 
@@ -214,20 +214,20 @@ dialog button:focus-visible {
   margin: 0;
   font-size: clamp(1.75rem, 3vw, 2rem);
   line-height: 1.12;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .result-status {
   margin: 0;
   color: var(--muted);
-  font: var(--text-ui, .875rem)/1.4 var(--sans);
+  font: var(--text-ui, .875rem)/1.4 var(--ui, var(--serif));
   text-align: right;
 }
 
 .results-help {
   margin: 0 0 12px;
   color: var(--muted);
-  font: var(--text-meta, .75rem)/1.5 var(--sans);
+  font: var(--text-meta, .75rem)/1.5 var(--ui, var(--serif));
 }
 
 .table-flow {
@@ -238,7 +238,7 @@ dialog button:focus-visible {
 
 table {
   width: 100%;
-  font: var(--text-ui, .875rem)/1.5 var(--sans);
+  font: var(--text-ui, .875rem)/1.5 var(--ui, var(--serif));
 }
 
 .results-table {
@@ -252,7 +252,8 @@ table {
 /* Direct percentages work in native fixed table layout and survive enlarged text. */
 .results-table th:first-child { width: 6%; }
 .results-table th:is([data-column="consensusScore"], [data-column="place"]) { width: 11%; }
-.results-table th.axis-column { width: 9%; }
+.results-table th.axis-column { width: 10.5%; }
+.results-table th.axis-column button { padding-inline: 4px; }
 .results-table .axis-summary { display: none; }
 
 th {
@@ -320,7 +321,7 @@ td[data-column="rank"] { color: var(--muted); }
   display: block;
   margin-top: 3px;
   color: var(--muted-strong);
-  font: var(--text-meta, .75rem)/1.5 var(--sans);
+  font: var(--text-meta, .75rem)/1.5 var(--ui, var(--serif));
 }
 
 .row-score {
@@ -368,7 +369,7 @@ td[data-column="rank"] { color: var(--muted); }
   gap: 18px;
   padding-top: 10px;
   color: var(--muted);
-  font: var(--text-ui, .875rem)/1.4 var(--sans);
+  font: var(--text-ui, .875rem)/1.4 var(--ui, var(--serif));
 }
 
 .table-footer p {
@@ -399,7 +400,7 @@ button:disabled {
 .categories h2 {
   margin: 0;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .category-guide {
@@ -448,7 +449,7 @@ dialog h2 {
   max-width: calc(100% - 42px);
   margin: 4px 0 0;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -482,7 +483,7 @@ dialog h2 {
 .dialog-stats dt {
   color: var(--muted);
   font-size: var(--text-ui, .875rem);
-  font-family: var(--sans);
+  font-family: var(--ui, var(--serif));
 }
 
 .dialog-stats dd {
@@ -499,7 +500,7 @@ dialog h2 {
 
 .dialog-selection h3 {
   margin: 0 0 12px;
-  font: 600 var(--text-ui, .875rem)/1.4 var(--sans);
+  font: 700 var(--text-ui, .875rem)/1.4 var(--ui, var(--serif));
 }
 
 .selection-stats {
@@ -507,7 +508,7 @@ dialog h2 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px 20px;
   margin: 0;
-  font: var(--text-ui, .875rem)/1.5 var(--sans);
+  font: var(--text-ui, .875rem)/1.5 var(--ui, var(--serif));
 }
 
 .selection-stats dt { color: var(--muted); }
