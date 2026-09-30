@@ -45,7 +45,7 @@ test("page imports the shared site theme and exposes the core controls", async (
   assert.doesNotMatch(html, /<footer\b|dataset-summary/);
   assert.doesNotMatch(html, /id="method"|Placement-only Borda consensus/);
   assert.doesNotMatch(html, /id="status-filter"|quick-stats|Browse the normalized works/i);
-  assert.doesNotMatch(html.replace("<nav class=\"site-home-dock\" aria-label=\"Site\"><a class=\"site-home\" href=\"https://jehlp.net/\" aria-label=\"Home · jehlp.net\" title=\"Home · jehlp.net\"><span aria-hidden=\"true\">⌂</span></a></nav>", ""), /<a\b[^>]*href="(?:https:\/\/jehlp\.net\/|\/)"/);
+  assert.doesNotMatch(html.replace("<a class=\"site-home\" href=\"https://jehlp.net/\" aria-label=\"Home — jehlp.net\" title=\"Home — jehlp.net\"><span aria-hidden=\"true\">✳</span></a>", ""), /<a\b[^>]*href="(?:https:\/\/jehlp\.net\/|\/)"/);
 });
 
 test("comparison headings share one native table and titles can wrap at enlarged text", async () => {
