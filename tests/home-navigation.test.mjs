@@ -18,6 +18,6 @@ for (const page of ["index.html"]) {
     assert.doesNotMatch(html, /site-home-dock|site-home-clearance/);
     assert.doesNotMatch(html.replace(home, ""), /<a\b[^>]*href="(?:https:\/\/jehlp\.net\/|\/)"/);
     assert.match(html, /src="https:\/\/jehlp\.net\/site-theme\/v2\/theme\.js\?v=20260930-header-home"/);
-    assert.match(html, /href="https:\/\/jehlp\.net\/site-theme\/v2\/base\.css\?v=20260930-header-home"/);
+    assert.match(html, /href="https:\/\/jehlp\.net\/site-theme\/v2\/base\.css\?v=20260930-mobile-header"/);
   });
 }
