@@ -13,7 +13,7 @@ for (const page of ["index.html"]) {
     assert.equal(html.split(dock).length - 1, 1);
     assert.equal((html.match(/class="site-home-dock"/g) || []).length, 1);
     assert.doesNotMatch(html.replace(dock, ""), /<a\b[^>]*href="(?:https:\/\/jehlp\.net\/|\/)"/);
-    assert.match(html, /src="https:\/\/jehlp\.net\/site-theme\/v2\/theme\.js\?v=20260930-home2"/);
+    assert.match(html, /src="https:\/\/jehlp\.net\/site-theme\/v2\/theme\.js\?v=20260930-home3"/);
     assert.match(html, /href="https:\/\/jehlp\.net\/site-theme\/v2\/base\.css\?v=20260930-home2"/);
   });
 }
