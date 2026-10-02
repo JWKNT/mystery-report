@@ -86,6 +86,26 @@ async function explorer(version = "v2") {
 }
 
 for (const version of ["v1", "v2"]) {
+  test(`${version}: clearing a work filter leaves focus on the refreshed results`, async () => {
+    const ui = await explorer(version);
+    const { get } = ui;
+    get("#table-body").querySelectorAll("[data-open-work]")[0].fire("click");
+    get("#view-work-placements").fire("click");
+    assert.equal(get("#active-work-filter").hidden, false);
+    const results = get("#results");
+    results.interactions.length = 0;
+    const observations = [];
+    results.onInteraction = () => observations.push({
+      filterHidden: get("#active-work-filter").hidden,
+      range: get("#range-status").textContent,
+    });
+    get("#clear-work-filter").fire("click");
+    assert.equal(get("#active-work-filter").hidden, true);
+    assert.deepEqual(results.interactions, [{ kind: "focus", options: { preventScroll: true } }]);
+    assert.equal(observations[0].filterHidden, true);
+    assert.match(observations[0].range, new RegExp(`of ${ui.data.selections.length.toLocaleString()} rows$`));
+  });
+
   test(`${version}: pagination renders new rows before focusing and scrolling results`, async () => {
     const ui = await explorer(version);
     const { get, change } = ui;

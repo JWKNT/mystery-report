@@ -468,7 +468,12 @@
   }
   els.previous.addEventListener("click", () => turnPage(-1));
   els.next.addEventListener("click", () => turnPage(1));
-  els.clearWorkFilter.addEventListener("click", () => { state.workFilter = null; state.page = 0; render(); });
+  els.clearWorkFilter.addEventListener("click", () => {
+    state.workFilter = null;
+    state.page = 0;
+    render();
+    document.querySelector("#results").focus({ preventScroll: true });
+  });
   els.viewWorkPlacements.addEventListener("click", () => {
     if (state.selectedWork == null) return;
     state.query = "";
