@@ -42,11 +42,11 @@
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
   const categoryDescriptions = {
-    influence: "Importance to mystery and later works that borrowed from it. Scored after candidate selection; never used to choose candidates.",
-    ambition: "Grandeur, complexity, scope, and the challenge of coherently resolving many moving parts.",
+    influence: "Importance to mystery and to later works that used its ideas. Scoring occurs after candidate selection. It does not affect candidate selection.",
+    ambition: "Scale, complexity, scope, and the difficulty of resolving many connected elements coherently.",
     fairness: "Whether revelations follow from rules, evidence, mechanisms, and expectations established beforehand.",
     traditionality: "How closely the work follows the recognizable traditional mystery form. This measures form, not quality.",
-    originality: "How distinctive the setting, questions, construction, tricks, and resolution feel to audiences now.",
+    originality: "How much the setting, questions, construction, tricks, and resolution differ from familiar works for current audiences.",
   };
 
   const state = {
