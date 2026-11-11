@@ -223,12 +223,6 @@ dialog button:focus-visible {
   text-align: right;
 }
 
-.results-help {
-  margin: 0 0 12px;
-  color: var(--muted);
-  font: var(--text-meta, .75rem)/1.5 var(--ui, var(--serif));
-}
-
 .table-flow {
   max-width: 100%;
   border-top: 1px solid var(--line-strong);

@@ -62,7 +62,7 @@ test("paginated tables flow in the page and retain native labeled semantics", as
   const html = await source("index.html");
   const css = await source("assets/styles.css");
   const app = await source("assets/app.js");
-  assert.match(html, /class="table-flow">\s*<table[^>]*aria-labelledby="results-title"[^>]*aria-describedby="results-help"/);
+  assert.match(html, /class="table-flow">\s*<table[^>]*aria-labelledby="results-title"/);
   assert.match(html, /<section[^>]*id="results"[^>]*aria-labelledby="results-title"[^>]*tabindex="-1"/);
   assert.doesNotMatch(html, /class="table-scroll"/);
   assert.match(css, /\.results-table \{\s*table-layout: fixed;/);
