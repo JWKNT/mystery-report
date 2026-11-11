@@ -529,6 +529,12 @@ dialog h2 {
   border-bottom: 1px solid var(--line);
 }
 
+/* A category name is one word. Keep it whole; the table scrolls in its region. */
+.dialog-table td:first-child {
+  overflow-wrap: normal;
+  white-space: nowrap;
+}
+
 .dialog-table th:not(:first-child),
 .dialog-table td:not(:first-child) {
   font-family: var(--mono);
